@@ -100,7 +100,7 @@ svg text{paint-order:stroke;stroke-linejoin:round;font-family:system-ui,-apple-s
 </div>
 <div class="schedule-scroll" id="scheduleScroll"><table class="schedule" aria-labelledby="listTitle"><thead><tr><th class="number" scope="col">№</th><th scope="col">Остановка</th><th class="clock" scope="col">Время</th></tr></thead><tbody id="list"></tbody></table><p class="empty" id="empty" hidden>Ничего не найдено. Попробуйте другое название, фильтр «Все остановки» или выберите «Все маршруты».</p>
 <section class="walking-section" id="walkingSection" hidden><h3>Пешком до автобуса</h3><p>Выберите точку, чтобы увидеть путь и время посадки.</p><div id="walkingList"></div></section>
-<footer><p>Время расчётное · текущие пробки не учтены.</p><details><summary>О маршрутах и расчёте</summary><p>Маршруты поддерживаются администратором.  <span id="finishTime">Высадка у стр. 3 примерно в 05:50.</span> Назначенная посадка: <span id="publicAssignedCount">195</span> чел. по общему списку. Переключатель смены выбирает время поездки. Число сотрудников относится ко всему списку; индивидуальное распределение по сменам не задано. Загрузка каждого рейса зависит от распределения сотрудников по сменам. Прочерк в расписании — проезд без назначенной посадки.</p></details><a class="admin-link" href="./admin.html">Администратор ↗</a></footer></div>
+<footer><p>Время расчётное · текущие пробки не учтены.</p><details><summary>О маршрутах и расчёте</summary><p>Маршруты поддерживаются администратором.  <span id="finishTime">Высадка у стр. 3 примерно в 05:50.</span> Назначенная посадка: <span id="publicAssignedCount">195</span> чел. по общему списку. Переключатель смены выбирает время поездки. Число сотрудников относится ко всему списку; индивидуальное распределение по сменам не задано. Загрузка каждого рейса зависит от распределения сотрудников по сменам. Прочерк в расписании — проезд без назначенной посадки.</p></details><a class="admin-link" href="https://krasnoyarsk-route-portal.speedytiger.chatgpt.site/login">Вход администратора ↗</a></footer></div>
 </aside>
 <main class="map"><svg id="svg" xmlns="http://www.w3.org/2000/svg" aria-label="Карта маршрутов и остановок"></svg>
 <div class="map-caption"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m3 5 6-2 6 2 6-2v16l-6 2-6-2-6 2V5Zm6-2v16m6-14v16"/></svg><div><strong id="mapTitle">Все маршруты</strong><small id="mapSubtitle">Выберите маршрут слева</small></div></div>
@@ -164,7 +164,7 @@ svg text{paint-order:stroke;stroke-linejoin:round;font-family:system-ui,-apple-s
   const doc={schemaVersion:1,revision:String(raw.revision||'').slice(0,100),updatedAt:String(raw.updatedAt||'').slice(0,40),updatedBy:String(raw.updatedBy||'').slice(0,80),gateDay:345,gateNight:1065,points:[],routes:[],walks:[]};
   const fields=['id','x','y','lat','lon','name','route','kind','count','order','morning','evening','targetId','target','walkMin'];
   for(const p of raw.points){const q={};for(const k of fields)if(Object.hasOwn(p,k))q[k]=p[k];doc.points.push(q)}
-  for(const r of raw.routes){if(!Array.isArray(r.xy)||r.via&&!Array.isArray(r.via))throw Error('Неверная линия маршрута');doc.routes.push({id:r.id,title:String(r.title||'').slice(0,160),xy:clone(r.xy),via:(r.via||[]).map(v=>({id:v.id,afterId:v.afterId,lat:v.lat,lon:v.lon})),...(Number.isFinite(r.finishSnapMetres)?{finishSnapMetres:r.finishSnapMetres}:{}),...(r.geometryDirty?{geometryDirty:true}:{}),...(r.timingDirty?{timingDirty:true}:{})})}
+  for(const r of raw.routes){if(!Array.isArray(r.xy)||r.via&&!Array.isArray(r.via))throw Error('Неверная линия маршрута');doc.routes.push({id:r.id,title:String(r.title||'').slice(0,160),...(r.color?{color:r.color}:{}),xy:clone(r.xy),via:(r.via||[]).map(v=>({id:v.id,afterId:v.afterId,lat:v.lat,lon:v.lon})),...(Number.isFinite(r.finishSnapMetres)?{finishSnapMetres:r.finishSnapMetres}:{}),...(r.geometryDirty?{geometryDirty:true}:{}),...(r.timingDirty?{timingDirty:true}:{})})}
   for(const w of raw.walks){if(!Array.isArray(w.xy))throw Error('Неверный пеший путь');doc.walks.push({id:w.id,fromId:w.fromId,toId:w.toId,route:w.route,xy:clone(w.xy),...(w.geometryDirty?{geometryDirty:true}:{})})}
   links(doc);return doc;
  }
@@ -173,7 +173,7 @@ svg text{paint-order:stroke;stroke-linejoin:round;font-family:system-ui,-apple-s
   try{doc=normalize(raw)}catch(e){return {valid:false,errors:[e.message],warnings:[]}}
   if(!/^[A-Za-z0-9._-]{1,100}$/.test(doc.revision)||!Number.isFinite(Date.parse(doc.updatedAt)))errors.push('Укажите корректную версию и дату обновления');
   if(doc.points.length>1500||doc.walks.length>500){errors.push('Слишком много точек');return {valid:false,errors,warnings}}
-  if(doc.routes.length!==4||new Set(doc.routes.map(r=>r.id)).size!==4||doc.routes.some(r=>![1,2,3,4].includes(r.id)))errors.push('Должны быть четыре маршрута №1–4');
+  const routeIds=new Set(doc.routes.map(r=>r.id));if(!doc.routes.length||doc.routes.length>32||routeIds.size!==doc.routes.length||doc.routes.some(r=>!Number.isInteger(r.id)||r.id<1||r.id>99))errors.push('Допускается от 1 до 32 маршрутов с уникальными номерами 1–99');
   const ids=new Set(),coord=p=>Number.isFinite(p.lat)&&Number.isFinite(p.lon)&&p.lat>=bounds[1]&&p.lat<=bounds[3]&&p.lon>=bounds[0]&&p.lon<=bounds[2];
   for(const p of doc.points){
    const name=typeof p.name==='string'?p.name:'Без названия';
@@ -181,7 +181,7 @@ svg text{paint-order:stroke;stroke-linejoin:round;font-family:system-ui,-apple-s
    if(typeof p.name!=='string'||!p.name.trim()||p.name.length>160)errors.push('У каждой остановки должно быть название до 160 символов');
    if(!coord(p))errors.push(name+': проверьте координаты Красноярска');
    const xy=project(p.lon,p.lat);if(!Number.isFinite(p.x)||!Number.isFinite(p.y)||Math.hypot(p.x-xy[0],p.y-xy[1])>.03)errors.push(name+': координаты карты не совпадают с адресом');
-   if(!Number.isInteger(p.route)||p.route<0||p.route>4)errors.push(name+': неверный номер маршрута');
+   if(!Number.isInteger(p.route)||p.route<0||(p.route!==0&&!routeIds.has(p.route)))errors.push(name+': неверный номер маршрута');
    if(!['boarding','pass','walk','unassigned','gate','finish'].includes(p.kind))errors.push(name+': неверный тип точки');
    if(!Number.isInteger(p.count)||p.count<0||p.count>1000)errors.push(name+': число сотрудников должно быть целым от 0 до 1000');
    if(['boarding','pass','walk'].includes(p.kind)&&!p.route)errors.push(name+': выберите маршрут');
@@ -194,6 +194,7 @@ svg text{paint-order:stroke;stroke-linejoin:round;font-family:system-ui,-apple-s
   for(const [kind,day,night]of [['gate',345,1065],['finish',350,1070]]){const list=doc.points.filter(p=>p.kind===kind);if(list.length!==1||list[0]?.route!==0||list[0]?.morning!==day||list[0]?.evening!==night)errors.push(kind==='gate'?'Въезд на базу должен оставаться 05:45 / 17:45':'Высадка должна оставаться 05:50 / 17:50')}
   const validPath=xy=>Array.isArray(xy)&&xy.length>=2&&xy.length<=20000&&xy.every(p=>Array.isArray(p)&&p.length===2&&p.every(Number.isFinite)&&coord(unproject(...p)));
   for(const r of doc.routes){
+   if(!r.title.trim()||r.color&&!/^#[a-fA-F0-9]{6}$/.test(r.color))errors.push('Маршрут №'+r.id+': проверьте название и цвет');
    if(!validPath(r.xy))errors.push('Маршрут №'+r.id+': неверная линия движения');
    if(r.geometryDirty)errors.push('Маршрут №'+r.id+': перестройте линию после изменения остановок');
    if(r.timingDirty)errors.push('Маршрут №'+r.id+': рассчитайте или подтвердите расписание после перестроения');
@@ -216,6 +217,7 @@ svg text{paint-order:stroke;stroke-linejoin:round;font-family:system-ui,-apple-s
   for(const p of after.points){const b=old.get(p.id);if(!b)added.push(p);else if(JSON.stringify(b)!==JSON.stringify(p))changed.push({before:b,after:p})}
   for(const p of before.points)if(!after.points.some(q=>q.id===p.id))removed.push(p);
   for(const r of after.routes){const b=before.routes.find(q=>q.id===r.id);if(JSON.stringify(b)!==JSON.stringify(r))geometry.push(r.id)}
+  for(const r of before.routes)if(!after.routes.some(q=>q.id===r.id))geometry.push(r.id);
   for(const w of after.walks){const b=before.walks.find(q=>q.id===w.id);if(JSON.stringify(b)!==JSON.stringify(w)&&!geometry.includes(w.route))geometry.push(w.route)}for(const w of before.walks)if(!after.walks.some(q=>q.id===w.id)&&!geometry.includes(w.route))geometry.push(w.route);
   return {changed,added,removed,geometry,total:changed.length+added.length+removed.length+geometry.length};
  }
@@ -230,7 +232,21 @@ svg text{paint-order:stroke;stroke-linejoin:round;font-family:system-ui,-apple-s
   }
   delete doc.routes.find(r=>r.id===routeId).timingDirty;
  }
- return {clone,bounds,project,unproject,time,parseTime,distance,stops,controls,links,reindex,markMoved,movePoint,updatePoint,removePoint,swapPoint,normalize,validate,viewer,diff,encode,decode,revision,calculateTimes};
+
+ function createRoute(doc,title,color='#00896d',requestedId){
+  if(doc.routes.length>=32)throw Error('Достигнут предел: 32 маршрута');
+  const id=requestedId||Array.from({length:99},(_,i)=>i+1).find(n=>!doc.routes.some(r=>r.id===n));
+  if(!Number.isInteger(id)||id<1||id>99||doc.routes.some(r=>r.id===id))throw Error('Номер маршрута уже занят или неверен');
+  if(!title.trim()||title.length>160||!/^#[a-fA-F0-9]{6}$/.test(color))throw Error('Укажите название и цвет маршрута');
+  doc.routes.push({id,title:title.trim(),color,xy:[],via:[],geometryDirty:true,timingDirty:true});return id;
+ }
+ function removeRoute(doc,id){
+  if(doc.routes.length===1)throw Error('Должен оставаться хотя бы один маршрут');
+  if(!doc.routes.some(r=>r.id===id))throw Error('Маршрут не найден');
+  doc.routes=doc.routes.filter(r=>r.id!==id);doc.walks=doc.walks.filter(w=>w.route!==id);
+  for(const p of doc.points)if(p.route===id){p.route=0;p.kind='unassigned';p.order=0;p.morning=null;p.evening=null;delete p.targetId;delete p.target;delete p.walkMin}
+ }
+ return {createRoute,removeRoute,clone,bounds,project,unproject,time,parseTime,distance,stops,controls,links,reindex,markMoved,movePoint,updatePoint,removePoint,swapPoint,normalize,validate,viewer,diff,encode,decode,revision,calculateTimes};
 })();
 </script>
 <script>const AddressSearchCore=(()=>{
@@ -353,9 +369,9 @@ function drawHouseNumbers(){
 }
 </script>
 <script>
-const data=JSON.parse(document.querySelector('#mapdata').textContent),svg=document.querySelector('#svg'),colors=['#1560bd','#00896d','#943dbc','#e96717'];
+const data=JSON.parse(document.querySelector('#mapdata').textContent),svg=document.querySelector('#svg'),colors=Array.from({length:99},(_,i)=>["#1560bd", "#00896d", "#943dbc", "#e96717", "#bc365a", "#69732e", "#297b8c", "#795548", "#4962a4", "#c18a25", "#a94782", "#406c4c"][i%12]);
 const params=new URLSearchParams(location.search),ns='http://www.w3.org/2000/svg';
-let selected=Math.max(0,Math.min(4,Math.trunc(Number(params.get('route')))||0)),shift=params.get('shift')==='night'?'night':'day',currentPoint=null,scope='all',pendingFit=false,box={x:90,y:550,w:1150,h:700};
+let selected=Math.max(0,Math.min(99,Math.trunc(Number(params.get('route')))||0)),shift=params.get('shift')==='night'?'night':'day',currentPoint=null,scope='all',pendingFit=false,box={x:90,y:550,w:1150,h:700};
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const time=n=>n==null?'':String(Math.floor(Math.floor(n+1e-7)/60)).padStart(2,'0')+':'+String(Math.floor(n+1e-7)%60).padStart(2,'0');
 const tripTime=p=>time(shift==='day'?p.morning:p.evening);
@@ -443,7 +459,7 @@ function list(){
  document.querySelector('#empty').hidden=found.length>0||(scope!=='boarding'&&(selected||query||scope==='walk')&&walkFound.length>0);
  document.querySelector('.schedule').hidden=found.length===0;
  const title=document.querySelector('#listTitle');title.textContent=(selected?`Маршрут ${String(selected).padStart(2,'0')}`:'Все маршруты');title.style.color=selected?colors[selected-1]:'';
- const boarding=all.filter(p=>p.kind==='boarding');document.querySelector('#routeSummary').textContent=query?`Поиск: «${document.querySelector('#search').value.trim()}»`:selected?`${boarding[0].name} → база · ${boardingLabel(boarding.length)}`:`4 маршрута · ${boardingLabel(boarding.length)}`;
+ const boarding=all.filter(p=>p.kind==='boarding');document.querySelector('#routeSummary').textContent=query?`Поиск: «${document.querySelector('#search').value.trim()}»`:selected?`${boarding[0]?.name||'Маршрут'} → база · ${boardingLabel(boarding.length)}`:`${data.routes.length} маршрута · ${boardingLabel(boarding.length)}`;
 
  const start=boarding.length?boarding.reduce((best,p)=>tripTime(p)<tripTime(best)?p:best,boarding[0]):null;
  document.querySelector('#startTime').textContent=start?tripTime(start):'—';document.querySelector('#startLabel').textContent=selected?'Отправление':'Первый автобус';
@@ -467,11 +483,13 @@ function syncShift(){
  if(typeof renderAddressResults==='function'){document.querySelector('#addressShift').value=shift;renderAddressResults();renderAddressMapCard()}
 }
 for(const b of document.querySelectorAll('[data-shift]'))b.onclick=()=>{shift=b.dataset.shift;syncShift()};
-for(let i=0;i<5;i++){
- const b=document.createElement('button');b.dataset.route=i;b.setAttribute('aria-label',i?'Маршрут №'+i:'Все маршруты');b.classList.toggle('active',selected===i);b.setAttribute('aria-pressed',String(selected===i));
- if(i){const origin=routeStops(i).find(p=>p.kind==='boarding');b.style.setProperty('--route-color',colors[i-1]);b.innerHTML=`<span class="route-number">${i}</span><span class="route-origin">${esc(origin.name)}</span>`}
- else b.textContent='Все маршруты';b.onclick=()=>openRoute(i);document.querySelector('#routes').append(b);
+function renderRouteButtons(){
+ const holder=document.querySelector('#routes');holder.replaceChildren();
+ for(const id of [0,...data.routes.map(r=>r.id)]){const b=document.createElement('button');b.dataset.route=id;b.setAttribute('aria-label',id?'Маршрут №'+id:'Все маршруты');b.classList.toggle('active',selected===id);b.setAttribute('aria-pressed',String(selected===id));
+ if(id){const r=data.routes.find(r=>r.id===id);colors[id-1]=r.color||colors[id-1];b.style.setProperty('--route-color',colors[id-1]);b.innerHTML='<span class="route-number">'+id+'</span><span class="route-origin">'+esc(r.title)+'</span>'}else b.textContent='Все маршруты';b.onclick=()=>openRoute(id);holder.append(b)}
+ const field=document.querySelector('#addressRoute'),old=field.value;field.replaceChildren();for(const id of [0,...data.routes.map(r=>r.id)]){const option=document.createElement('option');option.value=id;option.textContent=id?'Маршрут №'+id:'Все маршруты ('+data.routes.length+')';field.append(option)}field.value=data.routes.some(r=>r.id===+old)?old:'0';
 }
+renderRouteButtons();
 for(const b of document.querySelectorAll('[data-scope]'))b.onclick=()=>{scope=b.dataset.scope;syncScope();list();document.querySelector('#scheduleScroll').scrollTop=0};
 document.querySelector('#clearSearch').onclick=()=>{document.querySelector('#search').value='';list();document.querySelector('#search').focus()};
 document.querySelector('#toSchedule').onclick=()=>{const p=currentPoint;if(p){if(p.route&&selected!==p.route)openRoute(p.route);scope=p.kind==='walk'?'walk':p.kind==='boarding'?'boarding':'all';syncScope();currentPoint=p;list()}setMobileView('list');if(p){const target=[...document.querySelectorAll('#list tr')].find(r=>(p.id?r.dataset.id===p.id:r.dataset.name===p.name&&Number(r.dataset.route)===p.route));if(target)target.scrollIntoView({block:'center',behavior:'smooth'});else if(p.kind==='walk')document.querySelector('#walkingSection').scrollIntoView({block:'start',behavior:'smooth'})}};
@@ -626,22 +644,22 @@ svg.addEventListener('click',event=>{
 svg.addEventListener('pointerdown',e=>{if(pickingAddress){addressPickStart={x:e.clientX,y:e.clientY};addressPickMoved=false}});
 svg.addEventListener('pointermove',e=>{if(pickingAddress&&addressPickStart&&Math.hypot(e.clientX-addressPickStart.x,e.clientY-addressPickStart.y)>8)addressPickMoved=true});
 </script>
-<script>const publishedCore=RouteAdminCore,publishedCacheKey='krasnoyarsk.bus-routes.published.v1',isDraftPreview=new URLSearchParams(location.search).get('preview')==='1';
+<script>const publishedCore=RouteAdminCore,publishedCacheKey='krasnoyarsk.route-portal.published.v1',isDraftPreview=new URLSearchParams(location.search).get('preview')==='1';
 let publishedRevision=null,publishedRequest=null,lastPublishedCheck=0;
 function publishedNote(text,offline=false){const note=document.querySelector('#publishedStatus');note.textContent=text;note.classList.toggle('offline',offline)}
 function applyPublished(doc,preview=false){
  const result=publishedCore.validate(doc);if(!result.valid){const error=new Error(result.errors[0]);error.name='RouteDataError';throw error}const next=publishedCore.viewer(result.doc),date=new Date(next.updatedAt).toLocaleString('ru-RU',{timeZone:'Asia/Krasnoyarsk',day:'2-digit',month:'2-digit',year:'numeric',hour:'2-digit',minute:'2-digit'});if(!preview&&publishedRevision===next.revision){publishedNote('Маршруты обновлены · '+date);return}
  const first=publishedRevision==null,activeId=currentPoint?.id,oldBox={...box};
  if(typeof stopAddressRequest==='function')stopAddressRequest();if(typeof tableCache!=='undefined'){tableCache.clear();pathCache.clear();addressWalk=null;addressCandidates=[];addressResults.replaceChildren();document.body.dataset.addressWalk='false';document.querySelector('#addressMapCard').hidden=true;if(addressOrigin)addressMessage('Маршруты обновлены. Нажмите «Найти», чтобы пересчитать посадку.')}
- Object.assign(data,next);publishedRevision=next.revision;currentPoint=data.points.find(p=>p.id===activeId)||null;
- for(const b of document.querySelectorAll('#routes [data-route]')){const id=Number(b.dataset.route);if(id){const r=data.routes.find(r=>r.id===id);b.querySelector('.route-origin').textContent=r.title||routeStops(id).find(p=>p.kind==='boarding')?.name||'Маршрут '+id}}
+ Object.assign(data,next);if(!data.routes.some(r=>r.id===selected))selected=0;renderRouteButtons();publishedRevision=next.revision;currentPoint=data.points.find(p=>p.id===activeId)||null;
+ for(const b of document.querySelectorAll('#routes [data-route]')){const id=Number(b.dataset.route);if(id){const r=data.routes.find(r=>r.id===id);if(!r)continue;b.querySelector('.route-origin').textContent=r.title||routeStops(id).find(p=>p.kind==='boarding')?.name||'Маршрут '+id}}
  syncShift();list();if(currentPoint)detail(currentPoint);else document.querySelector('#detail').style.display='none';if(first)fitBoarding();else{box=oldBox;redraw()}
  document.querySelector('#publicAssignedCount').textContent=data.points.filter(p=>p.kind==='boarding').reduce((sum,p)=>sum+p.count,0);publishedNote(preview?'Предпросмотр · черновик':'Маршруты обновлены · '+date);
  if(!preview)try{localStorage.setItem(publishedCacheKey,JSON.stringify(result.doc))}catch(e){}
 }
 async function checkPublished(){
  if(isDraftPreview||location.protocol==='file:'||publishedRequest||document.hidden)return;lastPublishedCheck=Date.now();publishedRequest=new AbortController();const timer=setTimeout(()=>publishedRequest?.abort(),15000);
- try{const response=await fetch('./routes.json?v='+Math.floor(Date.now()/60000),{credentials:'omit',cache:'no-store',signal:publishedRequest.signal});if(!response.ok)throw Error('Нет свежей версии');applyPublished(await response.json())}
+ try{const response=await fetch((location.hostname==='ivan160610.github.io'?'https://krasnoyarsk-route-portal.speedytiger.chatgpt.site/routes.json?v=':'./routes.json?v=')+Math.floor(Date.now()/60000),{credentials:'omit',cache:'no-store',signal:publishedRequest.signal});if(!response.ok)throw Error('Нет свежей версии');applyPublished(await response.json())}
  catch(e){publishedNote(e.name==='RouteDataError'||e instanceof SyntaxError?'Новая версия не прошла проверку · показана прежняя':publishedRevision?'Нет связи · последняя сохранённая версия':'Нет связи · встроенная копия маршрутов',true)}finally{clearTimeout(timer);publishedRequest=null}
 }
 if(isDraftPreview){publishedNote('Предпросмотр · ждём черновик');window.addEventListener('message',event=>{if(event.origin!==location.origin||event.source!==window.parent||event.data?.type!=='bus-routes:preview')return;try{applyPublished(event.data.doc,true)}catch(e){publishedNote('Черновик не прошёл проверку: '+e.message,true)}});window.parent.postMessage({type:'bus-routes:ready'},location.origin)}
