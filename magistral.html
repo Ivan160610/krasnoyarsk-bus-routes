@@ -370,6 +370,7 @@ Object.assign(RouteAdminCore,RouteManualCore);
 <script src="./map-tile-loader.js?v=20261020"></script>
 <script>// Only current viewport tiles are requested. Browser HTTP caching is preserved.
 const mapServices={tiles:'https://tile.openstreetmap.org/{z}/{x}/{y}.png',maxZoom:19,mode:'auto'};
+try{if(localStorage.getItem('commute-map-source')==='local')mapServices.mode='local'}catch{}
 const localMapLabels=JSON.parse(document.querySelector('#localmaplabels').textContent);
 function drawLocalMapLabels(){
  localNames.replaceChildren();const f=scale(),view=tileView(box,svg.clientWidth),occupied=[];
