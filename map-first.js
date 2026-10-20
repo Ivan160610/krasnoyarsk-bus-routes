@@ -7,7 +7,11 @@
  const routePicker=document.createElement('div');routePicker.className='route-picker';
  const selector=document.createElement('select');selector.id='routeSelect';selector.setAttribute('aria-label','Выберите маршрут');
  for(const id of [0,...data.routes.map(r=>r.id)]){const option=document.createElement('option');option.value=id;option.textContent=id?`№${id} · ${data.routes.find(r=>r.id===id).title}`:'Все 4 маршрута';selector.append(option)}
- routePicker.append(selector);header.insertBefore(routePicker,$('.header-info'));header.append($('.shifts'));
+ selector.hidden=true;
+ const routeChoices=document.createElement('div');routeChoices.className='route-choices';routeChoices.setAttribute('role','group');routeChoices.setAttribute('aria-label','Показать маршрут на карте');
+ for(const id of [0,...data.routes.map(r=>r.id)]){const button=document.createElement('button'),route=data.routes.find(r=>r.id===id);button.type='button';button.dataset.pickRoute=String(id);button.textContent=id?'№'+id:'Все';button.setAttribute('aria-label',route?'Показать маршрут №'+id+' — '+route.title:'Показать все маршруты');button.title=route?route.title:'Общая схема';button.onclick=()=>openRoute(id);routeChoices.append(button)}
+ const routeCaption=document.createElement('div');routeCaption.className='route-caption';routeCaption.id='routeCaption';
+ routePicker.append(selector,routeChoices,routeCaption);header.insertBefore(routePicker,$('.header-info'));header.append($('.shifts'));
  const searchPalette=document.createElement('section');searchPalette.className='search-palette';searchPalette.setAttribute('aria-label','Поиск остановки и пути');
  const searchLine=document.createElement('div');searchLine.className='search-line';searchLine.append($('.search-wrap'));
  const addressButton=$('#openAddressSearch');addressButton.lastChild.textContent='Адрес';addressButton.setAttribute('aria-label','Найти остановку по адресу');searchLine.append(addressButton);
@@ -29,7 +33,10 @@
  const boardingFor=p=>p?.kind==='walk'?data.points.find(q=>q.kind==='boarding'&&q.route===p.route&&(p.targetId?q.id===p.targetId:q.name===p.target)):p;
  function updateJourney(){
   const point=currentPoint,routeId=point?.route||selected,route=data.routes.find(r=>r.id===routeId),first=data.points.filter(p=>p.kind==='boarding'&&p.route===routeId).sort((a,b)=>(a.order||0)-(b.order||0))[0],boarding=boardingFor(point);
-  selector.value=String(selected);$('#journeyRoute').textContent=routeId?String(routeId).padStart(2,'0'):'4';$('#journeyRoute').dataset.all=String(!routeId);
+  selector.value=String(selected);
+  for(const button of routeChoices.children){const id=Number(button.dataset.pickRoute),active=id===selected;button.setAttribute('aria-pressed',String(active));button.classList.toggle('active',active);button.style.setProperty('--pick-color',id?colors[id-1]:'var(--brand)')}
+  routeCaption.textContent=selected?data.routes.find(r=>r.id===selected)?.title||'':'Все маршруты · выберите номер для просмотра';
+  $('#journeyRoute').textContent=routeId?String(routeId).padStart(2,'0'):'4';$('#journeyRoute').dataset.all=String(!routeId);
   journey.style.setProperty('--journey-color',routeId?colors[routeId-1]:'var(--brand)');
   $('#journeyDirection').textContent=route?`Маршрут №${route.id} · ${route.title}`:'Маршруты Красноярска';
   $('#journeyStop').textContent=point?.name||(route?first?.name||route.title:'Выберите свою остановку');
