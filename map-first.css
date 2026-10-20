@@ -59,3 +59,6 @@ html[data-map-theme="dark"] .map-first #svg [data-layer="tiles"]{filter:invert(.
 @media(prefers-reduced-motion:no-preference){.map-first .journey-bar{animation:journey-enter .18s ease-out}.map-first .schedule-panel{animation:panel-enter .16s ease-out}@keyframes journey-enter{from{opacity:.3;translate:0 5px}to{opacity:1;translate:0 0}}@keyframes panel-enter{from{opacity:.3;translate:0 -5px}to{opacity:1;translate:0 0}}}
 
 .map-first .map-options{background:transparent;border:0;box-shadow:none;border-radius:12px}.map-first .map-options .option-content{max-height:min(440px,calc(100dvh - 230px));overflow:auto;scrollbar-width:thin}
+
+/* City stops stay readable in the drawer without crowding the map. */
+.map-first .city-stops-note{font-size:11px;line-height:1.5;color:var(--muted);margin:9px 0 0}.map-first .stop-filters [hidden]{display:none}.map-first .schedule tr.pass{opacity:1}.map-first .search-all-routes{display:block;margin:12px 18px;padding:11px 14px;max-width:calc(100% - 36px);border:1px solid var(--line);border-radius:12px;background:var(--paper);color:var(--ink);font:inherit;font-size:12px;text-align:left;cursor:pointer}.map-first .search-all-routes[hidden]{display:none}

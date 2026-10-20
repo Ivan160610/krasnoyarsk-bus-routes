@@ -11065,7 +11065,11 @@
       "dayCount": 2,
       "nightCount": 2,
       "morning": 366,
-      "evening": 1094
+      "evening": 1094,
+      "routePosition": 0.002913,
+      "searchAliases": [
+        "Молодёжная"
+      ]
     },
     {
       "id": "m1-1",
@@ -11081,7 +11085,11 @@
       "dayCount": 73,
       "nightCount": 73,
       "morning": 376,
-      "evening": 1103
+      "evening": 1103,
+      "routePosition": 112.572311,
+      "searchAliases": [
+        "ЖК «Глобус»"
+      ]
     },
     {
       "id": "m1-2",
@@ -11097,7 +11105,11 @@
       "dayCount": 3,
       "nightCount": 5,
       "morning": 382,
-      "evening": 1108
+      "evening": 1108,
+      "routePosition": 232.937601,
+      "searchAliases": [
+        "АЗС (улица Калинина)"
+      ]
     },
     {
       "id": "m1-3",
@@ -11113,7 +11125,11 @@
       "dayCount": 3,
       "nightCount": 19,
       "morning": 391,
-      "evening": 1116
+      "evening": 1116,
+      "routePosition": 435.382704,
+      "searchAliases": [
+        "1-я Калинина"
+      ]
     },
     {
       "id": "m1-4",
@@ -11129,7 +11145,11 @@
       "dayCount": 16,
       "nightCount": 4,
       "morning": 396,
-      "evening": 1121
+      "evening": 1121,
+      "routePosition": 529.532249,
+      "searchAliases": [
+        "ул. 2-я Брянская"
+      ]
     },
     {
       "id": "m1-5",
@@ -11145,7 +11165,11 @@
       "dayCount": 1,
       "nightCount": 1,
       "morning": 405,
-      "evening": 1130
+      "evening": 1130,
+      "routePosition": 674.505227,
+      "searchAliases": [
+        "Кардиоцентр"
+      ]
     },
     {
       "id": "m1-6",
@@ -11161,7 +11185,11 @@
       "dayCount": 0,
       "nightCount": 0,
       "morning": 412,
-      "evening": 1135
+      "evening": 1135,
+      "routePosition": 746.882031,
+      "searchAliases": [
+        "Арена-Север"
+      ]
     },
     {
       "id": "m1-7",
@@ -11177,7 +11205,11 @@
       "dayCount": 5,
       "nightCount": 11,
       "morning": 415,
-      "evening": 1138
+      "evening": 1138,
+      "routePosition": 768.756592,
+      "searchAliases": [
+        "ТРЦ Планета (улица 9 Мая)"
+      ]
     },
     {
       "id": "m2-start",
@@ -11193,7 +11225,11 @@
       "dayCount": 2,
       "nightCount": 2,
       "morning": 372,
-      "evening": 1099
+      "evening": 1099,
+      "routePosition": 0,
+      "searchAliases": [
+        "Северо-Западный район"
+      ]
     },
     {
       "id": "m2-1",
@@ -11209,7 +11245,11 @@
       "dayCount": 10,
       "nightCount": 21,
       "morning": 382,
-      "evening": 1108
+      "evening": 1108,
+      "routePosition": 165.710794,
+      "searchAliases": [
+        "Улица Курчатова"
+      ]
     },
     {
       "id": "m2-2",
@@ -11225,7 +11265,11 @@
       "dayCount": 40,
       "nightCount": 23,
       "morning": 388,
-      "evening": 1114
+      "evening": 1114,
+      "routePosition": 284.009414,
+      "searchAliases": [
+        "Копыловский мост"
+      ]
     },
     {
       "id": "m2-3",
@@ -11242,7 +11286,11 @@
       "nightCount": 2,
       "morning": 394,
       "evening": 1120,
-      "sourceUrl": "https://www.openstreetmap.org/node/3711315567"
+      "sourceUrl": "https://www.openstreetmap.org/node/3711315567",
+      "routePosition": 382.437162,
+      "searchAliases": [
+        "Площадь Революции"
+      ]
     },
     {
       "id": "m2-4",
@@ -11258,7 +11306,11 @@
       "dayCount": 2,
       "nightCount": 2,
       "morning": 403,
-      "evening": 1127
+      "evening": 1127,
+      "routePosition": 498.561826,
+      "searchAliases": [
+        "Сибирский институт искусств"
+      ]
     },
     {
       "id": "m2-5",
@@ -11274,7 +11326,11 @@
       "dayCount": 7,
       "nightCount": 6,
       "morning": 409,
-      "evening": 1133
+      "evening": 1133,
+      "routePosition": 632.947713,
+      "searchAliases": [
+        "Улица Шахтёров"
+      ]
     },
     {
       "id": "m3-start",
@@ -11290,7 +11346,11 @@
       "dayCount": 3,
       "nightCount": 3,
       "morning": 370,
-      "evening": 1098
+      "evening": 1098,
+      "routePosition": 0,
+      "searchAliases": [
+        "Микрорайон Тихие зори"
+      ]
     },
     {
       "id": "m3-1",
@@ -11306,7 +11366,11 @@
       "dayCount": 0,
       "nightCount": 1,
       "morning": 378,
-      "evening": 1105
+      "evening": 1105,
+      "routePosition": 127.567614,
+      "searchAliases": [
+        "ОАО «Красфарма» (улица Свердловская)"
+      ]
     },
     {
       "id": "m3-2",
@@ -11322,7 +11386,11 @@
       "dayCount": 1,
       "nightCount": 1,
       "morning": 381,
-      "evening": 1108
+      "evening": 1108,
+      "routePosition": 173.908621,
+      "searchAliases": [
+        "Октябрьская (улица Свердловская)"
+      ]
     },
     {
       "id": "m3-3",
@@ -11338,7 +11406,11 @@
       "dayCount": 4,
       "nightCount": 4,
       "morning": 387,
-      "evening": 1112
+      "evening": 1112,
+      "routePosition": 270.293695,
+      "searchAliases": [
+        "Студенческая (улица Свердловская)"
+      ]
     },
     {
       "id": "m3-4",
@@ -11354,7 +11426,11 @@
       "dayCount": 1,
       "nightCount": 0,
       "morning": 395,
-      "evening": 1120
+      "evening": 1120,
+      "routePosition": 448.185981,
+      "searchAliases": [
+        "ТЮЗ"
+      ]
     },
     {
       "id": "m3-5",
@@ -11370,7 +11446,12 @@
       "dayCount": 8,
       "nightCount": 7,
       "morning": 402,
-      "evening": 1126
+      "evening": 1126,
+      "routePosition": 566.821847,
+      "searchAliases": [
+        "Улица Мичурина (улица Московская)",
+        "Улица Мичурина"
+      ]
     },
     {
       "id": "m3-6",
@@ -11386,7 +11467,11 @@
       "dayCount": 4,
       "nightCount": 1,
       "morning": 408,
-      "evening": 1132
+      "evening": 1132,
+      "routePosition": 686.696237,
+      "searchAliases": [
+        "Остров Татышев"
+      ]
     },
     {
       "id": "m3-7",
@@ -11402,7 +11487,11 @@
       "dayCount": 11,
       "nightCount": 7,
       "morning": 414,
-      "evening": 1138
+      "evening": 1138,
+      "routePosition": 829.275112,
+      "searchAliases": [
+        "Улица Авиаторов"
+      ]
     },
     {
       "id": "m4-start",
@@ -11418,7 +11507,11 @@
       "dayCount": 0,
       "nightCount": 0,
       "morning": 374,
-      "evening": 1101
+      "evening": 1101,
+      "routePosition": 0.003823,
+      "searchAliases": [
+        "Школа (улица Щорса)"
+      ]
     },
     {
       "id": "m4-1",
@@ -11434,7 +11527,11 @@
       "dayCount": 0,
       "nightCount": 2,
       "morning": 387,
-      "evening": 1113
+      "evening": 1113,
+      "routePosition": 271.403418,
+      "searchAliases": [
+        "Поликлиника (улица Волжская)"
+      ]
     },
     {
       "id": "m4-2",
@@ -11450,7 +11547,11 @@
       "dayCount": 0,
       "nightCount": 0,
       "morning": 389,
-      "evening": 1114
+      "evening": 1114,
+      "routePosition": 289.97926,
+      "searchAliases": [
+        "Улица Волжская (улица Говорова)"
+      ]
     },
     {
       "id": "m4-3",
@@ -11466,7 +11567,11 @@
       "dayCount": 1,
       "nightCount": 1,
       "morning": 397,
-      "evening": 1122
+      "evening": 1122,
+      "routePosition": 466.767638,
+      "searchAliases": [
+        "КрасТЭЦ"
+      ]
     },
     {
       "id": "m4-4",
@@ -11482,7 +11587,11 @@
       "dayCount": 1,
       "nightCount": 1,
       "morning": 415,
-      "evening": 1139
+      "evening": 1139,
+      "routePosition": 879.526173,
+      "searchAliases": [
+        "Платформа Металлургов"
+      ]
     },
     {
       "id": "gate-new",
@@ -11509,9 +11618,3118 @@
       "count": 0,
       "morning": 465,
       "evening": 1185
+    },
+    {
+      "id": "city-1-node-10065338918",
+      "name": "Улица Норильская",
+      "lat": 56.0554487,
+      "lon": 92.705869,
+      "x": 201.4147015111521,
+      "y": 598.5395851100911,
+      "route": 1,
+      "kind": "pass",
+      "routePosition": 23.138637,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/10065338918",
+      "cityStopIds": [
+        "node-10065338918",
+        "node-10065324916"
+      ],
+      "searchAliases": [
+        "Улица Норильская"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-1-node-10065338919",
+      "name": "Тихий квартал",
+      "lat": 56.0559213,
+      "lon": 92.7124338,
+      "x": 220.53606741328258,
+      "y": 596.0743638649001,
+      "route": 1,
+      "kind": "pass",
+      "routePosition": 42.719589,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/10065338919",
+      "cityStopIds": [
+        "node-10065338919",
+        "node-10065324915"
+      ],
+      "searchAliases": [
+        "Тихий квартал"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-1-node-10065338920",
+      "name": "Детский центр",
+      "lat": 56.0562276,
+      "lon": 92.7211242,
+      "x": 245.8486920533469,
+      "y": 594.476596423483,
+      "route": 1,
+      "kind": "pass",
+      "routePosition": 68.126916,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/10065338920",
+      "cityStopIds": [
+        "node-10065338920",
+        "node-10065324914"
+      ],
+      "searchAliases": [
+        "Детский центр"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-1-node-10065338921",
+      "name": "Западный микрорайон",
+      "lat": 56.0584422,
+      "lon": 92.7289593,
+      "x": 268.6700748800067,
+      "y": 582.9240942023462,
+      "route": 1,
+      "kind": "pass",
+      "routePosition": 96.732875,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/10065338921",
+      "cityStopIds": [
+        "node-10065338921",
+        "node-10065324913"
+      ],
+      "searchAliases": [
+        "Западный микрорайон"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-1-node-10065338923",
+      "name": "Школьный городок",
+      "lat": 56.0549906,
+      "lon": 92.7373977,
+      "x": 293.2486963198753,
+      "y": 600.9291412374587,
+      "route": 1,
+      "kind": "pass",
+      "routePosition": 127.657662,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/10065338923",
+      "cityStopIds": [
+        "node-10065338923",
+        "node-10065324911"
+      ],
+      "searchAliases": [
+        "Школьный городок"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-1-node-10065338924",
+      "name": "Стела «Октябрьский район»",
+      "lat": 56.0531864,
+      "lon": 92.7496572,
+      "x": 328.9570781866787,
+      "y": 610.3399919716758,
+      "route": 1,
+      "kind": "pass",
+      "routePosition": 165.146341,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/10065338924",
+      "cityStopIds": [
+        "node-10065338924",
+        "node-10065324910"
+      ],
+      "searchAliases": [
+        "Стела «Октябрьский район»"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-1-node-3993074561",
+      "name": "ДРСУ",
+      "lat": 56.0516869,
+      "lon": 92.7538954,
+      "x": 341.3017304178793,
+      "y": 618.1611682892544,
+      "route": 1,
+      "kind": "pass",
+      "routePosition": 179.840356,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/3993074561",
+      "cityStopIds": [
+        "node-3993074561",
+        "node-3993074560"
+      ],
+      "searchAliases": [
+        "ДРСУ"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-1-node-10065338925",
+      "name": "Пожарная часть",
+      "lat": 56.0496057,
+      "lon": 92.762584,
+      "x": 366.60911217774265,
+      "y": 629.0159042900777,
+      "route": 1,
+      "kind": "pass",
+      "routePosition": 207.301854,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/10065338925",
+      "cityStopIds": [
+        "node-10065338925",
+        "node-10065324909"
+      ],
+      "searchAliases": [
+        "Пожарная часть"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-1-node-9842546485",
+      "name": "КПАТП-5",
+      "lat": 56.0418317,
+      "lon": 92.7814133,
+      "x": 421.4534235021565,
+      "y": 669.5569093420054,
+      "route": 1,
+      "kind": "pass",
+      "routePosition": 276.73224,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/9842546485",
+      "cityStopIds": [
+        "node-9842546485",
+        "node-12122479513"
+      ],
+      "searchAliases": [
+        "КПАТП-5"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-1-node-9842546486",
+      "name": "Школьная",
+      "lat": 56.0398346,
+      "lon": 92.7849112,
+      "x": 431.64179569785483,
+      "y": 679.9703631106531,
+      "route": 1,
+      "kind": "pass",
+      "routePosition": 291.324878,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/9842546486",
+      "cityStopIds": [
+        "node-9842546486",
+        "node-12110627944"
+      ],
+      "searchAliases": [
+        "Школьная"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-1-node-9842546487",
+      "name": "Автотранспортный техникум",
+      "lat": 56.0378251,
+      "lon": 92.7884742,
+      "x": 442.0197853866266,
+      "y": 690.4479300954845,
+      "route": 1,
+      "kind": "pass",
+      "routePosition": 306.023569,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/9842546487",
+      "cityStopIds": [
+        "node-9842546487",
+        "node-12110627945"
+      ],
+      "searchAliases": [
+        "Автотранспортный техникум"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-1-node-12110627947",
+      "name": "Полюс",
+      "lat": 56.0356814,
+      "lon": 92.7934354,
+      "x": 456.47032775112893,
+      "y": 701.6246167195495,
+      "route": 1,
+      "kind": "pass",
+      "routePosition": 324.23197,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/12110627947",
+      "cityStopIds": [
+        "node-12110627947",
+        "node-12110627946"
+      ],
+      "searchAliases": [
+        "Полюс"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-1-node-12110627949",
+      "name": "Тарная база",
+      "lat": 56.0330518,
+      "lon": 92.802018,
+      "x": 481.46896213328,
+      "y": 715.3338100559777,
+      "route": 1,
+      "kind": "pass",
+      "routePosition": 352.675611,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/12110627949",
+      "cityStopIds": [
+        "node-12110627949",
+        "node-12110627948"
+      ],
+      "searchAliases": [
+        "Тарная база"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-1-node-12110627951",
+      "name": "Таксопарк",
+      "lat": 56.0319602,
+      "lon": 92.8079432,
+      "x": 498.7273580089677,
+      "y": 721.0244984024903,
+      "route": 1,
+      "kind": "pass",
+      "routePosition": 370.773933,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/12110627951",
+      "cityStopIds": [
+        "node-12110627951",
+        "node-12110627950"
+      ],
+      "searchAliases": [
+        "Таксопарк"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-1-node-12110627952",
+      "name": "Поликлиника (улица Калинина)",
+      "lat": 56.033114,
+      "lon": 92.81548,
+      "x": 520.679879111005,
+      "y": 715.0095464929473,
+      "route": 1,
+      "kind": "pass",
+      "routePosition": 395.274718,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/12110627952",
+      "cityStopIds": [
+        "node-12110627952",
+        "node-9339884989"
+      ],
+      "searchAliases": [
+        "Поликлиника (улица Калинина)"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-1-node-12110627953",
+      "name": "2-я Калинина",
+      "lat": 56.0342566,
+      "lon": 92.8226916,
+      "x": 541.6851865599165,
+      "y": 709.0528048572596,
+      "route": 1,
+      "kind": "pass",
+      "routePosition": 417.321618,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/12110627953",
+      "cityStopIds": [
+        "node-12110627953",
+        "node-12110627954"
+      ],
+      "searchAliases": [
+        "2-я Калинина"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-1-node-9048376017",
+      "name": "мкрн. Яблони",
+      "lat": 56.0421292,
+      "lon": 92.8661712,
+      "x": 668.3287005866878,
+      "y": 668.0056126564741,
+      "route": 1,
+      "kind": "pass",
+      "routePosition": 556.102818,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/9048376017",
+      "cityStopIds": [
+        "node-9048376017",
+        "node-9048357618"
+      ],
+      "searchAliases": [
+        "мкрн. Яблони"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-1-node-12363024070",
+      "name": "Автоцентр",
+      "lat": 56.0433957,
+      "lon": 92.8728524,
+      "x": 687.7891060622642,
+      "y": 661.4013872048818,
+      "route": 1,
+      "kind": "pass",
+      "routePosition": 576.654574,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/12363024070",
+      "cityStopIds": [
+        "node-12363024070",
+        "node-12262775146"
+      ],
+      "searchAliases": [
+        "Автоцентр"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-1-node-12363024067",
+      "name": "ЖК «Квадро»",
+      "lat": 56.0446787,
+      "lon": 92.8797496,
+      "x": 707.8786571377423,
+      "y": 654.7109006637475,
+      "route": 1,
+      "kind": "pass",
+      "routePosition": 597.824722,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/12363024067",
+      "cityStopIds": [
+        "node-12363024067",
+        "node-12363024064"
+      ],
+      "searchAliases": [
+        "ЖК «Квадро»"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-1-node-12269668983",
+      "name": "Улица Караульная",
+      "lat": 56.045938,
+      "lon": 92.8865312,
+      "x": 727.6314988088561,
+      "y": 648.1437866371125,
+      "route": 1,
+      "kind": "pass",
+      "routePosition": 618.65962,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/12269668983",
+      "cityStopIds": [
+        "node-12269668983",
+        "node-12363024066"
+      ],
+      "searchAliases": [
+        "Улица Караульная"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-1-node-4123497312",
+      "name": "Ледовый дворец",
+      "lat": 56.0489537,
+      "lon": 92.8954552,
+      "x": 753.6245327645447,
+      "y": 632.4163641880732,
+      "route": 1,
+      "kind": "pass",
+      "routePosition": 731.266596,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/4123497312",
+      "cityStopIds": [
+        "node-4123497312"
+      ],
+      "searchAliases": [
+        "Ледовый дворец"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-1-node-1056781475",
+      "name": "Дом Куприяна",
+      "lat": 56.0558958,
+      "lon": 92.9092108,
+      "x": 793.6906217243522,
+      "y": 596.2073801707011,
+      "route": 1,
+      "kind": "pass",
+      "routePosition": 797.458592,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/1056781475",
+      "cityStopIds": [
+        "node-1056781475",
+        "node-1056781505"
+      ],
+      "searchAliases": [
+        "Дом Куприяна"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-1-node-1015339937",
+      "name": "1-й микрорайон",
+      "lat": 56.0586428,
+      "lon": 92.9148274,
+      "x": 810.0501549510518,
+      "y": 581.877627789625,
+      "route": 1,
+      "kind": "pass",
+      "routePosition": 819.210014,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/1015339937",
+      "cityStopIds": [
+        "node-1015339937",
+        "node-1015339939"
+      ],
+      "searchAliases": [
+        "1-й микрорайон"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-1-node-2135230141",
+      "name": "Детская поликлиника",
+      "lat": 56.0608244,
+      "lon": 92.9189269,
+      "x": 821.9908141510095,
+      "y": 570.4965627503698,
+      "route": 1,
+      "kind": "pass",
+      "routePosition": 835.702522,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/2135230141",
+      "cityStopIds": [
+        "node-2135230141"
+      ],
+      "searchAliases": [
+        "Детская поликлиника"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-1-node-858214752",
+      "name": "Улица Урванцева",
+      "lat": 56.0643176,
+      "lon": 92.9259213,
+      "x": 842.3634807467461,
+      "y": 552.2717451221542,
+      "route": 1,
+      "kind": "pass",
+      "routePosition": 863.024874,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/858214752",
+      "cityStopIds": [
+        "node-858214752"
+      ],
+      "searchAliases": [
+        "Улица Урванцева"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-1-node-1096164458",
+      "name": "Микрорайон Северный",
+      "lat": 56.0672668,
+      "lon": 92.931755,
+      "x": 859.3553635556018,
+      "y": 536.8838133873069,
+      "route": 1,
+      "kind": "pass",
+      "routePosition": 885.967826,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/1096164458",
+      "cityStopIds": [
+        "node-1096164458"
+      ],
+      "searchAliases": [
+        "Микрорайон Северный"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-1-node-2027449483",
+      "name": "Школа № 147",
+      "lat": 56.0690086,
+      "lon": 92.9352048,
+      "x": 869.4036343466723,
+      "y": 527.795134989894,
+      "route": 1,
+      "kind": "pass",
+      "routePosition": 899.514325,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/2027449483",
+      "cityStopIds": [
+        "node-2027449483"
+      ],
+      "searchAliases": [
+        "Школа № 147"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-1-node-9901552931",
+      "name": "База КПС",
+      "lat": 56.0795869,
+      "lon": 92.9357699,
+      "x": 871.0496073954273,
+      "y": 472.58894916943973,
+      "route": 1,
+      "kind": "pass",
+      "routePosition": 964.662163,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/9901552931",
+      "cityStopIds": [
+        "node-9901552931"
+      ],
+      "searchAliases": [
+        "База КПС"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-1-node-9901552932",
+      "name": "Кладбище Бадалык",
+      "lat": 56.0856497,
+      "lon": 92.9341291,
+      "x": 866.2704310044646,
+      "y": 440.9414874605718,
+      "route": 1,
+      "kind": "pass",
+      "routePosition": 998.697496,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/9901552932",
+      "cityStopIds": [
+        "node-9901552932",
+        "node-12290135176"
+      ],
+      "searchAliases": [
+        "Кладбище Бадалык"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-1-node-12290135179",
+      "name": "Бадалык",
+      "lat": 56.093347,
+      "lon": 92.9333578,
+      "x": 864.0238569244975,
+      "y": 400.75485438032774,
+      "route": 1,
+      "kind": "pass",
+      "routePosition": 1041.383046,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/12290135179",
+      "cityStopIds": [
+        "node-12290135179",
+        "node-12290135181"
+      ],
+      "searchAliases": [
+        "Бадалык"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-1-node-6007819986",
+      "name": "Деревня Бадалык",
+      "lat": 56.1003933,
+      "lon": 92.9264228,
+      "x": 843.8242053688737,
+      "y": 363.9599676525104,
+      "route": 1,
+      "kind": "pass",
+      "routePosition": 1083.376263,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/6007819986",
+      "cityStopIds": [
+        "node-6007819986"
+      ],
+      "searchAliases": [
+        "Деревня Бадалык"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-1-node-2320787605",
+      "name": "АЗС (ж/м Солнечный)",
+      "lat": 56.1140581,
+      "lon": 92.9414303,
+      "x": 887.5367173688719,
+      "y": 292.58491452713497,
+      "route": 1,
+      "kind": "pass",
+      "routePosition": 1180.881351,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/2320787605",
+      "cityStopIds": [
+        "node-2320787605",
+        "node-2320787606"
+      ],
+      "searchAliases": [
+        "АЗС (ж/м Солнечный)"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-1-node-5341417889",
+      "name": "Старцево",
+      "lat": 56.1675973,
+      "lon": 92.9724255,
+      "x": 977.8167807999998,
+      "y": 12.690328470198438,
+      "route": 1,
+      "kind": "pass",
+      "routePosition": 1475.959211,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/5341417889",
+      "cityStopIds": [
+        "node-5341417889"
+      ],
+      "searchAliases": [
+        "Старцево"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-1-node-5341417888",
+      "name": "Старцево",
+      "lat": 56.1674664,
+      "lon": 92.9717025,
+      "x": 975.7108906666981,
+      "y": 13.375128894811496,
+      "route": 1,
+      "kind": "pass",
+      "routePosition": 1576.842371,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/5341417888",
+      "cityStopIds": [
+        "node-5341417888"
+      ],
+      "searchAliases": [
+        "Старцево"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-2-node-827598437",
+      "name": "Северо-Западный район",
+      "lat": 56.0386134,
+      "lon": 92.7697808,
+      "x": 387.5713115023682,
+      "y": 686.3377855981234,
+      "route": 2,
+      "kind": "pass",
+      "routePosition": 29.003187,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/827598437",
+      "cityStopIds": [
+        "node-827598437",
+        "node-3716322335"
+      ],
+      "searchAliases": [
+        "Северо-Западный район"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-2-node-5092082027",
+      "name": "Радиотехнический завод",
+      "lat": 56.0351824,
+      "lon": 92.7722763,
+      "x": 394.8399820799241,
+      "y": 704.2261820881395,
+      "route": 2,
+      "kind": "pass",
+      "routePosition": 48.317929,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/5092082027",
+      "cityStopIds": [
+        "node-5092082027",
+        "node-5092082026"
+      ],
+      "searchAliases": [
+        "Радиотехнический завод"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-2-node-827591720",
+      "name": "Кинотеатр Строитель",
+      "lat": 56.0325117,
+      "lon": 92.774201,
+      "x": 400.4460771555314,
+      "y": 718.1494593168609,
+      "route": 2,
+      "kind": "pass",
+      "routePosition": 63.33531,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/827591720",
+      "cityStopIds": [
+        "node-827591720",
+        "node-827598435"
+      ],
+      "searchAliases": [
+        "Кинотеатр Строитель"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-2-node-766215887",
+      "name": "Почта",
+      "lat": 56.0266877,
+      "lon": 92.7801864,
+      "x": 417.8798182399478,
+      "y": 748.5086328133475,
+      "route": 2,
+      "kind": "pass",
+      "routePosition": 98.506577,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/766215887",
+      "cityStopIds": [
+        "node-766215887",
+        "node-766215888"
+      ],
+      "searchAliases": [
+        "Почта"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-2-node-766215886",
+      "name": "Спорткомплекс «Рассвет»",
+      "lat": 56.0229302,
+      "lon": 92.7866125,
+      "x": 436.59719111106824,
+      "y": 768.0931863108999,
+      "route": 2,
+      "kind": "pass",
+      "routePosition": 125.597935,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/766215886",
+      "cityStopIds": [
+        "node-766215886",
+        "node-766215885"
+      ],
+      "searchAliases": [
+        "Спорткомплекс «Рассвет»"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-2-node-1108661989",
+      "name": "ГорДК",
+      "lat": 56.019369,
+      "lon": 92.7926799,
+      "x": 454.26977450668346,
+      "y": 786.6528410157189,
+      "route": 2,
+      "kind": "pass",
+      "routePosition": 151.227222,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/1108661989",
+      "cityStopIds": [
+        "node-1108661989",
+        "node-1108661986"
+      ],
+      "searchAliases": [
+        "ГорДК"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-2-node-3704002500",
+      "name": "Улица Кравченко",
+      "lat": 56.01689,
+      "lon": 92.7968261,
+      "x": 466.34645731549244,
+      "y": 799.5714600167703,
+      "route": 2,
+      "kind": "pass",
+      "routePosition": 186.04737,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/3704002500",
+      "cityStopIds": [
+        "node-3704002500",
+        "node-3704002499"
+      ],
+      "searchAliases": [
+        "Улица Кравченко"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-2-node-2524023277",
+      "name": "Улица Луначарского",
+      "lat": 56.0134342,
+      "lon": 92.8025982,
+      "x": 483.1589171200758,
+      "y": 817.5790169445681,
+      "route": 2,
+      "kind": "pass",
+      "routePosition": 210.753121,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/2524023277",
+      "cityStopIds": [
+        "node-2524023277"
+      ],
+      "searchAliases": [
+        "Улица Луначарского"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-2-node-2524023276",
+      "name": "Улица Корнеева",
+      "lat": 56.0116171,
+      "lon": 92.8102195,
+      "x": 505.3575623111101,
+      "y": 827.0469544221414,
+      "route": 2,
+      "kind": "pass",
+      "routePosition": 241.807839,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/2524023276",
+      "cityStopIds": [
+        "node-2524023276"
+      ],
+      "searchAliases": [
+        "Улица Корнеева"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-2-node-2524023275",
+      "name": "Сквер А.П. Степанова",
+      "lat": 56.0115206,
+      "lon": 92.8144089,
+      "x": 517.5600742399693,
+      "y": 827.5497519216733,
+      "route": 2,
+      "kind": "pass",
+      "routePosition": 254.102117,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/2524023275",
+      "cityStopIds": [
+        "node-2524023275"
+      ],
+      "searchAliases": [
+        "Сквер А.П. Степанова"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-2-node-1380512348",
+      "name": "Улица Профсоюзов",
+      "lat": 56.0103196,
+      "lon": 92.8391602,
+      "x": 589.6534607644426,
+      "y": 833.8072613091208,
+      "route": 2,
+      "kind": "pass",
+      "routePosition": 335.483699,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/1380512348",
+      "cityStopIds": [
+        "node-1380512348"
+      ],
+      "searchAliases": [
+        "Улица Профсоюзов"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-2-node-3707440175",
+      "name": "Улица Робеспьера",
+      "lat": 56.0104471,
+      "lon": 92.8426645,
+      "x": 599.8604743111646,
+      "y": 833.1429637558176,
+      "route": 2,
+      "kind": "pass",
+      "routePosition": 345.711019,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/3707440175",
+      "cityStopIds": [
+        "node-3707440175",
+        "node-12281063081"
+      ],
+      "searchAliases": [
+        "Улица Робеспьера",
+        "улица Робеспьера"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-2-node-3707440178",
+      "name": "Улица Горького",
+      "lat": 56.0107462,
+      "lon": 92.8474254,
+      "x": 613.7276006400352,
+      "y": 831.5845912438235,
+      "route": 2,
+      "kind": "pass",
+      "routePosition": 359.66108,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/3707440178",
+      "cityStopIds": [
+        "node-3707440178",
+        "node-3707440179"
+      ],
+      "searchAliases": [
+        "Улица Горького",
+        "улица Горького"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-2-node-3711315569",
+      "name": "Театр Пушкина",
+      "lat": 56.0116098,
+      "lon": 92.8644171,
+      "x": 663.2195140265394,
+      "y": 827.0849899246241,
+      "route": 2,
+      "kind": "pass",
+      "routePosition": 409.353927,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/3711315569",
+      "cityStopIds": [
+        "node-3711315569"
+      ],
+      "searchAliases": [
+        "Театр Пушкина"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-2-node-3711315570",
+      "name": "Технологический университет",
+      "lat": 56.0120001,
+      "lon": 92.8680115,
+      "x": 673.6889628443168,
+      "y": 825.0513830492273,
+      "route": 2,
+      "kind": "pass",
+      "routePosition": 419.968607,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/3711315570",
+      "cityStopIds": [
+        "node-3711315570"
+      ],
+      "searchAliases": [
+        "Технологический университет"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-2-node-3276133094",
+      "name": "Дом быта",
+      "lat": 56.0121331,
+      "lon": 92.8736346,
+      "x": 690.0674286932917,
+      "y": 824.3583993279608,
+      "route": 2,
+      "kind": "pass",
+      "routePosition": 436.340207,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/3276133094",
+      "cityStopIds": [
+        "node-3276133094",
+        "node-3276133095"
+      ],
+      "searchAliases": [
+        "Дом быта"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-2-node-9959783085",
+      "name": "Улица Парижской Коммуны",
+      "lat": 56.012605,
+      "lon": 92.8822894,
+      "x": 715.2763608177193,
+      "y": 821.8995904667536,
+      "route": 2,
+      "kind": "pass",
+      "routePosition": 461.669243,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/9959783085",
+      "cityStopIds": [
+        "node-9959783085"
+      ],
+      "searchAliases": [
+        "Улица Парижской Коммуны"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-2-node-3244607925",
+      "name": "улица Парижской Коммуны",
+      "lat": 56.0143506,
+      "lon": 92.8821827,
+      "x": 714.9655745421769,
+      "y": 812.8039770973264,
+      "route": 2,
+      "kind": "pass",
+      "routePosition": 519.577291,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/3244607925",
+      "cityStopIds": [
+        "node-3244607925"
+      ],
+      "searchAliases": [
+        "улица Парижской Коммуны"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-2-node-2167415595",
+      "name": "Химчистка",
+      "lat": 56.0147301,
+      "lon": 92.8759875,
+      "x": 696.9207466667285,
+      "y": 810.8265021729749,
+      "route": 2,
+      "kind": "pass",
+      "routePosition": 542.095518,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/2167415595",
+      "cityStopIds": [
+        "node-2167415595"
+      ],
+      "searchAliases": [
+        "Химчистка"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-2-node-4040571200",
+      "name": "Улица Игарская",
+      "lat": 56.0194192,
+      "lon": 92.878863,
+      "x": 705.2962474667002,
+      "y": 786.3912291117013,
+      "route": 2,
+      "kind": "pass",
+      "routePosition": 572.771114,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/4040571200",
+      "cityStopIds": [
+        "node-4040571200",
+        "node-4040571201"
+      ],
+      "searchAliases": [
+        "Улица Игарская",
+        "улица Игарская"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-2-node-4123497329",
+      "name": "Мемориал",
+      "lat": 56.0218919,
+      "lon": 92.8853844,
+      "x": 724.2912017067429,
+      "y": 773.5045979120187,
+      "route": 2,
+      "kind": "pass",
+      "routePosition": 599.786039,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/4123497329",
+      "cityStopIds": [
+        "node-4123497329"
+      ],
+      "searchAliases": [
+        "Мемориал"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-2-node-4123497327",
+      "name": "Площадь Победы",
+      "lat": 56.0248841,
+      "lon": 92.8863226,
+      "x": 727.023907270981,
+      "y": 757.9094563533436,
+      "route": 2,
+      "kind": "pass",
+      "routePosition": 616.042895,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/4123497327",
+      "cityStopIds": [
+        "node-4123497327",
+        "node-4123497328"
+      ],
+      "searchAliases": [
+        "Площадь Победы"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-2-node-4123497320",
+      "name": "Улица Березина (улица Шахтёров)",
+      "lat": 56.0324028,
+      "lon": 92.8910285,
+      "x": 740.7308344888734,
+      "y": 718.7171720121405,
+      "route": 2,
+      "kind": "pass",
+      "routePosition": 657.647373,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/4123497320",
+      "cityStopIds": [
+        "node-4123497320",
+        "node-4123497321"
+      ],
+      "searchAliases": [
+        "Улица Березина (улица Шахтёров)"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-2-node-4123497318",
+      "name": "Енисейский рынок",
+      "lat": 56.0374491,
+      "lon": 92.8925741,
+      "x": 745.2327207821654,
+      "y": 692.4083398614312,
+      "route": 2,
+      "kind": "pass",
+      "routePosition": 684.343286,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/4123497318",
+      "cityStopIds": [
+        "node-4123497318",
+        "node-4123497319"
+      ],
+      "searchAliases": [
+        "Енисейский рынок"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-2-node-4123497317",
+      "name": "Южный рынок",
+      "lat": 56.0407207,
+      "lon": 92.8930881,
+      "x": 746.729854293284,
+      "y": 675.3500493819593,
+      "route": 2,
+      "kind": "pass",
+      "routePosition": 701.469067,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/4123497317",
+      "cityStopIds": [
+        "node-4123497317",
+        "node-4123497316"
+      ],
+      "searchAliases": [
+        "Южный рынок"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-2-node-4123497315",
+      "name": "Рынок «Луч»",
+      "lat": 56.0442905,
+      "lon": 92.8918334,
+      "x": 743.0752756622387,
+      "y": 656.7352786785341,
+      "route": 2,
+      "kind": "pass",
+      "routePosition": 720.431712,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/4123497315",
+      "cityStopIds": [
+        "node-4123497315",
+        "node-4123497314"
+      ],
+      "searchAliases": [
+        "Рынок «Луч»"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-2-node-4123497312",
+      "name": "Ледовый дворец",
+      "lat": 56.0489537,
+      "lon": 92.8954552,
+      "x": 753.6245327645447,
+      "y": 632.4163641880732,
+      "route": 2,
+      "kind": "pass",
+      "routePosition": 749.494834,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/4123497312",
+      "cityStopIds": [
+        "node-4123497312"
+      ],
+      "searchAliases": [
+        "Ледовый дворец"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-2-node-4123497310",
+      "name": "ТРЦ Планета (улица 9 Мая)",
+      "lat": 56.052184,
+      "lon": 92.9018047,
+      "x": 772.1187919644872,
+      "y": 615.5683998821769,
+      "route": 2,
+      "kind": "pass",
+      "routePosition": 774.52008,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/4123497310",
+      "cityStopIds": [
+        "node-4123497310"
+      ],
+      "searchAliases": [
+        "ТРЦ Планета (улица 9 Мая)"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-2-node-1056781475",
+      "name": "Дом Куприяна",
+      "lat": 56.0558958,
+      "lon": 92.9092108,
+      "x": 793.6906217243522,
+      "y": 596.2073801707011,
+      "route": 2,
+      "kind": "pass",
+      "routePosition": 803.501601,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/1056781475",
+      "cityStopIds": [
+        "node-1056781475",
+        "node-1056781505"
+      ],
+      "searchAliases": [
+        "Дом Куприяна"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-2-node-1015339937",
+      "name": "1-й микрорайон",
+      "lat": 56.0586428,
+      "lon": 92.9148274,
+      "x": 810.0501549510518,
+      "y": 581.877627789625,
+      "route": 2,
+      "kind": "pass",
+      "routePosition": 825.253023,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/1015339937",
+      "cityStopIds": [
+        "node-1015339937",
+        "node-1015339939"
+      ],
+      "searchAliases": [
+        "1-й микрорайон"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-2-node-2135230141",
+      "name": "Детская поликлиника",
+      "lat": 56.0608244,
+      "lon": 92.9189269,
+      "x": 821.9908141510095,
+      "y": 570.4965627503698,
+      "route": 2,
+      "kind": "pass",
+      "routePosition": 841.745531,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/2135230141",
+      "cityStopIds": [
+        "node-2135230141"
+      ],
+      "searchAliases": [
+        "Детская поликлиника"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-2-node-858214752",
+      "name": "Улица Урванцева",
+      "lat": 56.0643176,
+      "lon": 92.9259213,
+      "x": 842.3634807467461,
+      "y": 552.2717451221542,
+      "route": 2,
+      "kind": "pass",
+      "routePosition": 869.067883,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/858214752",
+      "cityStopIds": [
+        "node-858214752"
+      ],
+      "searchAliases": [
+        "Улица Урванцева"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-2-node-1096164458",
+      "name": "Микрорайон Северный",
+      "lat": 56.0672668,
+      "lon": 92.931755,
+      "x": 859.3553635556018,
+      "y": 536.8838133873069,
+      "route": 2,
+      "kind": "pass",
+      "routePosition": 892.010835,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/1096164458",
+      "cityStopIds": [
+        "node-1096164458"
+      ],
+      "searchAliases": [
+        "Микрорайон Северный"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-2-node-2027449483",
+      "name": "Школа № 147",
+      "lat": 56.0690086,
+      "lon": 92.9352048,
+      "x": 869.4036343466723,
+      "y": 527.795134989894,
+      "route": 2,
+      "kind": "pass",
+      "routePosition": 905.557334,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/2027449483",
+      "cityStopIds": [
+        "node-2027449483"
+      ],
+      "searchAliases": [
+        "Школа № 147"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-2-node-9901552931",
+      "name": "База КПС",
+      "lat": 56.0795869,
+      "lon": 92.9357699,
+      "x": 871.0496073954273,
+      "y": 472.58894916943973,
+      "route": 2,
+      "kind": "pass",
+      "routePosition": 970.705172,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/9901552931",
+      "cityStopIds": [
+        "node-9901552931"
+      ],
+      "searchAliases": [
+        "База КПС"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-2-node-9901552932",
+      "name": "Кладбище Бадалык",
+      "lat": 56.0856497,
+      "lon": 92.9341291,
+      "x": 866.2704310044646,
+      "y": 440.9414874605718,
+      "route": 2,
+      "kind": "pass",
+      "routePosition": 1004.740506,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/9901552932",
+      "cityStopIds": [
+        "node-9901552932",
+        "node-12290135176"
+      ],
+      "searchAliases": [
+        "Кладбище Бадалык"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-2-node-12290135179",
+      "name": "Бадалык",
+      "lat": 56.093347,
+      "lon": 92.9333578,
+      "x": 864.0238569244975,
+      "y": 400.75485438032774,
+      "route": 2,
+      "kind": "pass",
+      "routePosition": 1047.426055,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/12290135179",
+      "cityStopIds": [
+        "node-12290135179",
+        "node-12290135181"
+      ],
+      "searchAliases": [
+        "Бадалык"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-2-node-6007819986",
+      "name": "Деревня Бадалык",
+      "lat": 56.1003933,
+      "lon": 92.9264228,
+      "x": 843.8242053688737,
+      "y": 363.9599676525104,
+      "route": 2,
+      "kind": "pass",
+      "routePosition": 1089.419272,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/6007819986",
+      "cityStopIds": [
+        "node-6007819986"
+      ],
+      "searchAliases": [
+        "Деревня Бадалык"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-2-node-2320787605",
+      "name": "АЗС (ж/м Солнечный)",
+      "lat": 56.1140581,
+      "lon": 92.9414303,
+      "x": 887.5367173688719,
+      "y": 292.58491452713497,
+      "route": 2,
+      "kind": "pass",
+      "routePosition": 1186.92436,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/2320787605",
+      "cityStopIds": [
+        "node-2320787605",
+        "node-2320787606"
+      ],
+      "searchAliases": [
+        "АЗС (ж/м Солнечный)"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-2-node-5341417889",
+      "name": "Старцево",
+      "lat": 56.1675973,
+      "lon": 92.9724255,
+      "x": 977.8167807999998,
+      "y": 12.690328470198438,
+      "route": 2,
+      "kind": "pass",
+      "routePosition": 1482.00222,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/5341417889",
+      "cityStopIds": [
+        "node-5341417889"
+      ],
+      "searchAliases": [
+        "Старцево"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-2-node-5341417888",
+      "name": "Старцево",
+      "lat": 56.1674664,
+      "lon": 92.9717025,
+      "x": 975.7108906666981,
+      "y": 13.375128894811496,
+      "route": 2,
+      "kind": "pass",
+      "routePosition": 1582.88538,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/5341417888",
+      "cityStopIds": [
+        "node-5341417888"
+      ],
+      "searchAliases": [
+        "Старцево"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-3-node-8543930898",
+      "name": "Платинум Арена",
+      "lat": 55.9807939,
+      "lon": 92.8077828,
+      "x": 498.26015914662275,
+      "y": 987.5823770278366,
+      "route": 3,
+      "kind": "pass",
+      "routePosition": 17.67585,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/8543930898",
+      "cityStopIds": [
+        "node-8543930898",
+        "node-8543930899"
+      ],
+      "searchAliases": [
+        "Платинум Арена"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-3-node-4048848562",
+      "name": "Магазин (улица Свердловская)",
+      "lat": 55.9769736,
+      "lon": 92.8239891,
+      "x": 545.4644292267039,
+      "y": 1007.4706021872116,
+      "route": 3,
+      "kind": "pass",
+      "routePosition": 92.881461,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/4048848562",
+      "cityStopIds": [
+        "node-4048848562",
+        "node-4048848561"
+      ],
+      "searchAliases": [
+        "Магазин (улица Свердловская)"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-3-node-9091159067",
+      "name": "Улица Свердловская, д. 73",
+      "lat": 55.9773858,
+      "lon": 92.8293227,
+      "x": 560.9996652089758,
+      "y": 1005.3248112190049,
+      "route": 3,
+      "kind": "pass",
+      "routePosition": 108.5192,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/9091159067",
+      "cityStopIds": [
+        "node-9091159067",
+        "node-9091159066"
+      ],
+      "searchAliases": [
+        "Улица Свердловская, д. 73"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-3-node-3011936217",
+      "name": "Станция Енисей",
+      "lat": 55.978867,
+      "lon": 92.8426859,
+      "x": 599.922806328861,
+      "y": 997.6139345180709,
+      "route": 3,
+      "kind": "pass",
+      "routePosition": 148.204914,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/3011936217",
+      "cityStopIds": [
+        "node-3011936217",
+        "node-3190963815"
+      ],
+      "searchAliases": [
+        "Станция Енисей"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-3-node-12112143993",
+      "name": "Юбилейная (улица Свердловская)",
+      "lat": 55.9803278,
+      "lon": 92.856047,
+      "x": 638.839830755489,
+      "y": 990.008967535221,
+      "route": 3,
+      "kind": "pass",
+      "routePosition": 187.860436,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/12112143993",
+      "cityStopIds": [
+        "node-12112143993",
+        "node-12112143994"
+      ],
+      "searchAliases": [
+        "Юбилейная (улица Свердловская)"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-3-node-12112143997",
+      "name": "Хлебозавод (улица Свердловская)",
+      "lat": 55.9812984,
+      "lon": 92.8628446,
+      "x": 658.6392758045113,
+      "y": 984.9558370730374,
+      "route": 3,
+      "kind": "pass",
+      "routePosition": 208.356273,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/12112143997",
+      "cityStopIds": [
+        "node-12112143997",
+        "node-12112143995"
+      ],
+      "searchAliases": [
+        "Хлебозавод (улица Свердловская)"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-3-node-12112143992",
+      "name": "Художественное училище",
+      "lat": 55.9830626,
+      "lon": 92.8802745,
+      "x": 709.4075391999213,
+      "y": 975.7707474665367,
+      "route": 3,
+      "kind": "pass",
+      "routePosition": 260.159887,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/12112143992",
+      "cityStopIds": [
+        "node-12112143992",
+        "node-12112143996"
+      ],
+      "searchAliases": [
+        "Художественное училище"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-3-node-3158893384",
+      "name": "Улица Матросова",
+      "lat": 55.9873616,
+      "lon": 92.8873553,
+      "x": 730.031864035409,
+      "y": 953.3867796678096,
+      "route": 3,
+      "kind": "pass",
+      "routePosition": 301.965027,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/3158893384",
+      "cityStopIds": [
+        "node-3158893384",
+        "node-3158893383"
+      ],
+      "searchAliases": [
+        "Улица Матросова"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-3-node-1012017921",
+      "name": "Предмостная площадь",
+      "lat": 55.9917687,
+      "lon": 92.8880058,
+      "x": 731.9265826132614,
+      "y": 930.4373748375801,
+      "route": 3,
+      "kind": "pass",
+      "routePosition": 326.260309,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/1012017921",
+      "cityStopIds": [
+        "node-1012017921",
+        "node-1116665920"
+      ],
+      "searchAliases": [
+        "Предмостная площадь"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-3-node-3158893379",
+      "name": "Юбилейная",
+      "lat": 55.9944989,
+      "lon": 92.8982411,
+      "x": 761.7390546489041,
+      "y": 916.218898027204,
+      "route": 3,
+      "kind": "pass",
+      "routePosition": 359.944844,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/3158893379",
+      "cityStopIds": [
+        "node-3158893379",
+        "node-5969093679"
+      ],
+      "searchAliases": [
+        "Юбилейная"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-3-node-4754339459",
+      "name": "Правый берег",
+      "lat": 55.9953655,
+      "lon": 92.9018073,
+      "x": 772.1263650133042,
+      "y": 911.7055637403391,
+      "route": 3,
+      "kind": "pass",
+      "routePosition": 371.276309,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/4754339459",
+      "cityStopIds": [
+        "node-4754339459",
+        "node-4754339458"
+      ],
+      "searchAliases": [
+        "Правый берег"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-3-node-1116665900",
+      "name": "Цирк",
+      "lat": 55.9966023,
+      "lon": 92.9071084,
+      "x": 787.5669378843158,
+      "y": 905.2640177794383,
+      "route": 3,
+      "kind": "pass",
+      "routePosition": 388.001865,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/1116665900",
+      "cityStopIds": [
+        "node-1116665900",
+        "node-1116665931"
+      ],
+      "searchAliases": [
+        "Цирк"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-3-node-3166404584",
+      "name": "Затон",
+      "lat": 55.998632,
+      "lon": 92.9154286,
+      "x": 811.8012768711196,
+      "y": 894.6924149937695,
+      "route": 3,
+      "kind": "pass",
+      "routePosition": 414.435111,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/3166404584",
+      "cityStopIds": [
+        "node-3166404584",
+        "node-3166404585"
+      ],
+      "searchAliases": [
+        "Затон"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-3-node-2965764011",
+      "name": "Торговый центр",
+      "lat": 56.0028257,
+      "lon": 92.9327894,
+      "x": 862.3682719288627,
+      "y": 872.847955060075,
+      "route": 3,
+      "kind": "pass",
+      "routePosition": 469.526166,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/2965764011",
+      "cityStopIds": [
+        "node-2965764011",
+        "node-2965764012"
+      ],
+      "searchAliases": [
+        "Торговый центр"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-3-node-2964257051",
+      "name": "Дом дружбы народов «Родина»",
+      "lat": 56.004763,
+      "lon": 92.9407716,
+      "x": 885.6181145600276,
+      "y": 862.7560005952837,
+      "route": 3,
+      "kind": "pass",
+      "routePosition": 494.881883,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/2964257051",
+      "cityStopIds": [
+        "node-2964257051",
+        "node-2964257052"
+      ],
+      "searchAliases": [
+        "Дом дружбы народов «Родина»"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-3-node-2968586471",
+      "name": "Краевая детская библиотека",
+      "lat": 56.007089,
+      "lon": 92.9505024,
+      "x": 913.9611238400685,
+      "y": 850.6385272430489,
+      "route": 3,
+      "kind": "pass",
+      "routePosition": 525.703628,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/2968586471",
+      "cityStopIds": [
+        "node-2968586471",
+        "node-2968586470"
+      ],
+      "searchAliases": [
+        "Краевая детская библиотека"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-3-node-5996193834",
+      "name": "Возрождение Кредит",
+      "lat": 56.0082516,
+      "lon": 92.9552112,
+      "x": 927.676497920067,
+      "y": 844.5816009573173,
+      "route": 3,
+      "kind": "pass",
+      "routePosition": 540.694855,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/5996193834",
+      "cityStopIds": [
+        "node-5996193834"
+      ],
+      "searchAliases": [
+        "Возрождение Кредит"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-3-node-2167415594",
+      "name": "Поликлиника",
+      "lat": 56.0120472,
+      "lon": 92.9594422,
+      "x": 940.0001786311623,
+      "y": 824.8059732975671,
+      "route": 3,
+      "kind": "pass",
+      "routePosition": 592.408082,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/2167415594",
+      "cityStopIds": [
+        "node-2167415594",
+        "node-2167415593"
+      ],
+      "searchAliases": [
+        "Поликлиника"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-3-node-2135230148",
+      "name": "Октябрьская",
+      "lat": 56.0378087,
+      "lon": 92.9311959,
+      "x": 857.7268667734461,
+      "y": 690.5334377282998,
+      "route": 3,
+      "kind": "pass",
+      "routePosition": 753.62612,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/2135230148",
+      "cityStopIds": [
+        "node-2135230148"
+      ],
+      "searchAliases": [
+        "Октябрьская"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-3-node-2135230150",
+      "name": "Планета",
+      "lat": 56.0511817,
+      "lon": 92.9108649,
+      "x": 798.5085371732712,
+      "y": 620.7961503462866,
+      "route": 3,
+      "kind": "pass",
+      "routePosition": 847.568023,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/2135230150",
+      "cityStopIds": [
+        "node-2135230150"
+      ],
+      "searchAliases": [
+        "Планета"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-3-node-1056781475",
+      "name": "Дом Куприяна",
+      "lat": 56.0558958,
+      "lon": 92.9092108,
+      "x": 793.6906217243522,
+      "y": 596.2073801707011,
+      "route": 3,
+      "kind": "pass",
+      "routePosition": 883.216741,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/1056781475",
+      "cityStopIds": [
+        "node-1056781475",
+        "node-1056781505"
+      ],
+      "searchAliases": [
+        "Дом Куприяна"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-3-node-1015339937",
+      "name": "1-й микрорайон",
+      "lat": 56.0586428,
+      "lon": 92.9148274,
+      "x": 810.0501549510518,
+      "y": 581.877627789625,
+      "route": 3,
+      "kind": "pass",
+      "routePosition": 904.968164,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/1015339937",
+      "cityStopIds": [
+        "node-1015339937",
+        "node-1015339939"
+      ],
+      "searchAliases": [
+        "1-й микрорайон"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-3-node-2135230141",
+      "name": "Детская поликлиника",
+      "lat": 56.0608244,
+      "lon": 92.9189269,
+      "x": 821.9908141510095,
+      "y": 570.4965627503698,
+      "route": 3,
+      "kind": "pass",
+      "routePosition": 921.460672,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/2135230141",
+      "cityStopIds": [
+        "node-2135230141"
+      ],
+      "searchAliases": [
+        "Детская поликлиника"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-3-node-858214752",
+      "name": "Улица Урванцева",
+      "lat": 56.0643176,
+      "lon": 92.9259213,
+      "x": 842.3634807467461,
+      "y": 552.2717451221542,
+      "route": 3,
+      "kind": "pass",
+      "routePosition": 948.783023,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/858214752",
+      "cityStopIds": [
+        "node-858214752"
+      ],
+      "searchAliases": [
+        "Улица Урванцева"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-3-node-1096164458",
+      "name": "Микрорайон Северный",
+      "lat": 56.0672668,
+      "lon": 92.931755,
+      "x": 859.3553635556018,
+      "y": 536.8838133873069,
+      "route": 3,
+      "kind": "pass",
+      "routePosition": 971.725976,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/1096164458",
+      "cityStopIds": [
+        "node-1096164458"
+      ],
+      "searchAliases": [
+        "Микрорайон Северный"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-3-node-2027449483",
+      "name": "Школа № 147",
+      "lat": 56.0690086,
+      "lon": 92.9352048,
+      "x": 869.4036343466723,
+      "y": 527.795134989894,
+      "route": 3,
+      "kind": "pass",
+      "routePosition": 985.272475,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/2027449483",
+      "cityStopIds": [
+        "node-2027449483"
+      ],
+      "searchAliases": [
+        "Школа № 147"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-3-node-9901552931",
+      "name": "База КПС",
+      "lat": 56.0795869,
+      "lon": 92.9357699,
+      "x": 871.0496073954273,
+      "y": 472.58894916943973,
+      "route": 3,
+      "kind": "pass",
+      "routePosition": 1050.420312,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/9901552931",
+      "cityStopIds": [
+        "node-9901552931"
+      ],
+      "searchAliases": [
+        "База КПС"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-3-node-9901552932",
+      "name": "Кладбище Бадалык",
+      "lat": 56.0856497,
+      "lon": 92.9341291,
+      "x": 866.2704310044646,
+      "y": 440.9414874605718,
+      "route": 3,
+      "kind": "pass",
+      "routePosition": 1084.455646,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/9901552932",
+      "cityStopIds": [
+        "node-9901552932",
+        "node-12290135176"
+      ],
+      "searchAliases": [
+        "Кладбище Бадалык"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-3-node-12290135179",
+      "name": "Бадалык",
+      "lat": 56.093347,
+      "lon": 92.9333578,
+      "x": 864.0238569244975,
+      "y": 400.75485438032774,
+      "route": 3,
+      "kind": "pass",
+      "routePosition": 1127.141195,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/12290135179",
+      "cityStopIds": [
+        "node-12290135179",
+        "node-12290135181"
+      ],
+      "searchAliases": [
+        "Бадалык"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-3-node-6007819986",
+      "name": "Деревня Бадалык",
+      "lat": 56.1003933,
+      "lon": 92.9264228,
+      "x": 843.8242053688737,
+      "y": 363.9599676525104,
+      "route": 3,
+      "kind": "pass",
+      "routePosition": 1169.134412,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/6007819986",
+      "cityStopIds": [
+        "node-6007819986"
+      ],
+      "searchAliases": [
+        "Деревня Бадалык"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-3-node-2320787605",
+      "name": "АЗС (ж/м Солнечный)",
+      "lat": 56.1140581,
+      "lon": 92.9414303,
+      "x": 887.5367173688719,
+      "y": 292.58491452713497,
+      "route": 3,
+      "kind": "pass",
+      "routePosition": 1266.639501,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/2320787605",
+      "cityStopIds": [
+        "node-2320787605",
+        "node-2320787606"
+      ],
+      "searchAliases": [
+        "АЗС (ж/м Солнечный)"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-3-node-5341417889",
+      "name": "Старцево",
+      "lat": 56.1675973,
+      "lon": 92.9724255,
+      "x": 977.8167807999998,
+      "y": 12.690328470198438,
+      "route": 3,
+      "kind": "pass",
+      "routePosition": 1561.71736,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/5341417889",
+      "cityStopIds": [
+        "node-5341417889"
+      ],
+      "searchAliases": [
+        "Старцево"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-3-node-5341417888",
+      "name": "Старцево",
+      "lat": 56.1674664,
+      "lon": 92.9717025,
+      "x": 975.7108906666981,
+      "y": 13.375128894811496,
+      "route": 3,
+      "kind": "pass",
+      "routePosition": 1662.600521,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/5341417888",
+      "cityStopIds": [
+        "node-5341417888"
+      ],
+      "searchAliases": [
+        "Старцево"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-4-node-10030350299",
+      "name": "Автобусный переулок (улица Щорса)",
+      "lat": 55.9879993,
+      "lon": 92.9384271,
+      "x": 878.7892633600859,
+      "y": 950.0662010430824,
+      "route": 4,
+      "kind": "pass",
+      "routePosition": 8.787456,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/10030350299",
+      "cityStopIds": [
+        "node-10030350299"
+      ],
+      "searchAliases": [
+        "Автобусный переулок (улица Щорса)"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-4-node-3118375808",
+      "name": "Мебельный магазин",
+      "lat": 55.9885923,
+      "lon": 92.9425958,
+      "x": 890.9314821688458,
+      "y": 946.9783314121887,
+      "route": 4,
+      "kind": "pass",
+      "routePosition": 21.482447,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/3118375808",
+      "cityStopIds": [
+        "node-3118375808"
+      ],
+      "searchAliases": [
+        "Мебельный магазин"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-4-node-3118375806",
+      "name": "Дом творчества",
+      "lat": 55.9900416,
+      "lon": 92.9488934,
+      "x": 909.2745716621866,
+      "y": 939.4313370492891,
+      "route": 4,
+      "kind": "pass",
+      "routePosition": 41.350777,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/3118375806",
+      "cityStopIds": [
+        "node-3118375806"
+      ],
+      "searchAliases": [
+        "Дом творчества"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-4-node-10030350300",
+      "name": "Рынок «Мави»",
+      "lat": 55.9913791,
+      "lon": 92.9548712,
+      "x": 926.6861761423061,
+      "y": 932.4662720018532,
+      "route": 4,
+      "kind": "pass",
+      "routePosition": 60.08722,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/10030350300",
+      "cityStopIds": [
+        "node-10030350300"
+      ],
+      "searchAliases": [
+        "Рынок «Мави»"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-4-node-10030350301",
+      "name": "Рабочий посёлок",
+      "lat": 55.9925904,
+      "lon": 92.9602897,
+      "x": 942.4687012976501,
+      "y": 926.1581887006178,
+      "route": 4,
+      "kind": "pass",
+      "routePosition": 77.083962,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/10030350301",
+      "cityStopIds": [
+        "node-10030350301"
+      ],
+      "searchAliases": [
+        "Рабочий посёлок"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-4-node-3141769486",
+      "name": "Стадион «Авангард»",
+      "lat": 55.9937014,
+      "lon": 92.965003,
+      "x": 956.1971825778019,
+      "y": 920.3722636130406,
+      "route": 4,
+      "kind": "pass",
+      "routePosition": 91.985824,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/3141769486",
+      "cityStopIds": [
+        "node-3141769486"
+      ],
+      "searchAliases": [
+        "Стадион «Авангард»"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-4-node-3136643310",
+      "name": "Кинотеатр «Металлург»",
+      "lat": 55.9947085,
+      "lon": 92.9696236,
+      "x": 969.655655537732,
+      "y": 915.127290795499,
+      "route": 4,
+      "kind": "pass",
+      "routePosition": 106.437478,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/3136643310",
+      "cityStopIds": [
+        "node-3136643310",
+        "node-3136643311"
+      ],
+      "searchAliases": [
+        "Кинотеатр «Металлург»",
+        "Кинотеатр Металлург"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-4-node-9084345027",
+      "name": "Детский Кинотеатр «Мечта»",
+      "lat": 55.9944984,
+      "lon": 92.971662,
+      "x": 975.5929258666001,
+      "y": 916.2215020449948,
+      "route": 4,
+      "kind": "pass",
+      "routePosition": 115.624177,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/9084345027",
+      "cityStopIds": [
+        "node-9084345027",
+        "node-1607474639"
+      ],
+      "searchAliases": [
+        "Детский Кинотеатр «Мечта»"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-4-node-9084345020",
+      "name": "Учкомбинат",
+      "lat": 55.9909473,
+      "lon": 92.9744438,
+      "x": 983.69550563558,
+      "y": 934.7149077526992,
+      "route": 4,
+      "kind": "pass",
+      "routePosition": 135.822349,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/9084345020",
+      "cityStopIds": [
+        "node-9084345020",
+        "node-9084345022"
+      ],
+      "searchAliases": [
+        "Учкомбинат"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-4-node-9084341700",
+      "name": "Метро",
+      "lat": 55.9890577,
+      "lon": 92.9820324,
+      "x": 1005.7989051733166,
+      "y": 944.5548673371086,
+      "route": 4,
+      "kind": "pass",
+      "routePosition": 172.21377,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/9084341700",
+      "cityStopIds": [
+        "node-9084341700",
+        "node-4815712534"
+      ],
+      "searchAliases": [
+        "Метро"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-4-node-9084341702",
+      "name": "Образцово",
+      "lat": 55.990115,
+      "lon": 92.987595,
+      "x": 1022.0011520000407,
+      "y": 939.0491109435097,
+      "route": 4,
+      "kind": "pass",
+      "routePosition": 189.331193,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/9084341702",
+      "cityStopIds": [
+        "node-9084341702",
+        "node-9084341703"
+      ],
+      "searchAliases": [
+        "Образцово"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-4-node-9084341708",
+      "name": "Вторчермет",
+      "lat": 55.9922787,
+      "lon": 92.9983111,
+      "x": 1053.2140555378282,
+      "y": 927.7814467232674,
+      "route": 4,
+      "kind": "pass",
+      "routePosition": 222.496094,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/9084341708",
+      "cityStopIds": [
+        "node-9084341708",
+        "node-9084341706"
+      ],
+      "searchAliases": [
+        "Вторчермет"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-4-node-8886600206",
+      "name": "Посёлок Инициаторов",
+      "lat": 55.9938235,
+      "lon": 93.0053869,
+      "x": 1073.823816817836,
+      "y": 919.7363745751209,
+      "route": 4,
+      "kind": "pass",
+      "routePosition": 244.624179,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/8886600206",
+      "cityStopIds": [
+        "node-8886600206",
+        "node-8886600207"
+      ],
+      "searchAliases": [
+        "Посёлок Инициаторов"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-4-node-14101018118",
+      "name": "Библиотека им. Шевченко",
+      "lat": 55.99478,
+      "lon": 93.0101409,
+      "x": 1087.6708454400068,
+      "y": 914.7549138829345,
+      "route": 4,
+      "kind": "pass",
+      "routePosition": 259.322216,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/14101018118",
+      "cityStopIds": [
+        "node-14101018118",
+        "node-14101018121",
+        "node-14101018120",
+        "node-14101018119"
+      ],
+      "searchAliases": [
+        "Библиотека им. Шевченко"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-4-node-12329570974",
+      "name": "Кинотеатр «Звёздный»",
+      "lat": 55.9987146,
+      "lon": 93.0260946,
+      "x": 1134.1393646931974,
+      "y": 894.2621847862611,
+      "route": 4,
+      "kind": "pass",
+      "routePosition": 310.11393,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/12329570974",
+      "cityStopIds": [
+        "node-12329570974",
+        "node-8886600620"
+      ],
+      "searchAliases": [
+        "Кинотеатр «Звёздный»"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-4-node-8761049805",
+      "name": "Посёлок Энергетиков",
+      "lat": 56.0012094,
+      "lon": 93.03373,
+      "x": 1156.3790791110368,
+      "y": 881.2673408014816,
+      "route": 4,
+      "kind": "pass",
+      "routePosition": 336.559046,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/8761049805",
+      "cityStopIds": [
+        "node-8761049805",
+        "node-8761049813"
+      ],
+      "searchAliases": [
+        "Посёлок Энергетиков"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-4-node-8886600650",
+      "name": "Мостоотряд",
+      "lat": 56.0070905,
+      "lon": 93.0345294,
+      "x": 1158.7075003733626,
+      "y": 850.6307126439642,
+      "route": 4,
+      "kind": "pass",
+      "routePosition": 367.282558,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/8886600650",
+      "cityStopIds": [
+        "node-8886600650",
+        "node-8886600649",
+        "node-12361788242"
+      ],
+      "searchAliases": [
+        "Мостоотряд"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-4-node-8886600652",
+      "name": "Шинный завод",
+      "lat": 56.0127949,
+      "lon": 93.0316743,
+      "x": 1150.3914188800845,
+      "y": 820.9101185392356,
+      "route": 4,
+      "kind": "pass",
+      "routePosition": 398.385091,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/8886600652",
+      "cityStopIds": [
+        "node-8886600652",
+        "node-8886600651"
+      ],
+      "searchAliases": [
+        "Шинный завод"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-4-node-8886600654",
+      "name": "Шинный перекресток",
+      "lat": 56.0188179,
+      "lon": 93.0293625,
+      "x": 1143.6578133333242,
+      "y": 789.5248170681298,
+      "route": 4,
+      "kind": "pass",
+      "routePosition": 436.714181,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/8886600654",
+      "cityStopIds": [
+        "node-8886600654",
+        "node-8886600653"
+      ],
+      "searchAliases": [
+        "Шинный перекресток"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-4-node-8883435595",
+      "name": "Рынок (улица 26 Бакинских комиссаров)",
+      "lat": 56.0288502,
+      "lon": 93.0201938,
+      "x": 1116.9520389689133,
+      "y": 737.2365519008599,
+      "route": 4,
+      "kind": "pass",
+      "routePosition": 519.671567,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/8883435595",
+      "cityStopIds": [
+        "node-8883435595"
+      ],
+      "searchAliases": [
+        "Рынок (улица 26 Бакинских комиссаров)"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-4-node-8883435594",
+      "name": "ДК \"Химик\"",
+      "lat": 56.0308637,
+      "lon": 93.0232521,
+      "x": 1125.8599833599292,
+      "y": 726.740569231566,
+      "route": 4,
+      "kind": "pass",
+      "routePosition": 533.871537,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/8883435594",
+      "cityStopIds": [
+        "node-8883435594",
+        "node-8883435593"
+      ],
+      "searchAliases": [
+        "ДК \"Химик\""
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-4-node-12958914490",
+      "name": "Улица Рейдовая",
+      "lat": 56.04291,
+      "lon": 93.0219974,
+      "x": 1122.2054047290003,
+      "y": 663.9341189517872,
+      "route": 4,
+      "kind": "pass",
+      "routePosition": 615.660003,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/12958914490",
+      "cityStopIds": [
+        "node-12958914490",
+        "node-8883435583",
+        "node-8883435582"
+      ],
+      "searchAliases": [
+        "Улица Рейдовая"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-4-node-8883435580",
+      "name": "1-я Фестивальная",
+      "lat": 56.0508215,
+      "lon": 93.0182269,
+      "x": 1111.2230274844915,
+      "y": 622.6748318382306,
+      "route": 4,
+      "kind": "pass",
+      "routePosition": 658.722959,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/8883435580",
+      "cityStopIds": [
+        "node-8883435580",
+        "node-8883435581"
+      ],
+      "searchAliases": [
+        "1-я Фестивальная"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-4-node-8883435579",
+      "name": "2-я Фестивальная",
+      "lat": 56.0530709,
+      "lon": 93.0188634,
+      "x": 1113.076968106674,
+      "y": 610.9424341671402,
+      "route": 4,
+      "kind": "pass",
+      "routePosition": 670.624877,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/8883435579",
+      "cityStopIds": [
+        "node-8883435579",
+        "node-8883435578"
+      ],
+      "searchAliases": [
+        "2-я Фестивальная"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-4-node-12346454945",
+      "name": "Гараж",
+      "lat": 56.0553436,
+      "lon": 93.0204956,
+      "x": 1117.8310951822205,
+      "y": 599.0878136592219,
+      "route": 4,
+      "kind": "pass",
+      "routePosition": 684.181381,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/12346454945",
+      "cityStopIds": [
+        "node-12346454945",
+        "node-12346454946"
+      ],
+      "searchAliases": [
+        "Гараж"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-4-node-12346602103",
+      "name": "СНТ «Алюминий»",
+      "lat": 56.0722927,
+      "lon": 92.9711052,
+      "x": 973.9711283200886,
+      "y": 510.65764806303196,
+      "route": 4,
+      "kind": "pass",
+      "routePosition": 908.895326,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/12346602103",
+      "cityStopIds": [
+        "node-12346602103",
+        "node-12346602104"
+      ],
+      "searchAliases": [
+        "СНТ «Алюминий»"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-4-node-12558946674",
+      "name": "Улица Водопроводная",
+      "lat": 56.0684722,
+      "lon": 92.9597975,
+      "x": 941.0350648888852,
+      "y": 530.5941034808056,
+      "route": 4,
+      "kind": "pass",
+      "routePosition": 947.36781,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/12558946674",
+      "cityStopIds": [
+        "node-12558946674",
+        "node-12558946675"
+      ],
+      "searchAliases": [
+        "Улица Водопроводная"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-4-node-2334326566",
+      "name": "Дымов",
+      "lat": 56.0701898,
+      "lon": 92.9472841,
+      "x": 904.587145671132,
+      "y": 521.6314227543189,
+      "route": 4,
+      "kind": "pass",
+      "routePosition": 1002.088183,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/2334326566",
+      "cityStopIds": [
+        "node-2334326566"
+      ],
+      "searchAliases": [
+        "Дымов"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-4-node-9901552931",
+      "name": "База КПС",
+      "lat": 56.0795869,
+      "lon": 92.9357699,
+      "x": 871.0496073954273,
+      "y": 472.58894916943973,
+      "route": 4,
+      "kind": "pass",
+      "routePosition": 1073.957283,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/9901552931",
+      "cityStopIds": [
+        "node-9901552931"
+      ],
+      "searchAliases": [
+        "База КПС"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-4-node-9901552932",
+      "name": "Кладбище Бадалык",
+      "lat": 56.0856497,
+      "lon": 92.9341291,
+      "x": 866.2704310044646,
+      "y": 440.9414874605718,
+      "route": 4,
+      "kind": "pass",
+      "routePosition": 1107.992617,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/9901552932",
+      "cityStopIds": [
+        "node-9901552932",
+        "node-12290135176"
+      ],
+      "searchAliases": [
+        "Кладбище Бадалык"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-4-node-12290135179",
+      "name": "Бадалык",
+      "lat": 56.093347,
+      "lon": 92.9333578,
+      "x": 864.0238569244975,
+      "y": 400.75485438032774,
+      "route": 4,
+      "kind": "pass",
+      "routePosition": 1150.678166,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/12290135179",
+      "cityStopIds": [
+        "node-12290135179",
+        "node-12290135181"
+      ],
+      "searchAliases": [
+        "Бадалык"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-4-node-6007819986",
+      "name": "Деревня Бадалык",
+      "lat": 56.1003933,
+      "lon": 92.9264228,
+      "x": 843.8242053688737,
+      "y": 363.9599676525104,
+      "route": 4,
+      "kind": "pass",
+      "routePosition": 1192.671383,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/6007819986",
+      "cityStopIds": [
+        "node-6007819986"
+      ],
+      "searchAliases": [
+        "Деревня Бадалык"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-4-node-2320787605",
+      "name": "АЗС (ж/м Солнечный)",
+      "lat": 56.1140581,
+      "lon": 92.9414303,
+      "x": 887.5367173688719,
+      "y": 292.58491452713497,
+      "route": 4,
+      "kind": "pass",
+      "routePosition": 1290.176472,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/2320787605",
+      "cityStopIds": [
+        "node-2320787605",
+        "node-2320787606"
+      ],
+      "searchAliases": [
+        "АЗС (ж/м Солнечный)"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-4-node-5341417889",
+      "name": "Старцево",
+      "lat": 56.1675973,
+      "lon": 92.9724255,
+      "x": 977.8167807999998,
+      "y": 12.690328470198438,
+      "route": 4,
+      "kind": "pass",
+      "routePosition": 1585.254331,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/5341417889",
+      "cityStopIds": [
+        "node-5341417889"
+      ],
+      "searchAliases": [
+        "Старцево"
+      ],
+      "morning": null,
+      "evening": null
+    },
+    {
+      "id": "city-4-node-5341417888",
+      "name": "Старцево",
+      "lat": 56.1674664,
+      "lon": 92.9717025,
+      "x": 975.7108906666981,
+      "y": 13.375128894811496,
+      "route": 4,
+      "kind": "pass",
+      "routePosition": 1686.137492,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/5341417888",
+      "cityStopIds": [
+        "node-5341417888"
+      ],
+      "searchAliases": [
+        "Старцево"
+      ],
+      "morning": null,
+      "evening": null
     }
   ],
   "walks": [],
   "revision": "magistral-20261020-mira-direct",
-  "updatedAt": "2026-10-20T04:41:16.006Z"
+  "updatedAt": "2026-10-20T05:26:32.607Z",
+  "cityStops": {
+    "source": "OpenStreetMap",
+    "catalogueUpdatedAt": "2026-10-14T01:37:26Z",
+    "maxDistanceMetres": 30,
+    "deduplicateWithinMetres": 260,
+    "note": "Названия городских остановок вдоль линии. Площадки одного названия объединены. Посадка назначена только в точках boarding."
+  }
 }
