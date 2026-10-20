@@ -46315,9 +46315,9 @@
       "id": 3,
       "title": "Тихие Зори · Красраб",
       "color": "#de4c2f",
-      "corridor": "Тихие Зори → Лесников → съезд на Свердловскую → Свердловская → Матросова → Красноярский Рабочий → Мичурина → Октябрьский мост → Авиаторов → 9 Мая → Енисейский тракт",
-      "distanceKm": 36.354299999999995,
-      "driveMin": 47.059999999999995,
+      "corridor": "Тихие Зори → Лесников → съезд на Свердловскую → Свердловская → Матросова → Красноярский Рабочий → Мичурина → Октябрьский мост → Авиаторов → Северное шоссе → Енисейский тракт",
+      "distanceKm": 37.65409999999999,
+      "driveMin": 48.51333333333333,
       "start": {
         "name": "Микрорайон Тихие Зори",
         "lon": 92.8017993,
@@ -46329,15 +46329,39 @@
         "driveMin": 4.39,
         "routing": "https://router.project-osrm.org",
         "checkedAt": "2026-10-20"
+      },
+      "northRevision": {
+        "date": "2026-10-20",
+        "description": "Красный участок с рисунка: Авиаторов и Северное шоссе.",
+        "distanceDeltaKm": 1.2998000000000003,
+        "drivingDeltaMinutes": 1.453333333333334,
+        "routing": "https://router.project-osrm.org",
+        "preservedBoardingId": "m3-7",
+        "splice": {
+          "oldStartIndex": 371,
+          "oldEndIndex": 480,
+          "newPointCount": 137
+        },
+        "streets": [
+          "улица Авиаторов",
+          "Северное шоссе",
+          "Енисейский тракт"
+        ],
+        "timing": {
+          "model": "OSRM driving without live traffic; existing gate leg retained",
+          "estimatedMinutesFromLastBoardingToGate": 24.151666666666664,
+          "dayGateSlackMinutes": 21.848333333333336,
+          "nightGateSlackMinutes": 17.848333333333336
+        }
       }
     },
     {
       "id": 4,
       "title": "Щорса · Мост 777",
       "color": "#3936b2",
-      "corridor": "Школа (ул. Щорса) → Щорса → Мичурина → Волжская → Говорова → Глинки → 26 Бакинских Комиссаров → Рейдовая → мост 777 → Ястынская → Енисейский тракт",
-      "distanceKm": 36.8466,
-      "driveMin": 46.81666666666666,
+      "corridor": "Школа (ул. Щорса) → Щорса → Мичурина → Волжская → Говорова → Глинки → 26 Бакинских Комиссаров → Рейдовая → мост 777 → Ястынская → Комсомольский → Краснодарская → Металлургов → Ястынская → Гайдашовка → Беляева → Енисейский тракт",
+      "distanceKm": 48.737500000000004,
+      "driveMin": 62.94166666666666,
       "start": {
         "name": "Школа (улица Щорса)",
         "lon": 92.9354053,
@@ -46349,6 +46373,35 @@
         "driveMin": 7.683333333333334,
         "routing": "https://router.project-osrm.org",
         "checkedAt": "2026-10-20"
+      },
+      "northRevision": {
+        "date": "2026-10-20",
+        "description": "Синий участок с рисунка: Комсомольский, Краснодарская и Металлургов; посадка у платформы Металлургов сохранена перед дополнительным кругом.",
+        "distanceDeltaKm": 11.8909,
+        "drivingDeltaMinutes": 16.124999999999996,
+        "routing": "https://router.project-osrm.org",
+        "preservedBoardingId": "m4-4",
+        "splice": {
+          "oldStartIndex": 479,
+          "oldEndIndex": 608,
+          "newPointCount": 374
+        },
+        "streets": [
+          "Ястынская улица",
+          "Комсомольский проспект",
+          "улица 9 Мая",
+          "Краснодарская улица",
+          "проспект Металлургов",
+          "улица Гайдашовка",
+          "улица Беляева",
+          "Енисейский тракт"
+        ],
+        "timing": {
+          "model": "OSRM driving without live traffic; existing gate leg retained",
+          "estimatedMinutesFromLastBoardingToGate": 38.151666666666664,
+          "dayGateSlackMinutes": 6.848333333333336,
+          "nightGateSlackMinutes": 2.8483333333333363
+        }
       }
     }
   ],
