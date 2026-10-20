@@ -6,3 +6,6 @@ Bounding box: 55.94,92.63,56.26,93.12
 Source: Overpass API, https://overpass-api.de/api/interpreter
 Contains roads, waterways, water areas, railways and settlement names. No raster tiles were downloaded or republished.
 SVG artwork may be reused under CC BY 4.0 with attribution.
+The local-basemap-light-1.json, local-basemap-light-4.json,
+local-basemap-dark-1.json and local-basemap-dark-4.json map fragments
+were rendered locally from this SVG; the same attribution and CC BY 4.0 apply.

@@ -83,6 +83,7 @@
  $('#closeDetail').addEventListener('click',updateJourney);
  document.addEventListener('keydown',event=>{if(event.key==='Escape'&&document.body.dataset.view==='list'){setMobileView('map');$('#search').focus()}});
  const originalRedraw=redraw;redraw=function(){
+  if(mapMotion.active)return;
   originalRedraw();
   for(const point of dots.querySelectorAll('.point')){point.setAttribute('role','button');point.setAttribute('tabindex','0');point.setAttribute('aria-label',point.querySelector('title')?.textContent||'Остановка');point.addEventListener('keydown',event=>{if(event.key==='Enter'||event.key===' '){event.preventDefault();event.stopPropagation();point.dispatchEvent(new MouseEvent('click',{bubbles:true}))}})}
  };
