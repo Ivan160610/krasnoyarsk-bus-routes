@@ -14,7 +14,7 @@
       "day": [
         {
           "route": 1,
-          "hubIndex": 2,
+          "hubIndex": 3,
           "hubName": "1-я Калинина",
           "hubId": "m1-3",
           "boarding": 391,
@@ -46,7 +46,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 4,
+          "hubIndex": 5,
           "hubName": "ул. Шахтеров",
           "hubId": "m2-5",
           "boarding": 409,
@@ -135,7 +135,7 @@
                 56.027876
               ],
               "minutes": 13.96499301750349,
-              "metres": 931.0,
+              "metres": 931,
               "fromName": "ул. Мужества",
               "toName": "ул. Шахтеров"
             }
@@ -145,7 +145,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 414,
@@ -302,7 +302,7 @@
       "night": [
         {
           "route": 1,
-          "hubIndex": 2,
+          "hubIndex": 3,
           "hubName": "1-я Калинина",
           "hubId": "m1-3",
           "boarding": 1116,
@@ -334,7 +334,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 4,
+          "hubIndex": 5,
           "hubName": "ул. Шахтеров",
           "hubId": "m2-5",
           "boarding": 1133,
@@ -371,7 +371,7 @@
               "fromName": "1-я Калинина",
               "toName": "ул. Мужества",
               "minutes": 21.45,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 7,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -423,7 +423,7 @@
                 56.027876
               ],
               "minutes": 13.96499301750349,
-              "metres": 931.0,
+              "metres": 931,
               "fromName": "ул. Мужества",
               "toName": "ул. Шахтеров"
             }
@@ -433,7 +433,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 1138,
@@ -470,7 +470,7 @@
               "fromName": "1-я Калинина",
               "toName": "ул. Мартынова",
               "minutes": 13.750000000000002,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 4,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -510,7 +510,7 @@
               "fromName": "ул. Мартынова",
               "toName": "ул. Молокова",
               "minutes": 14.299999999999997,
-              "waitMinutes": 13.0,
+              "waitMinutes": 13,
               "stopCount": 12,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -600,7 +600,7 @@
       "day": [
         {
           "route": 1,
-          "hubIndex": 2,
+          "hubIndex": 3,
           "hubName": "1-я Калинина",
           "hubId": "m1-3",
           "boarding": 391,
@@ -632,7 +632,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 414,
@@ -789,7 +789,7 @@
       "night": [
         {
           "route": 1,
-          "hubIndex": 2,
+          "hubIndex": 3,
           "hubName": "1-я Калинина",
           "hubId": "m1-3",
           "boarding": 1116,
@@ -821,7 +821,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 4,
+          "hubIndex": 5,
           "hubName": "ул. Шахтеров",
           "hubId": "m2-5",
           "boarding": 1133,
@@ -858,7 +858,7 @@
               "fromName": "2-я Калинина",
               "toName": "ул. Мужества",
               "minutes": 22.549999999999997,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 8,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -914,7 +914,7 @@
                 56.027876
               ],
               "minutes": 13.96499301750349,
-              "metres": 931.0,
+              "metres": 931,
               "fromName": "ул. Мужества",
               "toName": "ул. Шахтеров"
             }
@@ -924,7 +924,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 1138,
@@ -961,7 +961,7 @@
               "fromName": "2-я Калинина",
               "toName": "ул. Мартынова",
               "minutes": 14.85,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 5,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -1005,7 +1005,7 @@
               "fromName": "ул. Мартынова",
               "toName": "ул. Молокова",
               "minutes": 14.299999999999997,
-              "waitMinutes": 13.0,
+              "waitMinutes": 13,
               "stopCount": 12,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -1095,7 +1095,7 @@
       "day": [
         {
           "route": 4,
-          "hubIndex": 2,
+          "hubIndex": 3,
           "hubName": "КрасТЭЦ",
           "hubId": "m4-3",
           "boarding": 397,
@@ -1202,7 +1202,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 5,
+          "hubIndex": 6,
           "hubName": "о. Татышев",
           "hubId": "m3-6",
           "boarding": 408,
@@ -1356,7 +1356,7 @@
       "night": [
         {
           "route": 3,
-          "hubIndex": 4,
+          "hubIndex": 5,
           "hubName": "ул. Мичурина (ул. Московская)",
           "hubId": "m3-5",
           "boarding": 1126,
@@ -1393,7 +1393,7 @@
               "fromName": "2-я Фестивальная",
               "toName": "ул. Мичурина",
               "minutes": 27.499999999999996,
-              "waitMinutes": 10.0,
+              "waitMinutes": 10,
               "stopCount": 17,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -1495,7 +1495,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "Планета (ул.9 Мая)",
           "hubId": "m1-7",
           "boarding": 1138,
@@ -1532,7 +1532,7 @@
               "fromName": "2-я Фестивальная",
               "toName": "Планета (ул.9 Мая)",
               "minutes": 39.60000000000001,
-              "waitMinutes": 10.0,
+              "waitMinutes": 10,
               "stopCount": 22,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -1654,7 +1654,7 @@
         },
         {
           "route": 4,
-          "hubIndex": 2,
+          "hubIndex": 3,
           "hubName": "КрасТЭЦ",
           "hubId": "m4-3",
           "boarding": 1122,
@@ -1691,7 +1691,7 @@
               "fromName": "2-я Фестивальная",
               "toName": "ул. Крылова",
               "minutes": 14.299999999999999,
-              "waitMinutes": 10.0,
+              "waitMinutes": 10,
               "stopCount": 10,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -1770,7 +1770,7 @@
               "fromName": "ул. Крылова",
               "toName": "КрасТЭЦ",
               "minutes": 2.2,
-              "waitMinutes": 10.0,
+              "waitMinutes": 10,
               "stopCount": 2,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -1805,7 +1805,7 @@
       "day": [
         {
           "route": 3,
-          "hubIndex": 2,
+          "hubIndex": 3,
           "hubName": "Студенческая  (ул. Свердловская)",
           "hubId": "m3-3",
           "boarding": 387,
@@ -1837,7 +1837,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 4,
+          "hubIndex": 5,
           "hubName": "ул. Шахтеров",
           "hubId": "m2-5",
           "boarding": 409,
@@ -1931,7 +1931,7 @@
       "night": [
         {
           "route": 3,
-          "hubIndex": 2,
+          "hubIndex": 3,
           "hubName": "Студенческая  (ул. Свердловская)",
           "hubId": "m3-3",
           "boarding": 1112,
@@ -1963,7 +1963,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 4,
+          "hubIndex": 5,
           "hubName": "ул. Шахтеров",
           "hubId": "m2-5",
           "boarding": 1133,
@@ -2000,7 +2000,7 @@
               "fromName": "ХМЗ",
               "toName": "ул. Шахтеров",
               "minutes": 19.800000000000004,
-              "waitMinutes": 15.0,
+              "waitMinutes": 15,
               "stopCount": 9,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -2055,7 +2055,7 @@
         },
         {
           "route": 4,
-          "hubIndex": 0,
+          "hubIndex": 1,
           "hubName": "Поликлиника (ул. Волжская)",
           "hubId": "m4-1",
           "boarding": 1113,
@@ -2092,7 +2092,7 @@
               "fromName": "ул. 60 лет Октября",
               "toName": "Поликлиника (ул. Волжская)",
               "minutes": 28.050000000000008,
-              "waitMinutes": 9.0,
+              "waitMinutes": 9,
               "stopCount": 19,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -2195,7 +2195,7 @@
       "day": [
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 414,
@@ -2255,7 +2255,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "Сибирский институт искусств",
           "hubId": "m2-4",
           "boarding": 403,
@@ -2339,7 +2339,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "Планета (ул.9 Мая)",
           "hubId": "m1-7",
           "boarding": 415,
@@ -2476,7 +2476,7 @@
       "night": [
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 1138,
@@ -2513,7 +2513,7 @@
               "fromName": "Октябрьская",
               "toName": "ул. Авиаторов",
               "minutes": 5.5,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 1,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -2536,7 +2536,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "Планета (ул.9 Мая)",
           "hubId": "m1-7",
           "boarding": 1138,
@@ -2573,7 +2573,7 @@
               "fromName": "Октябрьская",
               "toName": "Дом Куприяна",
               "minutes": 8.8,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 3,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -2619,7 +2619,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "Сибирский институт искусств",
           "hubId": "m2-4",
           "boarding": 1127,
@@ -2656,7 +2656,7 @@
               "fromName": "Октябрьский мост",
               "toName": "Сибирский институт искусств",
               "minutes": 12.100000000000001,
-              "waitMinutes": 12.0,
+              "waitMinutes": 12,
               "stopCount": 7,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -2711,7 +2711,7 @@
       "day": [
         {
           "route": 1,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "ул. 2-я Брянская",
           "hubId": "m1-4",
           "boarding": 396,
@@ -2811,7 +2811,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 0,
+          "hubIndex": 1,
           "hubName": "ул. Курчатова",
           "hubId": "m2-1",
           "boarding": 382,
@@ -2894,7 +2894,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 414,
@@ -3091,7 +3091,7 @@
       "night": [
         {
           "route": 2,
-          "hubIndex": 0,
+          "hubIndex": 1,
           "hubName": "ул. Курчатова",
           "hubId": "m2-1",
           "boarding": 1108,
@@ -3128,7 +3128,7 @@
               "fromName": "БСМП",
               "toName": "ГорДК",
               "minutes": 6.6000000000000005,
-              "waitMinutes": 9.0,
+              "waitMinutes": 9,
               "stopCount": 3,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -3174,7 +3174,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "ул. 2-я Брянская",
           "hubId": "m1-4",
           "boarding": 1121,
@@ -3211,7 +3211,7 @@
               "fromName": "БСМП",
               "toName": "ул. 2-я Брянская",
               "minutes": 30.250000000000004,
-              "waitMinutes": 10.0,
+              "waitMinutes": 10,
               "stopCount": 11,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -3274,7 +3274,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 1138,
@@ -3311,7 +3311,7 @@
               "fromName": "БСМП",
               "toName": "ГорДК",
               "minutes": 6.6000000000000005,
-              "waitMinutes": 9.0,
+              "waitMinutes": 9,
               "stopCount": 3,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -3347,7 +3347,7 @@
               "fromName": "ГорДК",
               "toName": "ул. Авиаторов",
               "minutes": 43.45000000000002,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 29,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -3490,7 +3490,7 @@
       "day": [
         {
           "route": 2,
-          "hubIndex": 4,
+          "hubIndex": 5,
           "hubName": "ул. Шахтеров",
           "hubId": "m2-5",
           "boarding": 409,
@@ -3618,7 +3618,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "ул. 2-я Брянская",
           "hubId": "m1-4",
           "boarding": 396,
@@ -3682,7 +3682,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 414,
@@ -3836,7 +3836,7 @@
       "night": [
         {
           "route": 2,
-          "hubIndex": 4,
+          "hubIndex": 5,
           "hubName": "ул. Шахтеров",
           "hubId": "m2-5",
           "boarding": 1133,
@@ -3873,7 +3873,7 @@
               "fromName": "ул. Робеспьера (пр-т Мира)",
               "toName": "ул. Шахтеров",
               "minutes": 13.200000000000001,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 8,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -3924,7 +3924,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 1138,
@@ -3961,7 +3961,7 @@
               "fromName": "Бизнес-центр «Баланс»",
               "toName": "ул. Авиаторов",
               "minutes": 34.650000000000006,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 22,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -4068,7 +4068,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "ул. 2-я Брянская",
           "hubId": "m1-4",
           "boarding": 1121,
@@ -4105,7 +4105,7 @@
               "fromName": "площадь Изыскателей",
               "toName": "ул. 2-я Брянская",
               "minutes": 7.7,
-              "waitMinutes": 10.0,
+              "waitMinutes": 10,
               "stopCount": 2,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -4140,7 +4140,7 @@
       "day": [
         {
           "route": 2,
-          "hubIndex": 1,
+          "hubIndex": 2,
           "hubName": "Копыловский мост",
           "hubId": "m2-2",
           "boarding": 388,
@@ -4229,7 +4229,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "ул. 2-я Брянская",
           "hubId": "m1-4",
           "boarding": 396,
@@ -4363,7 +4363,7 @@
       "night": [
         {
           "route": 2,
-          "hubIndex": 1,
+          "hubIndex": 2,
           "hubName": "Копыловский мост",
           "hubId": "m2-2",
           "boarding": 1114,
@@ -4385,7 +4385,7 @@
               "fromName": "б-р Ботанический",
               "toName": "Копыловский мост",
               "minutes": 19.8,
-              "waitMinutes": 10.0,
+              "waitMinutes": 10,
               "stopCount": 12,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -4452,7 +4452,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 2,
+          "hubIndex": 3,
           "hubName": "1-я Калинина",
           "hubId": "m1-3",
           "boarding": 1116,
@@ -4474,7 +4474,7 @@
               "fromName": "б-р Ботанический",
               "toName": "Северо-западный район",
               "minutes": 2.2,
-              "waitMinutes": 9.0,
+              "waitMinutes": 9,
               "stopCount": 2,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -4521,7 +4521,7 @@
               "fromName": "Северо-западный район",
               "toName": "1-я Калинина",
               "minutes": 13.749999999999998,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 10,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -4580,7 +4580,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 1138,
@@ -4602,7 +4602,7 @@
               "fromName": "б-р Ботанический",
               "toName": "ул. Авиаторов",
               "minutes": 54.45000000000003,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 36,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -4773,7 +4773,7 @@
       "day": [
         {
           "route": 3,
-          "hubIndex": 5,
+          "hubIndex": 6,
           "hubName": "о. Татышев",
           "hubId": "m3-6",
           "boarding": 408,
@@ -4862,7 +4862,7 @@
                 56.0268
               ],
               "minutes": 3.089998455000772,
-              "metres": 206.0,
+              "metres": 206,
               "fromName": "о. Татышев",
               "toName": "о. Татышев"
             }
@@ -4872,7 +4872,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "Планета (ул.9 Мая)",
           "hubId": "m1-7",
           "boarding": 415,
@@ -4949,7 +4949,7 @@
                 56.055593
               ],
               "minutes": 3.1799984100007945,
-              "metres": 212.0,
+              "metres": 212,
               "fromName": "ул. Воронова",
               "toName": "Военкомат"
             },
@@ -5050,7 +5050,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 2,
+          "hubIndex": 3,
           "hubName": "Площадь Революции",
           "hubId": "m2-3",
           "boarding": 394,
@@ -5192,7 +5192,7 @@
       "night": [
         {
           "route": 1,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "Планета (ул.9 Мая)",
           "hubId": "m1-7",
           "boarding": 1138,
@@ -5229,7 +5229,7 @@
               "fromName": "СПТУ-18",
               "toName": "Планета (ул.9 Мая)",
               "minutes": 21.450000000000003,
-              "waitMinutes": 10.0,
+              "waitMinutes": 10,
               "stopCount": 13,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -5315,7 +5315,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 5,
+          "hubIndex": 6,
           "hubName": "о. Татышев",
           "hubId": "m3-6",
           "boarding": 1132,
@@ -5352,7 +5352,7 @@
               "fromName": "3-й микрорайон",
               "toName": "о. Татышев",
               "minutes": 13.200000000000003,
-              "waitMinutes": 12.0,
+              "waitMinutes": 12,
               "stopCount": 7,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -5404,7 +5404,7 @@
                 56.0268
               ],
               "minutes": 3.089998455000772,
-              "metres": 206.0,
+              "metres": 206,
               "fromName": "о. Татышев",
               "toName": "о. Татышев"
             }
@@ -5414,7 +5414,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "Сибирский институт искусств",
           "hubId": "m2-4",
           "boarding": 1127,
@@ -5450,8 +5450,8 @@
               "fromStopId": "693",
               "fromName": "3-й микрорайон",
               "toName": "Сибирский институт искусств",
-              "minutes": 22.0,
-              "waitMinutes": 12.0,
+              "minutes": 22,
+              "waitMinutes": 12,
               "stopCount": 12,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -5526,7 +5526,7 @@
       "day": [
         {
           "route": 3,
-          "hubIndex": 4,
+          "hubIndex": 5,
           "hubName": "ул. Мичурина (ул. Московская)",
           "hubId": "m3-5",
           "boarding": 402,
@@ -5692,7 +5692,7 @@
         },
         {
           "route": 4,
-          "hubIndex": 2,
+          "hubIndex": 3,
           "hubName": "КрасТЭЦ",
           "hubId": "m4-3",
           "boarding": 397,
@@ -5728,7 +5728,7 @@
               "fromStopId": "382",
               "fromName": "Верхние Черёмушки",
               "toName": "КрасТЭЦ",
-              "minutes": 23.0,
+              "minutes": 23,
               "waitMinutes": 7.094501452749398,
               "stopCount": 11,
               "source": "https://mu-kgt.ru/informing/",
@@ -5807,7 +5807,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "Сибирский институт искусств",
           "hubId": "m2-4",
           "boarding": 403,
@@ -6005,7 +6005,7 @@
       "night": [
         {
           "route": 4,
-          "hubIndex": 2,
+          "hubIndex": 3,
           "hubName": "КрасТЭЦ",
           "hubId": "m4-3",
           "boarding": 1122,
@@ -6042,7 +6042,7 @@
               "fromName": "Верхние Черёмушки",
               "toName": "КрасТЭЦ",
               "minutes": 22.000000000000004,
-              "waitMinutes": 10.0,
+              "waitMinutes": 10,
               "stopCount": 11,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -6120,7 +6120,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 4,
+          "hubIndex": 5,
           "hubName": "ул. Мичурина (ул. Московская)",
           "hubId": "m3-5",
           "boarding": 1126,
@@ -6157,7 +6157,7 @@
               "fromName": "Столовая",
               "toName": "ул. Мичурина (ул. Московская)",
               "minutes": 18.150000000000002,
-              "waitMinutes": 15.0,
+              "waitMinutes": 15,
               "stopCount": 11,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -6235,7 +6235,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "Планета (ул.9 Мая)",
           "hubId": "m1-7",
           "boarding": 1138,
@@ -6272,7 +6272,7 @@
               "fromName": "Столовая",
               "toName": "Завод «СибТяжМаш»",
               "minutes": 11.55,
-              "waitMinutes": 15.0,
+              "waitMinutes": 15,
               "stopCount": 9,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -6332,7 +6332,7 @@
               "fromName": "Завод «СибТяжМаш»",
               "toName": "Дом Куприяна",
               "minutes": 25.3,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 8,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -6406,7 +6406,7 @@
       "day": [
         {
           "route": 3,
-          "hubIndex": 4,
+          "hubIndex": 5,
           "hubName": "ул. Мичурина (ул. Московская)",
           "hubId": "m3-5",
           "boarding": 402,
@@ -6438,7 +6438,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 4,
+          "hubIndex": 5,
           "hubName": "ул. Шахтеров",
           "hubId": "m2-5",
           "boarding": 409,
@@ -6582,7 +6582,7 @@
         },
         {
           "route": 4,
-          "hubIndex": 0,
+          "hubIndex": 1,
           "hubName": "Поликлиника (ул. Волжская)",
           "hubId": "m4-1",
           "boarding": 387,
@@ -6703,7 +6703,7 @@
       "night": [
         {
           "route": 3,
-          "hubIndex": 4,
+          "hubIndex": 5,
           "hubName": "ул. Мичурина (ул. Московская)",
           "hubId": "m3-5",
           "boarding": 1126,
@@ -6735,7 +6735,7 @@
         },
         {
           "route": 4,
-          "hubIndex": 2,
+          "hubIndex": 3,
           "hubName": "КрасТЭЦ",
           "hubId": "m4-3",
           "boarding": 1122,
@@ -6772,7 +6772,7 @@
               "fromName": "Возрождение кредит",
               "toName": "КрасТЭЦ",
               "minutes": 15.4,
-              "waitMinutes": 10.0,
+              "waitMinutes": 10,
               "stopCount": 9,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -6827,7 +6827,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "Планета (ул.9 Мая)",
           "hubId": "m1-7",
           "boarding": 1138,
@@ -6864,7 +6864,7 @@
               "fromName": "Поликлиника",
               "toName": "Дом Куприяна",
               "minutes": 19.8,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 5,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -6926,7 +6926,7 @@
       "day": [
         {
           "route": 2,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "Сибирский институт искусств",
           "hubId": "m2-4",
           "boarding": 403,
@@ -6958,7 +6958,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 414,
@@ -7054,7 +7054,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "Планета (ул.9 Мая)",
           "hubId": "m1-7",
           "boarding": 415,
@@ -7226,7 +7226,7 @@
       "night": [
         {
           "route": 2,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "Сибирский институт искусств",
           "hubId": "m2-4",
           "boarding": 1127,
@@ -7258,7 +7258,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 1138,
@@ -7295,7 +7295,7 @@
               "fromName": "Гостиница «Октябрьская»",
               "toName": "ул. Авиаторов",
               "minutes": 18.700000000000006,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 11,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -7358,7 +7358,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "Планета (ул.9 Мая)",
           "hubId": "m1-7",
           "boarding": 1138,
@@ -7395,7 +7395,7 @@
               "fromName": "Гостиница «Октябрьская»",
               "toName": "Дом Куприяна",
               "minutes": 21.450000000000003,
-              "waitMinutes": 12.0,
+              "waitMinutes": 12,
               "stopCount": 13,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -7489,7 +7489,7 @@
       "day": [
         {
           "route": 2,
-          "hubIndex": 0,
+          "hubIndex": 1,
           "hubName": "ул. Курчатова",
           "hubId": "m2-1",
           "boarding": 382,
@@ -7521,7 +7521,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "ул. 2-я Брянская",
           "hubId": "m1-4",
           "boarding": 396,
@@ -7609,7 +7609,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 414,
@@ -7794,7 +7794,7 @@
       "night": [
         {
           "route": 2,
-          "hubIndex": 0,
+          "hubIndex": 1,
           "hubName": "ул. Курчатова",
           "hubId": "m2-1",
           "boarding": 1108,
@@ -7826,7 +7826,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "ул. 2-я Брянская",
           "hubId": "m1-4",
           "boarding": 1121,
@@ -7863,7 +7863,7 @@
               "fromName": "ГорДК",
               "toName": "ул. 2-я Брянская",
               "minutes": 21.450000000000003,
-              "waitMinutes": 10.0,
+              "waitMinutes": 10,
               "stopCount": 8,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -7914,7 +7914,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 1138,
@@ -7951,7 +7951,7 @@
               "fromName": "ГорДК",
               "toName": "ул. Авиаторов",
               "minutes": 43.45000000000002,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 29,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -8094,7 +8094,7 @@
       "day": [
         {
           "route": 1,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "ул. 2-я Брянская",
           "hubId": "m1-4",
           "boarding": 396,
@@ -8198,7 +8198,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 0,
+          "hubIndex": 1,
           "hubName": "ул. Курчатова",
           "hubId": "m2-1",
           "boarding": 382,
@@ -8285,7 +8285,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 414,
@@ -8486,7 +8486,7 @@
       "night": [
         {
           "route": 2,
-          "hubIndex": 0,
+          "hubIndex": 1,
           "hubName": "ул. Курчатова",
           "hubId": "m2-1",
           "boarding": 1108,
@@ -8523,7 +8523,7 @@
               "fromName": "Краевой госпиталь ветеранов войн",
               "toName": "ул. Курчатова",
               "minutes": 6.6000000000000005,
-              "waitMinutes": 13.0,
+              "waitMinutes": 13,
               "stopCount": 3,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -8554,7 +8554,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "ул. 2-я Брянская",
           "hubId": "m1-4",
           "boarding": 1121,
@@ -8591,7 +8591,7 @@
               "fromName": "Краевой госпиталь ветеранов войн",
               "toName": "ул. 2-я Брянская",
               "minutes": 32.45,
-              "waitMinutes": 10.0,
+              "waitMinutes": 10,
               "stopCount": 12,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -8658,7 +8658,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 1138,
@@ -8695,7 +8695,7 @@
               "fromName": "Краевой госпиталь ветеранов войн",
               "toName": "ГорДК",
               "minutes": 8.8,
-              "waitMinutes": 9.0,
+              "waitMinutes": 9,
               "stopCount": 4,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -8735,7 +8735,7 @@
               "fromName": "ГорДК",
               "toName": "ул. Авиаторов",
               "minutes": 43.45000000000002,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 29,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -8878,7 +8878,7 @@
       "day": [
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 414,
@@ -9009,7 +9009,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "Планета (ул.9 Мая)",
           "hubId": "m1-7",
           "boarding": 415,
@@ -9118,7 +9118,7 @@
                 56.052353
               ],
               "minutes": 8.894995552502223,
-              "metres": 593.0,
+              "metres": 593,
               "fromName": "Дом Куприяна",
               "toName": "Планета (ул.9 Мая)"
             }
@@ -9128,7 +9128,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 4,
+          "hubIndex": 5,
           "hubName": "ул. Шахтеров",
           "hubId": "m2-5",
           "boarding": 409,
@@ -9309,7 +9309,7 @@
       "night": [
         {
           "route": 1,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "Планета (ул.9 Мая)",
           "hubId": "m1-7",
           "boarding": 1138,
@@ -9346,7 +9346,7 @@
               "fromName": "Детская библиотека «Жар-птица»",
               "toName": "Дом Куприяна",
               "minutes": 19.8,
-              "waitMinutes": 12.0,
+              "waitMinutes": 12,
               "stopCount": 12,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -9418,7 +9418,7 @@
                 56.052353
               ],
               "minutes": 8.894995552502223,
-              "metres": 593.0,
+              "metres": 593,
               "fromName": "Дом Куприяна",
               "toName": "Планета (ул.9 Мая)"
             }
@@ -9428,7 +9428,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 1138,
@@ -9465,7 +9465,7 @@
               "fromName": "Детская библиотека «Жар-птица»",
               "toName": "ул. Авиаторов",
               "minutes": 27.5,
-              "waitMinutes": 12.0,
+              "waitMinutes": 12,
               "stopCount": 15,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -9559,7 +9559,7 @@
         },
         {
           "route": 4,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "Железнодорожная платформа «Металлургов»",
           "hubId": "m4-4",
           "boarding": 1139,
@@ -9698,7 +9698,7 @@
       "day": [
         {
           "route": 3,
-          "hubIndex": 4,
+          "hubIndex": 5,
           "hubName": "ул. Мичурина (ул. Московская)",
           "hubId": "m3-5",
           "boarding": 402,
@@ -9781,7 +9781,7 @@
         },
         {
           "route": 4,
-          "hubIndex": 0,
+          "hubIndex": 1,
           "hubName": "Поликлиника (ул. Волжская)",
           "hubId": "m4-1",
           "boarding": 387,
@@ -9880,7 +9880,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "Сибирский институт искусств",
           "hubId": "m2-4",
           "boarding": 403,
@@ -10045,7 +10045,7 @@
       "night": [
         {
           "route": 3,
-          "hubIndex": 4,
+          "hubIndex": 5,
           "hubName": "ул. Мичурина (ул. Московская)",
           "hubId": "m3-5",
           "boarding": 1126,
@@ -10082,7 +10082,7 @@
               "fromName": "Детский кинотеатр «Мечта»",
               "toName": "ул. Мичурина (ул. Московская)",
               "minutes": 6.6000000000000005,
-              "waitMinutes": 10.0,
+              "waitMinutes": 10,
               "stopCount": 3,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -10128,7 +10128,7 @@
         },
         {
           "route": 4,
-          "hubIndex": 0,
+          "hubIndex": 1,
           "hubName": "Поликлиника (ул. Волжская)",
           "hubId": "m4-1",
           "boarding": 1113,
@@ -10165,7 +10165,7 @@
               "fromName": "Детский кинотеатр «Мечта»",
               "toName": "Поликлиника (ул. Волжская)",
               "minutes": 9.899999999999999,
-              "waitMinutes": 9.0,
+              "waitMinutes": 9,
               "stopCount": 7,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -10212,7 +10212,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "Планета (ул.9 Мая)",
           "hubId": "m1-7",
           "boarding": 1138,
@@ -10249,7 +10249,7 @@
               "fromName": "Завод «СибТяжМаш»",
               "toName": "Дом Куприяна",
               "minutes": 25.3,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 8,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -10323,7 +10323,7 @@
       "day": [
         {
           "route": 1,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "Планета (ул.9 Мая)",
           "hubId": "m1-7",
           "boarding": 415,
@@ -10355,7 +10355,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 414,
@@ -10387,7 +10387,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 4,
+          "hubIndex": 5,
           "hubName": "ул. Шахтеров",
           "hubId": "m2-5",
           "boarding": 409,
@@ -10496,7 +10496,7 @@
       "night": [
         {
           "route": 1,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "Планета (ул.9 Мая)",
           "hubId": "m1-7",
           "boarding": 1138,
@@ -10528,7 +10528,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 1138,
@@ -10560,7 +10560,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 4,
+          "hubIndex": 5,
           "hubName": "ул. Шахтеров",
           "hubId": "m2-5",
           "boarding": 1133,
@@ -10597,7 +10597,7 @@
               "fromName": "Дом Куприяна",
               "toName": "ул. Шахтеров",
               "minutes": 14.3,
-              "waitMinutes": 13.0,
+              "waitMinutes": 13,
               "stopCount": 9,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -10675,7 +10675,7 @@
       "day": [
         {
           "route": 1,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "ул. 2-я Брянская",
           "hubId": "m1-4",
           "boarding": 396,
@@ -10783,7 +10783,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 0,
+          "hubIndex": 1,
           "hubName": "ул. Курчатова",
           "hubId": "m2-1",
           "boarding": 382,
@@ -10874,7 +10874,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 414,
@@ -11079,7 +11079,7 @@
       "night": [
         {
           "route": 2,
-          "hubIndex": 0,
+          "hubIndex": 1,
           "hubName": "ул. Курчатова",
           "hubId": "m2-1",
           "boarding": 1108,
@@ -11116,7 +11116,7 @@
               "fromName": "Домик",
               "toName": "ул. Курчатова",
               "minutes": 8.8,
-              "waitMinutes": 13.0,
+              "waitMinutes": 13,
               "stopCount": 4,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -11151,7 +11151,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "ул. 2-я Брянская",
           "hubId": "m1-4",
           "boarding": 1121,
@@ -11188,7 +11188,7 @@
               "fromName": "Домик",
               "toName": "ул. 2-я Брянская",
               "minutes": 33.550000000000004,
-              "waitMinutes": 10.0,
+              "waitMinutes": 10,
               "stopCount": 13,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -11259,7 +11259,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 1138,
@@ -11296,7 +11296,7 @@
               "fromName": "Домик",
               "toName": "Спорткомплекс «Рассвет»",
               "minutes": 8.8,
-              "waitMinutes": 10.0,
+              "waitMinutes": 10,
               "stopCount": 4,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -11336,7 +11336,7 @@
               "fromName": "Спорткомплекс «Рассвет»",
               "toName": "ул. Авиаторов",
               "minutes": 45.65000000000002,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 30,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -11483,7 +11483,7 @@
       "day": [
         {
           "route": 1,
-          "hubIndex": 0,
+          "hubIndex": 1,
           "hubName": "Жилой комплекс «Глобус»",
           "hubId": "m1-1",
           "boarding": 376,
@@ -11515,7 +11515,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 0,
+          "hubIndex": 1,
           "hubName": "ул. Курчатова",
           "hubId": "m2-1",
           "boarding": 382,
@@ -11636,7 +11636,7 @@
       "night": [
         {
           "route": 1,
-          "hubIndex": 0,
+          "hubIndex": 1,
           "hubName": "Жилой комплекс «Глобус»",
           "hubId": "m1-1",
           "boarding": 1103,
@@ -11668,7 +11668,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 1,
+          "hubIndex": 2,
           "hubName": "Копыловский мост",
           "hubId": "m2-2",
           "boarding": 1114,
@@ -11705,7 +11705,7 @@
               "fromName": "Жилой комплекс «Глобус»",
               "toName": "Копыловский мост",
               "minutes": 29.700000000000003,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 17,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -11792,7 +11792,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 1138,
@@ -11829,7 +11829,7 @@
               "fromName": "Жилой комплекс «Глобус»",
               "toName": "театр им. А.С. Пушкина",
               "minutes": 39.60000000000001,
-              "waitMinutes": 12.0,
+              "waitMinutes": 12,
               "stopCount": 26,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -11957,7 +11957,7 @@
               "fromName": "театр им. А.С. Пушкина",
               "toName": "ул. Авиаторов",
               "minutes": 23.100000000000005,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 15,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -12044,7 +12044,7 @@
       "day": [
         {
           "route": 2,
-          "hubIndex": 1,
+          "hubIndex": 2,
           "hubName": "Копыловский мост",
           "hubId": "m2-2",
           "boarding": 388,
@@ -12144,7 +12144,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "ул. 2-я Брянская",
           "hubId": "m1-4",
           "boarding": 396,
@@ -12180,7 +12180,7 @@
               "fromStopId": "649",
               "fromName": "Институт (ул. Киренского)",
               "toName": "ул. Красномосковская",
-              "minutes": 23.0,
+              "minutes": 23,
               "waitMinutes": 14.000000000000057,
               "stopCount": 13,
               "source": "https://mu-kgt.ru/informing/",
@@ -12294,7 +12294,7 @@
       "night": [
         {
           "route": 2,
-          "hubIndex": 1,
+          "hubIndex": 2,
           "hubName": "Копыловский мост",
           "hubId": "m2-2",
           "boarding": 1114,
@@ -12331,7 +12331,7 @@
               "fromName": "Институт (ул. Киренского)",
               "toName": "Копыловский мост",
               "minutes": 15.399999999999999,
-              "waitMinutes": 12.0,
+              "waitMinutes": 12,
               "stopCount": 11,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -12394,7 +12394,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 1138,
@@ -12431,7 +12431,7 @@
               "fromName": "Институт (ул. Киренского)",
               "toName": "ул. Авиаторов",
               "minutes": 53.90000000000003,
-              "waitMinutes": 12.0,
+              "waitMinutes": 12,
               "stopCount": 32,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -12578,7 +12578,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "ул. 2-я Брянская",
           "hubId": "m1-4",
           "boarding": 1121,
@@ -12615,7 +12615,7 @@
               "fromName": "Институт (ул. Киренского)",
               "toName": "Космос",
               "minutes": 24.750000000000004,
-              "waitMinutes": 10.0,
+              "waitMinutes": 10,
               "stopCount": 16,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -12703,7 +12703,7 @@
               "fromName": "Космос",
               "toName": "ул. 2-я Брянская",
               "minutes": 8.8,
-              "waitMinutes": 10.0,
+              "waitMinutes": 10,
               "stopCount": 3,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -12742,7 +12742,7 @@
       "day": [
         {
           "route": 1,
-          "hubIndex": 4,
+          "hubIndex": 5,
           "hubName": "Кардиоцентр",
           "hubId": "m1-5",
           "boarding": 405,
@@ -12774,7 +12774,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 414,
@@ -12846,7 +12846,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "Сибирский институт искусств",
           "hubId": "m2-4",
           "boarding": 403,
@@ -12928,7 +12928,7 @@
       "night": [
         {
           "route": 1,
-          "hubIndex": 4,
+          "hubIndex": 5,
           "hubName": "Кардиоцентр",
           "hubId": "m1-5",
           "boarding": 1130,
@@ -12960,7 +12960,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 4,
+          "hubIndex": 5,
           "hubName": "ул. Шахтеров",
           "hubId": "m2-5",
           "boarding": 1133,
@@ -12997,7 +12997,7 @@
               "fromName": "ул. Караульная",
               "toName": "Енисейский рынок",
               "minutes": 5.5,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 3,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -13043,7 +13043,7 @@
         },
         {
           "route": 4,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "Железнодорожная платформа «Металлургов»",
           "hubId": "m4-4",
           "boarding": 1139,
@@ -13080,7 +13080,7 @@
               "fromName": "Кадастровая палата",
               "toName": "пр-т Комсомольский",
               "minutes": 16.500000000000004,
-              "waitMinutes": 10.0,
+              "waitMinutes": 10,
               "stopCount": 8,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -13198,7 +13198,7 @@
       "day": [
         {
           "route": 2,
-          "hubIndex": 1,
+          "hubIndex": 2,
           "hubName": "Копыловский мост",
           "hubId": "m2-2",
           "boarding": 388,
@@ -13286,7 +13286,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 1,
+          "hubIndex": 2,
           "hubName": "АЗС (ул. Калинина)",
           "hubId": "m1-2",
           "boarding": 382,
@@ -13351,7 +13351,7 @@
                 56.047603
               ],
               "minutes": 7.529996235001882,
-              "metres": 502.0,
+              "metres": 502,
               "fromName": "Миграционный центр",
               "toName": "АЗС (ул. Калинина)"
             }
@@ -13361,7 +13361,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 5,
+          "hubIndex": 6,
           "hubName": "о. Татышев",
           "hubId": "m3-6",
           "boarding": 408,
@@ -13534,7 +13534,7 @@
                 56.0268
               ],
               "minutes": 3.089998455000772,
-              "metres": 206.0,
+              "metres": 206,
               "fromName": "о. Татышев",
               "toName": "о. Татышев"
             }
@@ -13546,7 +13546,7 @@
       "night": [
         {
           "route": 1,
-          "hubIndex": 2,
+          "hubIndex": 3,
           "hubName": "1-я Калинина",
           "hubId": "m1-3",
           "boarding": 1116,
@@ -13583,7 +13583,7 @@
               "fromName": "Кинотеатр «Строитель»",
               "toName": "1-я Калинина",
               "minutes": 17.05,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 12,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -13650,7 +13650,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 1,
+          "hubIndex": 2,
           "hubName": "Копыловский мост",
           "hubId": "m2-2",
           "boarding": 1114,
@@ -13687,7 +13687,7 @@
               "fromName": "Кинотеатр «Строитель»",
               "toName": "Копыловский мост",
               "minutes": 14.3,
-              "waitMinutes": 10.0,
+              "waitMinutes": 10,
               "stopCount": 8,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -13738,7 +13738,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 1138,
@@ -13775,7 +13775,7 @@
               "fromName": "Кинотеатр «Строитель»",
               "toName": "ул. Авиаторов",
               "minutes": 50.05000000000003,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 32,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -13930,7 +13930,7 @@
       "day": [
         {
           "route": 2,
-          "hubIndex": 1,
+          "hubIndex": 2,
           "hubName": "Копыловский мост",
           "hubId": "m2-2",
           "boarding": 388,
@@ -13962,7 +13962,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 5,
+          "hubIndex": 6,
           "hubName": "о. Татышев",
           "hubId": "m3-6",
           "boarding": 408,
@@ -14091,7 +14091,7 @@
                 56.0268
               ],
               "minutes": 3.089998455000772,
-              "metres": 206.0,
+              "metres": 206,
               "fromName": "о. Татышев",
               "toName": "о. Татышев"
             }
@@ -14101,7 +14101,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 2,
+          "hubIndex": 3,
           "hubName": "1-я Калинина",
           "hubId": "m1-3",
           "boarding": 391,
@@ -14222,7 +14222,7 @@
       "night": [
         {
           "route": 2,
-          "hubIndex": 1,
+          "hubIndex": 2,
           "hubName": "Копыловский мост",
           "hubId": "m2-2",
           "boarding": 1114,
@@ -14254,7 +14254,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 1138,
@@ -14291,7 +14291,7 @@
               "fromName": "Копыловский мост",
               "toName": "Планета",
               "minutes": 28.60000000000001,
-              "waitMinutes": 13.0,
+              "waitMinutes": 13,
               "stopCount": 18,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -14397,7 +14397,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "Планета (ул.9 Мая)",
           "hubId": "m1-7",
           "boarding": 1138,
@@ -14434,7 +14434,7 @@
               "fromName": "Копыловский мост",
               "toName": "Дом Куприяна",
               "minutes": 29.70000000000001,
-              "waitMinutes": 13.0,
+              "waitMinutes": 13,
               "stopCount": 19,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -14552,7 +14552,7 @@
       "day": [
         {
           "route": 1,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "ул. 2-я Брянская",
           "hubId": "m1-4",
           "boarding": 396,
@@ -14620,7 +14620,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 4,
+          "hubIndex": 5,
           "hubName": "ул. Шахтеров",
           "hubId": "m2-5",
           "boarding": 409,
@@ -14752,7 +14752,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 414,
@@ -14917,7 +14917,7 @@
       "night": [
         {
           "route": 1,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "ул. 2-я Брянская",
           "hubId": "m1-4",
           "boarding": 1121,
@@ -14954,7 +14954,7 @@
               "fromName": "Космос",
               "toName": "ул. 2-я Брянская",
               "minutes": 8.8,
-              "waitMinutes": 10.0,
+              "waitMinutes": 10,
               "stopCount": 3,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -14985,7 +14985,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 2,
+          "hubIndex": 3,
           "hubName": "Площадь Революции",
           "hubId": "m2-3",
           "boarding": 1120,
@@ -15021,8 +15021,8 @@
               "fromStopId": "544",
               "fromName": "Космос",
               "toName": "площадь Революции (пр-т Мира)",
-              "minutes": 11.0,
-              "waitMinutes": 10.0,
+              "minutes": 11,
+              "waitMinutes": 10,
               "stopCount": 8,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -15088,7 +15088,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 1138,
@@ -15125,7 +15125,7 @@
               "fromName": "Космос",
               "toName": "ул. Авиаторов",
               "minutes": 36.85000000000001,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 24,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -15248,7 +15248,7 @@
       "day": [
         {
           "route": 2,
-          "hubIndex": 4,
+          "hubIndex": 5,
           "hubName": "ул. Шахтеров",
           "hubId": "m2-5",
           "boarding": 409,
@@ -15340,7 +15340,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 5,
+          "hubIndex": 6,
           "hubName": "о. Татышев",
           "hubId": "m3-6",
           "boarding": 408,
@@ -15465,7 +15465,7 @@
                 56.0268
               ],
               "minutes": 3.089998455000772,
-              "metres": 206.0,
+              "metres": 206,
               "fromName": "о. Татышев",
               "toName": "о. Татышев"
             }
@@ -15475,7 +15475,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "Планета (ул.9 Мая)",
           "hubId": "m1-7",
           "boarding": 415,
@@ -15679,7 +15679,7 @@
       "night": [
         {
           "route": 2,
-          "hubIndex": 4,
+          "hubIndex": 5,
           "hubName": "ул. Шахтеров",
           "hubId": "m2-5",
           "boarding": 1133,
@@ -15716,7 +15716,7 @@
               "fromName": "Красная площадь",
               "toName": "ул. Шахтеров",
               "minutes": 14.299999999999999,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 9,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -15771,7 +15771,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 1138,
@@ -15808,7 +15808,7 @@
               "fromName": "Красная площадь",
               "toName": "ул. Авиаторов",
               "minutes": 30.250000000000004,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 19,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -15903,7 +15903,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "Планета (ул.9 Мая)",
           "hubId": "m1-7",
           "boarding": 1138,
@@ -15940,7 +15940,7 @@
               "fromName": "Красная площадь",
               "toName": "Дом Куприяна",
               "minutes": 24.200000000000006,
-              "waitMinutes": 13.0,
+              "waitMinutes": 13,
               "stopCount": 17,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -16050,7 +16050,7 @@
       "day": [
         {
           "route": 1,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "Планета (ул.9 Мая)",
           "hubId": "m1-7",
           "boarding": 415,
@@ -16135,7 +16135,7 @@
                 56.052353
               ],
               "minutes": 6.554996722501638,
-              "metres": 437.0,
+              "metres": 437,
               "fromName": "ул. Петра Ломако",
               "toName": "Планета (ул.9 Мая)"
             }
@@ -16145,7 +16145,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 414,
@@ -16264,7 +16264,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "Сибирский институт искусств",
           "hubId": "m2-4",
           "boarding": 403,
@@ -16374,7 +16374,7 @@
       "night": [
         {
           "route": 1,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "Планета (ул.9 Мая)",
           "hubId": "m1-7",
           "boarding": 1138,
@@ -16410,8 +16410,8 @@
               "fromStopId": "1219",
               "fromName": "ул. Ястынская (пр-т Комсомольский)",
               "toName": "Планета (ул.9 Мая)",
-              "minutes": 11.0,
-              "waitMinutes": 10.0,
+              "minutes": 11,
+              "waitMinutes": 10,
               "stopCount": 7,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -16473,7 +16473,7 @@
         },
         {
           "route": 4,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "Железнодорожная платформа «Металлургов»",
           "hubId": "m4-4",
           "boarding": 1139,
@@ -16560,7 +16560,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 1138,
@@ -16597,7 +16597,7 @@
               "fromName": "ул. Ястынская (пр-т Комсомольский)",
               "toName": "ул. Авиаторов",
               "minutes": 15.399999999999999,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 9,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -16675,7 +16675,7 @@
       "day": [
         {
           "route": 2,
-          "hubIndex": 1,
+          "hubIndex": 2,
           "hubName": "Копыловский мост",
           "hubId": "m2-2",
           "boarding": 388,
@@ -16775,7 +16775,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "ул. 2-я Брянская",
           "hubId": "m1-4",
           "boarding": 396,
@@ -16909,7 +16909,7 @@
       "night": [
         {
           "route": 2,
-          "hubIndex": 1,
+          "hubIndex": 2,
           "hubName": "Копыловский мост",
           "hubId": "m2-2",
           "boarding": 1114,
@@ -16946,7 +16946,7 @@
               "fromName": "Центр \"Свое дело\"",
               "toName": "Копыловский мост",
               "minutes": 18.700000000000003,
-              "waitMinutes": 10.0,
+              "waitMinutes": 10,
               "stopCount": 11,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -17009,7 +17009,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 2,
+          "hubIndex": 3,
           "hubName": "1-я Калинина",
           "hubId": "m1-3",
           "boarding": 1116,
@@ -17046,7 +17046,7 @@
               "fromName": "Северо-западный район",
               "toName": "1-я Калинина",
               "minutes": 13.749999999999998,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 10,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -17105,7 +17105,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 1138,
@@ -17142,7 +17142,7 @@
               "fromName": "Центр \"Свое дело\"",
               "toName": "ул. Авиаторов",
               "minutes": 53.35000000000004,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 35,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -17309,7 +17309,7 @@
       "day": [
         {
           "route": 1,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "Планета (ул.9 Мая)",
           "hubId": "m1-7",
           "boarding": 415,
@@ -17390,7 +17390,7 @@
                 56.052353
               ],
               "minutes": 6.554996722501638,
-              "metres": 437.0,
+              "metres": 437,
               "fromName": "ул. Петра Ломако",
               "toName": "Планета (ул.9 Мая)"
             }
@@ -17400,7 +17400,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 414,
@@ -17499,7 +17499,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 4,
+          "hubIndex": 5,
           "hubName": "ул. Шахтеров",
           "hubId": "m2-5",
           "boarding": 409,
@@ -17624,7 +17624,7 @@
       "night": [
         {
           "route": 1,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "Планета (ул.9 Мая)",
           "hubId": "m1-7",
           "boarding": 1138,
@@ -17661,7 +17661,7 @@
               "fromName": "ул. 9 Мая",
               "toName": "Планета (ул.9 Мая)",
               "minutes": 7.7,
-              "waitMinutes": 10.0,
+              "waitMinutes": 10,
               "stopCount": 5,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -17715,7 +17715,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 1138,
@@ -17752,7 +17752,7 @@
               "fromName": "мкрн. Северный",
               "toName": "ул. Авиаторов",
               "minutes": 12.100000000000001,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 7,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -17814,7 +17814,7 @@
         },
         {
           "route": 4,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "Железнодорожная платформа «Металлургов»",
           "hubId": "m4-4",
           "boarding": 1139,
@@ -17921,7 +17921,7 @@
       "day": [
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 414,
@@ -18060,7 +18060,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "Планета (ул.9 Мая)",
           "hubId": "m1-7",
           "boarding": 415,
@@ -18177,7 +18177,7 @@
                 56.052353
               ],
               "minutes": 8.894995552502223,
-              "metres": 593.0,
+              "metres": 593,
               "fromName": "Дом Куприяна",
               "toName": "Планета (ул.9 Мая)"
             }
@@ -18187,7 +18187,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 4,
+          "hubIndex": 5,
           "hubName": "ул. Шахтеров",
           "hubId": "m2-5",
           "boarding": 409,
@@ -18356,7 +18356,7 @@
       "night": [
         {
           "route": 1,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "Планета (ул.9 Мая)",
           "hubId": "m1-7",
           "boarding": 1138,
@@ -18393,7 +18393,7 @@
               "fromName": "мкрн. Солнечный",
               "toName": "Дом Куприяна",
               "minutes": 22.55,
-              "waitMinutes": 12.0,
+              "waitMinutes": 12,
               "stopCount": 14,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -18473,7 +18473,7 @@
                 56.052353
               ],
               "minutes": 8.894995552502223,
-              "metres": 593.0,
+              "metres": 593,
               "fromName": "Дом Куприяна",
               "toName": "Планета (ул.9 Мая)"
             }
@@ -18483,7 +18483,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 1138,
@@ -18520,7 +18520,7 @@
               "fromName": "мкрн. Солнечный",
               "toName": "ул. Авиаторов",
               "minutes": 30.25,
-              "waitMinutes": 12.0,
+              "waitMinutes": 12,
               "stopCount": 17,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -18622,7 +18622,7 @@
         },
         {
           "route": 4,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "Железнодорожная платформа «Металлургов»",
           "hubId": "m4-4",
           "boarding": 1139,
@@ -18768,8 +18768,58 @@
       "lon": 92.801739,
       "day": [
         {
+          "route": 3,
+          "hubIndex": 0,
+          "hubName": "Микрорайон Тихие Зори",
+          "hubId": "m3-start",
+          "boarding": 370,
+          "departure": 358,
+          "connectionMinutes": 12,
+          "walkingMinutes": 2,
+          "waitingMinutes": 0,
+          "transfers": 0,
+          "scheduleConfirmed": true,
+          "segments": [
+            {
+              "type": "walk",
+              "fromName": "Микрорайон Тихие Зори",
+              "toName": "Микрорайон Тихие Зори",
+              "minutes": 1.4069999999999998,
+              "metres": 93.8,
+              "from": [
+                92.801739,
+                55.980303
+              ],
+              "to": [
+                92.8017993,
+                55.9802206
+              ],
+              "geometry": [
+                [
+                  92.801733,
+                  55.980325
+                ],
+                [
+                  92.801105,
+                  55.980269
+                ],
+                [
+                  92.801143,
+                  55.980158
+                ],
+                [
+                  92.801798,
+                  55.980223
+                ]
+              ]
+            }
+          ],
+          "totalMinutes": 107,
+          "bufferMinutes": 10
+        },
+        {
           "route": 2,
-          "hubIndex": 4,
+          "hubIndex": 5,
           "hubName": "ул. Шахтеров",
           "hubId": "m2-5",
           "boarding": 409,
@@ -18893,7 +18943,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 0,
+          "hubIndex": 1,
           "hubName": "ОАО «Красфарма» (ул. Свердловская)",
           "hubId": "m3-1",
           "boarding": 378,
@@ -18968,6 +19018,56 @@
         {
           "route": 3,
           "hubIndex": 0,
+          "hubName": "Микрорайон Тихие Зори",
+          "hubId": "m3-start",
+          "boarding": 1098,
+          "departure": 1086,
+          "connectionMinutes": 12,
+          "walkingMinutes": 2,
+          "waitingMinutes": 0,
+          "transfers": 0,
+          "scheduleConfirmed": true,
+          "segments": [
+            {
+              "type": "walk",
+              "fromName": "Микрорайон Тихие Зори",
+              "toName": "Микрорайон Тихие Зори",
+              "minutes": 1.4069999999999998,
+              "metres": 93.8,
+              "from": [
+                92.801739,
+                55.980303
+              ],
+              "to": [
+                92.8017993,
+                55.9802206
+              ],
+              "geometry": [
+                [
+                  92.801733,
+                  55.980325
+                ],
+                [
+                  92.801105,
+                  55.980269
+                ],
+                [
+                  92.801143,
+                  55.980158
+                ],
+                [
+                  92.801798,
+                  55.980223
+                ]
+              ]
+            }
+          ],
+          "totalMinutes": 99,
+          "bufferMinutes": 10
+        },
+        {
+          "route": 3,
+          "hubIndex": 1,
           "hubName": "ОАО «Красфарма» (ул. Свердловская)",
           "hubId": "m3-1",
           "boarding": 1105,
@@ -19004,7 +19104,7 @@
               "fromName": "мкрн. Тихие зори",
               "toName": "ОАО «Красфарма» (ул. Свердловская)",
               "minutes": 8.8,
-              "waitMinutes": 10.0,
+              "waitMinutes": 10,
               "stopCount": 4,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -19039,7 +19139,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 4,
+          "hubIndex": 5,
           "hubName": "ул. Шахтеров",
           "hubId": "m2-5",
           "boarding": 1133,
@@ -19076,7 +19176,7 @@
               "fromName": "мкрн. Тихие зори",
               "toName": "ул. Шахтеров",
               "minutes": 36.30000000000001,
-              "waitMinutes": 13.0,
+              "waitMinutes": 13,
               "stopCount": 17,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -19163,7 +19263,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "Планета (ул.9 Мая)",
           "hubId": "m1-7",
           "boarding": 1138,
@@ -19200,7 +19300,7 @@
               "fromName": "мкрн. Тихие зори",
               "toName": "Дом Куприяна",
               "minutes": 47.300000000000026,
-              "waitMinutes": 13.0,
+              "waitMinutes": 13,
               "stopCount": 25,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -19342,7 +19442,7 @@
       "day": [
         {
           "route": 2,
-          "hubIndex": 0,
+          "hubIndex": 1,
           "hubName": "ул. Курчатова",
           "hubId": "m2-1",
           "boarding": 382,
@@ -19433,7 +19533,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "ул. 2-я Брянская",
           "hubId": "m1-4",
           "boarding": 396,
@@ -19565,7 +19665,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 5,
+          "hubIndex": 6,
           "hubName": "о. Татышев",
           "hubId": "m3-6",
           "boarding": 408,
@@ -19746,7 +19846,7 @@
                 56.0268
               ],
               "minutes": 3.089998455000772,
-              "metres": 206.0,
+              "metres": 206,
               "fromName": "о. Татышев",
               "toName": "о. Татышев"
             }
@@ -19758,7 +19858,7 @@
       "night": [
         {
           "route": 1,
-          "hubIndex": 2,
+          "hubIndex": 3,
           "hubName": "1-я Калинина",
           "hubId": "m1-3",
           "boarding": 1116,
@@ -19795,7 +19895,7 @@
               "fromName": "Михайловский сквер",
               "toName": "1-я Калинина",
               "minutes": 21.450000000000003,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 15,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -19874,7 +19974,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 0,
+          "hubIndex": 1,
           "hubName": "ул. Курчатова",
           "hubId": "m2-1",
           "boarding": 1108,
@@ -19911,7 +20011,7 @@
               "fromName": "Михайловский сквер",
               "toName": "ул. Курчатова",
               "minutes": 9.9,
-              "waitMinutes": 13.0,
+              "waitMinutes": 13,
               "stopCount": 5,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -19950,7 +20050,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 1138,
@@ -19987,7 +20087,7 @@
               "fromName": "Михайловский сквер",
               "toName": "ГорДК",
               "minutes": 7.7,
-              "waitMinutes": 15.0,
+              "waitMinutes": 15,
               "stopCount": 5,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -20031,7 +20131,7 @@
               "fromName": "ГорДК",
               "toName": "ул. Авиаторов",
               "minutes": 43.45000000000002,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 29,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -20175,6 +20275,72 @@
         {
           "route": 1,
           "hubIndex": 0,
+          "hubName": "Молодёжная",
+          "hubId": "m1-start",
+          "boarding": 366,
+          "departure": 354,
+          "connectionMinutes": 12,
+          "walkingMinutes": 2,
+          "waitingMinutes": 0,
+          "transfers": 0,
+          "scheduleConfirmed": true,
+          "segments": [
+            {
+              "type": "walk",
+              "fromName": "Молодежная",
+              "toName": "Молодёжная",
+              "minutes": 1.6304999999999998,
+              "metres": 108.7,
+              "from": [
+                92.699749,
+                56.054922
+              ],
+              "to": [
+                92.698345,
+                56.055073
+              ],
+              "geometry": [
+                [
+                  92.699735,
+                  56.054977
+                ],
+                [
+                  92.699367,
+                  56.054947
+                ],
+                [
+                  92.699348,
+                  56.055022
+                ],
+                [
+                  92.69934,
+                  56.055048
+                ],
+                [
+                  92.699133,
+                  56.055029
+                ],
+                [
+                  92.699129,
+                  56.055139
+                ],
+                [
+                  92.698407,
+                  56.05514
+                ],
+                [
+                  92.698344,
+                  56.05514
+                ]
+              ]
+            }
+          ],
+          "totalMinutes": 111,
+          "bufferMinutes": 10
+        },
+        {
+          "route": 1,
+          "hubIndex": 1,
           "hubName": "Жилой комплекс «Глобус»",
           "hubId": "m1-1",
           "boarding": 376,
@@ -20254,7 +20420,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 1,
+          "hubIndex": 2,
           "hubName": "Копыловский мост",
           "hubId": "m2-2",
           "boarding": 388,
@@ -20405,6 +20571,72 @@
         {
           "route": 1,
           "hubIndex": 0,
+          "hubName": "Молодёжная",
+          "hubId": "m1-start",
+          "boarding": 1094,
+          "departure": 1082,
+          "connectionMinutes": 12,
+          "walkingMinutes": 2,
+          "waitingMinutes": 0,
+          "transfers": 0,
+          "scheduleConfirmed": true,
+          "segments": [
+            {
+              "type": "walk",
+              "fromName": "Молодежная",
+              "toName": "Молодёжная",
+              "minutes": 1.6304999999999998,
+              "metres": 108.7,
+              "from": [
+                92.699749,
+                56.054922
+              ],
+              "to": [
+                92.698345,
+                56.055073
+              ],
+              "geometry": [
+                [
+                  92.699735,
+                  56.054977
+                ],
+                [
+                  92.699367,
+                  56.054947
+                ],
+                [
+                  92.699348,
+                  56.055022
+                ],
+                [
+                  92.69934,
+                  56.055048
+                ],
+                [
+                  92.699133,
+                  56.055029
+                ],
+                [
+                  92.699129,
+                  56.055139
+                ],
+                [
+                  92.698407,
+                  56.05514
+                ],
+                [
+                  92.698344,
+                  56.05514
+                ]
+              ]
+            }
+          ],
+          "totalMinutes": 103,
+          "bufferMinutes": 10
+        },
+        {
+          "route": 1,
+          "hubIndex": 1,
           "hubName": "Жилой комплекс «Глобус»",
           "hubId": "m1-1",
           "boarding": 1103,
@@ -20441,7 +20673,7 @@
               "fromName": "Молодежная (площадка отстоя)",
               "toName": "Жилой комплекс «Глобус»",
               "minutes": 7.15,
-              "waitMinutes": 12.0,
+              "waitMinutes": 12,
               "stopCount": 6,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -20484,7 +20716,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 1,
+          "hubIndex": 2,
           "hubName": "Копыловский мост",
           "hubId": "m2-2",
           "boarding": 1114,
@@ -20521,7 +20753,7 @@
               "fromName": "Молодежная (площадка отстоя)",
               "toName": "Копыловский мост",
               "minutes": 37.95000000000002,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 23,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -20632,7 +20864,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 1138,
@@ -20669,7 +20901,7 @@
               "fromName": "Молодежная (площадка отстоя)",
               "toName": "театр им. А.С. Пушкина",
               "minutes": 46.75000000000002,
-              "waitMinutes": 12.0,
+              "waitMinutes": 12,
               "stopCount": 32,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -20821,7 +21053,7 @@
               "fromName": "театр им. А.С. Пушкина",
               "toName": "ул. Авиаторов",
               "minutes": 23.100000000000005,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 15,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -20908,7 +21140,7 @@
       "day": [
         {
           "route": 2,
-          "hubIndex": 4,
+          "hubIndex": 5,
           "hubName": "ул. Шахтеров",
           "hubId": "m2-5",
           "boarding": 409,
@@ -20940,7 +21172,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 414,
@@ -21067,7 +21299,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "ул. 2-я Брянская",
           "hubId": "m1-4",
           "boarding": 396,
@@ -21172,7 +21404,7 @@
       "night": [
         {
           "route": 2,
-          "hubIndex": 4,
+          "hubIndex": 5,
           "hubName": "ул. Шахтеров",
           "hubId": "m2-5",
           "boarding": 1133,
@@ -21204,7 +21436,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "Планета (ул.9 Мая)",
           "hubId": "m1-7",
           "boarding": 1138,
@@ -21241,7 +21473,7 @@
               "fromName": "ул. Мужества",
               "toName": "Планета (ул.9 Мая)",
               "minutes": 15.400000000000002,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 6,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -21284,7 +21516,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 1138,
@@ -21321,7 +21553,7 @@
               "fromName": "ул. Мужества",
               "toName": "ул. Молокова",
               "minutes": 10.999999999999998,
-              "waitMinutes": 13.0,
+              "waitMinutes": 13,
               "stopCount": 9,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -21399,7 +21631,7 @@
       "day": [
         {
           "route": 3,
-          "hubIndex": 5,
+          "hubIndex": 6,
           "hubName": "о. Татышев",
           "hubId": "m3-6",
           "boarding": 408,
@@ -21459,7 +21691,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "Сибирский институт искусств",
           "hubId": "m2-4",
           "boarding": 403,
@@ -21555,7 +21787,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "Планета (ул.9 Мая)",
           "hubId": "m1-7",
           "boarding": 415,
@@ -21700,7 +21932,7 @@
       "night": [
         {
           "route": 3,
-          "hubIndex": 4,
+          "hubIndex": 5,
           "hubName": "ул. Мичурина (ул. Московская)",
           "hubId": "m3-5",
           "boarding": 1126,
@@ -21732,7 +21964,7 @@
         },
         {
           "route": 4,
-          "hubIndex": 2,
+          "hubIndex": 3,
           "hubName": "КрасТЭЦ",
           "hubId": "m4-3",
           "boarding": 1122,
@@ -21769,7 +22001,7 @@
               "fromName": "Нефтебаза",
               "toName": "КрасТЭЦ",
               "minutes": 14.299999999999999,
-              "waitMinutes": 15.0,
+              "waitMinutes": 15,
               "stopCount": 10,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -21828,7 +22060,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "Планета (ул.9 Мая)",
           "hubId": "m1-7",
           "boarding": 1138,
@@ -21865,7 +22097,7 @@
               "fromName": "Поликлиника",
               "toName": "Дом Куприяна",
               "minutes": 19.8,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 5,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -21927,7 +22159,7 @@
       "day": [
         {
           "route": 1,
-          "hubIndex": 0,
+          "hubIndex": 1,
           "hubName": "Жилой комплекс «Глобус»",
           "hubId": "m1-1",
           "boarding": 376,
@@ -21984,7 +22216,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 1,
+          "hubIndex": 2,
           "hubName": "Копыловский мост",
           "hubId": "m2-2",
           "boarding": 388,
@@ -22111,7 +22343,7 @@
       "night": [
         {
           "route": 1,
-          "hubIndex": 0,
+          "hubIndex": 1,
           "hubName": "Жилой комплекс «Глобус»",
           "hubId": "m1-1",
           "boarding": 1103,
@@ -22133,7 +22365,7 @@
               "fromName": "ул. Норильская",
               "toName": "Жилой комплекс «Глобус»",
               "minutes": 5.5,
-              "waitMinutes": 12.0,
+              "waitMinutes": 12,
               "stopCount": 4,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -22168,7 +22400,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 1,
+          "hubIndex": 2,
           "hubName": "Копыловский мост",
           "hubId": "m2-2",
           "boarding": 1114,
@@ -22190,7 +22422,7 @@
               "fromName": "ул. Норильская",
               "toName": "Копыловский мост",
               "minutes": 36.30000000000001,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 21,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -22293,7 +22525,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 1138,
@@ -22315,7 +22547,7 @@
               "fromName": "ул. Норильская",
               "toName": "театр им. А.С. Пушкина",
               "minutes": 45.100000000000016,
-              "waitMinutes": 12.0,
+              "waitMinutes": 12,
               "stopCount": 30,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -22459,7 +22691,7 @@
               "fromName": "театр им. А.С. Пушкина",
               "toName": "ул. Авиаторов",
               "minutes": 23.100000000000005,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 15,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -22546,7 +22778,7 @@
       "day": [
         {
           "route": 3,
-          "hubIndex": 4,
+          "hubIndex": 5,
           "hubName": "ул. Мичурина (ул. Московская)",
           "hubId": "m3-5",
           "boarding": 402,
@@ -22641,7 +22873,7 @@
         },
         {
           "route": 4,
-          "hubIndex": 0,
+          "hubIndex": 1,
           "hubName": "Поликлиника (ул. Волжская)",
           "hubId": "m4-1",
           "boarding": 387,
@@ -22728,7 +22960,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "Сибирский институт искусств",
           "hubId": "m2-4",
           "boarding": 403,
@@ -22906,7 +23138,7 @@
       "night": [
         {
           "route": 3,
-          "hubIndex": 4,
+          "hubIndex": 5,
           "hubName": "ул. Мичурина (ул. Московская)",
           "hubId": "m3-5",
           "boarding": 1126,
@@ -22943,7 +23175,7 @@
               "fromName": "Образцово",
               "toName": "ул. Мичурина (ул. Московская)",
               "minutes": 12.100000000000001,
-              "waitMinutes": 10.0,
+              "waitMinutes": 10,
               "stopCount": 6,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -23001,7 +23233,7 @@
         },
         {
           "route": 4,
-          "hubIndex": 0,
+          "hubIndex": 1,
           "hubName": "Поликлиника (ул. Волжская)",
           "hubId": "m4-1",
           "boarding": 1113,
@@ -23038,7 +23270,7 @@
               "fromName": "Образцово",
               "toName": "Поликлиника (ул. Волжская)",
               "minutes": 4.4,
-              "waitMinutes": 9.0,
+              "waitMinutes": 9,
               "stopCount": 4,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -23073,7 +23305,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "Планета (ул.9 Мая)",
           "hubId": "m1-7",
           "boarding": 1138,
@@ -23110,7 +23342,7 @@
               "fromName": "Образцово",
               "toName": "ул. Волгоградская",
               "minutes": 9.9,
-              "waitMinutes": 10.0,
+              "waitMinutes": 10,
               "stopCount": 5,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -23154,7 +23386,7 @@
               "fromName": "ул. Волгоградская",
               "toName": "Дом Куприяна",
               "minutes": 23.1,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 7,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -23224,7 +23456,7 @@
       "day": [
         {
           "route": 2,
-          "hubIndex": 0,
+          "hubIndex": 1,
           "hubName": "ул. Курчатова",
           "hubId": "m2-1",
           "boarding": 382,
@@ -23311,7 +23543,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "ул. 2-я Брянская",
           "hubId": "m1-4",
           "boarding": 396,
@@ -23439,7 +23671,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 5,
+          "hubIndex": 6,
           "hubName": "о. Татышев",
           "hubId": "m3-6",
           "boarding": 408,
@@ -23616,7 +23848,7 @@
                 56.0268
               ],
               "minutes": 3.089998455000772,
-              "metres": 206.0,
+              "metres": 206,
               "fromName": "о. Татышев",
               "toName": "о. Татышев"
             }
@@ -23628,7 +23860,7 @@
       "night": [
         {
           "route": 1,
-          "hubIndex": 2,
+          "hubIndex": 3,
           "hubName": "1-я Калинина",
           "hubId": "m1-3",
           "boarding": 1116,
@@ -23665,7 +23897,7 @@
               "fromName": "Овощной магазин",
               "toName": "1-я Калинина",
               "minutes": 20.35,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 14,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -23740,7 +23972,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 0,
+          "hubIndex": 1,
           "hubName": "ул. Курчатова",
           "hubId": "m2-1",
           "boarding": 1108,
@@ -23777,7 +24009,7 @@
               "fromName": "Овощной магазин",
               "toName": "ГорДК",
               "minutes": 6.6000000000000005,
-              "waitMinutes": 15.0,
+              "waitMinutes": 15,
               "stopCount": 4,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -23827,7 +24059,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 1138,
@@ -23864,7 +24096,7 @@
               "fromName": "Почта",
               "toName": "ул. Авиаторов",
               "minutes": 46.75000000000002,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 31,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -24015,7 +24247,7 @@
       "day": [
         {
           "route": 1,
-          "hubIndex": 0,
+          "hubIndex": 1,
           "hubName": "Жилой комплекс «Глобус»",
           "hubId": "m1-1",
           "boarding": 376,
@@ -24047,7 +24279,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 0,
+          "hubIndex": 1,
           "hubName": "ул. Курчатова",
           "hubId": "m2-1",
           "boarding": 382,
@@ -24172,7 +24404,7 @@
       "night": [
         {
           "route": 1,
-          "hubIndex": 0,
+          "hubIndex": 1,
           "hubName": "Жилой комплекс «Глобус»",
           "hubId": "m1-1",
           "boarding": 1103,
@@ -24209,7 +24441,7 @@
               "fromName": "Озеро-парк",
               "toName": "Жилой комплекс «Глобус»",
               "minutes": 3.3000000000000003,
-              "waitMinutes": 8.0,
+              "waitMinutes": 8,
               "stopCount": 2,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -24236,7 +24468,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 1,
+          "hubIndex": 2,
           "hubName": "Копыловский мост",
           "hubId": "m2-2",
           "boarding": 1114,
@@ -24273,7 +24505,7 @@
               "fromName": "Западный микрорайон",
               "toName": "Копыловский мост",
               "minutes": 30.800000000000004,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 18,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -24364,7 +24596,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 1138,
@@ -24401,7 +24633,7 @@
               "fromName": "Озеро-парк",
               "toName": "ул. Северная",
               "minutes": 33.550000000000004,
-              "waitMinutes": 8.0,
+              "waitMinutes": 8,
               "stopCount": 19,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -24516,7 +24748,7 @@
               "fromName": "ул. Маерчака",
               "toName": "ул. Авиаторов",
               "minutes": 35.75000000000001,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 23,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -24635,7 +24867,7 @@
       "day": [
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 414,
@@ -24707,7 +24939,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "Планета (ул.9 Мая)",
           "hubId": "m1-7",
           "boarding": 415,
@@ -24794,7 +25026,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "Сибирский институт искусств",
           "hubId": "m2-4",
           "boarding": 403,
@@ -24872,7 +25104,7 @@
       "night": [
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 1138,
@@ -24904,7 +25136,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "Сибирский институт искусств",
           "hubId": "m2-4",
           "boarding": 1127,
@@ -24941,7 +25173,7 @@
               "fromName": "АЛПИ",
               "toName": "Сибирский институт искусств",
               "minutes": 12.100000000000001,
-              "waitMinutes": 15.0,
+              "waitMinutes": 15,
               "stopCount": 5,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -24980,7 +25212,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "ул. 2-я Брянская",
           "hubId": "m1-4",
           "boarding": 1121,
@@ -25017,7 +25249,7 @@
               "fromName": "Оптима",
               "toName": "ул. 2-я Брянская",
               "minutes": 18.700000000000003,
-              "waitMinutes": 10.0,
+              "waitMinutes": 10,
               "stopCount": 10,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -25099,7 +25331,7 @@
       "day": [
         {
           "route": 3,
-          "hubIndex": 1,
+          "hubIndex": 2,
           "hubName": "Октябрьская (ул. Свердловская)",
           "hubId": "m3-2",
           "boarding": 381,
@@ -25131,7 +25363,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 4,
+          "hubIndex": 5,
           "hubName": "ул. Шахтеров",
           "hubId": "m2-5",
           "boarding": 409,
@@ -25269,7 +25501,7 @@
       "night": [
         {
           "route": 3,
-          "hubIndex": 1,
+          "hubIndex": 2,
           "hubName": "Октябрьская (ул. Свердловская)",
           "hubId": "m3-2",
           "boarding": 1108,
@@ -25301,7 +25533,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 4,
+          "hubIndex": 5,
           "hubName": "ул. Шахтеров",
           "hubId": "m2-5",
           "boarding": 1133,
@@ -25338,7 +25570,7 @@
               "fromName": "ул. Парашютная",
               "toName": "ул. Матросова",
               "minutes": 9.350000000000001,
-              "waitMinutes": 9.0,
+              "waitMinutes": 9,
               "stopCount": 7,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -25390,7 +25622,7 @@
               "fromName": "ул. Матросова",
               "toName": "ул. Шахтеров",
               "minutes": 16.5,
-              "waitMinutes": 15.0,
+              "waitMinutes": 15,
               "stopCount": 8,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -25441,7 +25673,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "Планета (ул.9 Мая)",
           "hubId": "m1-7",
           "boarding": 1138,
@@ -25478,7 +25710,7 @@
               "fromName": "ул. Парашютная",
               "toName": "ул. Матросова",
               "minutes": 9.350000000000001,
-              "waitMinutes": 9.0,
+              "waitMinutes": 9,
               "stopCount": 7,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -25530,7 +25762,7 @@
               "fromName": "ул. Матросова",
               "toName": "Дом Куприяна",
               "minutes": 33.55000000000001,
-              "waitMinutes": 12.0,
+              "waitMinutes": 12,
               "stopCount": 20,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -25652,7 +25884,7 @@
       "day": [
         {
           "route": 2,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "Сибирский институт искусств",
           "hubId": "m2-4",
           "boarding": 403,
@@ -25684,7 +25916,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 414,
@@ -25784,7 +26016,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "ул. 2-я Брянская",
           "hubId": "m1-4",
           "boarding": 396,
@@ -25953,7 +26185,7 @@
       "night": [
         {
           "route": 2,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "Сибирский институт искусств",
           "hubId": "m2-4",
           "boarding": 1127,
@@ -25985,7 +26217,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 1138,
@@ -26022,7 +26254,7 @@
               "fromName": "Музей им. Сурикова",
               "toName": "ул. Авиаторов",
               "minutes": 19.800000000000004,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 12,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -26089,7 +26321,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "Планета (ул.9 Мая)",
           "hubId": "m1-7",
           "boarding": 1138,
@@ -26126,7 +26358,7 @@
               "fromName": "Химчистка",
               "toName": "Дом Куприяна",
               "minutes": 16.5,
-              "waitMinutes": 13.0,
+              "waitMinutes": 13,
               "stopCount": 12,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -26216,7 +26448,7 @@
       "day": [
         {
           "route": 2,
-          "hubIndex": 4,
+          "hubIndex": 5,
           "hubName": "ул. Шахтеров",
           "hubId": "m2-5",
           "boarding": 409,
@@ -26296,7 +26528,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 414,
@@ -26404,7 +26636,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "ул. 2-я Брянская",
           "hubId": "m1-4",
           "boarding": 396,
@@ -26565,7 +26797,7 @@
       "night": [
         {
           "route": 2,
-          "hubIndex": 2,
+          "hubIndex": 3,
           "hubName": "Площадь Революции",
           "hubId": "m2-3",
           "boarding": 1120,
@@ -26597,7 +26829,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 1138,
@@ -26634,7 +26866,7 @@
               "fromName": "площадь Революции (пр-т Мира)",
               "toName": "ул. Авиаторов",
               "minutes": 26.400000000000002,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 16,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -26717,7 +26949,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "Планета (ул.9 Мая)",
           "hubId": "m1-7",
           "boarding": 1138,
@@ -26754,7 +26986,7 @@
               "fromName": "площадь Революции (пр-т Мира)",
               "toName": "Дом Куприяна",
               "minutes": 20.900000000000002,
-              "waitMinutes": 13.0,
+              "waitMinutes": 13,
               "stopCount": 14,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -26852,7 +27084,7 @@
       "day": [
         {
           "route": 1,
-          "hubIndex": 1,
+          "hubIndex": 2,
           "hubName": "АЗС (ул. Калинина)",
           "hubId": "m1-2",
           "boarding": 382,
@@ -26912,7 +27144,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 0,
+          "hubIndex": 1,
           "hubName": "ул. Курчатова",
           "hubId": "m2-1",
           "boarding": 382,
@@ -27017,7 +27249,7 @@
       "night": [
         {
           "route": 1,
-          "hubIndex": 1,
+          "hubIndex": 2,
           "hubName": "АЗС (ул. Калинина)",
           "hubId": "m1-2",
           "boarding": 1108,
@@ -27049,7 +27281,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 1,
+          "hubIndex": 2,
           "hubName": "Копыловский мост",
           "hubId": "m2-2",
           "boarding": 1114,
@@ -27086,7 +27318,7 @@
               "fromName": "Пожарная часть",
               "toName": "Копыловский мост",
               "minutes": 23.100000000000005,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 13,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -27157,7 +27389,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 1138,
@@ -27194,7 +27426,7 @@
               "fromName": "Пожарная часть",
               "toName": "театр им. А.С. Пушкина",
               "minutes": 33.00000000000001,
-              "waitMinutes": 12.0,
+              "waitMinutes": 12,
               "stopCount": 22,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -27306,7 +27538,7 @@
               "fromName": "театр им. А.С. Пушкина",
               "toName": "ул. Авиаторов",
               "minutes": 23.100000000000005,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 15,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -27393,7 +27625,7 @@
       "day": [
         {
           "route": 2,
-          "hubIndex": 1,
+          "hubIndex": 2,
           "hubName": "Копыловский мост",
           "hubId": "m2-2",
           "boarding": 388,
@@ -27469,7 +27701,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "ул. 2-я Брянская",
           "hubId": "m1-4",
           "boarding": 396,
@@ -27593,7 +27825,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 414,
@@ -27767,7 +27999,7 @@
       "night": [
         {
           "route": 2,
-          "hubIndex": 1,
+          "hubIndex": 2,
           "hubName": "Копыловский мост",
           "hubId": "m2-2",
           "boarding": 1114,
@@ -27804,7 +28036,7 @@
               "fromName": "Поликлиника (ул. Киренского)",
               "toName": "Копыловский мост",
               "minutes": 6.6,
-              "waitMinutes": 12.0,
+              "waitMinutes": 12,
               "stopCount": 5,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -27843,7 +28075,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 1138,
@@ -27880,7 +28112,7 @@
               "fromName": "Поликлиника (ул. Киренского)",
               "toName": "ул. Авиаторов",
               "minutes": 45.10000000000001,
-              "waitMinutes": 12.0,
+              "waitMinutes": 12,
               "stopCount": 26,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -28003,7 +28235,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "ул. 2-я Брянская",
           "hubId": "m1-4",
           "boarding": 1121,
@@ -28040,7 +28272,7 @@
               "fromName": "Поликлиника (ул. Киренского)",
               "toName": "Космос",
               "minutes": 15.95,
-              "waitMinutes": 10.0,
+              "waitMinutes": 10,
               "stopCount": 10,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -28104,7 +28336,7 @@
               "fromName": "Космос",
               "toName": "ул. 2-я Брянская",
               "minutes": 8.8,
-              "waitMinutes": 10.0,
+              "waitMinutes": 10,
               "stopCount": 3,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -28143,7 +28375,7 @@
       "day": [
         {
           "route": 2,
-          "hubIndex": 1,
+          "hubIndex": 2,
           "hubName": "Копыловский мост",
           "hubId": "m2-2",
           "boarding": 388,
@@ -28253,7 +28485,7 @@
       "night": [
         {
           "route": 2,
-          "hubIndex": 1,
+          "hubIndex": 2,
           "hubName": "Копыловский мост",
           "hubId": "m2-2",
           "boarding": 1114,
@@ -28290,7 +28522,7 @@
               "fromName": "пос. Таймыр",
               "toName": "Копыловский мост",
               "minutes": 24.200000000000003,
-              "waitMinutes": 10.0,
+              "waitMinutes": 10,
               "stopCount": 14,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -28365,7 +28597,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 2,
+          "hubIndex": 3,
           "hubName": "1-я Калинина",
           "hubId": "m1-3",
           "boarding": 1116,
@@ -28402,7 +28634,7 @@
               "fromName": "пос. Таймыр",
               "toName": "Северо-западный район",
               "minutes": 6.6,
-              "waitMinutes": 9.0,
+              "waitMinutes": 9,
               "stopCount": 4,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -28457,7 +28689,7 @@
               "fromName": "Северо-западный район",
               "toName": "1-я Калинина",
               "minutes": 13.749999999999998,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 10,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -28516,7 +28748,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 1138,
@@ -28553,7 +28785,7 @@
               "fromName": "пос. Таймыр",
               "toName": "ул. Авиаторов",
               "minutes": 59.95000000000003,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 38,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -28732,7 +28964,7 @@
       "day": [
         {
           "route": 2,
-          "hubIndex": 1,
+          "hubIndex": 2,
           "hubName": "Копыловский мост",
           "hubId": "m2-2",
           "boarding": 388,
@@ -28816,7 +29048,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "ул. 2-я Брянская",
           "hubId": "m1-4",
           "boarding": 396,
@@ -28908,7 +29140,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 414,
@@ -29097,7 +29329,7 @@
       "night": [
         {
           "route": 2,
-          "hubIndex": 1,
+          "hubIndex": 2,
           "hubName": "Копыловский мост",
           "hubId": "m2-2",
           "boarding": 1114,
@@ -29134,7 +29366,7 @@
               "fromName": "Почта",
               "toName": "Копыловский мост",
               "minutes": 11.000000000000002,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 7,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -29181,7 +29413,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 1,
+          "hubIndex": 2,
           "hubName": "АЗС (ул. Калинина)",
           "hubId": "m1-2",
           "boarding": 1108,
@@ -29218,7 +29450,7 @@
               "fromName": "Почта",
               "toName": "АЗС (ул. Калинина)",
               "minutes": 9.9,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 5,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -29272,7 +29504,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 1138,
@@ -29309,7 +29541,7 @@
               "fromName": "Почта",
               "toName": "ул. Авиаторов",
               "minutes": 46.75000000000002,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 31,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -29460,7 +29692,7 @@
       "day": [
         {
           "route": 2,
-          "hubIndex": 1,
+          "hubIndex": 2,
           "hubName": "Копыловский мост",
           "hubId": "m2-2",
           "boarding": 388,
@@ -29552,7 +29784,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 1,
+          "hubIndex": 2,
           "hubName": "АЗС (ул. Калинина)",
           "hubId": "m1-2",
           "boarding": 382,
@@ -29617,7 +29849,7 @@
                 56.047603
               ],
               "minutes": 7.529996235001882,
-              "metres": 502.0,
+              "metres": 502,
               "fromName": "Миграционный центр",
               "toName": "АЗС (ул. Калинина)"
             }
@@ -29627,7 +29859,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 5,
+          "hubIndex": 6,
           "hubName": "о. Татышев",
           "hubId": "m3-6",
           "boarding": 408,
@@ -29800,7 +30032,7 @@
                 56.0268
               ],
               "minutes": 3.089998455000772,
-              "metres": 206.0,
+              "metres": 206,
               "fromName": "о. Татышев",
               "toName": "о. Татышев"
             }
@@ -29812,7 +30044,7 @@
       "night": [
         {
           "route": 1,
-          "hubIndex": 1,
+          "hubIndex": 2,
           "hubName": "АЗС (ул. Калинина)",
           "hubId": "m1-2",
           "boarding": 1108,
@@ -29849,7 +30081,7 @@
               "fromName": "Радиотехнический завод",
               "toName": "АЗС (ул. Калинина)",
               "minutes": 5.5,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 3,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -29895,7 +30127,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 1,
+          "hubIndex": 2,
           "hubName": "Копыловский мост",
           "hubId": "m2-2",
           "boarding": 1114,
@@ -29932,7 +30164,7 @@
               "fromName": "Радиотехнический завод",
               "toName": "Копыловский мост",
               "minutes": 15.400000000000002,
-              "waitMinutes": 10.0,
+              "waitMinutes": 10,
               "stopCount": 9,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -29987,7 +30219,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 1138,
@@ -30024,7 +30256,7 @@
               "fromName": "Радиотехнический завод",
               "toName": "ул. Авиаторов",
               "minutes": 51.150000000000034,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 33,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -30183,7 +30415,7 @@
       "day": [
         {
           "route": 2,
-          "hubIndex": 2,
+          "hubIndex": 3,
           "hubName": "Площадь Революции",
           "hubId": "m2-3",
           "boarding": 394,
@@ -30215,7 +30447,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 414,
@@ -30363,7 +30595,7 @@
         },
         {
           "route": 4,
-          "hubIndex": 0,
+          "hubIndex": 1,
           "hubName": "Поликлиника (ул. Волжская)",
           "hubId": "m4-1",
           "boarding": 387,
@@ -30400,7 +30632,7 @@
               "fromName": "Комиссионный магазин",
               "toName": "Агентство Аэрофлота",
               "minutes": 21.56682868492101,
-              "waitMinutes": 10.0,
+              "waitMinutes": 10,
               "stopCount": 5,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": false,
@@ -30575,7 +30807,7 @@
       "night": [
         {
           "route": 2,
-          "hubIndex": 2,
+          "hubIndex": 3,
           "hubName": "Площадь Революции",
           "hubId": "m2-3",
           "boarding": 1120,
@@ -30607,7 +30839,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 2,
+          "hubIndex": 3,
           "hubName": "1-я Калинина",
           "hubId": "m1-3",
           "boarding": 1116,
@@ -30644,7 +30876,7 @@
               "fromName": "Физкультурный техникум",
               "toName": "1-я Калинина",
               "minutes": 7.7,
-              "waitMinutes": 8.0,
+              "waitMinutes": 8,
               "stopCount": 5,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -30698,7 +30930,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 1138,
@@ -30735,7 +30967,7 @@
               "fromName": "ул. Горького",
               "toName": "ул. Авиаторов",
               "minutes": 26.950000000000003,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 17,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -30830,7 +31062,7 @@
       "day": [
         {
           "route": 3,
-          "hubIndex": 5,
+          "hubIndex": 6,
           "hubName": "о. Татышев",
           "hubId": "m3-6",
           "boarding": 408,
@@ -30919,7 +31151,7 @@
                 56.0268
               ],
               "minutes": 3.089998455000772,
-              "metres": 206.0,
+              "metres": 206,
               "fromName": "о. Татышев",
               "toName": "о. Татышев"
             }
@@ -30929,7 +31161,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "Сибирский институт искусств",
           "hubId": "m2-4",
           "boarding": 403,
@@ -31033,7 +31265,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "Планета (ул.9 Мая)",
           "hubId": "m1-7",
           "boarding": 415,
@@ -31214,7 +31446,7 @@
       "night": [
         {
           "route": 1,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "Планета (ул.9 Мая)",
           "hubId": "m1-7",
           "boarding": 1138,
@@ -31251,7 +31483,7 @@
               "fromName": "Рынок",
               "toName": "ул. Петра Ломако",
               "minutes": 24.750000000000004,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 18,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -31347,7 +31579,7 @@
                 56.052353
               ],
               "minutes": 6.554996722501638,
-              "metres": 437.0,
+              "metres": 437,
               "fromName": "ул. Петра Ломако",
               "toName": "Планета (ул.9 Мая)"
             }
@@ -31357,7 +31589,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "Сибирский институт искусств",
           "hubId": "m2-4",
           "boarding": 1127,
@@ -31394,7 +31626,7 @@
               "fromName": "Рынок",
               "toName": "Сибирский институт искусств",
               "minutes": 23.1,
-              "waitMinutes": 14.0,
+              "waitMinutes": 14,
               "stopCount": 13,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -31465,7 +31697,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 2,
+          "hubIndex": 3,
           "hubName": "Студенческая  (ул. Свердловская)",
           "hubId": "m3-3",
           "boarding": 1112,
@@ -31502,7 +31734,7 @@
               "fromName": "Рынок",
               "toName": "Студенческая  (ул. Свердловская)",
               "minutes": 39.60000000000001,
-              "waitMinutes": 14.0,
+              "waitMinutes": 14,
               "stopCount": 20,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -31609,7 +31841,7 @@
       "day": [
         {
           "route": 4,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "Железнодорожная платформа «Металлургов»",
           "hubId": "m4-4",
           "boarding": 415,
@@ -31641,7 +31873,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 5,
+          "hubIndex": 6,
           "hubName": "о. Татышев",
           "hubId": "m3-6",
           "boarding": 408,
@@ -31782,7 +32014,7 @@
                 56.0268
               ],
               "minutes": 3.089998455000772,
-              "metres": 206.0,
+              "metres": 206,
               "fromName": "о. Татышев",
               "toName": "о. Татышев"
             }
@@ -31792,7 +32024,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "Сибирский институт искусств",
           "hubId": "m2-4",
           "boarding": 403,
@@ -31950,7 +32182,7 @@
       "night": [
         {
           "route": 4,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "Железнодорожная платформа «Металлургов»",
           "hubId": "m4-4",
           "boarding": 1139,
@@ -31982,7 +32214,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "Планета (ул.9 Мая)",
           "hubId": "m1-7",
           "boarding": 1138,
@@ -32019,7 +32251,7 @@
               "fromName": "Сады (пр-т Металлургов)",
               "toName": "Планета (ул.9 Мая)",
               "minutes": 33.00000000000001,
-              "waitMinutes": 10.0,
+              "waitMinutes": 10,
               "stopCount": 20,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -32133,7 +32365,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 5,
+          "hubIndex": 6,
           "hubName": "о. Татышев",
           "hubId": "m3-6",
           "boarding": 1132,
@@ -32169,8 +32401,8 @@
               "fromStopId": "700",
               "fromName": "Сады (пр-т Металлургов)",
               "toName": "ул. Сергея Лазо",
-              "minutes": 11.0,
-              "waitMinutes": 13.0,
+              "minutes": 11,
+              "waitMinutes": 13,
               "stopCount": 5,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -32214,7 +32446,7 @@
               "fromName": "ул. Сергея Лазо",
               "toName": "о. Татышев",
               "minutes": 8.8,
-              "waitMinutes": 9.0,
+              "waitMinutes": 9,
               "stopCount": 5,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -32258,7 +32490,7 @@
                 56.0268
               ],
               "minutes": 3.089998455000772,
-              "metres": 206.0,
+              "metres": 206,
               "fromName": "о. Татышев",
               "toName": "о. Татышев"
             }
@@ -32276,7 +32508,7 @@
       "day": [
         {
           "route": 1,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "Планета (ул.9 Мая)",
           "hubId": "m1-7",
           "boarding": 415,
@@ -32345,7 +32577,7 @@
                 56.052353
               ],
               "minutes": 6.554996722501638,
-              "metres": 437.0,
+              "metres": 437,
               "fromName": "ул. Петра Ломако",
               "toName": "Планета (ул.9 Мая)"
             }
@@ -32355,7 +32587,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 414,
@@ -32438,7 +32670,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 4,
+          "hubIndex": 5,
           "hubName": "ул. Шахтеров",
           "hubId": "m2-5",
           "boarding": 409,
@@ -32575,7 +32807,7 @@
       "night": [
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 1138,
@@ -32612,7 +32844,7 @@
               "fromName": "ул. Промысловая",
               "toName": "ул. Петра Ломако",
               "minutes": 5.5,
-              "waitMinutes": 15.0,
+              "waitMinutes": 15,
               "stopCount": 2,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -32644,7 +32876,7 @@
               "fromName": "ул. Петра Ломако",
               "toName": "ул. Авиаторов",
               "minutes": 3.3000000000000003,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 2,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -32686,7 +32918,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 4,
+          "hubIndex": 5,
           "hubName": "ул. Шахтеров",
           "hubId": "m2-5",
           "boarding": 1133,
@@ -32723,7 +32955,7 @@
               "fromName": "ул. Промысловая",
               "toName": "ул. Петра Ломако",
               "minutes": 5.5,
-              "waitMinutes": 15.0,
+              "waitMinutes": 15,
               "stopCount": 2,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -32755,7 +32987,7 @@
               "fromName": "ул. Петра Ломако",
               "toName": "ул. Шахтеров",
               "minutes": 12.100000000000001,
-              "waitMinutes": 13.0,
+              "waitMinutes": 13,
               "stopCount": 8,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -32821,7 +33053,7 @@
         },
         {
           "route": 4,
-          "hubIndex": 2,
+          "hubIndex": 3,
           "hubName": "КрасТЭЦ",
           "hubId": "m4-3",
           "boarding": 1122,
@@ -32858,7 +33090,7 @@
               "fromName": "ул. Промысловая",
               "toName": "ул. Петра Ломако",
               "minutes": 5.5,
-              "waitMinutes": 15.0,
+              "waitMinutes": 15,
               "stopCount": 2,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -32890,7 +33122,7 @@
               "fromName": "ул. Петра Ломако",
               "toName": "КрасТЭЦ",
               "minutes": 42.90000000000001,
-              "waitMinutes": 19.0,
+              "waitMinutes": 19,
               "stopCount": 23,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -33008,8 +33240,106 @@
       "lon": 92.769686,
       "day": [
         {
+          "route": 2,
+          "hubIndex": 0,
+          "hubName": "Северо-Западный район (кольцо)",
+          "hubId": "m2-start",
+          "boarding": 372,
+          "departure": 360,
+          "connectionMinutes": 12,
+          "walkingMinutes": 2,
+          "waitingMinutes": 0,
+          "transfers": 0,
+          "scheduleConfirmed": true,
+          "segments": [
+            {
+              "type": "walk",
+              "fromName": "Северо-Западный район",
+              "toName": "Северо-Западный район (кольцо)",
+              "minutes": 1.9845,
+              "metres": 132.3,
+              "from": [
+                92.769686,
+                56.03926
+              ],
+              "to": [
+                92.7680572,
+                56.0398218
+              ],
+              "geometry": [
+                [
+                  92.76965,
+                  56.039252
+                ],
+                [
+                  92.769648,
+                  56.039255
+                ],
+                [
+                  92.769502,
+                  56.039454
+                ],
+                [
+                  92.769365,
+                  56.039542
+                ],
+                [
+                  92.769341,
+                  56.03959
+                ],
+                [
+                  92.769302,
+                  56.039625
+                ],
+                [
+                  92.769248,
+                  56.039653
+                ],
+                [
+                  92.769183,
+                  56.039672
+                ],
+                [
+                  92.769112,
+                  56.039681
+                ],
+                [
+                  92.769038,
+                  56.03968
+                ],
+                [
+                  92.768968,
+                  56.039668
+                ],
+                [
+                  92.768919,
+                  56.039653
+                ],
+                [
+                  92.76866,
+                  56.039644
+                ],
+                [
+                  92.76846,
+                  56.039664
+                ],
+                [
+                  92.768019,
+                  56.039764
+                ],
+                [
+                  92.768019,
+                  56.039764
+                ]
+              ]
+            }
+          ],
+          "totalMinutes": 105,
+          "bufferMinutes": 10
+        },
+        {
           "route": 1,
-          "hubIndex": 1,
+          "hubIndex": 2,
           "hubName": "АЗС (ул. Калинина)",
           "hubId": "m1-2",
           "boarding": 382,
@@ -33041,7 +33371,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 1,
+          "hubIndex": 2,
           "hubName": "Копыловский мост",
           "hubId": "m2-2",
           "boarding": 388,
@@ -33137,7 +33467,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 5,
+          "hubIndex": 6,
           "hubName": "о. Татышев",
           "hubId": "m3-6",
           "boarding": 408,
@@ -33310,7 +33640,7 @@
                 56.0268
               ],
               "minutes": 3.089998455000772,
-              "metres": 206.0,
+              "metres": 206,
               "fromName": "о. Татышев",
               "toName": "о. Татышев"
             }
@@ -33321,8 +33651,106 @@
       ],
       "night": [
         {
+          "route": 2,
+          "hubIndex": 0,
+          "hubName": "Северо-Западный район (кольцо)",
+          "hubId": "m2-start",
+          "boarding": 1099,
+          "departure": 1087,
+          "connectionMinutes": 12,
+          "walkingMinutes": 2,
+          "waitingMinutes": 0,
+          "transfers": 0,
+          "scheduleConfirmed": true,
+          "segments": [
+            {
+              "type": "walk",
+              "fromName": "Северо-Западный район",
+              "toName": "Северо-Западный район (кольцо)",
+              "minutes": 1.9845,
+              "metres": 132.3,
+              "from": [
+                92.769686,
+                56.03926
+              ],
+              "to": [
+                92.7680572,
+                56.0398218
+              ],
+              "geometry": [
+                [
+                  92.76965,
+                  56.039252
+                ],
+                [
+                  92.769648,
+                  56.039255
+                ],
+                [
+                  92.769502,
+                  56.039454
+                ],
+                [
+                  92.769365,
+                  56.039542
+                ],
+                [
+                  92.769341,
+                  56.03959
+                ],
+                [
+                  92.769302,
+                  56.039625
+                ],
+                [
+                  92.769248,
+                  56.039653
+                ],
+                [
+                  92.769183,
+                  56.039672
+                ],
+                [
+                  92.769112,
+                  56.039681
+                ],
+                [
+                  92.769038,
+                  56.03968
+                ],
+                [
+                  92.768968,
+                  56.039668
+                ],
+                [
+                  92.768919,
+                  56.039653
+                ],
+                [
+                  92.76866,
+                  56.039644
+                ],
+                [
+                  92.76846,
+                  56.039664
+                ],
+                [
+                  92.768019,
+                  56.039764
+                ],
+                [
+                  92.768019,
+                  56.039764
+                ]
+              ]
+            }
+          ],
+          "totalMinutes": 98,
+          "bufferMinutes": 10
+        },
+        {
           "route": 1,
-          "hubIndex": 1,
+          "hubIndex": 2,
           "hubName": "АЗС (ул. Калинина)",
           "hubId": "m1-2",
           "boarding": 1108,
@@ -33354,7 +33782,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 1,
+          "hubIndex": 2,
           "hubName": "Копыловский мост",
           "hubId": "m2-2",
           "boarding": 1114,
@@ -33391,7 +33819,7 @@
               "fromName": "Северо-западный район",
               "toName": "Копыловский мост",
               "minutes": 16.500000000000004,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 10,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -33450,7 +33878,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 1138,
@@ -33487,7 +33915,7 @@
               "fromName": "Северо-западный район",
               "toName": "ул. Авиаторов",
               "minutes": 52.250000000000036,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 34,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -33650,7 +34078,7 @@
       "day": [
         {
           "route": 2,
-          "hubIndex": 1,
+          "hubIndex": 2,
           "hubName": "Копыловский мост",
           "hubId": "m2-2",
           "boarding": 388,
@@ -33710,7 +34138,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 5,
+          "hubIndex": 6,
           "hubName": "о. Татышев",
           "hubId": "m3-6",
           "boarding": 408,
@@ -33843,7 +34271,7 @@
                 56.0268
               ],
               "minutes": 3.089998455000772,
-              "metres": 206.0,
+              "metres": 206,
               "fromName": "о. Татышев",
               "toName": "о. Татышев"
             }
@@ -33853,7 +34281,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "ул. 2-я Брянская",
           "hubId": "m1-4",
           "boarding": 396,
@@ -33998,7 +34426,7 @@
       "night": [
         {
           "route": 2,
-          "hubIndex": 1,
+          "hubIndex": 2,
           "hubName": "Копыловский мост",
           "hubId": "m2-2",
           "boarding": 1114,
@@ -34030,7 +34458,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 1138,
@@ -34067,7 +34495,7 @@
               "fromName": "Сквер А.П. Степанова",
               "toName": "Планета",
               "minutes": 29.70000000000001,
-              "waitMinutes": 13.0,
+              "waitMinutes": 13,
               "stopCount": 19,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -34177,7 +34605,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "Планета (ул.9 Мая)",
           "hubId": "m1-7",
           "boarding": 1138,
@@ -34214,7 +34642,7 @@
               "fromName": "Сквер А.П. Степанова",
               "toName": "Дом Куприяна",
               "minutes": 30.80000000000001,
-              "waitMinutes": 13.0,
+              "waitMinutes": 13,
               "stopCount": 20,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -34336,7 +34764,7 @@
       "day": [
         {
           "route": 3,
-          "hubIndex": 4,
+          "hubIndex": 5,
           "hubName": "ул. Мичурина (ул. Московская)",
           "hubId": "m3-5",
           "boarding": 402,
@@ -34490,7 +34918,7 @@
         },
         {
           "route": 4,
-          "hubIndex": 0,
+          "hubIndex": 1,
           "hubName": "Поликлиника (ул. Волжская)",
           "hubId": "m4-1",
           "boarding": 387,
@@ -34522,7 +34950,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "Сибирский институт искусств",
           "hubId": "m2-4",
           "boarding": 403,
@@ -34712,7 +35140,7 @@
       "night": [
         {
           "route": 4,
-          "hubIndex": 0,
+          "hubIndex": 1,
           "hubName": "Поликлиника (ул. Волжская)",
           "hubId": "m4-1",
           "boarding": 1113,
@@ -34744,7 +35172,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 4,
+          "hubIndex": 5,
           "hubName": "ул. Мичурина (ул. Московская)",
           "hubId": "m3-5",
           "boarding": 1126,
@@ -34781,7 +35209,7 @@
               "fromName": "Столовая",
               "toName": "ул. Мичурина (ул. Московская)",
               "minutes": 18.150000000000002,
-              "waitMinutes": 15.0,
+              "waitMinutes": 15,
               "stopCount": 11,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -34859,7 +35287,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "Планета (ул.9 Мая)",
           "hubId": "m1-7",
           "boarding": 1138,
@@ -34896,7 +35324,7 @@
               "fromName": "Столовая",
               "toName": "Завод «СибТяжМаш»",
               "minutes": 11.55,
-              "waitMinutes": 15.0,
+              "waitMinutes": 15,
               "stopCount": 9,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -34956,7 +35384,7 @@
               "fromName": "Завод «СибТяжМаш»",
               "toName": "Дом Куприяна",
               "minutes": 25.3,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 8,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -35030,7 +35458,7 @@
       "day": [
         {
           "route": 2,
-          "hubIndex": 1,
+          "hubIndex": 2,
           "hubName": "Копыловский мост",
           "hubId": "m2-2",
           "boarding": 388,
@@ -35110,7 +35538,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "ул. 2-я Брянская",
           "hubId": "m1-4",
           "boarding": 396,
@@ -35240,7 +35668,7 @@
       "night": [
         {
           "route": 2,
-          "hubIndex": 1,
+          "hubIndex": 2,
           "hubName": "Копыловский мост",
           "hubId": "m2-2",
           "boarding": 1114,
@@ -35277,7 +35705,7 @@
               "fromName": "Студенческий городок",
               "toName": "Копыловский мост",
               "minutes": 7.699999999999999,
-              "waitMinutes": 12.0,
+              "waitMinutes": 12,
               "stopCount": 6,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -35320,7 +35748,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 1138,
@@ -35357,7 +35785,7 @@
               "fromName": "Студенческий городок",
               "toName": "ул. Авиаторов",
               "minutes": 46.20000000000001,
-              "waitMinutes": 12.0,
+              "waitMinutes": 12,
               "stopCount": 27,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -35484,7 +35912,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "ул. 2-я Брянская",
           "hubId": "m1-4",
           "boarding": 1121,
@@ -35521,7 +35949,7 @@
               "fromName": "Студенческий городок",
               "toName": "Космос",
               "minutes": 18.15,
-              "waitMinutes": 10.0,
+              "waitMinutes": 10,
               "stopCount": 11,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -35589,7 +36017,7 @@
               "fromName": "Космос",
               "toName": "ул. 2-я Брянская",
               "minutes": 8.8,
-              "waitMinutes": 10.0,
+              "waitMinutes": 10,
               "stopCount": 3,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -35628,7 +36056,7 @@
       "day": [
         {
           "route": 1,
-          "hubIndex": 0,
+          "hubIndex": 1,
           "hubName": "Жилой комплекс «Глобус»",
           "hubId": "m1-1",
           "boarding": 376,
@@ -35681,7 +36109,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 1,
+          "hubIndex": 2,
           "hubName": "Копыловский мост",
           "hubId": "m2-2",
           "boarding": 388,
@@ -35804,7 +36232,7 @@
       "night": [
         {
           "route": 1,
-          "hubIndex": 0,
+          "hubIndex": 1,
           "hubName": "Жилой комплекс «Глобус»",
           "hubId": "m1-1",
           "boarding": 1103,
@@ -35826,7 +36254,7 @@
               "fromName": "Тихий квартал",
               "toName": "Жилой комплекс «Глобус»",
               "minutes": 3.3000000000000003,
-              "waitMinutes": 12.0,
+              "waitMinutes": 12,
               "stopCount": 3,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -35857,7 +36285,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 1,
+          "hubIndex": 2,
           "hubName": "Копыловский мост",
           "hubId": "m2-2",
           "boarding": 1114,
@@ -35879,7 +36307,7 @@
               "fromName": "Тихий квартал",
               "toName": "Копыловский мост",
               "minutes": 34.10000000000001,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 20,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -35978,7 +36406,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 1138,
@@ -36000,7 +36428,7 @@
               "fromName": "Тихий квартал",
               "toName": "театр им. А.С. Пушкина",
               "minutes": 42.90000000000001,
-              "waitMinutes": 12.0,
+              "waitMinutes": 12,
               "stopCount": 29,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -36140,7 +36568,7 @@
               "fromName": "театр им. А.С. Пушкина",
               "toName": "ул. Авиаторов",
               "minutes": 23.100000000000005,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 15,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -36227,7 +36655,7 @@
       "day": [
         {
           "route": 2,
-          "hubIndex": 1,
+          "hubIndex": 2,
           "hubName": "Копыловский мост",
           "hubId": "m2-2",
           "boarding": 388,
@@ -36295,7 +36723,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "ул. 2-я Брянская",
           "hubId": "m1-4",
           "boarding": 396,
@@ -36411,7 +36839,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 5,
+          "hubIndex": 6,
           "hubName": "о. Татышев",
           "hubId": "m3-6",
           "boarding": 408,
@@ -36544,7 +36972,7 @@
                 56.0268
               ],
               "minutes": 3.089998455000772,
-              "metres": 206.0,
+              "metres": 206,
               "fromName": "о. Татышев",
               "toName": "о. Татышев"
             }
@@ -36556,7 +36984,7 @@
       "night": [
         {
           "route": 2,
-          "hubIndex": 1,
+          "hubIndex": 2,
           "hubName": "Копыловский мост",
           "hubId": "m2-2",
           "boarding": 1114,
@@ -36593,7 +37021,7 @@
               "fromName": "Кинотеатр «Ударник»",
               "toName": "Копыловский мост",
               "minutes": 4.4,
-              "waitMinutes": 12.0,
+              "waitMinutes": 12,
               "stopCount": 3,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -36624,7 +37052,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 1138,
@@ -36661,7 +37089,7 @@
               "fromName": "Кинотеатр «Ударник»",
               "toName": "ул. Авиаторов",
               "minutes": 42.90000000000001,
-              "waitMinutes": 12.0,
+              "waitMinutes": 12,
               "stopCount": 24,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -36776,7 +37204,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "ул. 2-я Брянская",
           "hubId": "m1-4",
           "boarding": 1121,
@@ -36813,7 +37241,7 @@
               "fromName": "Кинотеатр «Ударник»",
               "toName": "Космос",
               "minutes": 12.649999999999999,
-              "waitMinutes": 10.0,
+              "waitMinutes": 10,
               "stopCount": 8,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -36869,7 +37297,7 @@
               "fromName": "Космос",
               "toName": "ул. 2-я Брянская",
               "minutes": 8.8,
-              "waitMinutes": 10.0,
+              "waitMinutes": 10,
               "stopCount": 3,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -36908,7 +37336,7 @@
       "day": [
         {
           "route": 1,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "ул. 2-я Брянская",
           "hubId": "m1-4",
           "boarding": 396,
@@ -36980,7 +37408,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 1,
+          "hubIndex": 2,
           "hubName": "Копыловский мост",
           "hubId": "m2-2",
           "boarding": 388,
@@ -37052,7 +37480,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 414,
@@ -37226,7 +37654,7 @@
       "night": [
         {
           "route": 1,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "ул. 2-я Брянская",
           "hubId": "m1-4",
           "boarding": 1121,
@@ -37262,8 +37690,8 @@
               "fromStopId": "966",
               "fromName": "ул. Красномосковская",
               "toName": "ул. 2-я Брянская",
-              "minutes": 11.0,
-              "waitMinutes": 10.0,
+              "minutes": 11,
+              "waitMinutes": 10,
               "stopCount": 4,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -37298,7 +37726,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 2,
+          "hubIndex": 3,
           "hubName": "Площадь Революции",
           "hubId": "m2-3",
           "boarding": 1120,
@@ -37335,7 +37763,7 @@
               "fromName": "ул. Красномосковская",
               "toName": "площадь Революции (пр-т Мира)",
               "minutes": 13.2,
-              "waitMinutes": 10.0,
+              "waitMinutes": 10,
               "stopCount": 9,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -37405,7 +37833,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 1138,
@@ -37442,7 +37870,7 @@
               "fromName": "ул. Красномосковская",
               "toName": "ул. Авиаторов",
               "minutes": 39.05000000000001,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 25,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -37569,7 +37997,7 @@
       "day": [
         {
           "route": 3,
-          "hubIndex": 5,
+          "hubIndex": 6,
           "hubName": "о. Татышев",
           "hubId": "m3-6",
           "boarding": 408,
@@ -37650,7 +38078,7 @@
                 56.0268
               ],
               "minutes": 3.089998455000772,
-              "metres": 206.0,
+              "metres": 206,
               "fromName": "о. Татышев",
               "toName": "о. Татышев"
             }
@@ -37660,7 +38088,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "Сибирский институт искусств",
           "hubId": "m2-4",
           "boarding": 403,
@@ -37756,7 +38184,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "Планета (ул.9 Мая)",
           "hubId": "m1-7",
           "boarding": 415,
@@ -37901,7 +38329,7 @@
       "night": [
         {
           "route": 3,
-          "hubIndex": 5,
+          "hubIndex": 6,
           "hubName": "о. Татышев",
           "hubId": "m3-6",
           "boarding": 1132,
@@ -37938,7 +38366,7 @@
               "fromName": "ул. Сергея Лазо",
               "toName": "о. Татышев",
               "minutes": 8.8,
-              "waitMinutes": 9.0,
+              "waitMinutes": 9,
               "stopCount": 5,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -37982,7 +38410,7 @@
                 56.0268
               ],
               "minutes": 3.089998455000772,
-              "metres": 206.0,
+              "metres": 206,
               "fromName": "о. Татышев",
               "toName": "о. Татышев"
             }
@@ -37992,7 +38420,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "Планета (ул.9 Мая)",
           "hubId": "m1-7",
           "boarding": 1138,
@@ -38029,7 +38457,7 @@
               "fromName": "ул. Краснодарская (пр-т Металлургов)",
               "toName": "ул. Петра Ломако",
               "minutes": 19.25,
-              "waitMinutes": 13.0,
+              "waitMinutes": 13,
               "stopCount": 12,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -38101,7 +38529,7 @@
                 56.052353
               ],
               "minutes": 6.554996722501638,
-              "metres": 437.0,
+              "metres": 437,
               "fromName": "ул. Петра Ломако",
               "toName": "Планета (ул.9 Мая)"
             }
@@ -38111,7 +38539,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "Сибирский институт искусств",
           "hubId": "m2-4",
           "boarding": 1127,
@@ -38148,7 +38576,7 @@
               "fromName": "ул. Сергея Лазо",
               "toName": "Сибирский институт искусств",
               "minutes": 17.599999999999998,
-              "waitMinutes": 12.0,
+              "waitMinutes": 12,
               "stopCount": 10,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -38215,7 +38643,7 @@
       "day": [
         {
           "route": 3,
-          "hubIndex": 4,
+          "hubIndex": 5,
           "hubName": "ул. Мичурина (ул. Московская)",
           "hubId": "m3-5",
           "boarding": 402,
@@ -38310,7 +38738,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 4,
+          "hubIndex": 5,
           "hubName": "ул. Шахтеров",
           "hubId": "m2-5",
           "boarding": 409,
@@ -38347,7 +38775,7 @@
               "fromName": "ул. Пионерской правды",
               "toName": "ул. Матросова",
               "minutes": 21.0366434522239,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 7,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": false,
@@ -38450,7 +38878,7 @@
         },
         {
           "route": 4,
-          "hubIndex": 2,
+          "hubIndex": 3,
           "hubName": "КрасТЭЦ",
           "hubId": "m4-3",
           "boarding": 397,
@@ -38487,7 +38915,7 @@
               "fromName": "ДК «Кировский»",
               "toName": "Поликлиника (ул. 26 Бакинских комиссаров)",
               "minutes": 32.41960144796108,
-              "waitMinutes": 10.0,
+              "waitMinutes": 10,
               "stopCount": 17,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": false,
@@ -38594,7 +39022,7 @@
               "fromName": "Поликлиника (ул. 26 Бакинских комиссаров)",
               "toName": "КрасТЭЦ",
               "minutes": 3.4499999999999997,
-              "waitMinutes": 10.0,
+              "waitMinutes": 10,
               "stopCount": 2,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -38623,7 +39051,7 @@
       "night": [
         {
           "route": 3,
-          "hubIndex": 4,
+          "hubIndex": 5,
           "hubName": "ул. Мичурина (ул. Московская)",
           "hubId": "m3-5",
           "boarding": 1126,
@@ -38660,7 +39088,7 @@
               "fromName": "Универсам",
               "toName": "ул. Московская",
               "minutes": 8.25,
-              "waitMinutes": 10.0,
+              "waitMinutes": 10,
               "stopCount": 6,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -38718,7 +39146,7 @@
         },
         {
           "route": 4,
-          "hubIndex": 0,
+          "hubIndex": 1,
           "hubName": "Поликлиника (ул. Волжская)",
           "hubId": "m4-1",
           "boarding": 1113,
@@ -38755,7 +39183,7 @@
               "fromName": "Универсам",
               "toName": "Поликлиника (ул. Волжская)",
               "minutes": 16.499999999999996,
-              "waitMinutes": 9.0,
+              "waitMinutes": 9,
               "stopCount": 12,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -38822,7 +39250,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "Планета (ул.9 Мая)",
           "hubId": "m1-7",
           "boarding": 1138,
@@ -38859,7 +39287,7 @@
               "fromName": "Универсам",
               "toName": "ул. Волгоградская",
               "minutes": 7.15,
-              "waitMinutes": 10.0,
+              "waitMinutes": 10,
               "stopCount": 5,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -38903,7 +39331,7 @@
               "fromName": "ул. Волгоградская",
               "toName": "Дом Куприяна",
               "minutes": 23.1,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 7,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -38973,7 +39401,7 @@
       "day": [
         {
           "route": 3,
-          "hubIndex": 2,
+          "hubIndex": 3,
           "hubName": "Студенческая  (ул. Свердловская)",
           "hubId": "m3-3",
           "boarding": 387,
@@ -39056,7 +39484,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 4,
+          "hubIndex": 5,
           "hubName": "ул. Шахтеров",
           "hubId": "m2-5",
           "boarding": 409,
@@ -39186,7 +39614,7 @@
       "night": [
         {
           "route": 3,
-          "hubIndex": 2,
+          "hubIndex": 3,
           "hubName": "Студенческая  (ул. Свердловская)",
           "hubId": "m3-3",
           "boarding": 1112,
@@ -39223,7 +39651,7 @@
               "fromName": "Утиный плёс",
               "toName": "Студенческая (ул. Семафорная)",
               "minutes": 5.5,
-              "waitMinutes": 8.0,
+              "waitMinutes": 8,
               "stopCount": 3,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -39269,7 +39697,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 4,
+          "hubIndex": 5,
           "hubName": "ул. Шахтеров",
           "hubId": "m2-5",
           "boarding": 1133,
@@ -39306,7 +39734,7 @@
               "fromName": "Утиный плёс",
               "toName": "Предмостная площадь",
               "minutes": 8.8,
-              "waitMinutes": 8.0,
+              "waitMinutes": 8,
               "stopCount": 5,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -39350,7 +39778,7 @@
               "fromName": "Предмостная площадь",
               "toName": "ул. Шахтеров",
               "minutes": 14.299999999999999,
-              "waitMinutes": 15.0,
+              "waitMinutes": 15,
               "stopCount": 7,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -39397,7 +39825,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "Планета (ул.9 Мая)",
           "hubId": "m1-7",
           "boarding": 1138,
@@ -39434,7 +39862,7 @@
               "fromName": "Утиный плёс",
               "toName": "Дом Куприяна",
               "minutes": 46.20000000000002,
-              "waitMinutes": 13.0,
+              "waitMinutes": 13,
               "stopCount": 23,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -39568,7 +39996,7 @@
       "day": [
         {
           "route": 2,
-          "hubIndex": 4,
+          "hubIndex": 5,
           "hubName": "ул. Шахтеров",
           "hubId": "m2-5",
           "boarding": 409,
@@ -39600,7 +40028,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 414,
@@ -39672,7 +40100,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "ул. 2-я Брянская",
           "hubId": "m1-4",
           "boarding": 396,
@@ -39777,7 +40205,7 @@
       "night": [
         {
           "route": 2,
-          "hubIndex": 4,
+          "hubIndex": 5,
           "hubName": "ул. Шахтеров",
           "hubId": "m2-5",
           "boarding": 1133,
@@ -39809,7 +40237,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 1138,
@@ -39846,7 +40274,7 @@
               "fromName": "Федеральное БТИ",
               "toName": "ул. Молокова",
               "minutes": 8.799999999999999,
-              "waitMinutes": 13.0,
+              "waitMinutes": 13,
               "stopCount": 8,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -39912,7 +40340,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "Планета (ул.9 Мая)",
           "hubId": "m1-7",
           "boarding": 1138,
@@ -39949,7 +40377,7 @@
               "fromName": "Енисейский рынок",
               "toName": "Планета (ул.9 Мая)",
               "minutes": 13.200000000000003,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 5,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -39996,7 +40424,7 @@
       "day": [
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 414,
@@ -40127,7 +40555,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "Планета (ул.9 Мая)",
           "hubId": "m1-7",
           "boarding": 415,
@@ -40236,7 +40664,7 @@
                 56.052353
               ],
               "minutes": 8.894995552502223,
-              "metres": 593.0,
+              "metres": 593,
               "fromName": "Дом Куприяна",
               "toName": "Планета (ул.9 Мая)"
             }
@@ -40246,7 +40674,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 4,
+          "hubIndex": 5,
           "hubName": "ул. Шахтеров",
           "hubId": "m2-5",
           "boarding": 409,
@@ -40427,7 +40855,7 @@
       "night": [
         {
           "route": 1,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "Планета (ул.9 Мая)",
           "hubId": "m1-7",
           "boarding": 1138,
@@ -40464,7 +40892,7 @@
               "fromName": "Детская библиотека «Жар-птица»",
               "toName": "Дом Куприяна",
               "minutes": 19.8,
-              "waitMinutes": 12.0,
+              "waitMinutes": 12,
               "stopCount": 12,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -40536,7 +40964,7 @@
                 56.052353
               ],
               "minutes": 8.894995552502223,
-              "metres": 593.0,
+              "metres": 593,
               "fromName": "Дом Куприяна",
               "toName": "Планета (ул.9 Мая)"
             }
@@ -40546,7 +40974,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 1138,
@@ -40583,7 +41011,7 @@
               "fromName": "Детская библиотека «Жар-птица»",
               "toName": "ул. Авиаторов",
               "minutes": 27.5,
-              "waitMinutes": 12.0,
+              "waitMinutes": 12,
               "stopCount": 15,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -40677,7 +41105,7 @@
         },
         {
           "route": 4,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "Железнодорожная платформа «Металлургов»",
           "hubId": "m4-4",
           "boarding": 1139,
@@ -40816,7 +41244,7 @@
       "day": [
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 414,
@@ -40888,7 +41316,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "Сибирский институт искусств",
           "hubId": "m2-4",
           "boarding": 403,
@@ -40968,7 +41396,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "Планета (ул.9 Мая)",
           "hubId": "m1-7",
           "boarding": 415,
@@ -41061,7 +41489,7 @@
       "night": [
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 1138,
@@ -41098,7 +41526,7 @@
               "fromName": "Центральный рынок Советского района",
               "toName": "ул. Авиаторов",
               "minutes": 5.5,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 4,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -41133,7 +41561,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "Планета (ул.9 Мая)",
           "hubId": "m1-7",
           "boarding": 1138,
@@ -41170,7 +41598,7 @@
               "fromName": "Центральный рынок Советского района",
               "toName": "Дом Куприяна",
               "minutes": 8.8,
-              "waitMinutes": 12.0,
+              "waitMinutes": 12,
               "stopCount": 6,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -41228,7 +41656,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "Сибирский институт искусств",
           "hubId": "m2-4",
           "boarding": 1127,
@@ -41265,7 +41693,7 @@
               "fromName": "Центральный рынок Советского района",
               "toName": "Сибирский институт искусств",
               "minutes": 9.9,
-              "waitMinutes": 12.0,
+              "waitMinutes": 12,
               "stopCount": 5,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -41312,7 +41740,7 @@
       "day": [
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 414,
@@ -41451,7 +41879,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "Планета (ул.9 Мая)",
           "hubId": "m1-7",
           "boarding": 415,
@@ -41572,7 +42000,7 @@
                 56.052353
               ],
               "minutes": 6.554996722501638,
-              "metres": 437.0,
+              "metres": 437,
               "fromName": "ул. Петра Ломако",
               "toName": "Планета (ул.9 Мая)"
             }
@@ -41582,7 +42010,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 4,
+          "hubIndex": 5,
           "hubName": "ул. Шахтеров",
           "hubId": "m2-5",
           "boarding": 409,
@@ -41735,7 +42163,7 @@
       "night": [
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 1138,
@@ -41772,7 +42200,7 @@
               "fromName": "Школа №156",
               "toName": "ул. Авиаторов",
               "minutes": 33.00000000000001,
-              "waitMinutes": 12.0,
+              "waitMinutes": 12,
               "stopCount": 17,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -41874,7 +42302,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "Планета (ул.9 Мая)",
           "hubId": "m1-7",
           "boarding": 1138,
@@ -41911,7 +42339,7 @@
               "fromName": "Школа №156",
               "toName": "ул. Петра Ломако",
               "minutes": 28.600000000000005,
-              "waitMinutes": 12.0,
+              "waitMinutes": 12,
               "stopCount": 15,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -41995,7 +42423,7 @@
                 56.052353
               ],
               "minutes": 6.554996722501638,
-              "metres": 437.0,
+              "metres": 437,
               "fromName": "ул. Петра Ломако",
               "toName": "Планета (ул.9 Мая)"
             }
@@ -42005,7 +42433,7 @@
         },
         {
           "route": 4,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "Железнодорожная платформа «Металлургов»",
           "hubId": "m4-4",
           "boarding": 1139,
@@ -42042,7 +42470,7 @@
               "fromName": "Школа №156",
               "toName": "Кладбище Бадалык",
               "minutes": 13.75,
-              "waitMinutes": 12.0,
+              "waitMinutes": 12,
               "stopCount": 7,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -42176,7 +42604,7 @@
       "day": [
         {
           "route": 3,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "ТЮЗ (пр-т им. газ. Красноярский рабочий)",
           "hubId": "m3-4",
           "boarding": 395,
@@ -42288,7 +42716,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 4,
+          "hubIndex": 5,
           "hubName": "ул. Шахтеров",
           "hubId": "m2-5",
           "boarding": 409,
@@ -42430,7 +42858,7 @@
       "night": [
         {
           "route": 3,
-          "hubIndex": 0,
+          "hubIndex": 1,
           "hubName": "ОАО «Красфарма» (ул. Свердловская)",
           "hubId": "m3-1",
           "boarding": 1105,
@@ -42462,7 +42890,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 4,
+          "hubIndex": 5,
           "hubName": "ул. Шахтеров",
           "hubId": "m2-5",
           "boarding": 1133,
@@ -42499,7 +42927,7 @@
               "fromName": "Школа (ул. Судостроительная)",
               "toName": "Предмостная площадь",
               "minutes": 14.299999999999999,
-              "waitMinutes": 8.0,
+              "waitMinutes": 8,
               "stopCount": 8,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -42555,7 +42983,7 @@
               "fromName": "Предмостная площадь",
               "toName": "ул. Шахтеров",
               "minutes": 14.299999999999999,
-              "waitMinutes": 15.0,
+              "waitMinutes": 15,
               "stopCount": 7,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -42602,7 +43030,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "Планета (ул.9 Мая)",
           "hubId": "m1-7",
           "boarding": 1138,
@@ -42639,7 +43067,7 @@
               "fromName": "Школа (ул. Судостроительная)",
               "toName": "Дом Куприяна",
               "minutes": 51.15000000000001,
-              "waitMinutes": 13.0,
+              "waitMinutes": 13,
               "stopCount": 26,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -42785,7 +43213,7 @@
       "day": [
         {
           "route": 1,
-          "hubIndex": 1,
+          "hubIndex": 2,
           "hubName": "АЗС (ул. Калинина)",
           "hubId": "m1-2",
           "boarding": 382,
@@ -42817,7 +43245,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 0,
+          "hubIndex": 1,
           "hubName": "ул. Курчатова",
           "hubId": "m2-1",
           "boarding": 382,
@@ -42922,7 +43350,7 @@
       "night": [
         {
           "route": 1,
-          "hubIndex": 2,
+          "hubIndex": 3,
           "hubName": "1-я Калинина",
           "hubId": "m1-3",
           "boarding": 1116,
@@ -42959,7 +43387,7 @@
               "fromName": "Школьная",
               "toName": "1-я Калинина",
               "minutes": 10.450000000000001,
-              "waitMinutes": 8.0,
+              "waitMinutes": 8,
               "stopCount": 7,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -43006,7 +43434,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 4,
+          "hubIndex": 5,
           "hubName": "ул. Шахтеров",
           "hubId": "m2-5",
           "boarding": 1133,
@@ -43043,7 +43471,7 @@
               "fromName": "Школьная",
               "toName": "ул. Мужества",
               "minutes": 29.7,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 14,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -43123,7 +43551,7 @@
                 56.027876
               ],
               "minutes": 13.96499301750349,
-              "metres": 931.0,
+              "metres": 931,
               "fromName": "ул. Мужества",
               "toName": "ул. Шахтеров"
             }
@@ -43133,7 +43561,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 1138,
@@ -43169,8 +43597,8 @@
               "fromStopId": "523",
               "fromName": "Школьная",
               "toName": "ул. Мартынова",
-              "minutes": 22.0,
-              "waitMinutes": 11.0,
+              "minutes": 22,
+              "waitMinutes": 11,
               "stopCount": 11,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -43238,7 +43666,7 @@
               "fromName": "ул. Мартынова",
               "toName": "ул. Молокова",
               "minutes": 14.299999999999997,
-              "waitMinutes": 13.0,
+              "waitMinutes": 13,
               "stopCount": 12,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -43328,7 +43756,7 @@
       "day": [
         {
           "route": 1,
-          "hubIndex": 0,
+          "hubIndex": 1,
           "hubName": "Жилой комплекс «Глобус»",
           "hubId": "m1-1",
           "boarding": 376,
@@ -43360,7 +43788,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 0,
+          "hubIndex": 1,
           "hubName": "ул. Курчатова",
           "hubId": "m2-1",
           "boarding": 382,
@@ -43477,7 +43905,7 @@
       "night": [
         {
           "route": 1,
-          "hubIndex": 0,
+          "hubIndex": 1,
           "hubName": "Жилой комплекс «Глобус»",
           "hubId": "m1-1",
           "boarding": 1103,
@@ -43509,7 +43937,7 @@
         },
         {
           "route": 2,
-          "hubIndex": 1,
+          "hubIndex": 2,
           "hubName": "Копыловский мост",
           "hubId": "m2-2",
           "boarding": 1114,
@@ -43546,7 +43974,7 @@
               "fromName": "Школьный городок",
               "toName": "Копыловский мост",
               "minutes": 27.500000000000004,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 16,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -43629,7 +44057,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 1138,
@@ -43666,7 +44094,7 @@
               "fromName": "Школьный городок",
               "toName": "театр им. А.С. Пушкина",
               "minutes": 37.40000000000001,
-              "waitMinutes": 12.0,
+              "waitMinutes": 12,
               "stopCount": 25,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -43790,7 +44218,7 @@
               "fromName": "театр им. А.С. Пушкина",
               "toName": "ул. Авиаторов",
               "minutes": 23.100000000000005,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 15,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -43877,7 +44305,7 @@
       "day": [
         {
           "route": 2,
-          "hubIndex": 4,
+          "hubIndex": 5,
           "hubName": "ул. Шахтеров",
           "hubId": "m2-5",
           "boarding": 409,
@@ -43997,7 +44425,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 4,
+          "hubIndex": 5,
           "hubName": "ул. Мичурина (ул. Московская)",
           "hubId": "m3-5",
           "boarding": 402,
@@ -44034,7 +44462,7 @@
               "fromName": "пос. Водников",
               "toName": "ул. Московская",
               "minutes": 21.733388260994552,
-              "waitMinutes": 10.0,
+              "waitMinutes": 10,
               "stopCount": 12,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": false,
@@ -44116,7 +44544,7 @@
         },
         {
           "route": 4,
-          "hubIndex": 0,
+          "hubIndex": 1,
           "hubName": "Поликлиника (ул. Волжская)",
           "hubId": "m4-1",
           "boarding": 387,
@@ -44153,7 +44581,7 @@
               "fromName": "пос. Водников",
               "toName": "Поликлиника (ул. Павлова)",
               "minutes": 17.133388260994554,
-              "waitMinutes": 10.0,
+              "waitMinutes": 10,
               "stopCount": 9,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": false,
@@ -44296,7 +44724,7 @@
       "night": [
         {
           "route": 2,
-          "hubIndex": 4,
+          "hubIndex": 5,
           "hubName": "ул. Шахтеров",
           "hubId": "m2-5",
           "boarding": 1133,
@@ -44333,7 +44761,7 @@
               "fromName": "ул. Тургенева",
               "toName": "ул. Шахтеров",
               "minutes": 29.70000000000001,
-              "waitMinutes": 15.0,
+              "waitMinutes": 15,
               "stopCount": 16,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -44416,7 +44844,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 2,
+          "hubIndex": 3,
           "hubName": "Студенческая  (ул. Свердловская)",
           "hubId": "m3-3",
           "boarding": 1112,
@@ -44453,7 +44881,7 @@
               "fromName": "ул. Тургенева",
               "toName": "ХМЗ",
               "minutes": 9.9,
-              "waitMinutes": 15.0,
+              "waitMinutes": 15,
               "stopCount": 7,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -44515,7 +44943,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "Планета (ул.9 Мая)",
           "hubId": "m1-7",
           "boarding": 1138,
@@ -44552,7 +44980,7 @@
               "fromName": "ул. Тургенева",
               "toName": "ул. Шахтеров",
               "minutes": 29.70000000000001,
-              "waitMinutes": 15.0,
+              "waitMinutes": 15,
               "stopCount": 16,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -44640,7 +45068,7 @@
               "fromName": "ул. Шахтеров",
               "toName": "Дом Куприяна",
               "minutes": 10.999999999999998,
-              "waitMinutes": 13.0,
+              "waitMinutes": 13,
               "stopCount": 8,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -44714,7 +45142,7 @@
       "day": [
         {
           "route": 2,
-          "hubIndex": 1,
+          "hubIndex": 2,
           "hubName": "Копыловский мост",
           "hubId": "m2-2",
           "boarding": 388,
@@ -44786,7 +45214,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "ул. 2-я Брянская",
           "hubId": "m1-4",
           "boarding": 396,
@@ -44874,7 +45302,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 414,
@@ -45059,7 +45487,7 @@
       "night": [
         {
           "route": 2,
-          "hubIndex": 0,
+          "hubIndex": 1,
           "hubName": "ул. Курчатова",
           "hubId": "m2-1",
           "boarding": 1108,
@@ -45091,7 +45519,7 @@
         },
         {
           "route": 1,
-          "hubIndex": 3,
+          "hubIndex": 4,
           "hubName": "ул. 2-я Брянская",
           "hubId": "m1-4",
           "boarding": 1121,
@@ -45128,7 +45556,7 @@
               "fromName": "ГорДК",
               "toName": "ул. 2-я Брянская",
               "minutes": 21.450000000000003,
-              "waitMinutes": 10.0,
+              "waitMinutes": 10,
               "stopCount": 8,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -45179,7 +45607,7 @@
         },
         {
           "route": 3,
-          "hubIndex": 6,
+          "hubIndex": 7,
           "hubName": "ул. Авиаторов",
           "hubId": "m3-7",
           "boarding": 1138,
@@ -45216,7 +45644,7 @@
               "fromName": "ГорДК",
               "toName": "ул. Авиаторов",
               "minutes": 43.45000000000002,
-              "waitMinutes": 11.0,
+              "waitMinutes": 11,
               "stopCount": 29,
               "source": "https://mu-kgt.ru/informing/",
               "scheduleConfirmed": true,
@@ -45365,35 +45793,83 @@
   "corridors": [
     {
       "id": 1,
-      "title": "Запад · Калинина",
+      "title": "Молодёжная · Калинина",
       "color": "#263b44",
-      "corridor": "Калинина → 2-я Брянская → Караульная → 9 Мая → Енисейский тракт",
-      "distanceKm": 32.1001,
-      "driveMin": 44.193333333333335
+      "corridor": "Молодёжная → Норильская → Калинина → 2-я Брянская → Караульная → 9 Мая → Енисейский тракт",
+      "distanceKm": 34.506299999999996,
+      "driveMin": 49.695,
+      "start": {
+        "name": "Молодёжная",
+        "lon": 92.698345,
+        "lat": 56.055073,
+        "source": "https://www.openstreetmap.org/node/11327682779"
+      },
+      "extension": {
+        "distanceKm": 2.4061999999999997,
+        "driveMin": 5.501666666666667,
+        "routing": "https://router.project-osrm.org",
+        "checkedAt": "2026-10-20"
+      }
     },
     {
       "id": 2,
-      "title": "Юго-запад · Центр",
+      "title": "Северо-Западный",
       "color": "#b832b7",
-      "corridor": "Курчатова / Свободный → Красной Армии → Копылова → Ленина / Мира → Шахтёров → 9 Мая → Енисейский тракт",
-      "distanceKm": 32.4495,
-      "driveMin": 41.89833333333333
+      "corridor": "Кольцо Северо-Западного → Попова → Тотмина → Высотная → Курчатова / Свободный → Красной Армии → Копылова → Ленина / Мира → Шахтёров → 9 Мая → Енисейский тракт",
+      "distanceKm": 35.9921,
+      "driveMin": 47.47833333333333,
+      "start": {
+        "name": "Северо-Западный район (кольцо)",
+        "lon": 92.7680572,
+        "lat": 56.0398218,
+        "source": "https://www.openstreetmap.org/node/3716322352"
+      },
+      "extension": {
+        "distanceKm": 3.5425999999999997,
+        "driveMin": 5.58,
+        "routing": "https://router.project-osrm.org",
+        "checkedAt": "2026-10-20"
+      }
     },
     {
       "id": 3,
-      "title": "Юг · Красноярский Рабочий",
+      "title": "Тихие Зори · Красраб",
       "color": "#de4c2f",
-      "corridor": "Свердловская → Матросова → Красноярский Рабочий → Мичурина → Октябрьский мост → Авиаторов → 9 Мая → Енисейский тракт",
-      "distanceKm": 33.6217,
-      "driveMin": 42.669999999999995
+      "corridor": "Тихие Зори → Лесников → съезд на Свердловскую → Свердловская → Матросова → Красноярский Рабочий → Мичурина → Октябрьский мост → Авиаторов → 9 Мая → Енисейский тракт",
+      "distanceKm": 36.354299999999995,
+      "driveMin": 47.059999999999995,
+      "start": {
+        "name": "Микрорайон Тихие Зори",
+        "lon": 92.8017993,
+        "lat": 55.9802206,
+        "source": "https://www.openstreetmap.org/node/12005150870"
+      },
+      "extension": {
+        "distanceKm": 2.7325999999999997,
+        "driveMin": 4.39,
+        "routing": "https://router.project-osrm.org",
+        "checkedAt": "2026-10-20"
+      }
     },
     {
       "id": 4,
-      "title": "Восток · Мост 777",
+      "title": "Щорса · Мост 777",
       "color": "#3936b2",
-      "corridor": "Волжская → Говорова → Глинки → 26 Бакинских Комиссаров → Рейдовая → мост 777 → Ястынская → Енисейский тракт",
-      "distanceKm": 31.032700000000002,
-      "driveMin": 39.13333333333333
+      "corridor": "Школа (ул. Щорса) → Щорса → Мичурина → Волжская → Говорова → Глинки → 26 Бакинских Комиссаров → Рейдовая → мост 777 → Ястынская → Енисейский тракт",
+      "distanceKm": 36.8466,
+      "driveMin": 46.81666666666666,
+      "start": {
+        "name": "Школа (улица Щорса)",
+        "lon": 92.9354053,
+        "lat": 55.9882446,
+        "source": "https://www.openstreetmap.org/node/10030350298"
+      },
+      "extension": {
+        "distanceKm": 5.813899999999999,
+        "driveMin": 7.683333333333334,
+        "routing": "https://router.project-osrm.org",
+        "checkedAt": "2026-10-20"
+      }
     }
   ],
   "capacity": "Вместимость автобусов и распределение сотрудников по сменам не заданы; это общий список, а не загрузка одного рейса."
