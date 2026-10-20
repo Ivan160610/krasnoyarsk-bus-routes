@@ -1,0 +1,8 @@
+Local vector basemap of Krasnoyarsk
+Data © OpenStreetMap contributors, https://www.openstreetmap.org/copyright
+Database license: ODbL 1.0, https://opendatacommons.org/licenses/odbl/1-0/
+OSM snapshot: 2026-10-20T05:38:20Z
+Bounding box: 55.94,92.63,56.26,93.12
+Source: Overpass API, https://overpass-api.de/api/interpreter
+Contains roads, waterways, water areas, railways and settlement names. No raster tiles were downloaded or republished.
+SVG artwork may be reused under CC BY 4.0 with attribution.
