@@ -3714,240 +3714,28 @@
           823.1657322839019
         ],
         [
-          698.518368711113,
-          823.0771547204349
+          697.7202858666424,
+          822.5977931122761
         ],
         [
-          701.0728163555032,
-          822.8218427017564
+          697.4901816888014,
+          820.1697048207279
         ],
         [
-          703.3534691556124,
-          822.6030035706935
+          697.3882367999759,
+          819.1328084060806
         ],
         [
-          707.6205909333657,
-          822.1861664725002
+          697.1843470222084,
+          816.9860511118313
         ],
         [
-          708.8264533334877,
-          822.0715361191542
+          697.0532750221901,
+          815.8240831225412
         ],
         [
-          711.1653603555169,
-          821.8422752165934
-        ],
-        [
-          711.846934755682,
-          821.8005913880188
-        ],
-        [
-          712.4469532443909,
-          821.7484865902807
-        ],
-        [
-          714.8149873778457,
-          821.4879623989691
-        ],
-        [
-          715.2577194666956,
-          821.4462784970528
-        ],
-        [
-          717.4306019555079,
-          821.2170168823795
-        ],
-        [
-          719.2801735111279,
-          821.0138075053692
-        ],
-        [
-          721.3045077334391,
-          820.8522819569334
-        ],
-        [
-          723.2006826666184,
-          820.6959667865885
-        ],
-        [
-          725.4172558221035,
-          820.461493803421
-        ],
-        [
-          725.8978531556204,
-          820.4093886589399
-        ],
-        [
-          726.5765148444334,
-          820.3468624678208
-        ],
-        [
-          727.6513052444207,
-          820.2426521060988
-        ],
-        [
-          730.3455630223034,
-          819.976915439358
-        ],
-        [
-          730.8290730667068,
-          819.9195996416965
-        ],
-        [
-          731.7116245332872,
-          819.8466522393283
-        ],
-        [
-          732.9670030223206,
-          819.7268100208021
-        ],
-        [
-          733.7301333333598,
-          819.6486520137405
-        ],
-        [
-          734.7466695111943,
-          819.554862365243
-        ],
-        [
-          735.6175701332977,
-          819.4662832126487
-        ],
-        [
-          736.9253774222452,
-          819.3412302249344
-        ],
-        [
-          737.0214968888322,
-          819.3308091390645
-        ],
-        [
-          739.7856597334612,
-          819.0650712684728
-        ],
-        [
-          740.2546062222682,
-          819.0181763137225
-        ],
-        [
-          740.1905265778769,
-          818.4450148725882
-        ],
-        [
-          739.6575004445622,
-          813.6356050169561
-        ],
-        [
-          739.593420799938,
-          813.0415854250314
-        ],
-        [
-          739.4215708444826,
-          811.4939998335321
-        ],
-        [
-          739.3400149333756,
-          810.7644940811442
-        ],
-        [
-          736.060302222264,
-          811.0719289705157
-        ],
-        [
-          735.9059285332914,
-          811.0823504839791
-        ],
-        [
-          735.6583480888512,
-          811.103193509276
-        ],
-        [
-          734.630161066656,
-          811.2074086032808
-        ],
-        [
-          733.9951900443994,
-          811.2647268819856
-        ],
-        [
-          731.3184085332323,
-          811.5252643066342
-        ],
-        [
-          730.2174037334044,
-          811.6555328925024
-        ],
-        [
-          725.6590108444216,
-          812.166184936068
-        ],
-        [
-          725.1638499554247,
-          812.2078707600012
-        ],
-        [
-          723.4453503999393,
-          812.3902461380931
-        ],
-        [
-          719.6267861332744,
-          812.7862606757553
-        ],
-        [
-          717.7976035554893,
-          812.958214113838
-        ],
-        [
-          715.7936583111295,
-          813.1614316242049
-        ],
-        [
-          714.9839246221818,
-          813.2291707487311
-        ],
-        [
-          711.876061866642,
-          813.5418125663418
-        ],
-        [
-          711.1799239111133,
-          813.6147622539429
-        ],
-        [
-          708.0633230222156,
-          814.0159850628115
-        ],
-        [
-          706.7176504888339,
-          814.177516097785
-        ],
-        [
-          704.5272917333059,
-          814.4172070720233
-        ],
-        [
-          702.837919288897,
-          814.578737784992
-        ],
-        [
-          701.7543907556683,
-          814.6881617426407
-        ],
-        [
-          700.627171555534,
-          814.8288496008608
-        ],
-        [
-          698.9698389333207,
-          815.0164332587738
-        ],
-        [
-          698.7251712001162,
-          815.042486530845
-        ],
-        [
-          697.5979519999819,
-          815.1519102363382
+          697.0270606223494,
+          815.59481510357
         ],
         [
           696.9804572444409,
@@ -11628,22 +11416,23 @@
     },
     {
       "id": "m2-4",
-      "name": "Сибирский институт искусств",
-      "lat": 56.014704,
-      "lon": 92.889369,
-      "x": 735.8971903999336,
-      "y": 810.9625030468451,
+      "name": "Химчистка (улица Сурикова)",
+      "lat": 56.0147301,
+      "lon": 92.8759875,
+      "x": 696.9207466667285,
+      "y": 810.8265021729749,
       "route": 2,
       "kind": "boarding",
       "order": 5,
-      "count": 2,
-      "dayCount": 2,
+      "count": 1,
+      "dayCount": 1,
       "nightCount": 2,
       "morning": 403,
       "evening": 1127,
-      "routePosition": 511.307933,
+      "routePosition": 469.226884,
+      "sourceUrl": "https://www.openstreetmap.org/node/2167415595",
       "searchAliases": [
-        "Сибирский институт искусств"
+        "Химчистка"
       ]
     },
     {
@@ -11661,7 +11450,7 @@
       "nightCount": 6,
       "morning": 409,
       "evening": 1133,
-      "routePosition": 645.69382,
+      "routePosition": 560.079079,
       "searchAliases": [
         "Улица Шахтёров"
       ]
@@ -11817,8 +11606,8 @@
       "route": 3,
       "kind": "boarding",
       "order": 8,
-      "count": 11,
-      "dayCount": 11,
+      "count": 12,
+      "dayCount": 12,
       "nightCount": 7,
       "morning": 414,
       "evening": 1138,
@@ -14714,69 +14503,6 @@
       "evening": null
     },
     {
-      "id": "city-2-node-9959783085",
-      "name": "Улица Парижской Коммуны",
-      "lat": 56.012605,
-      "lon": 92.8822894,
-      "x": 715.2763608177193,
-      "y": 821.8995904667536,
-      "route": 2,
-      "kind": "pass",
-      "routePosition": 474.41535,
-      "source": "city-catalogue",
-      "sourceUrl": "https://www.openstreetmap.org/node/9959783085",
-      "cityStopIds": [
-        "node-9959783085"
-      ],
-      "searchAliases": [
-        "Улица Парижской Коммуны"
-      ],
-      "morning": null,
-      "evening": null
-    },
-    {
-      "id": "city-2-node-3244607925",
-      "name": "улица Парижской Коммуны",
-      "lat": 56.0143506,
-      "lon": 92.8821827,
-      "x": 714.9655745421769,
-      "y": 812.8039770973264,
-      "route": 2,
-      "kind": "pass",
-      "routePosition": 532.323398,
-      "source": "city-catalogue",
-      "sourceUrl": "https://www.openstreetmap.org/node/3244607925",
-      "cityStopIds": [
-        "node-3244607925"
-      ],
-      "searchAliases": [
-        "улица Парижской Коммуны"
-      ],
-      "morning": null,
-      "evening": null
-    },
-    {
-      "id": "city-2-node-2167415595",
-      "name": "Химчистка",
-      "lat": 56.0147301,
-      "lon": 92.8759875,
-      "x": 696.9207466667285,
-      "y": 810.8265021729749,
-      "route": 2,
-      "kind": "pass",
-      "routePosition": 554.841625,
-      "source": "city-catalogue",
-      "sourceUrl": "https://www.openstreetmap.org/node/2167415595",
-      "cityStopIds": [
-        "node-2167415595"
-      ],
-      "searchAliases": [
-        "Химчистка"
-      ],
-      "morning": null,
-      "evening": null
-    },
-    {
       "id": "city-2-node-4040571200",
       "name": "Улица Игарская",
       "lat": 56.0194192,
@@ -14785,7 +14511,7 @@
       "y": 786.3912291117013,
       "route": 2,
       "kind": "pass",
-      "routePosition": 585.517221,
+      "routePosition": 499.902479,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/4040571200",
       "cityStopIds": [
@@ -14808,7 +14534,7 @@
       "y": 773.5045979120187,
       "route": 2,
       "kind": "pass",
-      "routePosition": 612.532146,
+      "routePosition": 526.917405,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/4123497329",
       "cityStopIds": [
@@ -14829,7 +14555,7 @@
       "y": 757.9094563533436,
       "route": 2,
       "kind": "pass",
-      "routePosition": 628.789002,
+      "routePosition": 543.17426,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/4123497327",
       "cityStopIds": [
@@ -14851,7 +14577,7 @@
       "y": 718.7171720121405,
       "route": 2,
       "kind": "pass",
-      "routePosition": 670.39348,
+      "routePosition": 584.778738,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/4123497320",
       "cityStopIds": [
@@ -14873,7 +14599,7 @@
       "y": 692.4083398614312,
       "route": 2,
       "kind": "pass",
-      "routePosition": 697.089393,
+      "routePosition": 611.474651,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/4123497318",
       "cityStopIds": [
@@ -14895,7 +14621,7 @@
       "y": 675.3500493819593,
       "route": 2,
       "kind": "pass",
-      "routePosition": 714.215173,
+      "routePosition": 628.600432,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/4123497317",
       "cityStopIds": [
@@ -14917,7 +14643,7 @@
       "y": 656.7352786785341,
       "route": 2,
       "kind": "pass",
-      "routePosition": 733.177819,
+      "routePosition": 647.563078,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/4123497315",
       "cityStopIds": [
@@ -14939,7 +14665,7 @@
       "y": 632.4163641880732,
       "route": 2,
       "kind": "pass",
-      "routePosition": 762.240941,
+      "routePosition": 676.6262,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/4123497312",
       "cityStopIds": [
@@ -14960,7 +14686,7 @@
       "y": 615.5683998821769,
       "route": 2,
       "kind": "pass",
-      "routePosition": 787.266187,
+      "routePosition": 701.651445,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/4123497310",
       "cityStopIds": [
@@ -14981,7 +14707,7 @@
       "y": 596.2073801707011,
       "route": 2,
       "kind": "pass",
-      "routePosition": 816.247708,
+      "routePosition": 730.632966,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/1056781475",
       "cityStopIds": [
@@ -15003,7 +14729,7 @@
       "y": 581.877627789625,
       "route": 2,
       "kind": "pass",
-      "routePosition": 837.99913,
+      "routePosition": 752.384389,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/1015339937",
       "cityStopIds": [
@@ -15025,7 +14751,7 @@
       "y": 570.4965627503698,
       "route": 2,
       "kind": "pass",
-      "routePosition": 854.491638,
+      "routePosition": 768.876897,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/2135230141",
       "cityStopIds": [
@@ -15046,7 +14772,7 @@
       "y": 552.2717451221542,
       "route": 2,
       "kind": "pass",
-      "routePosition": 881.81399,
+      "routePosition": 796.199248,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/858214752",
       "cityStopIds": [
@@ -15067,7 +14793,7 @@
       "y": 536.8838133873069,
       "route": 2,
       "kind": "pass",
-      "routePosition": 904.756942,
+      "routePosition": 819.142201,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/1096164458",
       "cityStopIds": [
@@ -15088,7 +14814,7 @@
       "y": 527.795134989894,
       "route": 2,
       "kind": "pass",
-      "routePosition": 918.303441,
+      "routePosition": 832.6887,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/2027449483",
       "cityStopIds": [
@@ -15109,7 +14835,7 @@
       "y": 472.58894916943973,
       "route": 2,
       "kind": "pass",
-      "routePosition": 983.451279,
+      "routePosition": 897.836537,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/9901552931",
       "cityStopIds": [
@@ -15130,7 +14856,7 @@
       "y": 440.9414874605718,
       "route": 2,
       "kind": "pass",
-      "routePosition": 1017.486612,
+      "routePosition": 931.871871,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/9901552932",
       "cityStopIds": [
@@ -15152,7 +14878,7 @@
       "y": 400.75485438032774,
       "route": 2,
       "kind": "pass",
-      "routePosition": 1060.172162,
+      "routePosition": 974.557421,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/12290135179",
       "cityStopIds": [
@@ -15174,7 +14900,7 @@
       "y": 363.9599676525104,
       "route": 2,
       "kind": "pass",
-      "routePosition": 1102.165379,
+      "routePosition": 1016.550637,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/6007819986",
       "cityStopIds": [
@@ -15195,7 +14921,7 @@
       "y": 292.58491452713497,
       "route": 2,
       "kind": "pass",
-      "routePosition": 1199.670467,
+      "routePosition": 1114.055726,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/2320787605",
       "cityStopIds": [
@@ -15217,7 +14943,7 @@
       "y": 12.690328470198438,
       "route": 2,
       "kind": "pass",
-      "routePosition": 1494.748327,
+      "routePosition": 1409.133586,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/5341417889",
       "cityStopIds": [
@@ -15238,7 +14964,7 @@
       "y": 13.375128894811496,
       "route": 2,
       "kind": "pass",
-      "routePosition": 1595.631487,
+      "routePosition": 1510.016746,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/5341417888",
       "cityStopIds": [
@@ -15252,8 +14978,8 @@
     }
   ],
   "walks": [],
-  "revision": "magistral-20261021-route2-selkhoz",
-  "updatedAt": "2026-10-21T05:32:07.794Z",
+  "revision": "magistral-20261021-route2-surikova-direct",
+  "updatedAt": "2026-10-21T05:43:48.880Z",
   "cityStops": {
     "source": "OpenStreetMap",
     "catalogueUpdatedAt": "2026-10-14T01:37:26Z",
