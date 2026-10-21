@@ -2710,6 +2710,111 @@
       "lon": 92.772478,
       "day": [
         {
+          "route": 2,
+          "hubIndex": 1,
+          "hubName": "ГорДК (улица Высотная)",
+          "hubId": "m2-1",
+          "boarding": 382,
+          "departure": 353,
+          "connectionMinutes": 29,
+          "walkingMinutes": 2,
+          "waitingMinutes": 8,
+          "transfers": 0,
+          "scheduleConfirmed": true,
+          "segments": [
+            {
+              "type": "walk",
+              "fromName": "БСМП",
+              "toName": "БСМП",
+              "minutes": 0.2689900776607901,
+              "metres": 17.932680810388597,
+              "from": [
+                92.772478,
+                56.019435
+              ],
+              "to": [
+                92.772516,
+                56.019394
+              ]
+            },
+            {
+              "type": "transit",
+              "number": "21",
+              "transport": "Автобус",
+              "routeId": "463",
+              "directionId": "B",
+              "direction": "Спортзал",
+              "fromStopId": "604",
+              "fromName": "БСМП",
+              "toName": "ГорДК",
+              "minutes": 9.2,
+              "waitMinutes": 7.84250247874877,
+              "stopCount": 3,
+              "source": "https://mu-kgt.ru/informing/",
+              "scheduleConfirmed": true,
+              "estimatedSegments": 0,
+              "geometry": [
+                [
+                  92.772516,
+                  56.019394
+                ],
+                [
+                  92.780933,
+                  56.022335
+                ],
+                [
+                  92.786762,
+                  56.022975
+                ],
+                [
+                  92.79262,
+                  56.019537
+                ]
+              ],
+              "toStopId": "580"
+            },
+            {
+              "type": "walk",
+              "fromName": "ГорДК",
+              "toName": "ГорДК (улица Высотная)",
+              "minutes": 1.176,
+              "metres": 78.4,
+              "from": [
+                92.79262,
+                56.019537
+              ],
+              "to": [
+                92.7926799,
+                56.019369
+              ],
+              "geometry": [
+                [
+                  92.792681,
+                  56.019569
+                ],
+                [
+                  92.792438,
+                  56.019714
+                ],
+                [
+                  92.792325,
+                  56.019659
+                ],
+                [
+                  92.792229,
+                  56.019605
+                ],
+                [
+                  92.792656,
+                  56.019356
+                ]
+              ]
+            }
+          ],
+          "totalMinutes": 112,
+          "bufferMinutes": 10
+        },
+        {
           "route": 1,
           "hubIndex": 4,
           "hubName": "ул. 2-я Брянская",
@@ -2804,89 +2909,6 @@
                 ]
               ],
               "toStopId": "968"
-            }
-          ],
-          "totalMinutes": 116,
-          "bufferMinutes": 10
-        },
-        {
-          "route": 2,
-          "hubIndex": 1,
-          "hubName": "ул. Курчатова",
-          "hubId": "m2-1",
-          "boarding": 382,
-          "departure": 349,
-          "connectionMinutes": 33,
-          "walkingMinutes": 6,
-          "waitingMinutes": 8,
-          "transfers": 0,
-          "scheduleConfirmed": true,
-          "segments": [
-            {
-              "type": "walk",
-              "fromName": "БСМП",
-              "toName": "БСМП",
-              "minutes": 0.2689900776607901,
-              "metres": 17.932680810388597,
-              "from": [
-                92.772478,
-                56.019435
-              ],
-              "to": [
-                92.772516,
-                56.019394
-              ]
-            },
-            {
-              "type": "transit",
-              "number": "21",
-              "transport": "Автобус",
-              "routeId": "463",
-              "directionId": "B",
-              "direction": "Спортзал",
-              "fromStopId": "604",
-              "fromName": "БСМП",
-              "toName": "ГорДК",
-              "minutes": 9.2,
-              "waitMinutes": 7.84250247874877,
-              "stopCount": 3,
-              "source": "https://mu-kgt.ru/informing/",
-              "scheduleConfirmed": true,
-              "estimatedSegments": 0,
-              "geometry": [
-                [
-                  92.772516,
-                  56.019394
-                ],
-                [
-                  92.780933,
-                  56.022335
-                ],
-                [
-                  92.786762,
-                  56.022975
-                ],
-                [
-                  92.79262,
-                  56.019537
-                ]
-              ],
-              "toStopId": "580"
-            },
-            {
-              "type": "walk",
-              "from": [
-                92.79262,
-                56.019537
-              ],
-              "to": [
-                92.79223,
-                56.017451
-              ],
-              "minutes": 4.957497521251239,
-              "metres": 330.5,
-              "fromName": "ГорДК",
-              "toName": "ул. Курчатова"
             }
           ],
           "totalMinutes": 116,
@@ -3092,12 +3114,12 @@
         {
           "route": 2,
           "hubIndex": 1,
-          "hubName": "ул. Курчатова",
+          "hubName": "ГорДК (улица Высотная)",
           "hubId": "m2-1",
           "boarding": 1108,
-          "departure": 1077,
-          "connectionMinutes": 31,
-          "walkingMinutes": 6,
+          "departure": 1080,
+          "connectionMinutes": 28,
+          "walkingMinutes": 2,
           "waitingMinutes": 9,
           "transfers": 0,
           "scheduleConfirmed": true,
@@ -3155,21 +3177,43 @@
             },
             {
               "type": "walk",
+              "fromName": "ГорДК",
+              "toName": "ГорДК (улица Высотная)",
+              "minutes": 1.176,
+              "metres": 78.4,
               "from": [
                 92.79262,
                 56.019537
               ],
               "to": [
-                92.79223,
-                56.017451
+                92.7926799,
+                56.019369
               ],
-              "minutes": 4.957497521251239,
-              "metres": 330.5,
-              "fromName": "ГорДК",
-              "toName": "ул. Курчатова"
+              "geometry": [
+                [
+                  92.792681,
+                  56.019569
+                ],
+                [
+                  92.792438,
+                  56.019714
+                ],
+                [
+                  92.792325,
+                  56.019659
+                ],
+                [
+                  92.792229,
+                  56.019605
+                ],
+                [
+                  92.792656,
+                  56.019356
+                ]
+              ]
             }
           ],
-          "totalMinutes": 108,
+          "totalMinutes": 105,
           "bufferMinutes": 10
         },
         {
@@ -7579,12 +7623,12 @@
         {
           "route": 2,
           "hubIndex": 1,
-          "hubName": "ул. Курчатова",
+          "hubName": "ГорДК (улица Высотная)",
           "hubId": "m2-1",
           "boarding": 382,
-          "departure": 367,
-          "connectionMinutes": 15,
-          "walkingMinutes": 5,
+          "departure": 370,
+          "connectionMinutes": 12,
+          "walkingMinutes": 2,
           "waitingMinutes": 0,
           "transfers": 0,
           "scheduleConfirmed": true,
@@ -7592,20 +7636,42 @@
             {
               "type": "walk",
               "fromName": "ГорДК",
-              "toName": "ул. Курчатова",
-              "minutes": 4.961802519653732,
-              "metres": 330.7870000369995,
+              "toName": "ГорДК (улица Высотная)",
+              "minutes": 1.1864999999999999,
+              "metres": 79.1,
               "from": [
                 92.792601,
                 56.019518
               ],
               "to": [
-                92.79223,
-                56.017451
+                92.7926799,
+                56.019369
+              ],
+              "geometry": [
+                [
+                  92.792689,
+                  56.019565
+                ],
+                [
+                  92.792438,
+                  56.019714
+                ],
+                [
+                  92.792325,
+                  56.019659
+                ],
+                [
+                  92.792229,
+                  56.019605
+                ],
+                [
+                  92.792656,
+                  56.019356
+                ]
               ]
             }
           ],
-          "totalMinutes": 98,
+          "totalMinutes": 95,
           "bufferMinutes": 10
         },
         {
@@ -7884,12 +7950,12 @@
         {
           "route": 2,
           "hubIndex": 1,
-          "hubName": "ул. Курчатова",
+          "hubName": "ГорДК (улица Высотная)",
           "hubId": "m2-1",
           "boarding": 1108,
-          "departure": 1093,
-          "connectionMinutes": 15,
-          "walkingMinutes": 5,
+          "departure": 1096,
+          "connectionMinutes": 12,
+          "walkingMinutes": 2,
           "waitingMinutes": 0,
           "transfers": 0,
           "scheduleConfirmed": true,
@@ -7897,20 +7963,42 @@
             {
               "type": "walk",
               "fromName": "ГорДК",
-              "toName": "ул. Курчатова",
-              "minutes": 4.961802519653732,
-              "metres": 330.7870000369995,
+              "toName": "ГорДК (улица Высотная)",
+              "minutes": 1.1864999999999999,
+              "metres": 79.1,
               "from": [
                 92.792601,
                 56.019518
               ],
               "to": [
-                92.79223,
-                56.017451
+                92.7926799,
+                56.019369
+              ],
+              "geometry": [
+                [
+                  92.792689,
+                  56.019565
+                ],
+                [
+                  92.792438,
+                  56.019714
+                ],
+                [
+                  92.792325,
+                  56.019659
+                ],
+                [
+                  92.792229,
+                  56.019605
+                ],
+                [
+                  92.792656,
+                  56.019356
+                ]
               ]
             }
           ],
-          "totalMinutes": 92,
+          "totalMinutes": 89,
           "bufferMinutes": 10
         },
         {
@@ -8182,6 +8270,115 @@
       "lon": 92.7656129,
       "day": [
         {
+          "route": 2,
+          "hubIndex": 1,
+          "hubName": "ГорДК (улица Высотная)",
+          "hubId": "m2-1",
+          "boarding": 382,
+          "departure": 351,
+          "connectionMinutes": 31,
+          "walkingMinutes": 2,
+          "waitingMinutes": 8,
+          "transfers": 0,
+          "scheduleConfirmed": true,
+          "segments": [
+            {
+              "type": "walk",
+              "fromName": "Госпиталь инвалидов ВОВ",
+              "toName": "Краевой госпиталь ветеранов войн",
+              "minutes": 0.25902423919401774,
+              "metres": 17.268291247075823,
+              "from": [
+                92.7656129,
+                56.0190618
+              ],
+              "to": [
+                92.765714,
+                56.019074
+              ]
+            },
+            {
+              "type": "transit",
+              "number": "21",
+              "transport": "Автобус",
+              "routeId": "463",
+              "directionId": "B",
+              "direction": "Спортзал",
+              "fromStopId": "608",
+              "fromName": "Краевой госпиталь ветеранов войн",
+              "toName": "ГорДК",
+              "minutes": 11.499999999999998,
+              "waitMinutes": 7.542502478748759,
+              "stopCount": 4,
+              "source": "https://mu-kgt.ru/informing/",
+              "scheduleConfirmed": true,
+              "estimatedSegments": 0,
+              "geometry": [
+                [
+                  92.765714,
+                  56.019074
+                ],
+                [
+                  92.772516,
+                  56.019394
+                ],
+                [
+                  92.780933,
+                  56.022335
+                ],
+                [
+                  92.786762,
+                  56.022975
+                ],
+                [
+                  92.79262,
+                  56.019537
+                ]
+              ],
+              "toStopId": "580"
+            },
+            {
+              "type": "walk",
+              "fromName": "ГорДК",
+              "toName": "ГорДК (улица Высотная)",
+              "minutes": 1.176,
+              "metres": 78.4,
+              "from": [
+                92.79262,
+                56.019537
+              ],
+              "to": [
+                92.7926799,
+                56.019369
+              ],
+              "geometry": [
+                [
+                  92.792681,
+                  56.019569
+                ],
+                [
+                  92.792438,
+                  56.019714
+                ],
+                [
+                  92.792325,
+                  56.019659
+                ],
+                [
+                  92.792229,
+                  56.019605
+                ],
+                [
+                  92.792656,
+                  56.019356
+                ]
+              ]
+            }
+          ],
+          "totalMinutes": 114,
+          "bufferMinutes": 10
+        },
+        {
           "route": 1,
           "hubIndex": 4,
           "hubName": "ул. 2-я Брянская",
@@ -8280,93 +8477,6 @@
                 ]
               ],
               "toStopId": "968"
-            }
-          ],
-          "totalMinutes": 118,
-          "bufferMinutes": 10
-        },
-        {
-          "route": 2,
-          "hubIndex": 1,
-          "hubName": "ул. Курчатова",
-          "hubId": "m2-1",
-          "boarding": 382,
-          "departure": 347,
-          "connectionMinutes": 35,
-          "walkingMinutes": 6,
-          "waitingMinutes": 8,
-          "transfers": 0,
-          "scheduleConfirmed": true,
-          "segments": [
-            {
-              "type": "walk",
-              "fromName": "Госпиталь инвалидов ВОВ",
-              "toName": "Краевой госпиталь ветеранов войн",
-              "minutes": 0.25902423919401774,
-              "metres": 17.268291247075823,
-              "from": [
-                92.7656129,
-                56.0190618
-              ],
-              "to": [
-                92.765714,
-                56.019074
-              ]
-            },
-            {
-              "type": "transit",
-              "number": "21",
-              "transport": "Автобус",
-              "routeId": "463",
-              "directionId": "B",
-              "direction": "Спортзал",
-              "fromStopId": "608",
-              "fromName": "Краевой госпиталь ветеранов войн",
-              "toName": "ГорДК",
-              "minutes": 11.499999999999998,
-              "waitMinutes": 7.542502478748759,
-              "stopCount": 4,
-              "source": "https://mu-kgt.ru/informing/",
-              "scheduleConfirmed": true,
-              "estimatedSegments": 0,
-              "geometry": [
-                [
-                  92.765714,
-                  56.019074
-                ],
-                [
-                  92.772516,
-                  56.019394
-                ],
-                [
-                  92.780933,
-                  56.022335
-                ],
-                [
-                  92.786762,
-                  56.022975
-                ],
-                [
-                  92.79262,
-                  56.019537
-                ]
-              ],
-              "toStopId": "580"
-            },
-            {
-              "type": "walk",
-              "from": [
-                92.79262,
-                56.019537
-              ],
-              "to": [
-                92.79223,
-                56.017451
-              ],
-              "minutes": 4.957497521251239,
-              "metres": 330.5,
-              "fromName": "ГорДК",
-              "toName": "ул. Курчатова"
             }
           ],
           "totalMinutes": 118,
@@ -8576,12 +8686,12 @@
         {
           "route": 2,
           "hubIndex": 1,
-          "hubName": "ул. Курчатова",
+          "hubName": "ГорДК (улица Высотная)",
           "hubId": "m2-1",
           "boarding": 1108,
-          "departure": 1078,
-          "connectionMinutes": 30,
-          "walkingMinutes": 1,
+          "departure": 1073,
+          "connectionMinutes": 35,
+          "walkingMinutes": 5,
           "waitingMinutes": 13,
           "transfers": 0,
           "scheduleConfirmed": true,
@@ -8636,9 +8746,78 @@
                 ]
               ],
               "toStopId": "554"
+            },
+            {
+              "type": "walk",
+              "fromName": "ул. Курчатова",
+              "toName": "ГорДК (улица Высотная)",
+              "minutes": 4.6515,
+              "metres": 310.1,
+              "from": [
+                92.79223,
+                56.017451
+              ],
+              "to": [
+                92.7926799,
+                56.019369
+              ],
+              "geometry": [
+                [
+                  92.792311,
+                  56.017403
+                ],
+                [
+                  92.792876,
+                  56.017703
+                ],
+                [
+                  92.793253,
+                  56.017892
+                ],
+                [
+                  92.793628,
+                  56.018083
+                ],
+                [
+                  92.793723,
+                  56.018134
+                ],
+                [
+                  92.794203,
+                  56.018375
+                ],
+                [
+                  92.794251,
+                  56.018405
+                ],
+                [
+                  92.794215,
+                  56.018426
+                ],
+                [
+                  92.794049,
+                  56.018525
+                ],
+                [
+                  92.793971,
+                  56.018571
+                ],
+                [
+                  92.793886,
+                  56.01865
+                ],
+                [
+                  92.792889,
+                  56.019221
+                ],
+                [
+                  92.792656,
+                  56.019356
+                ]
+              ]
             }
           ],
-          "totalMinutes": 107,
+          "totalMinutes": 112,
           "bufferMinutes": 10
         },
         {
@@ -10905,6 +11084,119 @@
       "lon": 92.757818,
       "day": [
         {
+          "route": 2,
+          "hubIndex": 1,
+          "hubName": "ГорДК (улица Высотная)",
+          "hubId": "m2-1",
+          "boarding": 382,
+          "departure": 349,
+          "connectionMinutes": 33,
+          "walkingMinutes": 3,
+          "waitingMinutes": 8,
+          "transfers": 0,
+          "scheduleConfirmed": true,
+          "segments": [
+            {
+              "type": "walk",
+              "fromName": "Домик",
+              "toName": "Домик",
+              "minutes": 1.122474486253192,
+              "metres": 74.83166983269568,
+              "from": [
+                92.757818,
+                56.020338
+              ],
+              "to": [
+                92.756731,
+                56.020086
+              ]
+            },
+            {
+              "type": "transit",
+              "number": "21",
+              "transport": "Автобус",
+              "routeId": "463",
+              "directionId": "B",
+              "direction": "Спортзал",
+              "fromStopId": "610",
+              "fromName": "Домик",
+              "toName": "ГорДК",
+              "minutes": 12.649999999999999,
+              "waitMinutes": 7.392502478748781,
+              "stopCount": 5,
+              "source": "https://mu-kgt.ru/informing/",
+              "scheduleConfirmed": true,
+              "estimatedSegments": 0,
+              "geometry": [
+                [
+                  92.756731,
+                  56.020086
+                ],
+                [
+                  92.765714,
+                  56.019074
+                ],
+                [
+                  92.772516,
+                  56.019394
+                ],
+                [
+                  92.780933,
+                  56.022335
+                ],
+                [
+                  92.786762,
+                  56.022975
+                ],
+                [
+                  92.79262,
+                  56.019537
+                ]
+              ],
+              "toStopId": "580"
+            },
+            {
+              "type": "walk",
+              "fromName": "ГорДК",
+              "toName": "ГорДК (улица Высотная)",
+              "minutes": 1.176,
+              "metres": 78.4,
+              "from": [
+                92.79262,
+                56.019537
+              ],
+              "to": [
+                92.7926799,
+                56.019369
+              ],
+              "geometry": [
+                [
+                  92.792681,
+                  56.019569
+                ],
+                [
+                  92.792438,
+                  56.019714
+                ],
+                [
+                  92.792325,
+                  56.019659
+                ],
+                [
+                  92.792229,
+                  56.019605
+                ],
+                [
+                  92.792656,
+                  56.019356
+                ]
+              ]
+            }
+          ],
+          "totalMinutes": 116,
+          "bufferMinutes": 10
+        },
+        {
           "route": 1,
           "hubIndex": 4,
           "hubName": "ул. 2-я Брянская",
@@ -11007,97 +11299,6 @@
                 ]
               ],
               "toStopId": "968"
-            }
-          ],
-          "totalMinutes": 120,
-          "bufferMinutes": 10
-        },
-        {
-          "route": 2,
-          "hubIndex": 1,
-          "hubName": "ул. Курчатова",
-          "hubId": "m2-1",
-          "boarding": 382,
-          "departure": 345,
-          "connectionMinutes": 37,
-          "walkingMinutes": 7,
-          "waitingMinutes": 7,
-          "transfers": 0,
-          "scheduleConfirmed": true,
-          "segments": [
-            {
-              "type": "walk",
-              "fromName": "Домик",
-              "toName": "Домик",
-              "minutes": 1.122474486253192,
-              "metres": 74.83166983269568,
-              "from": [
-                92.757818,
-                56.020338
-              ],
-              "to": [
-                92.756731,
-                56.020086
-              ]
-            },
-            {
-              "type": "transit",
-              "number": "21",
-              "transport": "Автобус",
-              "routeId": "463",
-              "directionId": "B",
-              "direction": "Спортзал",
-              "fromStopId": "610",
-              "fromName": "Домик",
-              "toName": "ГорДК",
-              "minutes": 12.649999999999999,
-              "waitMinutes": 7.392502478748781,
-              "stopCount": 5,
-              "source": "https://mu-kgt.ru/informing/",
-              "scheduleConfirmed": true,
-              "estimatedSegments": 0,
-              "geometry": [
-                [
-                  92.756731,
-                  56.020086
-                ],
-                [
-                  92.765714,
-                  56.019074
-                ],
-                [
-                  92.772516,
-                  56.019394
-                ],
-                [
-                  92.780933,
-                  56.022335
-                ],
-                [
-                  92.786762,
-                  56.022975
-                ],
-                [
-                  92.79262,
-                  56.019537
-                ]
-              ],
-              "toStopId": "580"
-            },
-            {
-              "type": "walk",
-              "from": [
-                92.79262,
-                56.019537
-              ],
-              "to": [
-                92.79223,
-                56.017451
-              ],
-              "minutes": 4.957497521251239,
-              "metres": 330.5,
-              "fromName": "ГорДК",
-              "toName": "ул. Курчатова"
             }
           ],
           "totalMinutes": 120,
@@ -11311,12 +11512,12 @@
         {
           "route": 2,
           "hubIndex": 1,
-          "hubName": "ул. Курчатова",
+          "hubName": "ГорДК (улица Высотная)",
           "hubId": "m2-1",
           "boarding": 1108,
-          "departure": 1075,
-          "connectionMinutes": 33,
-          "walkingMinutes": 2,
+          "departure": 1070,
+          "connectionMinutes": 38,
+          "walkingMinutes": 6,
           "waitingMinutes": 13,
           "transfers": 0,
           "scheduleConfirmed": true,
@@ -11375,9 +11576,78 @@
                 ]
               ],
               "toStopId": "554"
+            },
+            {
+              "type": "walk",
+              "fromName": "ул. Курчатова",
+              "toName": "ГорДК (улица Высотная)",
+              "minutes": 4.6515,
+              "metres": 310.1,
+              "from": [
+                92.79223,
+                56.017451
+              ],
+              "to": [
+                92.7926799,
+                56.019369
+              ],
+              "geometry": [
+                [
+                  92.792311,
+                  56.017403
+                ],
+                [
+                  92.792876,
+                  56.017703
+                ],
+                [
+                  92.793253,
+                  56.017892
+                ],
+                [
+                  92.793628,
+                  56.018083
+                ],
+                [
+                  92.793723,
+                  56.018134
+                ],
+                [
+                  92.794203,
+                  56.018375
+                ],
+                [
+                  92.794251,
+                  56.018405
+                ],
+                [
+                  92.794215,
+                  56.018426
+                ],
+                [
+                  92.794049,
+                  56.018525
+                ],
+                [
+                  92.793971,
+                  56.018571
+                ],
+                [
+                  92.793886,
+                  56.01865
+                ],
+                [
+                  92.792889,
+                  56.019221
+                ],
+                [
+                  92.792656,
+                  56.019356
+                ]
+              ]
             }
           ],
-          "totalMinutes": 110,
+          "totalMinutes": 115,
           "bufferMinutes": 10
         },
         {
@@ -11747,13 +12017,13 @@
         {
           "route": 2,
           "hubIndex": 1,
-          "hubName": "ул. Курчатова",
+          "hubName": "ГорДК (улица Высотная)",
           "hubId": "m2-1",
           "boarding": 382,
-          "departure": 342,
-          "connectionMinutes": 40,
-          "walkingMinutes": 6,
-          "waitingMinutes": 3,
+          "departure": 345,
+          "connectionMinutes": 37,
+          "walkingMinutes": 3,
+          "waitingMinutes": 4,
           "transfers": 0,
           "scheduleConfirmed": true,
           "segments": [
@@ -11846,21 +12116,43 @@
             },
             {
               "type": "walk",
+              "fromName": "ГорДК",
+              "toName": "ГорДК (улица Высотная)",
+              "minutes": 1.176,
+              "metres": 78.4,
               "from": [
                 92.79262,
                 56.019537
               ],
               "to": [
-                92.79223,
-                56.017451
+                92.7926799,
+                56.019369
               ],
-              "minutes": 4.957497521251239,
-              "metres": 330.5,
-              "fromName": "ГорДК",
-              "toName": "ул. Курчатова"
+              "geometry": [
+                [
+                  92.792681,
+                  56.019569
+                ],
+                [
+                  92.792438,
+                  56.019714
+                ],
+                [
+                  92.792325,
+                  56.019659
+                ],
+                [
+                  92.792229,
+                  56.019605
+                ],
+                [
+                  92.792656,
+                  56.019356
+                ]
+              ]
             }
           ],
-          "totalMinutes": 123,
+          "totalMinutes": 120,
           "bufferMinutes": 10
         }
       ],
@@ -20252,12 +20544,12 @@
         {
           "route": 2,
           "hubIndex": 1,
-          "hubName": "ул. Курчатова",
+          "hubName": "ГорДК (улица Высотная)",
           "hubId": "m2-1",
           "boarding": 382,
-          "departure": 352,
-          "connectionMinutes": 30,
-          "walkingMinutes": 6,
+          "departure": 356,
+          "connectionMinutes": 26,
+          "walkingMinutes": 2,
           "waitingMinutes": 6,
           "transfers": 0,
           "scheduleConfirmed": true,
@@ -20323,21 +20615,43 @@
             },
             {
               "type": "walk",
+              "fromName": "ГорДК",
+              "toName": "ГорДК (улица Высотная)",
+              "minutes": 1.176,
+              "metres": 78.4,
               "from": [
                 92.79262,
                 56.019537
               ],
               "to": [
-                92.79223,
-                56.017451
+                92.7926799,
+                56.019369
               ],
-              "minutes": 4.957497521251239,
-              "metres": 330.5,
-              "fromName": "ГорДК",
-              "toName": "ул. Курчатова"
+              "geometry": [
+                [
+                  92.792681,
+                  56.019569
+                ],
+                [
+                  92.792438,
+                  56.019714
+                ],
+                [
+                  92.792325,
+                  56.019659
+                ],
+                [
+                  92.792229,
+                  56.019605
+                ],
+                [
+                  92.792656,
+                  56.019356
+                ]
+              ]
             }
           ],
-          "totalMinutes": 113,
+          "totalMinutes": 109,
           "bufferMinutes": 10
         },
         {
@@ -20784,12 +21098,12 @@
         {
           "route": 2,
           "hubIndex": 1,
-          "hubName": "ул. Курчатова",
+          "hubName": "ГорДК (улица Высотная)",
           "hubId": "m2-1",
           "boarding": 1108,
-          "departure": 1072,
-          "connectionMinutes": 36,
-          "walkingMinutes": 3,
+          "departure": 1067,
+          "connectionMinutes": 41,
+          "walkingMinutes": 8,
           "waitingMinutes": 13,
           "transfers": 0,
           "scheduleConfirmed": true,
@@ -20852,9 +21166,78 @@
                 ]
               ],
               "toStopId": "554"
+            },
+            {
+              "type": "walk",
+              "fromName": "ул. Курчатова",
+              "toName": "ГорДК (улица Высотная)",
+              "minutes": 4.6515,
+              "metres": 310.1,
+              "from": [
+                92.79223,
+                56.017451
+              ],
+              "to": [
+                92.7926799,
+                56.019369
+              ],
+              "geometry": [
+                [
+                  92.792311,
+                  56.017403
+                ],
+                [
+                  92.792876,
+                  56.017703
+                ],
+                [
+                  92.793253,
+                  56.017892
+                ],
+                [
+                  92.793628,
+                  56.018083
+                ],
+                [
+                  92.793723,
+                  56.018134
+                ],
+                [
+                  92.794203,
+                  56.018375
+                ],
+                [
+                  92.794251,
+                  56.018405
+                ],
+                [
+                  92.794215,
+                  56.018426
+                ],
+                [
+                  92.794049,
+                  56.018525
+                ],
+                [
+                  92.793971,
+                  56.018571
+                ],
+                [
+                  92.793886,
+                  56.01865
+                ],
+                [
+                  92.792889,
+                  56.019221
+                ],
+                [
+                  92.792656,
+                  56.019356
+                ]
+              ]
             }
           ],
-          "totalMinutes": 113,
+          "totalMinutes": 118,
           "bufferMinutes": 10
         },
         {
@@ -24266,13 +24649,13 @@
         {
           "route": 2,
           "hubIndex": 1,
-          "hubName": "ул. Курчатова",
+          "hubName": "ГорДК (улица Высотная)",
           "hubId": "m2-1",
           "boarding": 382,
-          "departure": 351,
-          "connectionMinutes": 31,
-          "walkingMinutes": 8,
-          "waitingMinutes": 6,
+          "departure": 354,
+          "connectionMinutes": 28,
+          "walkingMinutes": 5,
+          "waitingMinutes": 7,
           "transfers": 0,
           "scheduleConfirmed": true,
           "segments": [
@@ -24333,21 +24716,43 @@
             },
             {
               "type": "walk",
+              "fromName": "ГорДК",
+              "toName": "ГорДК (улица Высотная)",
+              "minutes": 1.176,
+              "metres": 78.4,
               "from": [
                 92.79262,
                 56.019537
               ],
               "to": [
-                92.79223,
-                56.017451
+                92.7926799,
+                56.019369
               ],
-              "minutes": 4.957497521251239,
-              "metres": 330.5,
-              "fromName": "ГорДК",
-              "toName": "ул. Курчатова"
+              "geometry": [
+                [
+                  92.792681,
+                  56.019569
+                ],
+                [
+                  92.792438,
+                  56.019714
+                ],
+                [
+                  92.792325,
+                  56.019659
+                ],
+                [
+                  92.792229,
+                  56.019605
+                ],
+                [
+                  92.792656,
+                  56.019356
+                ]
+              ]
             }
           ],
-          "totalMinutes": 114,
+          "totalMinutes": 111,
           "bufferMinutes": 10
         },
         {
@@ -24668,6 +25073,115 @@
       ],
       "night": [
         {
+          "route": 2,
+          "hubIndex": 1,
+          "hubName": "ГорДК (улица Высотная)",
+          "hubId": "m2-1",
+          "boarding": 1108,
+          "departure": 1072,
+          "connectionMinutes": 36,
+          "walkingMinutes": 5,
+          "waitingMinutes": 15,
+          "transfers": 0,
+          "scheduleConfirmed": true,
+          "segments": [
+            {
+              "type": "walk",
+              "fromName": "Овощной магазин",
+              "toName": "Овощной магазин",
+              "minutes": 2.9273796727187804,
+              "metres": 195.15874242724112,
+              "from": [
+                92.766768,
+                56.027934
+              ],
+              "to": [
+                92.764499,
+                56.02689
+              ]
+            },
+            {
+              "type": "transit",
+              "number": "85",
+              "transport": "Автобус",
+              "routeId": "91",
+              "directionId": "A",
+              "direction": "мкрн. Верхние Черемушки (конечная)",
+              "fromStopId": "630",
+              "fromName": "Овощной магазин",
+              "toName": "ГорДК",
+              "minutes": 6.6000000000000005,
+              "waitMinutes": 15,
+              "stopCount": 4,
+              "source": "https://mu-kgt.ru/informing/",
+              "scheduleConfirmed": true,
+              "estimatedSegments": 0,
+              "geometry": [
+                [
+                  92.764499,
+                  56.02689
+                ],
+                [
+                  92.773688,
+                  56.029636
+                ],
+                [
+                  92.780299,
+                  56.026721
+                ],
+                [
+                  92.786762,
+                  56.022975
+                ],
+                [
+                  92.79262,
+                  56.019537
+                ]
+              ],
+              "toStopId": "580"
+            },
+            {
+              "type": "walk",
+              "fromName": "ГорДК",
+              "toName": "ГорДК (улица Высотная)",
+              "minutes": 1.176,
+              "metres": 78.4,
+              "from": [
+                92.79262,
+                56.019537
+              ],
+              "to": [
+                92.7926799,
+                56.019369
+              ],
+              "geometry": [
+                [
+                  92.792681,
+                  56.019569
+                ],
+                [
+                  92.792438,
+                  56.019714
+                ],
+                [
+                  92.792325,
+                  56.019659
+                ],
+                [
+                  92.792229,
+                  56.019605
+                ],
+                [
+                  92.792656,
+                  56.019356
+                ]
+              ]
+            }
+          ],
+          "totalMinutes": 113,
+          "bufferMinutes": 10
+        },
+        {
           "route": 1,
           "hubIndex": 3,
           "hubName": "1-я Калинина",
@@ -24777,93 +25291,6 @@
             }
           ],
           "totalMinutes": 114,
-          "bufferMinutes": 10
-        },
-        {
-          "route": 2,
-          "hubIndex": 1,
-          "hubName": "ул. Курчатова",
-          "hubId": "m2-1",
-          "boarding": 1108,
-          "departure": 1068,
-          "connectionMinutes": 40,
-          "walkingMinutes": 8,
-          "waitingMinutes": 15,
-          "transfers": 0,
-          "scheduleConfirmed": true,
-          "segments": [
-            {
-              "type": "walk",
-              "fromName": "Овощной магазин",
-              "toName": "Овощной магазин",
-              "minutes": 2.9273796727187804,
-              "metres": 195.15874242724112,
-              "from": [
-                92.766768,
-                56.027934
-              ],
-              "to": [
-                92.764499,
-                56.02689
-              ]
-            },
-            {
-              "type": "transit",
-              "number": "85",
-              "transport": "Автобус",
-              "routeId": "91",
-              "directionId": "A",
-              "direction": "мкрн. Верхние Черемушки (конечная)",
-              "fromStopId": "630",
-              "fromName": "Овощной магазин",
-              "toName": "ГорДК",
-              "minutes": 6.6000000000000005,
-              "waitMinutes": 15,
-              "stopCount": 4,
-              "source": "https://mu-kgt.ru/informing/",
-              "scheduleConfirmed": true,
-              "estimatedSegments": 0,
-              "geometry": [
-                [
-                  92.764499,
-                  56.02689
-                ],
-                [
-                  92.773688,
-                  56.029636
-                ],
-                [
-                  92.780299,
-                  56.026721
-                ],
-                [
-                  92.786762,
-                  56.022975
-                ],
-                [
-                  92.79262,
-                  56.019537
-                ]
-              ],
-              "toStopId": "580"
-            },
-            {
-              "type": "walk",
-              "from": [
-                92.79262,
-                56.019537
-              ],
-              "to": [
-                92.79223,
-                56.017451
-              ],
-              "minutes": 4.957497521251239,
-              "metres": 330.5,
-              "fromName": "ГорДК",
-              "toName": "ул. Курчатова"
-            }
-          ],
-          "totalMinutes": 117,
           "bufferMinutes": 10
         },
         {
@@ -25089,13 +25516,13 @@
         {
           "route": 2,
           "hubIndex": 1,
-          "hubName": "ул. Курчатова",
+          "hubName": "ГорДК (улица Высотная)",
           "hubId": "m2-1",
           "boarding": 382,
-          "departure": 333,
-          "connectionMinutes": 49,
-          "walkingMinutes": 14,
-          "waitingMinutes": 3,
+          "departure": 337,
+          "connectionMinutes": 45,
+          "walkingMinutes": 10,
+          "waitingMinutes": 4,
           "transfers": 0,
           "scheduleConfirmed": true,
           "segments": [
@@ -25192,21 +25619,43 @@
             },
             {
               "type": "walk",
+              "fromName": "ГорДК",
+              "toName": "ГорДК (улица Высотная)",
+              "minutes": 1.176,
+              "metres": 78.4,
               "from": [
                 92.79262,
                 56.019537
               ],
               "to": [
-                92.79223,
-                56.017451
+                92.7926799,
+                56.019369
               ],
-              "minutes": 4.957497521251239,
-              "metres": 330.5,
-              "fromName": "ГорДК",
-              "toName": "ул. Курчатова"
+              "geometry": [
+                [
+                  92.792681,
+                  56.019569
+                ],
+                [
+                  92.792438,
+                  56.019714
+                ],
+                [
+                  92.792325,
+                  56.019659
+                ],
+                [
+                  92.792229,
+                  56.019605
+                ],
+                [
+                  92.792656,
+                  56.019356
+                ]
+              ]
             }
           ],
-          "totalMinutes": 132,
+          "totalMinutes": 128,
           "bufferMinutes": 10
         }
       ],
@@ -27964,13 +28413,13 @@
         {
           "route": 2,
           "hubIndex": 1,
-          "hubName": "ул. Курчатова",
+          "hubName": "ГорДК (улица Высотная)",
           "hubId": "m2-1",
           "boarding": 382,
-          "departure": 347,
-          "connectionMinutes": 35,
-          "walkingMinutes": 7,
-          "waitingMinutes": 4,
+          "departure": 351,
+          "connectionMinutes": 31,
+          "walkingMinutes": 3,
+          "waitingMinutes": 5,
           "transfers": 0,
           "scheduleConfirmed": true,
           "segments": [
@@ -28047,21 +28496,43 @@
             },
             {
               "type": "walk",
+              "fromName": "ГорДК",
+              "toName": "ГорДК (улица Высотная)",
+              "minutes": 1.176,
+              "metres": 78.4,
               "from": [
                 92.79262,
                 56.019537
               ],
               "to": [
-                92.79223,
-                56.017451
+                92.7926799,
+                56.019369
               ],
-              "minutes": 4.957497521251239,
-              "metres": 330.5,
-              "fromName": "ГорДК",
-              "toName": "ул. Курчатова"
+              "geometry": [
+                [
+                  92.792681,
+                  56.019569
+                ],
+                [
+                  92.792438,
+                  56.019714
+                ],
+                [
+                  92.792325,
+                  56.019659
+                ],
+                [
+                  92.792229,
+                  56.019605
+                ],
+                [
+                  92.792656,
+                  56.019356
+                ]
+              ]
             }
           ],
-          "totalMinutes": 118,
+          "totalMinutes": 114,
           "bufferMinutes": 10
         }
       ],
@@ -34467,104 +34938,6 @@
       "lon": 92.769686,
       "day": [
         {
-          "route": 2,
-          "hubIndex": 0,
-          "hubName": "Северо-Западный район (кольцо)",
-          "hubId": "m2-start",
-          "boarding": 372,
-          "departure": 360,
-          "connectionMinutes": 12,
-          "walkingMinutes": 2,
-          "waitingMinutes": 0,
-          "transfers": 0,
-          "scheduleConfirmed": true,
-          "segments": [
-            {
-              "type": "walk",
-              "fromName": "Северо-Западный район",
-              "toName": "Северо-Западный район (кольцо)",
-              "minutes": 1.9845,
-              "metres": 132.3,
-              "from": [
-                92.769686,
-                56.03926
-              ],
-              "to": [
-                92.7680572,
-                56.0398218
-              ],
-              "geometry": [
-                [
-                  92.76965,
-                  56.039252
-                ],
-                [
-                  92.769648,
-                  56.039255
-                ],
-                [
-                  92.769502,
-                  56.039454
-                ],
-                [
-                  92.769365,
-                  56.039542
-                ],
-                [
-                  92.769341,
-                  56.03959
-                ],
-                [
-                  92.769302,
-                  56.039625
-                ],
-                [
-                  92.769248,
-                  56.039653
-                ],
-                [
-                  92.769183,
-                  56.039672
-                ],
-                [
-                  92.769112,
-                  56.039681
-                ],
-                [
-                  92.769038,
-                  56.03968
-                ],
-                [
-                  92.768968,
-                  56.039668
-                ],
-                [
-                  92.768919,
-                  56.039653
-                ],
-                [
-                  92.76866,
-                  56.039644
-                ],
-                [
-                  92.76846,
-                  56.039664
-                ],
-                [
-                  92.768019,
-                  56.039764
-                ],
-                [
-                  92.768019,
-                  56.039764
-                ]
-              ]
-            }
-          ],
-          "totalMinutes": 105,
-          "bufferMinutes": 10
-        },
-        {
           "route": 1,
           "hubIndex": 2,
           "hubName": "АЗС (ул. Калинина)",
@@ -34690,6 +35063,292 @@
             }
           ],
           "totalMinutes": 111,
+          "bufferMinutes": 10
+        },
+        {
+          "route": 2,
+          "hubIndex": 0,
+          "hubName": "Сельхозкомплекс",
+          "hubId": "m2-start",
+          "boarding": 372,
+          "departure": 314,
+          "connectionMinutes": 58,
+          "walkingMinutes": 48,
+          "waitingMinutes": 0,
+          "transfers": 0,
+          "scheduleConfirmed": true,
+          "segments": [
+            {
+              "type": "walk",
+              "fromName": "Северо-Западный район",
+              "toName": "Сельхозкомплекс",
+              "minutes": 47.247,
+              "metres": 3149.8,
+              "from": [
+                92.769686,
+                56.03926
+              ],
+              "to": [
+                92.7458975,
+                56.0258457
+              ],
+              "geometry": [
+                [
+                  92.76965,
+                  56.039252
+                ],
+                [
+                  92.77012,
+                  56.038622
+                ],
+                [
+                  92.769939,
+                  56.038582
+                ],
+                [
+                  92.769766,
+                  56.038548
+                ],
+                [
+                  92.770343,
+                  56.037749
+                ],
+                [
+                  92.771545,
+                  56.036085
+                ],
+                [
+                  92.771787,
+                  56.035766
+                ],
+                [
+                  92.772008,
+                  56.035481
+                ],
+                [
+                  92.772238,
+                  56.035161
+                ],
+                [
+                  92.772654,
+                  56.034615
+                ],
+                [
+                  92.773181,
+                  56.033854
+                ],
+                [
+                  92.77342,
+                  56.033505
+                ],
+                [
+                  92.774286,
+                  56.03229
+                ],
+                [
+                  92.774403,
+                  56.032121
+                ],
+                [
+                  92.774425,
+                  56.032089
+                ],
+                [
+                  92.774404,
+                  56.032056
+                ],
+                [
+                  92.774437,
+                  56.031983
+                ],
+                [
+                  92.774464,
+                  56.031944
+                ],
+                [
+                  92.774832,
+                  56.031377
+                ],
+                [
+                  92.775454,
+                  56.030442
+                ],
+                [
+                  92.775407,
+                  56.030356
+                ],
+                [
+                  92.775094,
+                  56.030268
+                ],
+                [
+                  92.774872,
+                  56.030119
+                ],
+                [
+                  92.774122,
+                  56.029918
+                ],
+                [
+                  92.772855,
+                  56.029609
+                ],
+                [
+                  92.772196,
+                  56.029443
+                ],
+                [
+                  92.771378,
+                  56.029235
+                ],
+                [
+                  92.771062,
+                  56.029149
+                ],
+                [
+                  92.770304,
+                  56.028948
+                ],
+                [
+                  92.769604,
+                  56.028754
+                ],
+                [
+                  92.768534,
+                  56.028491
+                ],
+                [
+                  92.767864,
+                  56.028317
+                ],
+                [
+                  92.767744,
+                  56.028319
+                ],
+                [
+                  92.76695,
+                  56.028112
+                ],
+                [
+                  92.766591,
+                  56.027985
+                ],
+                [
+                  92.766022,
+                  56.027827
+                ],
+                [
+                  92.765084,
+                  56.027464
+                ],
+                [
+                  92.764861,
+                  56.02742
+                ],
+                [
+                  92.763607,
+                  56.02688
+                ],
+                [
+                  92.763553,
+                  56.026856
+                ],
+                [
+                  92.763351,
+                  56.026767
+                ],
+                [
+                  92.763019,
+                  56.026638
+                ],
+                [
+                  92.762938,
+                  56.026687
+                ],
+                [
+                  92.762765,
+                  56.026708
+                ],
+                [
+                  92.762407,
+                  56.02671
+                ],
+                [
+                  92.762406,
+                  56.026663
+                ],
+                [
+                  92.762293,
+                  56.026666
+                ],
+                [
+                  92.761792,
+                  56.026659
+                ],
+                [
+                  92.761383,
+                  56.026609
+                ],
+                [
+                  92.759181,
+                  56.026605
+                ],
+                [
+                  92.755655,
+                  56.026589
+                ],
+                [
+                  92.755412,
+                  56.026554
+                ],
+                [
+                  92.755203,
+                  56.026556
+                ],
+                [
+                  92.754966,
+                  56.026557
+                ],
+                [
+                  92.754966,
+                  56.026575
+                ],
+                [
+                  92.754601,
+                  56.026576
+                ],
+                [
+                  92.750316,
+                  56.026557
+                ],
+                [
+                  92.750062,
+                  56.026554
+                ],
+                [
+                  92.746944,
+                  56.026552
+                ],
+                [
+                  92.745582,
+                  56.026546
+                ],
+                [
+                  92.745562,
+                  56.026504
+                ],
+                [
+                  92.745389,
+                  56.026419
+                ],
+                [
+                  92.746098,
+                  56.025938
+                ]
+              ]
+            }
+          ],
+          "totalMinutes": 151,
           "bufferMinutes": 10
         },
         {
@@ -34877,104 +35536,6 @@
         }
       ],
       "night": [
-        {
-          "route": 2,
-          "hubIndex": 0,
-          "hubName": "Северо-Западный район (кольцо)",
-          "hubId": "m2-start",
-          "boarding": 1099,
-          "departure": 1087,
-          "connectionMinutes": 12,
-          "walkingMinutes": 2,
-          "waitingMinutes": 0,
-          "transfers": 0,
-          "scheduleConfirmed": true,
-          "segments": [
-            {
-              "type": "walk",
-              "fromName": "Северо-Западный район",
-              "toName": "Северо-Западный район (кольцо)",
-              "minutes": 1.9845,
-              "metres": 132.3,
-              "from": [
-                92.769686,
-                56.03926
-              ],
-              "to": [
-                92.7680572,
-                56.0398218
-              ],
-              "geometry": [
-                [
-                  92.76965,
-                  56.039252
-                ],
-                [
-                  92.769648,
-                  56.039255
-                ],
-                [
-                  92.769502,
-                  56.039454
-                ],
-                [
-                  92.769365,
-                  56.039542
-                ],
-                [
-                  92.769341,
-                  56.03959
-                ],
-                [
-                  92.769302,
-                  56.039625
-                ],
-                [
-                  92.769248,
-                  56.039653
-                ],
-                [
-                  92.769183,
-                  56.039672
-                ],
-                [
-                  92.769112,
-                  56.039681
-                ],
-                [
-                  92.769038,
-                  56.03968
-                ],
-                [
-                  92.768968,
-                  56.039668
-                ],
-                [
-                  92.768919,
-                  56.039653
-                ],
-                [
-                  92.76866,
-                  56.039644
-                ],
-                [
-                  92.76846,
-                  56.039664
-                ],
-                [
-                  92.768019,
-                  56.039764
-                ],
-                [
-                  92.768019,
-                  56.039764
-                ]
-              ]
-            }
-          ],
-          "totalMinutes": 98,
-          "bufferMinutes": 10
-        },
         {
           "route": 1,
           "hubIndex": 2,
@@ -35293,6 +35854,292 @@
             }
           ],
           "totalMinutes": 123,
+          "bufferMinutes": 10
+        },
+        {
+          "route": 2,
+          "hubIndex": 0,
+          "hubName": "Сельхозкомплекс",
+          "hubId": "m2-start",
+          "boarding": 1099,
+          "departure": 1041,
+          "connectionMinutes": 58,
+          "walkingMinutes": 48,
+          "waitingMinutes": 0,
+          "transfers": 0,
+          "scheduleConfirmed": true,
+          "segments": [
+            {
+              "type": "walk",
+              "fromName": "Северо-Западный район",
+              "toName": "Сельхозкомплекс",
+              "minutes": 47.247,
+              "metres": 3149.8,
+              "from": [
+                92.769686,
+                56.03926
+              ],
+              "to": [
+                92.7458975,
+                56.0258457
+              ],
+              "geometry": [
+                [
+                  92.76965,
+                  56.039252
+                ],
+                [
+                  92.77012,
+                  56.038622
+                ],
+                [
+                  92.769939,
+                  56.038582
+                ],
+                [
+                  92.769766,
+                  56.038548
+                ],
+                [
+                  92.770343,
+                  56.037749
+                ],
+                [
+                  92.771545,
+                  56.036085
+                ],
+                [
+                  92.771787,
+                  56.035766
+                ],
+                [
+                  92.772008,
+                  56.035481
+                ],
+                [
+                  92.772238,
+                  56.035161
+                ],
+                [
+                  92.772654,
+                  56.034615
+                ],
+                [
+                  92.773181,
+                  56.033854
+                ],
+                [
+                  92.77342,
+                  56.033505
+                ],
+                [
+                  92.774286,
+                  56.03229
+                ],
+                [
+                  92.774403,
+                  56.032121
+                ],
+                [
+                  92.774425,
+                  56.032089
+                ],
+                [
+                  92.774404,
+                  56.032056
+                ],
+                [
+                  92.774437,
+                  56.031983
+                ],
+                [
+                  92.774464,
+                  56.031944
+                ],
+                [
+                  92.774832,
+                  56.031377
+                ],
+                [
+                  92.775454,
+                  56.030442
+                ],
+                [
+                  92.775407,
+                  56.030356
+                ],
+                [
+                  92.775094,
+                  56.030268
+                ],
+                [
+                  92.774872,
+                  56.030119
+                ],
+                [
+                  92.774122,
+                  56.029918
+                ],
+                [
+                  92.772855,
+                  56.029609
+                ],
+                [
+                  92.772196,
+                  56.029443
+                ],
+                [
+                  92.771378,
+                  56.029235
+                ],
+                [
+                  92.771062,
+                  56.029149
+                ],
+                [
+                  92.770304,
+                  56.028948
+                ],
+                [
+                  92.769604,
+                  56.028754
+                ],
+                [
+                  92.768534,
+                  56.028491
+                ],
+                [
+                  92.767864,
+                  56.028317
+                ],
+                [
+                  92.767744,
+                  56.028319
+                ],
+                [
+                  92.76695,
+                  56.028112
+                ],
+                [
+                  92.766591,
+                  56.027985
+                ],
+                [
+                  92.766022,
+                  56.027827
+                ],
+                [
+                  92.765084,
+                  56.027464
+                ],
+                [
+                  92.764861,
+                  56.02742
+                ],
+                [
+                  92.763607,
+                  56.02688
+                ],
+                [
+                  92.763553,
+                  56.026856
+                ],
+                [
+                  92.763351,
+                  56.026767
+                ],
+                [
+                  92.763019,
+                  56.026638
+                ],
+                [
+                  92.762938,
+                  56.026687
+                ],
+                [
+                  92.762765,
+                  56.026708
+                ],
+                [
+                  92.762407,
+                  56.02671
+                ],
+                [
+                  92.762406,
+                  56.026663
+                ],
+                [
+                  92.762293,
+                  56.026666
+                ],
+                [
+                  92.761792,
+                  56.026659
+                ],
+                [
+                  92.761383,
+                  56.026609
+                ],
+                [
+                  92.759181,
+                  56.026605
+                ],
+                [
+                  92.755655,
+                  56.026589
+                ],
+                [
+                  92.755412,
+                  56.026554
+                ],
+                [
+                  92.755203,
+                  56.026556
+                ],
+                [
+                  92.754966,
+                  56.026557
+                ],
+                [
+                  92.754966,
+                  56.026575
+                ],
+                [
+                  92.754601,
+                  56.026576
+                ],
+                [
+                  92.750316,
+                  56.026557
+                ],
+                [
+                  92.750062,
+                  56.026554
+                ],
+                [
+                  92.746944,
+                  56.026552
+                ],
+                [
+                  92.745582,
+                  56.026546
+                ],
+                [
+                  92.745562,
+                  56.026504
+                ],
+                [
+                  92.745389,
+                  56.026419
+                ],
+                [
+                  92.746098,
+                  56.025938
+                ]
+              ]
+            }
+          ],
+          "totalMinutes": 144,
           "bufferMinutes": 10
         }
       ]
@@ -44767,13 +45614,13 @@
         {
           "route": 2,
           "hubIndex": 1,
-          "hubName": "ул. Курчатова",
+          "hubName": "ГорДК (улица Высотная)",
           "hubId": "m2-1",
           "boarding": 382,
-          "departure": 342,
-          "connectionMinutes": 40,
-          "walkingMinutes": 6,
-          "waitingMinutes": 10,
+          "departure": 346,
+          "connectionMinutes": 36,
+          "walkingMinutes": 2,
+          "waitingMinutes": 11,
           "transfers": 0,
           "scheduleConfirmed": true,
           "segments": [
@@ -44850,21 +45697,43 @@
             },
             {
               "type": "walk",
+              "fromName": "ГорДК",
+              "toName": "ГорДК (улица Высотная)",
+              "minutes": 1.176,
+              "metres": 78.4,
               "from": [
                 92.79262,
                 56.019537
               ],
               "to": [
-                92.79223,
-                56.017451
+                92.7926799,
+                56.019369
               ],
-              "minutes": 4.957497521251239,
-              "metres": 330.5,
-              "fromName": "ГорДК",
-              "toName": "ул. Курчатова"
+              "geometry": [
+                [
+                  92.792681,
+                  56.019569
+                ],
+                [
+                  92.792438,
+                  56.019714
+                ],
+                [
+                  92.792325,
+                  56.019659
+                ],
+                [
+                  92.792229,
+                  56.019605
+                ],
+                [
+                  92.792656,
+                  56.019356
+                ]
+              ]
             }
           ],
-          "totalMinutes": 123,
+          "totalMinutes": 119,
           "bufferMinutes": 10
         }
       ],
@@ -45310,12 +46179,12 @@
         {
           "route": 2,
           "hubIndex": 1,
-          "hubName": "ул. Курчатова",
+          "hubName": "ГорДК (улица Высотная)",
           "hubId": "m2-1",
           "boarding": 382,
-          "departure": 342,
-          "connectionMinutes": 40,
-          "walkingMinutes": 8,
+          "departure": 346,
+          "connectionMinutes": 36,
+          "walkingMinutes": 4,
           "waitingMinutes": 4,
           "transfers": 0,
           "scheduleConfirmed": true,
@@ -45405,21 +46274,43 @@
             },
             {
               "type": "walk",
+              "fromName": "ГорДК",
+              "toName": "ГорДК (улица Высотная)",
+              "minutes": 1.176,
+              "metres": 78.4,
               "from": [
                 92.79262,
                 56.019537
               ],
               "to": [
-                92.79223,
-                56.017451
+                92.7926799,
+                56.019369
               ],
-              "minutes": 4.957497521251239,
-              "metres": 330.5,
-              "fromName": "ГорДК",
-              "toName": "ул. Курчатова"
+              "geometry": [
+                [
+                  92.792681,
+                  56.019569
+                ],
+                [
+                  92.792438,
+                  56.019714
+                ],
+                [
+                  92.792325,
+                  56.019659
+                ],
+                [
+                  92.792229,
+                  56.019605
+                ],
+                [
+                  92.792656,
+                  56.019356
+                ]
+              ]
             }
           ],
-          "totalMinutes": 123,
+          "totalMinutes": 119,
           "bufferMinutes": 10
         }
       ],
@@ -47009,7 +47900,7 @@
         {
           "route": 2,
           "hubIndex": 1,
-          "hubName": "ул. Курчатова",
+          "hubName": "ГорДК (улица Высотная)",
           "hubId": "m2-1",
           "boarding": 1108,
           "departure": 1090,
@@ -47022,16 +47913,86 @@
             {
               "type": "walk",
               "fromName": "улица Кравченко",
-              "toName": "ул. Курчатова",
-              "minutes": 7.043110226312714,
-              "metres": 469.54091652452183,
+              "toName": "ГорДК (улица Высотная)",
+              "minutes": 7.1265,
+              "metres": 475.1,
               "from": [
                 92.797672,
                 56.01667
               ],
               "to": [
-                92.79223,
-                56.017451
+                92.7926799,
+                56.019369
+              ],
+              "geometry": [
+                [
+                  92.797683,
+                  56.016676
+                ],
+                [
+                  92.797781,
+                  56.016618
+                ],
+                [
+                  92.797788,
+                  56.016613
+                ],
+                [
+                  92.797655,
+                  56.016546
+                ],
+                [
+                  92.797512,
+                  56.016469
+                ],
+                [
+                  92.796207,
+                  56.017223
+                ],
+                [
+                  92.795149,
+                  56.017838
+                ],
+                [
+                  92.794896,
+                  56.018006
+                ],
+                [
+                  92.794686,
+                  56.01813
+                ],
+                [
+                  92.794495,
+                  56.018244
+                ],
+                [
+                  92.794251,
+                  56.018405
+                ],
+                [
+                  92.794215,
+                  56.018426
+                ],
+                [
+                  92.794049,
+                  56.018525
+                ],
+                [
+                  92.793971,
+                  56.018571
+                ],
+                [
+                  92.793886,
+                  56.01865
+                ],
+                [
+                  92.792889,
+                  56.019221
+                ],
+                [
+                  92.792656,
+                  56.019356
+                ]
               ]
             }
           ],
@@ -47334,27 +48295,44 @@
     },
     {
       "id": 2,
-      "title": "Северо-Западный",
+      "title": "Сельхозкомплекс",
       "color": "#b832b7",
-      "corridor": "Кольцо Северо-Западного → Попова → Тотмина → Высотная → Курчатова / Свободный → Красной Армии → Копылова → Профсоюзов → Мира → Каратанова → Ленина → Сурикова → Игарская → Шахтёров → 9 Мая → Енисейский тракт",
-      "distanceKm": 34.6349,
-      "driveMin": 45.355,
+      "corridor": "Сельхозкомплекс → Чернышёва → Елены Стасовой → Гусарова → Высотная → Михаила Годенко → Красной Армии → Копылова → Профсоюзов → Мира → Каратанова → Ленина → Сурикова → Игарская → Шахтёров → 9 Мая → Енисейский тракт",
+      "distanceKm": 34.907182724799995,
+      "driveMin": 43.96333333333333,
       "start": {
-        "name": "Северо-Западный район (кольцо)",
-        "lon": 92.7680572,
-        "lat": 56.0398218,
-        "source": "https://www.openstreetmap.org/node/3716322352"
-      },
-      "extension": {
-        "distanceKm": 3.5425999999999997,
-        "driveMin": 5.58,
-        "routing": "https://router.project-osrm.org",
-        "checkedAt": "2026-10-20"
+        "name": "Сельхозкомплекс",
+        "lon": 92.7458975,
+        "lat": 56.0258457,
+        "source": "https://www.openstreetmap.org/node/4360413185"
       },
       "centreRevision": {
         "date": "2026-10-20",
         "description": "Прямой выход через Профсоюзов на Мира; площадь Революции на проспекте Мира. Сибирский институт искусств сохранён.",
         "distanceSavedKm": 1.3571999999999989
+      },
+      "westRevision": {
+        "date": "2026-10-21",
+        "description": "Новый старт у Сельхозкомплекса по синей линии с рисунка. Кольцо Северо-Западного, Попова и Тотмина исключены; убран заезд с возвратом на Свободный проспект к Курчатова. Посадка перенесена на ГорДК на Высотной.",
+        "distanceDeltaKm": 0.2722827247999957,
+        "estimatedDrivingDeltaMinutes": -1.3916666666666666,
+        "drivingEstimateNote": "OSRM car profile, no live traffic; adjustment compares routed old/new access segments",
+        "routing": "https://router.project-osrm.org",
+        "boardings": [
+          {
+            "id": "m2-start",
+            "from": "Северо-Западный район (кольцо)",
+            "to": "Сельхозкомплекс",
+            "sourceUrl": "https://www.openstreetmap.org/node/4360413185"
+          },
+          {
+            "id": "m2-1",
+            "from": "ул. Курчатова",
+            "to": "ГорДК (улица Высотная)",
+            "sourceUrl": "https://www.openstreetmap.org/node/1108661989"
+          }
+        ],
+        "startToGorDKMinutes": 5.123333333333333
       }
     },
     {
