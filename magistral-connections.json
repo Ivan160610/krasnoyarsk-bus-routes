@@ -14215,12 +14215,12 @@
         {
           "route": 1,
           "hubIndex": 5,
-          "hubName": "Кардиоцентр",
+          "hubName": "Улица Караульная",
           "hubId": "m1-5",
           "boarding": 405,
-          "departure": 387,
-          "connectionMinutes": 18,
-          "walkingMinutes": 8,
+          "departure": 393,
+          "connectionMinutes": 12,
+          "walkingMinutes": 2,
           "waitingMinutes": 0,
           "transfers": 0,
           "scheduleConfirmed": true,
@@ -14228,20 +14228,54 @@
             {
               "type": "walk",
               "fromName": "Караульная",
-              "toName": "Кардиоцентр",
-              "minutes": 7.768445778405679,
-              "metres": 517.896644175238,
+              "toName": "Улица Караульная",
+              "minutes": 1.7789999999999997,
+              "metres": 118.6,
               "from": [
                 92.886522,
                 56.046019
               ],
               "to": [
-                92.881354,
-                56.047682
+                92.8865312,
+                56.045938
+              ],
+              "geometry": [
+                [
+                  92.886502,
+                  56.046053
+                ],
+                [
+                  92.886483,
+                  56.04605
+                ],
+                [
+                  92.885627,
+                  56.0459
+                ],
+                [
+                  92.885647,
+                  56.045859
+                ],
+                [
+                  92.885654,
+                  56.045849
+                ],
+                [
+                  92.886081,
+                  56.045927
+                ],
+                [
+                  92.886372,
+                  56.045948
+                ],
+                [
+                  92.886514,
+                  56.045971
+                ]
               ]
             }
           ],
-          "totalMinutes": 78,
+          "totalMinutes": 72,
           "bufferMinutes": 10
         },
         {
@@ -14518,12 +14552,12 @@
         {
           "route": 1,
           "hubIndex": 5,
-          "hubName": "Кардиоцентр",
+          "hubName": "Улица Караульная",
           "hubId": "m1-5",
           "boarding": 1130,
-          "departure": 1112,
-          "connectionMinutes": 18,
-          "walkingMinutes": 8,
+          "departure": 1118,
+          "connectionMinutes": 12,
+          "walkingMinutes": 2,
           "waitingMinutes": 0,
           "transfers": 0,
           "scheduleConfirmed": true,
@@ -14531,20 +14565,54 @@
             {
               "type": "walk",
               "fromName": "Караульная",
-              "toName": "Кардиоцентр",
-              "minutes": 7.768445778405679,
-              "metres": 517.896644175238,
+              "toName": "Улица Караульная",
+              "minutes": 1.7789999999999997,
+              "metres": 118.6,
               "from": [
                 92.886522,
                 56.046019
               ],
               "to": [
-                92.881354,
-                56.047682
+                92.8865312,
+                56.045938
+              ],
+              "geometry": [
+                [
+                  92.886502,
+                  56.046053
+                ],
+                [
+                  92.886483,
+                  56.04605
+                ],
+                [
+                  92.885627,
+                  56.0459
+                ],
+                [
+                  92.885647,
+                  56.045859
+                ],
+                [
+                  92.885654,
+                  56.045849
+                ],
+                [
+                  92.886081,
+                  56.045927
+                ],
+                [
+                  92.886372,
+                  56.045948
+                ],
+                [
+                  92.886514,
+                  56.045971
+                ]
               ]
             }
           ],
-          "totalMinutes": 73,
+          "totalMinutes": 67,
           "bufferMinutes": 10
         },
         {
@@ -50997,8 +51065,8 @@
       "title": "Молодёжная · Калинина",
       "color": "#263b44",
       "corridor": "Молодёжная → Норильская → Калинина → 2-я Брянская → Караульная → 9 Мая → Енисейский тракт",
-      "distanceKm": 34.506299999999996,
-      "driveMin": 49.695,
+      "distanceKm": 32.574536161331395,
+      "driveMin": 43.51166666666667,
       "start": {
         "name": "Молодёжная",
         "lon": 92.698345,
@@ -51010,6 +51078,29 @@
         "driveMin": 5.501666666666667,
         "routing": "https://router.project-osrm.org",
         "checkedAt": "2026-10-20"
+      },
+      "detoursRevision": {
+        "date": "2026-10-21",
+        "description": "Прямой проезд по Караульной и 9 Мая; заезды к Кардиоцентру и Арене Север исключены. На кольце второй съезд на 9 Мая, без полного круга.",
+        "distanceSavedKm": 1.9317638386686045,
+        "estimatedDrivingMinutesSaved": 6.183333333333333,
+        "drivingEstimateNote": "OSRM driving comparison of old/new boarding access, no live traffic; distance measured along displayed geometry",
+        "routing": "https://router.project-osrm.org",
+        "roundaboutExit": 2,
+        "boardings": [
+          {
+            "id": "m1-5",
+            "from": "Кардиоцентр",
+            "to": "Улица Караульная",
+            "sourceUrl": "https://www.openstreetmap.org/node/12269668983"
+          },
+          {
+            "id": "m1-6",
+            "from": "Арена.Север",
+            "to": "Ледовый дворец (улица 9 Мая)",
+            "sourceUrl": "https://www.openstreetmap.org/node/4123497312"
+          }
+        ]
       }
     },
     {
