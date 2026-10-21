@@ -40,9 +40,9 @@
   journey.style.setProperty('--journey-color',routeId?colors[routeId-1]:'var(--brand)');
   $('#journeyDirection').textContent=route?`Маршрут №${route.id} · ${route.title}`:'Маршруты Красноярска';
   $('#journeyStop').textContent=point?.name||(route?first?.name||route.title:'Выберите свою остановку');
-  $('#journeyHint').textContent=point?.kind==='walk'?`Пешком ${point.walkMin} мин до «${point.target}»`:point?.kind==='pass'?'Городская остановка по пути · посадка не назначена':point?.kind==='gate'?'Въезд на территорию базы':point?.kind==='finish'?'Высадка у строения 3':point?.id==='m2-3'?'Посадка на проспекте Мира':point?'Место посадки на служебный автобус':route?'Начало маршрута → база':'Нажмите на точку карты или откройте список остановок';
-  $('#journeyTimeLabel').textContent=point?.kind==='pass'?'Проезд':point?.kind==='gate'?'Въезд':point?.kind==='finish'?'Высадка':point?'Посадка':route?'Отправление':'Посадка';
-  $('#journeyTime').textContent=point?(point.kind==='pass'?'—':boarding?tripTime(boarding)||'—':'—'):first?tripTime(first):'—';
+  $('#journeyHint').textContent=point?.kind==='walk'?`Пешком ${point.walkMin} мин до «${point.target}»`:point?.kind==='pass'?'Городская остановка по пути · примерное время проезда':point?.kind==='gate'?'Въезд на территорию базы':point?.kind==='finish'?'Высадка у строения 3':point?.id==='m2-3'?'Посадка на проспекте Мира':point?'Место посадки на служебный автобус':route?'Начало маршрута → база':'Нажмите на точку карты или откройте список остановок';
+  $('#journeyTimeLabel').textContent=point?.kind==='pass'?'Время автобуса':point?.kind==='gate'?'Въезд':point?.kind==='finish'?'Высадка':point?'Посадка':route?'Отправление':'Посадка';
+  $('#journeyTime').textContent=point?(point.kind==='pass'?(tripTime(point)||'—'):boarding?tripTime(boarding)||'—':'—'):first?tripTime(first):'—';
   $('#journeyArrival').textContent=arrival();$('#journeyClear').hidden=!point;
  }
  function safeMapArea(){

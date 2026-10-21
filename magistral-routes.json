@@ -11237,7 +11237,14 @@
         "Платинум Арена"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 371,
+      "estimatedEvening": 1099,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m3-start",
+        "to": "m3-1"
+      }
     },
     {
       "id": "city-3-node-4048848562",
@@ -11259,7 +11266,14 @@
         "Магазин (улица Свердловская)"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 376,
+      "estimatedEvening": 1103,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m3-start",
+        "to": "m3-1"
+      }
     },
     {
       "id": "city-3-node-9091159067",
@@ -11281,7 +11295,14 @@
         "Улица Свердловская, д. 73"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 377,
+      "estimatedEvening": 1104,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m3-start",
+        "to": "m3-1"
+      }
     },
     {
       "id": "city-3-node-3011936217",
@@ -11303,7 +11324,14 @@
         "Станция Енисей"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 379,
+      "estimatedEvening": 1106,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m3-1",
+        "to": "m3-2"
+      }
     },
     {
       "id": "city-3-node-12112143993",
@@ -11325,7 +11353,14 @@
         "Юбилейная (улица Свердловская)"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 382,
+      "estimatedEvening": 1109,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m3-2",
+        "to": "m3-3"
+      }
     },
     {
       "id": "city-3-node-12112143997",
@@ -11347,7 +11382,14 @@
         "Хлебозавод (улица Свердловская)"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 383,
+      "estimatedEvening": 1109,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m3-2",
+        "to": "m3-3"
+      }
     },
     {
       "id": "city-3-node-12112143992",
@@ -11369,7 +11411,14 @@
         "Художественное училище"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 386,
+      "estimatedEvening": 1112,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m3-2",
+        "to": "m3-3"
+      }
     },
     {
       "id": "city-3-node-3158893384",
@@ -11391,7 +11440,14 @@
         "Улица Матросова"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 388,
+      "estimatedEvening": 1113,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m3-3",
+        "to": "m3-4"
+      }
     },
     {
       "id": "city-3-node-1012017921",
@@ -11413,7 +11469,14 @@
         "Предмостная площадь"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 390,
+      "estimatedEvening": 1115,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m3-3",
+        "to": "m3-4"
+      }
     },
     {
       "id": "city-3-node-3158893379",
@@ -11435,7 +11498,14 @@
         "Юбилейная"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 391,
+      "estimatedEvening": 1116,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m3-3",
+        "to": "m3-4"
+      }
     },
     {
       "id": "city-3-node-4754339459",
@@ -11457,7 +11527,14 @@
         "Правый берег"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 392,
+      "estimatedEvening": 1117,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m3-3",
+        "to": "m3-4"
+      }
     },
     {
       "id": "city-3-node-1116665900",
@@ -11479,7 +11556,14 @@
         "Цирк"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 392,
+      "estimatedEvening": 1117,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m3-3",
+        "to": "m3-4"
+      }
     },
     {
       "id": "city-3-node-3166404584",
@@ -11501,7 +11585,14 @@
         "Затон"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 393,
+      "estimatedEvening": 1118,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m3-3",
+        "to": "m3-4"
+      }
     },
     {
       "id": "city-3-node-2965764011",
@@ -11523,7 +11614,14 @@
         "Торговый центр"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 396,
+      "estimatedEvening": 1121,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m3-4",
+        "to": "m3-5"
+      }
     },
     {
       "id": "city-3-node-2964257051",
@@ -11545,7 +11643,14 @@
         "Дом дружбы народов «Родина»"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 398,
+      "estimatedEvening": 1122,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m3-4",
+        "to": "m3-5"
+      }
     },
     {
       "id": "city-3-node-2968586471",
@@ -11567,7 +11672,14 @@
         "Краевая детская библиотека"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 400,
+      "estimatedEvening": 1124,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m3-4",
+        "to": "m3-5"
+      }
     },
     {
       "id": "city-3-node-5996193834",
@@ -11588,7 +11700,14 @@
         "Возрождение Кредит"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 400,
+      "estimatedEvening": 1125,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m3-4",
+        "to": "m3-5"
+      }
     },
     {
       "id": "city-3-node-2167415594",
@@ -11610,7 +11729,14 @@
         "Поликлиника"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 403,
+      "estimatedEvening": 1127,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m3-5",
+        "to": "m3-6"
+      }
     },
     {
       "id": "city-3-node-2135230148",
@@ -11631,7 +11757,14 @@
         "Октябрьская"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 411,
+      "estimatedEvening": 1135,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m3-6",
+        "to": "m3-7"
+      }
     },
     {
       "id": "city-3-node-2135230150",
@@ -11652,7 +11785,14 @@
         "Планета"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 415,
+      "estimatedEvening": 1139,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m3-7",
+        "to": "gate-new"
+      }
     },
     {
       "id": "city-3-node-12362903092",
@@ -11673,7 +11813,14 @@
         "Улица Петра Ломако"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 417,
+      "estimatedEvening": 1141,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m3-7",
+        "to": "gate-new"
+      }
     },
     {
       "id": "city-3-node-9901552931",
@@ -11694,7 +11841,14 @@
         "База КПС"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 428,
+      "estimatedEvening": 1151,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m3-7",
+        "to": "gate-new"
+      }
     },
     {
       "id": "city-3-node-9901552932",
@@ -11716,7 +11870,14 @@
         "Кладбище Бадалык"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 430,
+      "estimatedEvening": 1152,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m3-7",
+        "to": "gate-new"
+      }
     },
     {
       "id": "city-3-node-12290135179",
@@ -11738,7 +11899,14 @@
         "Бадалык"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 432,
+      "estimatedEvening": 1154,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m3-7",
+        "to": "gate-new"
+      }
     },
     {
       "id": "city-3-node-6007819986",
@@ -11759,7 +11927,14 @@
         "Деревня Бадалык"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 434,
+      "estimatedEvening": 1156,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m3-7",
+        "to": "gate-new"
+      }
     },
     {
       "id": "city-3-node-2320787605",
@@ -11781,7 +11956,14 @@
         "АЗС (ж/м Солнечный)"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 439,
+      "estimatedEvening": 1160,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m3-7",
+        "to": "gate-new"
+      }
     },
     {
       "id": "city-3-node-5341417889",
@@ -11802,7 +11984,14 @@
         "Старцево"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 453,
+      "estimatedEvening": 1174,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m3-7",
+        "to": "gate-new"
+      }
     },
     {
       "id": "city-3-node-5341417888",
@@ -11823,7 +12012,14 @@
         "Старцево"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 458,
+      "estimatedEvening": 1178,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m3-7",
+        "to": "gate-new"
+      }
     },
     {
       "id": "city-2-node-3716297767",
@@ -11845,7 +12041,14 @@
         "Поворот"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 374,
+      "estimatedEvening": 1101,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m2-start",
+        "to": "m2-1"
+      }
     },
     {
       "id": "city-2-node-1305379285",
@@ -11866,7 +12069,14 @@
         "улица Гусарова"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 375,
+      "estimatedEvening": 1102,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m2-start",
+        "to": "m2-1"
+      }
     },
     {
       "id": "city-2-node-9959783084",
@@ -11888,7 +12098,14 @@
         "Овощной магазин"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 376,
+      "estimatedEvening": 1102,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m2-start",
+        "to": "m2-1"
+      }
     },
     {
       "id": "city-2-node-3989397819",
@@ -11910,7 +12127,14 @@
         "Кинотеатр Строитель (улица Елены Стасовой)"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 377,
+      "estimatedEvening": 1104,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m2-start",
+        "to": "m2-1"
+      }
     },
     {
       "id": "city-2-node-766215887",
@@ -11932,7 +12156,14 @@
         "Почта"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 379,
+      "estimatedEvening": 1105,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m2-start",
+        "to": "m2-1"
+      }
     },
     {
       "id": "city-2-node-766215886",
@@ -11954,7 +12185,14 @@
         "Спорткомплекс «Рассвет»"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 381,
+      "estimatedEvening": 1107,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m2-start",
+        "to": "m2-1"
+      }
     },
     {
       "id": "city-2-node-3704002500",
@@ -11976,7 +12214,14 @@
         "Улица Кравченко"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 383,
+      "estimatedEvening": 1109,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m2-1",
+        "to": "m2-2"
+      }
     },
     {
       "id": "city-2-node-2524023277",
@@ -11997,7 +12242,14 @@
         "Улица Луначарского"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 384,
+      "estimatedEvening": 1110,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m2-1",
+        "to": "m2-2"
+      }
     },
     {
       "id": "city-2-node-2524023276",
@@ -12018,7 +12270,14 @@
         "Улица Корнеева"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 386,
+      "estimatedEvening": 1112,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m2-1",
+        "to": "m2-2"
+      }
     },
     {
       "id": "city-2-node-2524023275",
@@ -12039,7 +12298,14 @@
         "Сквер А.П. Степанова"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 386,
+      "estimatedEvening": 1112,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m2-1",
+        "to": "m2-2"
+      }
     },
     {
       "id": "city-2-node-1380512348",
@@ -12060,7 +12326,14 @@
         "Улица Профсоюзов"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 391,
+      "estimatedEvening": 1117,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m2-2",
+        "to": "m2-3"
+      }
     },
     {
       "id": "city-2-node-3707440175",
@@ -12083,7 +12356,14 @@
         "улица Робеспьера"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 392,
+      "estimatedEvening": 1118,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m2-2",
+        "to": "m2-3"
+      }
     },
     {
       "id": "city-2-node-3707440178",
@@ -12106,7 +12386,14 @@
         "улица Горького"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 393,
+      "estimatedEvening": 1119,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m2-2",
+        "to": "m2-3"
+      }
     },
     {
       "id": "city-2-node-3711315569",
@@ -12127,7 +12414,14 @@
         "Театр Пушкина"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 397,
+      "estimatedEvening": 1123,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m2-3",
+        "to": "m2-4"
+      }
     },
     {
       "id": "city-2-node-3711315570",
@@ -12148,7 +12442,14 @@
         "Технологический университет"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 399,
+      "estimatedEvening": 1124,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m2-3",
+        "to": "m2-4"
+      }
     },
     {
       "id": "city-2-node-3276133094",
@@ -12170,7 +12471,14 @@
         "Дом быта"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 401,
+      "estimatedEvening": 1125,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m2-3",
+        "to": "m2-4"
+      }
     },
     {
       "id": "city-2-node-4040571200",
@@ -12193,7 +12501,14 @@
         "улица Игарская"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 405,
+      "estimatedEvening": 1129,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m2-4",
+        "to": "m2-5"
+      }
     },
     {
       "id": "city-2-node-4123497329",
@@ -12214,7 +12529,14 @@
         "Мемориал"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 407,
+      "estimatedEvening": 1131,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m2-4",
+        "to": "m2-5"
+      }
     },
     {
       "id": "city-2-node-4123497327",
@@ -12236,7 +12558,14 @@
         "Площадь Победы"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 408,
+      "estimatedEvening": 1132,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m2-4",
+        "to": "m2-5"
+      }
     },
     {
       "id": "city-2-node-4123497320",
@@ -12258,7 +12587,14 @@
         "Улица Березина (улица Шахтёров)"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 410,
+      "estimatedEvening": 1134,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m2-5",
+        "to": "gate-new"
+      }
     },
     {
       "id": "city-2-node-4123497318",
@@ -12280,7 +12616,14 @@
         "Енисейский рынок"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 412,
+      "estimatedEvening": 1135,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m2-5",
+        "to": "gate-new"
+      }
     },
     {
       "id": "city-2-node-4123497317",
@@ -12302,7 +12645,14 @@
         "Южный рынок"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 413,
+      "estimatedEvening": 1136,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m2-5",
+        "to": "gate-new"
+      }
     },
     {
       "id": "city-2-node-4123497315",
@@ -12324,7 +12674,14 @@
         "Рынок «Луч»"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 414,
+      "estimatedEvening": 1137,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m2-5",
+        "to": "gate-new"
+      }
     },
     {
       "id": "city-2-node-4123497312",
@@ -12345,7 +12702,14 @@
         "Ледовый дворец"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 415,
+      "estimatedEvening": 1139,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m2-5",
+        "to": "gate-new"
+      }
     },
     {
       "id": "city-2-node-4123497310",
@@ -12366,7 +12730,14 @@
         "ТРЦ Планета (улица 9 Мая)"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 416,
+      "estimatedEvening": 1140,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m2-5",
+        "to": "gate-new"
+      }
     },
     {
       "id": "city-2-node-1056781475",
@@ -12388,7 +12759,14 @@
         "Дом Куприяна"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 418,
+      "estimatedEvening": 1141,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m2-5",
+        "to": "gate-new"
+      }
     },
     {
       "id": "city-2-node-1015339937",
@@ -12410,7 +12788,14 @@
         "1-й микрорайон"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 419,
+      "estimatedEvening": 1142,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m2-5",
+        "to": "gate-new"
+      }
     },
     {
       "id": "city-2-node-2135230141",
@@ -12431,7 +12816,14 @@
         "Детская поликлиника"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 420,
+      "estimatedEvening": 1143,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m2-5",
+        "to": "gate-new"
+      }
     },
     {
       "id": "city-2-node-858214752",
@@ -12452,7 +12844,14 @@
         "Улица Урванцева"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 421,
+      "estimatedEvening": 1144,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m2-5",
+        "to": "gate-new"
+      }
     },
     {
       "id": "city-2-node-1096164458",
@@ -12473,7 +12872,14 @@
         "Микрорайон Северный"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 422,
+      "estimatedEvening": 1145,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m2-5",
+        "to": "gate-new"
+      }
     },
     {
       "id": "city-2-node-2027449483",
@@ -12494,7 +12900,14 @@
         "Школа № 147"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 423,
+      "estimatedEvening": 1146,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m2-5",
+        "to": "gate-new"
+      }
     },
     {
       "id": "city-2-node-9901552931",
@@ -12515,7 +12928,14 @@
         "База КПС"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 426,
+      "estimatedEvening": 1149,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m2-5",
+        "to": "gate-new"
+      }
     },
     {
       "id": "city-2-node-9901552932",
@@ -12537,7 +12957,14 @@
         "Кладбище Бадалык"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 428,
+      "estimatedEvening": 1151,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m2-5",
+        "to": "gate-new"
+      }
     },
     {
       "id": "city-2-node-12290135179",
@@ -12559,7 +12986,14 @@
         "Бадалык"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 430,
+      "estimatedEvening": 1153,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m2-5",
+        "to": "gate-new"
+      }
     },
     {
       "id": "city-2-node-6007819986",
@@ -12580,7 +13014,14 @@
         "Деревня Бадалык"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 433,
+      "estimatedEvening": 1155,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m2-5",
+        "to": "gate-new"
+      }
     },
     {
       "id": "city-2-node-2320787605",
@@ -12602,7 +13043,14 @@
         "АЗС (ж/м Солнечный)"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 438,
+      "estimatedEvening": 1159,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m2-5",
+        "to": "gate-new"
+      }
     },
     {
       "id": "city-2-node-5341417889",
@@ -12623,7 +13071,14 @@
         "Старцево"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 453,
+      "estimatedEvening": 1173,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m2-5",
+        "to": "gate-new"
+      }
     },
     {
       "id": "city-2-node-5341417888",
@@ -12644,7 +13099,14 @@
         "Старцево"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 458,
+      "estimatedEvening": 1178,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m2-5",
+        "to": "gate-new"
+      }
     },
     {
       "id": "city-1-node-10065338918",
@@ -12666,7 +13128,14 @@
         "Улица Норильская"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 368,
+      "estimatedEvening": 1096,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m1-start",
+        "to": "m1-1"
+      }
     },
     {
       "id": "city-1-node-10065338919",
@@ -12688,7 +13157,14 @@
         "Тихий квартал"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 370,
+      "estimatedEvening": 1097,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m1-start",
+        "to": "m1-1"
+      }
     },
     {
       "id": "city-1-node-10065338920",
@@ -12710,7 +13186,14 @@
         "Детский центр"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 372,
+      "estimatedEvening": 1099,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m1-start",
+        "to": "m1-1"
+      }
     },
     {
       "id": "city-1-node-10065338921",
@@ -12732,7 +13215,14 @@
         "Западный микрорайон"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 375,
+      "estimatedEvening": 1102,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m1-start",
+        "to": "m1-1"
+      }
     },
     {
       "id": "city-1-node-10065338923",
@@ -12754,7 +13244,14 @@
         "Школьный городок"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 377,
+      "estimatedEvening": 1104,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m1-1",
+        "to": "m1-2"
+      }
     },
     {
       "id": "city-1-node-10065338924",
@@ -12776,7 +13273,14 @@
         "Стела «Октябрьский район»"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 379,
+      "estimatedEvening": 1105,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m1-1",
+        "to": "m1-2"
+      }
     },
     {
       "id": "city-1-node-3993074561",
@@ -12798,7 +13302,14 @@
         "ДРСУ"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 379,
+      "estimatedEvening": 1106,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m1-1",
+        "to": "m1-2"
+      }
     },
     {
       "id": "city-1-node-10065338925",
@@ -12820,7 +13331,14 @@
         "Пожарная часть"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 381,
+      "estimatedEvening": 1107,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m1-1",
+        "to": "m1-2"
+      }
     },
     {
       "id": "city-1-node-9842546485",
@@ -12842,7 +13360,14 @@
         "КПАТП-5"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 384,
+      "estimatedEvening": 1110,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m1-2",
+        "to": "m1-3"
+      }
     },
     {
       "id": "city-1-node-9842546486",
@@ -12864,7 +13389,14 @@
         "Школьная"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 385,
+      "estimatedEvening": 1110,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m1-2",
+        "to": "m1-3"
+      }
     },
     {
       "id": "city-1-node-9842546487",
@@ -12886,7 +13418,14 @@
         "Автотранспортный техникум"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 385,
+      "estimatedEvening": 1111,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m1-2",
+        "to": "m1-3"
+      }
     },
     {
       "id": "city-1-node-12110627947",
@@ -12908,7 +13447,14 @@
         "Полюс"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 386,
+      "estimatedEvening": 1112,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m1-2",
+        "to": "m1-3"
+      }
     },
     {
       "id": "city-1-node-12110627949",
@@ -12930,7 +13476,14 @@
         "Тарная база"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 387,
+      "estimatedEvening": 1113,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m1-2",
+        "to": "m1-3"
+      }
     },
     {
       "id": "city-1-node-12110627951",
@@ -12952,7 +13505,14 @@
         "Таксопарк"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 388,
+      "estimatedEvening": 1113,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m1-2",
+        "to": "m1-3"
+      }
     },
     {
       "id": "city-1-node-12110627952",
@@ -12974,7 +13534,14 @@
         "Поликлиника (улица Калинина)"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 389,
+      "estimatedEvening": 1114,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m1-2",
+        "to": "m1-3"
+      }
     },
     {
       "id": "city-1-node-12110627953",
@@ -12996,7 +13563,14 @@
         "2-я Калинина"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 390,
+      "estimatedEvening": 1115,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m1-2",
+        "to": "m1-3"
+      }
     },
     {
       "id": "city-1-node-9048376017",
@@ -13018,7 +13592,14 @@
         "мкрн. Яблони"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 399,
+      "estimatedEvening": 1124,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m1-4",
+        "to": "m1-5"
+      }
     },
     {
       "id": "city-1-node-12363024070",
@@ -13040,7 +13621,14 @@
         "Автоцентр"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 401,
+      "estimatedEvening": 1126,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m1-4",
+        "to": "m1-5"
+      }
     },
     {
       "id": "city-1-node-12363024067",
@@ -13062,7 +13650,14 @@
         "ЖК «Квадро»"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 403,
+      "estimatedEvening": 1128,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m1-4",
+        "to": "m1-5"
+      }
     },
     {
       "id": "city-1-node-1056781475",
@@ -13084,7 +13679,14 @@
         "Дом Куприяна"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 417,
+      "estimatedEvening": 1139,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m1-7",
+        "to": "gate-new"
+      }
     },
     {
       "id": "city-1-node-1015339937",
@@ -13106,7 +13708,14 @@
         "1-й микрорайон"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 418,
+      "estimatedEvening": 1141,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m1-7",
+        "to": "gate-new"
+      }
     },
     {
       "id": "city-1-node-2135230141",
@@ -13127,7 +13736,14 @@
         "Детская поликлиника"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 419,
+      "estimatedEvening": 1141,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m1-7",
+        "to": "gate-new"
+      }
     },
     {
       "id": "city-1-node-858214752",
@@ -13148,7 +13764,14 @@
         "Улица Урванцева"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 420,
+      "estimatedEvening": 1143,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m1-7",
+        "to": "gate-new"
+      }
     },
     {
       "id": "city-1-node-1096164458",
@@ -13169,7 +13792,14 @@
         "Микрорайон Северный"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 421,
+      "estimatedEvening": 1144,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m1-7",
+        "to": "gate-new"
+      }
     },
     {
       "id": "city-1-node-2027449483",
@@ -13190,7 +13820,14 @@
         "Школа № 147"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 422,
+      "estimatedEvening": 1144,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m1-7",
+        "to": "gate-new"
+      }
     },
     {
       "id": "city-1-node-9901552931",
@@ -13211,7 +13848,14 @@
         "База КПС"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 425,
+      "estimatedEvening": 1148,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m1-7",
+        "to": "gate-new"
+      }
     },
     {
       "id": "city-1-node-9901552932",
@@ -13233,7 +13877,14 @@
         "Кладбище Бадалык"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 427,
+      "estimatedEvening": 1149,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m1-7",
+        "to": "gate-new"
+      }
     },
     {
       "id": "city-1-node-12290135179",
@@ -13255,7 +13906,14 @@
         "Бадалык"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 429,
+      "estimatedEvening": 1152,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m1-7",
+        "to": "gate-new"
+      }
     },
     {
       "id": "city-1-node-6007819986",
@@ -13276,7 +13934,14 @@
         "Деревня Бадалык"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 432,
+      "estimatedEvening": 1154,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m1-7",
+        "to": "gate-new"
+      }
     },
     {
       "id": "city-1-node-2320787605",
@@ -13298,7 +13963,14 @@
         "АЗС (ж/м Солнечный)"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 437,
+      "estimatedEvening": 1158,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m1-7",
+        "to": "gate-new"
+      }
     },
     {
       "id": "city-1-node-5341417889",
@@ -13319,7 +13991,14 @@
         "Старцево"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 453,
+      "estimatedEvening": 1173,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m1-7",
+        "to": "gate-new"
+      }
     },
     {
       "id": "city-1-node-5341417888",
@@ -13340,7 +14019,14 @@
         "Старцево"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 458,
+      "estimatedEvening": 1178,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m1-7",
+        "to": "gate-new"
+      }
     },
     {
       "id": "city-4-node-10030350299",
@@ -13361,7 +14047,14 @@
         "Автобусный переулок (улица Щорса)"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 374,
+      "estimatedEvening": 1101,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m4-start",
+        "to": "m4-1"
+      }
     },
     {
       "id": "city-4-node-3118375808",
@@ -13382,7 +14075,14 @@
         "Мебельный магазин"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 375,
+      "estimatedEvening": 1102,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m4-start",
+        "to": "m4-1"
+      }
     },
     {
       "id": "city-4-node-3118375806",
@@ -13403,7 +14103,14 @@
         "Дом творчества"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 376,
+      "estimatedEvening": 1103,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m4-start",
+        "to": "m4-1"
+      }
     },
     {
       "id": "city-4-node-10030350300",
@@ -13424,7 +14131,14 @@
         "Рынок «Мави»"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 377,
+      "estimatedEvening": 1104,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m4-start",
+        "to": "m4-1"
+      }
     },
     {
       "id": "city-4-node-10030350301",
@@ -13445,7 +14159,14 @@
         "Рабочий посёлок"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 378,
+      "estimatedEvening": 1104,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m4-start",
+        "to": "m4-1"
+      }
     },
     {
       "id": "city-4-node-3141769486",
@@ -13466,7 +14187,14 @@
         "Стадион «Авангард»"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 378,
+      "estimatedEvening": 1105,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m4-start",
+        "to": "m4-1"
+      }
     },
     {
       "id": "city-4-node-3136643310",
@@ -13489,7 +14217,14 @@
         "Кинотеатр Металлург"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 379,
+      "estimatedEvening": 1106,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m4-start",
+        "to": "m4-1"
+      }
     },
     {
       "id": "city-4-node-9084345027",
@@ -13511,7 +14246,14 @@
         "Детский Кинотеатр «Мечта»"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 380,
+      "estimatedEvening": 1106,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m4-start",
+        "to": "m4-1"
+      }
     },
     {
       "id": "city-4-node-9084345020",
@@ -13533,7 +14275,14 @@
         "Учкомбинат"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 381,
+      "estimatedEvening": 1107,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m4-start",
+        "to": "m4-1"
+      }
     },
     {
       "id": "city-4-node-9084341700",
@@ -13555,7 +14304,14 @@
         "Метро"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 382,
+      "estimatedEvening": 1109,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m4-start",
+        "to": "m4-1"
+      }
     },
     {
       "id": "city-4-node-9084341702",
@@ -13577,7 +14333,14 @@
         "Образцово"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 383,
+      "estimatedEvening": 1109,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m4-start",
+        "to": "m4-1"
+      }
     },
     {
       "id": "city-4-node-9084341708",
@@ -13599,7 +14362,14 @@
         "Вторчермет"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 385,
+      "estimatedEvening": 1111,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m4-start",
+        "to": "m4-1"
+      }
     },
     {
       "id": "city-4-node-8886600206",
@@ -13621,7 +14391,14 @@
         "Посёлок Инициаторов"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 386,
+      "estimatedEvening": 1112,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m4-start",
+        "to": "m4-1"
+      }
     },
     {
       "id": "city-4-node-14101018118",
@@ -13645,7 +14422,14 @@
         "Библиотека им. Шевченко"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 386,
+      "estimatedEvening": 1112,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m4-start",
+        "to": "m4-1"
+      }
     },
     {
       "id": "city-4-node-12329570974",
@@ -13667,7 +14451,14 @@
         "Кинотеатр «Звёздный»"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 390,
+      "estimatedEvening": 1115,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m4-2",
+        "to": "m4-3"
+      }
     },
     {
       "id": "city-4-node-8761049805",
@@ -13689,7 +14480,14 @@
         "Посёлок Энергетиков"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 391,
+      "estimatedEvening": 1116,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m4-2",
+        "to": "m4-3"
+      }
     },
     {
       "id": "city-4-node-8886600650",
@@ -13712,7 +14510,14 @@
         "Мостоотряд"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 392,
+      "estimatedEvening": 1117,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m4-2",
+        "to": "m4-3"
+      }
     },
     {
       "id": "city-4-node-8886600652",
@@ -13734,7 +14539,14 @@
         "Шинный завод"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 394,
+      "estimatedEvening": 1119,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m4-2",
+        "to": "m4-3"
+      }
     },
     {
       "id": "city-4-node-8886600654",
@@ -13756,7 +14568,14 @@
         "Шинный перекресток"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 396,
+      "estimatedEvening": 1121,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m4-2",
+        "to": "m4-3"
+      }
     },
     {
       "id": "city-4-node-5969022008",
@@ -13779,7 +14598,14 @@
         "ДК «КрасТЭЦ»"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 398,
+      "estimatedEvening": 1123,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m4-3",
+        "to": "m4-4"
+      }
     },
     {
       "id": "city-4-node-2456646840",
@@ -13801,7 +14627,14 @@
         "Поликлиника (улица 26 Бакинских комиссаров)"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 399,
+      "estimatedEvening": 1123,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m4-3",
+        "to": "m4-4"
+      }
     },
     {
       "id": "city-4-node-8883435596",
@@ -13822,7 +14655,14 @@
         "Гостиница «Кедр»"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 399,
+      "estimatedEvening": 1124,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m4-3",
+        "to": "m4-4"
+      }
     },
     {
       "id": "city-4-node-8883435595",
@@ -13843,7 +14683,14 @@
         "Рынок (улица 26 Бакинских комиссаров)"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 400,
+      "estimatedEvening": 1125,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m4-3",
+        "to": "m4-4"
+      }
     },
     {
       "id": "city-4-node-8883435594",
@@ -13865,7 +14712,14 @@
         "ДК \"Химик\""
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 400,
+      "estimatedEvening": 1125,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m4-3",
+        "to": "m4-4"
+      }
     },
     {
       "id": "city-4-node-12958914490",
@@ -13888,7 +14742,14 @@
         "Улица Рейдовая"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 404,
+      "estimatedEvening": 1129,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m4-3",
+        "to": "m4-4"
+      }
     },
     {
       "id": "city-4-node-8883435580",
@@ -13910,7 +14771,14 @@
         "1-я Фестивальная"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 406,
+      "estimatedEvening": 1130,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m4-3",
+        "to": "m4-4"
+      }
     },
     {
       "id": "city-4-node-8883435579",
@@ -13932,7 +14800,14 @@
         "2-я Фестивальная"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 406,
+      "estimatedEvening": 1131,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m4-3",
+        "to": "m4-4"
+      }
     },
     {
       "id": "city-4-node-12346454945",
@@ -13954,7 +14829,14 @@
         "Гараж"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 407,
+      "estimatedEvening": 1131,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m4-3",
+        "to": "m4-4"
+      }
     },
     {
       "id": "city-4-node-1641814803",
@@ -13976,7 +14858,14 @@
         "Школа единобороств"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 416,
+      "estimatedEvening": 1140,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m4-4",
+        "to": "gate-new"
+      }
     },
     {
       "id": "city-4-node-2607875295",
@@ -13998,7 +14887,14 @@
         "Улица Быковского"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 418,
+      "estimatedEvening": 1142,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m4-4",
+        "to": "gate-new"
+      }
     },
     {
       "id": "city-4-node-2607875600",
@@ -14019,7 +14915,14 @@
         "2-й микрорайон"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 419,
+      "estimatedEvening": 1142,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m4-4",
+        "to": "gate-new"
+      }
     },
     {
       "id": "city-4-node-2510434927",
@@ -14041,7 +14944,14 @@
         "СПТУ-18"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 419,
+      "estimatedEvening": 1143,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m4-4",
+        "to": "gate-new"
+      }
     },
     {
       "id": "city-4-node-2527964902",
@@ -14063,7 +14973,14 @@
         "Школа милиции"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 421,
+      "estimatedEvening": 1144,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m4-4",
+        "to": "gate-new"
+      }
     },
     {
       "id": "city-4-node-9901552931",
@@ -14084,7 +15001,14 @@
         "База КПС"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 427,
+      "estimatedEvening": 1150,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m4-4",
+        "to": "gate-new"
+      }
     },
     {
       "id": "city-4-node-9901552932",
@@ -14106,7 +15030,14 @@
         "Кладбище Бадалык"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 428,
+      "estimatedEvening": 1151,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m4-4",
+        "to": "gate-new"
+      }
     },
     {
       "id": "city-4-node-12290135179",
@@ -14128,7 +15059,14 @@
         "Бадалык"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 431,
+      "estimatedEvening": 1153,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m4-4",
+        "to": "gate-new"
+      }
     },
     {
       "id": "city-4-node-6007819986",
@@ -14149,7 +15087,14 @@
         "Деревня Бадалык"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 433,
+      "estimatedEvening": 1155,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m4-4",
+        "to": "gate-new"
+      }
     },
     {
       "id": "city-4-node-2320787605",
@@ -14171,7 +15116,14 @@
         "АЗС (ж/м Солнечный)"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 438,
+      "estimatedEvening": 1160,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m4-4",
+        "to": "gate-new"
+      }
     },
     {
       "id": "city-4-node-5341417889",
@@ -14192,7 +15144,14 @@
         "Старцево"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 453,
+      "estimatedEvening": 1173,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m4-4",
+        "to": "gate-new"
+      }
     },
     {
       "id": "city-4-node-5341417888",
@@ -14213,17 +15172,30 @@
         "Старцево"
       ],
       "morning": null,
-      "evening": null
+      "evening": null,
+      "estimatedMorning": 458,
+      "estimatedEvening": 1178,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m4-4",
+        "to": "gate-new"
+      }
     }
   ],
   "walks": [],
-  "revision": "magistral-20261021-route4-voronova-kosmonavtov",
-  "updatedAt": "2026-10-21T06:43:40.510Z",
+  "revision": "magistral-20261021-nearest-all-stops",
+  "updatedAt": "2026-10-21T06:57:21.357Z",
   "cityStops": {
     "source": "OpenStreetMap",
     "catalogueUpdatedAt": "2026-10-14T01:37:26Z",
     "maxDistanceMetres": 30,
     "deduplicateWithinMetres": 260,
     "note": "Названия городских остановок вдоль линии. Площадки одного названия объединены. Посадка назначена только в точках boarding."
+  },
+  "timeEstimates": {
+    "method": "route-distance-between-timetable-points",
+    "updatedAt": "2026-10-21",
+    "count": 138,
+    "note": "Примерное время проезда между назначенными точками расписания; без текущих пробок. Исходные времена посадки сохранены."
   }
 }
