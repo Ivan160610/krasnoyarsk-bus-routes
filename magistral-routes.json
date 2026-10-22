@@ -4949,248 +4949,120 @@
     },
     {
       "id": 3,
-      "title": "Тихие Зори · Красраб",
+      "title": "Талнах · Красраб",
       "color": "#de4c2f",
       "xy": [
         [
-          480.7495224890299,
-          990.0079263098305
+          465.43740017781965,
+          1021.5754071157426
         ],
         [
-          481.7893603554694,
-          989.8517424325692
+          466.5908337777946,
+          1020.8466622441774
         ],
         [
-          485.16227982228156,
-          989.2322118595475
+          468.586040888913,
+          1019.6702542434214
         ],
         [
-          492.3246364444494,
-          987.8629904699628
+          471.23078257776797,
+          1018.1867210810306
         ],
         [
-          493.56545137776993,
-          987.6391244901461
+          472.34052551107015,
+          1017.619331824244
         ],
         [
-          494.439264711109,
-          987.4829387754435
+          473.4590065777302,
+          1017.161254927516
         ],
         [
-          498.2170510222204,
-          986.8634009138332
+          474.9211875554174,
+          1016.6875606769463
         ],
         [
-          499.33261937776115,
-          986.6655648925807
+          475.6464526222553,
+          1016.4897539567901
         ],
         [
-          503.76576568884775,
-          985.8950437989552
+          478.44265528884716,
+          1015.8859217143035
         ],
         [
-          504.4648163554957,
-          985.7596816807054
+          479.4708423111588,
+          1015.6672923524166
         ],
         [
-          505.9881642665714,
-          985.4577197044273
+          480.6563157333294,
+          1015.4486627531005
         ],
         [
-          506.76877084444277,
-          985.2859135502949
+          484.33215715549886,
+          1014.756334122736
         ],
         [
-          507.2377173334826,
-          985.1036947417306
+          486.24289564439096,
+          1014.397155173705
         ],
         [
-          508.3911509333411,
-          984.7132253110176
+          493.44020479999017,
+          1013.1998873827979
         ],
         [
-          509.06981262215413,
-          984.192598225316
+          494.8528696887661,
+          1012.9552274364978
         ],
         [
-          509.31156764447223,
-          983.9895532969385
+          495.9567871999461,
+          1012.7522115106694
         ],
         [
-          509.62031502230093,
-          983.8125396027463
+          497.85004942223895,
+          1012.4607011053595
         ],
         [
-          509.89993528893683,
-          983.6980012469576
+          498.0189866666915,
+          1012.4190567273181
         ],
         [
-          510.22907164448407,
-          983.6459383365
+          499.029697422171,
+          1012.4242622750462
         ],
         [
-          510.4358741332544,
-          983.6355257527321
+          500.30546488892287,
+          1012.4554955585627
         ],
         [
-          510.8261774221901,
-          983.739651565731
+          501.20257991109975,
+          1012.434673370095
         ],
         [
-          511.08249599998817,
-          983.9374904618599
+          509.0348600889556,
+          1011.305066417437
         ],
         [
-          511.1990044445265,
-          984.364405312459
+          512.766043022275,
+          1010.7012186268694
         ],
         [
-          511.19317902228795,
-          984.8329693501582
+          517.1584113778081,
+          1010.0349017219851
         ],
         [
-          511.0417180445511,
-          985.4577197044273
+          520.6187121778494,
+          1009.4726951183984
         ],
         [
-          511.13783751113806,
-          986.4729348956607
+          521.9090431999648,
+          1009.3061150825815
         ],
         [
-          511.19609173340723,
-          987.4673201973783
+          524.1693070222391,
+          1009.0354222303722
         ],
         [
-          511.23395697772503,
-          988.0608253146056
-        ],
-        [
-          511.7873720888747,
-          991.278217344603
-        ],
-        [
-          512.0116508443607,
-          992.0383056887658
-        ],
-        [
-          512.352438044385,
-          992.767154830799
-        ],
-        [
-          512.7543921779143,
-          993.2409053583397
-        ],
-        [
-          513.4767445332836,
-          993.7875391973066
-        ],
-        [
-          514.3039544888306,
-          994.2716993583017
-        ],
-        [
-          516.3865429332945,
-          995.1202783372719
-        ],
-        [
-          517.0855936000589,
-          995.484697660082
-        ],
-        [
-          517.6681358221686,
-          996.1302388414042
-        ],
-        [
-          518.0409628443886,
-          996.9267505111638
-        ],
-        [
-          518.4516551110428,
-          998.4520875940798
-        ],
-        [
-          518.8769109334098,
-          1000.0242659414653
-        ],
-        [
-          519.6225649777334,
-          1002.9707658083644
-        ],
-        [
-          520.3099648000207,
-          1006.0629825505312
-        ],
-        [
-          521.3672789334087,
-          1011.6798675834434
-        ],
-        [
-          521.7634076444665,
-          1012.7261838130653
-        ],
-        [
-          522.2731320889434,
-          1013.8141387038631
-        ],
-        [
-          522.8294599110959,
-          1014.3815386831411
-        ],
-        [
-          523.4469546665205,
-          1014.8500328736845
-        ],
-        [
-          524.4634908444714,
-          1015.2040055391844
-        ],
-        [
-          525.3489550222876,
-          1015.1727726819809
-        ],
-        [
-          526.1965539554367,
-          1014.9333206156734
-        ],
-        [
-          526.7849216001341,
-          1014.5324980412843
-        ],
-        [
-          527.2684316444211,
-          1014.0275645717047
-        ],
-        [
-          527.5626154666534,
-          1013.5590684675844
-        ],
-        [
-          527.7985450667329,
-          1012.939610834117
-        ],
-        [
-          527.9412679111119,
-          1012.2889179904014
-        ],
-        [
-          528.1859356444329,
-          1011.055198585731
-        ],
-        [
-          528.2529280000599,
-          1010.5086116230814
-        ],
-        [
-          528.4626431999495,
-          1009.7069480606588
-        ],
-        [
-          528.9082880000351,
-          1009.1239180105622
-        ],
-        [
-          529.4092743111541,
-          1008.7491120868362
+          529.1267413332826,
+          1008.4575958860805
         ],
         [
           531.1481628444744,
@@ -10919,8 +10791,8 @@
       "route": 2,
       "kind": "boarding",
       "order": 6,
-      "count": 7,
-      "dayCount": 7,
+      "count": 10,
+      "dayCount": 10,
       "nightCount": 6,
       "morning": 409,
       "evening": 1133,
@@ -10931,23 +10803,25 @@
     },
     {
       "id": "m3-start",
-      "name": "Микрорайон Тихие Зори",
-      "lat": 55.9802206,
-      "lon": 92.8017993,
-      "x": 480.8319522131933,
-      "y": 990.5670635969145,
+      "name": "Талнах",
+      "lat": 55.9741878,
+      "lon": 92.7965993,
+      "x": 465.68585443566553,
+      "y": 1021.9720514302608,
       "route": 3,
       "kind": "boarding",
       "order": 1,
-      "count": 3,
-      "dayCount": 3,
-      "nightCount": 3,
+      "count": 0,
+      "dayCount": 0,
+      "nightCount": 0,
       "morning": 370,
       "evening": 1098,
       "routePosition": 0,
       "searchAliases": [
-        "Микрорайон Тихие зори"
-      ]
+        "Талнах",
+        "Свердловская"
+      ],
+      "sourceUrl": "https://www.openstreetmap.org/node/4048848518"
     },
     {
       "id": "m3-1",
@@ -10961,10 +10835,10 @@
       "order": 2,
       "count": 0,
       "dayCount": 0,
-      "nightCount": 1,
+      "nightCount": 4,
       "morning": 378,
       "evening": 1105,
-      "routePosition": 127.567614,
+      "routePosition": 116.673979,
       "searchAliases": [
         "ОАО «Красфарма» (улица Свердловская)"
       ]
@@ -10984,7 +10858,7 @@
       "nightCount": 1,
       "morning": 381,
       "evening": 1108,
-      "routePosition": 173.908621,
+      "routePosition": 163.014986,
       "searchAliases": [
         "Октябрьская (улица Свердловская)"
       ]
@@ -11004,7 +10878,7 @@
       "nightCount": 4,
       "morning": 387,
       "evening": 1112,
-      "routePosition": 270.293695,
+      "routePosition": 259.40006,
       "searchAliases": [
         "Студенческая (улица Свердловская)"
       ]
@@ -11024,7 +10898,7 @@
       "nightCount": 0,
       "morning": 395,
       "evening": 1120,
-      "routePosition": 448.185981,
+      "routePosition": 437.292346,
       "searchAliases": [
         "ТЮЗ"
       ]
@@ -11044,7 +10918,7 @@
       "nightCount": 7,
       "morning": 402,
       "evening": 1126,
-      "routePosition": 566.821847,
+      "routePosition": 555.928212,
       "searchAliases": [
         "Улица Мичурина (улица Московская)",
         "Улица Мичурина"
@@ -11065,7 +10939,7 @@
       "nightCount": 1,
       "morning": 408,
       "evening": 1132,
-      "routePosition": 686.696237,
+      "routePosition": 675.802602,
       "searchAliases": [
         "Остров Татышев"
       ]
@@ -11085,7 +10959,7 @@
       "nightCount": 7,
       "morning": 414,
       "evening": 1138,
-      "routePosition": 829.275112,
+      "routePosition": 818.381477,
       "searchAliases": [
         "Улица Авиаторов"
       ]
@@ -11218,35 +11092,6 @@
       "evening": 1185
     },
     {
-      "id": "city-3-node-8543930898",
-      "name": "Платинум Арена",
-      "lat": 55.9807939,
-      "lon": 92.8077828,
-      "x": 498.26015914662275,
-      "y": 987.5823770278366,
-      "route": 3,
-      "kind": "pass",
-      "routePosition": 17.67585,
-      "source": "city-catalogue",
-      "sourceUrl": "https://www.openstreetmap.org/node/8543930898",
-      "cityStopIds": [
-        "node-8543930898",
-        "node-8543930899"
-      ],
-      "searchAliases": [
-        "Платинум Арена"
-      ],
-      "morning": null,
-      "evening": null,
-      "estimatedMorning": 371,
-      "estimatedEvening": 1099,
-      "timeEstimate": {
-        "method": "route-distance-between-timetable-points",
-        "from": "m3-start",
-        "to": "m3-1"
-      }
-    },
-    {
       "id": "city-3-node-4048848562",
       "name": "Магазин (улица Свердловская)",
       "lat": 55.9769736,
@@ -11255,7 +11100,7 @@
       "y": 1007.4706021872116,
       "route": 3,
       "kind": "pass",
-      "routePosition": 92.881461,
+      "routePosition": 81.987826,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/4048848562",
       "cityStopIds": [
@@ -11284,7 +11129,7 @@
       "y": 1005.3248112190049,
       "route": 3,
       "kind": "pass",
-      "routePosition": 108.5192,
+      "routePosition": 97.625565,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/9091159067",
       "cityStopIds": [
@@ -11313,7 +11158,7 @@
       "y": 997.6139345180709,
       "route": 3,
       "kind": "pass",
-      "routePosition": 148.204914,
+      "routePosition": 137.311279,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/3011936217",
       "cityStopIds": [
@@ -11342,7 +11187,7 @@
       "y": 990.008967535221,
       "route": 3,
       "kind": "pass",
-      "routePosition": 187.860436,
+      "routePosition": 176.966801,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/12112143993",
       "cityStopIds": [
@@ -11371,7 +11216,7 @@
       "y": 984.9558370730374,
       "route": 3,
       "kind": "pass",
-      "routePosition": 208.356273,
+      "routePosition": 197.462638,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/12112143997",
       "cityStopIds": [
@@ -11400,7 +11245,7 @@
       "y": 975.7707474665367,
       "route": 3,
       "kind": "pass",
-      "routePosition": 260.159887,
+      "routePosition": 249.266253,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/12112143992",
       "cityStopIds": [
@@ -11429,7 +11274,7 @@
       "y": 953.3867796678096,
       "route": 3,
       "kind": "pass",
-      "routePosition": 301.965027,
+      "routePosition": 291.071392,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/3158893384",
       "cityStopIds": [
@@ -11458,7 +11303,7 @@
       "y": 930.4373748375801,
       "route": 3,
       "kind": "pass",
-      "routePosition": 326.260309,
+      "routePosition": 315.366674,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/1012017921",
       "cityStopIds": [
@@ -11487,7 +11332,7 @@
       "y": 916.218898027204,
       "route": 3,
       "kind": "pass",
-      "routePosition": 359.944844,
+      "routePosition": 349.051209,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/3158893379",
       "cityStopIds": [
@@ -11516,7 +11361,7 @@
       "y": 911.7055637403391,
       "route": 3,
       "kind": "pass",
-      "routePosition": 371.276309,
+      "routePosition": 360.382674,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/4754339459",
       "cityStopIds": [
@@ -11545,7 +11390,7 @@
       "y": 905.2640177794383,
       "route": 3,
       "kind": "pass",
-      "routePosition": 388.001865,
+      "routePosition": 377.10823,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/1116665900",
       "cityStopIds": [
@@ -11574,7 +11419,7 @@
       "y": 894.6924149937695,
       "route": 3,
       "kind": "pass",
-      "routePosition": 414.435111,
+      "routePosition": 403.541476,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/3166404584",
       "cityStopIds": [
@@ -11603,7 +11448,7 @@
       "y": 872.847955060075,
       "route": 3,
       "kind": "pass",
-      "routePosition": 469.526166,
+      "routePosition": 458.632531,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/2965764011",
       "cityStopIds": [
@@ -11632,7 +11477,7 @@
       "y": 862.7560005952837,
       "route": 3,
       "kind": "pass",
-      "routePosition": 494.881883,
+      "routePosition": 483.988249,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/2964257051",
       "cityStopIds": [
@@ -11661,7 +11506,7 @@
       "y": 850.6385272430489,
       "route": 3,
       "kind": "pass",
-      "routePosition": 525.703628,
+      "routePosition": 514.809993,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/2968586471",
       "cityStopIds": [
@@ -11690,7 +11535,7 @@
       "y": 844.5816009573173,
       "route": 3,
       "kind": "pass",
-      "routePosition": 540.694855,
+      "routePosition": 529.801221,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/5996193834",
       "cityStopIds": [
@@ -11718,7 +11563,7 @@
       "y": 824.8059732975671,
       "route": 3,
       "kind": "pass",
-      "routePosition": 592.408082,
+      "routePosition": 581.514447,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/2167415594",
       "cityStopIds": [
@@ -11747,7 +11592,7 @@
       "y": 690.5334377282998,
       "route": 3,
       "kind": "pass",
-      "routePosition": 753.62612,
+      "routePosition": 742.732485,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/2135230148",
       "cityStopIds": [
@@ -11775,7 +11620,7 @@
       "y": 620.7961503462866,
       "route": 3,
       "kind": "pass",
-      "routePosition": 847.568023,
+      "routePosition": 836.674388,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/2135230150",
       "cityStopIds": [
@@ -11803,7 +11648,7 @@
       "y": 592.3931679060915,
       "route": 3,
       "kind": "pass",
-      "routePosition": 886.067033,
+      "routePosition": 875.173399,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/12362903092",
       "cityStopIds": [
@@ -11831,7 +11676,7 @@
       "y": 472.58894916943973,
       "route": 3,
       "kind": "pass",
-      "routePosition": 1111.442889,
+      "routePosition": 1100.549254,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/9901552931",
       "cityStopIds": [
@@ -11859,7 +11704,7 @@
       "y": 440.9414874605718,
       "route": 3,
       "kind": "pass",
-      "routePosition": 1145.260715,
+      "routePosition": 1134.36708,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/9901552932",
       "cityStopIds": [
@@ -11888,7 +11733,7 @@
       "y": 400.75485438032774,
       "route": 3,
       "kind": "pass",
-      "routePosition": 1187.946264,
+      "routePosition": 1177.052629,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/12290135179",
       "cityStopIds": [
@@ -11917,7 +11762,7 @@
       "y": 363.9599676525104,
       "route": 3,
       "kind": "pass",
-      "routePosition": 1229.939481,
+      "routePosition": 1219.045846,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/6007819986",
       "cityStopIds": [
@@ -11945,7 +11790,7 @@
       "y": 292.58491452713497,
       "route": 3,
       "kind": "pass",
-      "routePosition": 1327.44457,
+      "routePosition": 1316.550935,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/2320787605",
       "cityStopIds": [
@@ -11974,7 +11819,7 @@
       "y": 12.690328470198438,
       "route": 3,
       "kind": "pass",
-      "routePosition": 1622.522429,
+      "routePosition": 1611.628794,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/5341417889",
       "cityStopIds": [
@@ -12002,7 +11847,7 @@
       "y": 13.375128894811496,
       "route": 3,
       "kind": "pass",
-      "routePosition": 1723.405589,
+      "routePosition": 1712.511955,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/5341417888",
       "cityStopIds": [
@@ -15180,11 +15025,69 @@
         "from": "m4-4",
         "to": "gate-new"
       }
+    },
+    {
+      "id": "city-3-node-3711066237",
+      "name": "ДОК",
+      "lat": 55.9753626,
+      "lon": 92.8017654,
+      "x": 480.73321130673867,
+      "y": 1015.8567711464129,
+      "route": 3,
+      "kind": "pass",
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/3711066237",
+      "cityStopIds": [
+        "node-3711066237",
+        "node-4048848546"
+      ],
+      "searchAliases": [
+        "ДОК"
+      ],
+      "morning": null,
+      "evening": null,
+      "routePosition": 16.574082,
+      "estimatedMorning": 371,
+      "estimatedEvening": 1099,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m3-start",
+        "to": "m3-1"
+      }
+    },
+    {
+      "id": "city-3-node-4048848547",
+      "name": "Лесоперевалочная база",
+      "lat": 55.9759593,
+      "lon": 92.808107,
+      "x": 499.2044600888621,
+      "y": 1012.7506498489529,
+      "route": 3,
+      "kind": "pass",
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/4048848547",
+      "cityStopIds": [
+        "node-4048848547",
+        "node-4048848548"
+      ],
+      "searchAliases": [
+        "Лесоперевалочная база"
+      ],
+      "morning": null,
+      "evening": null,
+      "routePosition": 35.394056,
+      "estimatedMorning": 372,
+      "estimatedEvening": 1100,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m3-start",
+        "to": "m3-1"
+      }
     }
   ],
   "walks": [],
-  "revision": "magistral-20261021-nearest-all-stops",
-  "updatedAt": "2026-10-21T06:57:21.357Z",
+  "revision": "magistral-20261022-sverdlovskaya",
+  "updatedAt": "2026-10-22T11:30:30.245309Z",
   "cityStops": {
     "source": "OpenStreetMap",
     "catalogueUpdatedAt": "2026-10-14T01:37:26Z",
@@ -15194,8 +15097,8 @@
   },
   "timeEstimates": {
     "method": "route-distance-between-timetable-points",
-    "updatedAt": "2026-10-21",
-    "count": 138,
+    "updatedAt": "2026-10-22",
+    "count": 139,
     "note": "Примерное время проезда между назначенными точками расписания; без текущих пробок. Исходные времена посадки сохранены."
   }
 }

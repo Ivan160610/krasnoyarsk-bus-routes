@@ -21120,56 +21120,6 @@
       "lon": 92.801739,
       "day": [
         {
-          "route": 3,
-          "hubIndex": 0,
-          "hubName": "Микрорайон Тихие Зори",
-          "hubId": "m3-start",
-          "boarding": 370,
-          "departure": 358,
-          "connectionMinutes": 12,
-          "walkingMinutes": 2,
-          "waitingMinutes": 0,
-          "transfers": 0,
-          "scheduleConfirmed": true,
-          "segments": [
-            {
-              "type": "walk",
-              "fromName": "Микрорайон Тихие Зори",
-              "toName": "Микрорайон Тихие Зори",
-              "minutes": 1.4069999999999998,
-              "metres": 93.8,
-              "from": [
-                92.801739,
-                55.980303
-              ],
-              "to": [
-                92.8017993,
-                55.9802206
-              ],
-              "geometry": [
-                [
-                  92.801733,
-                  55.980325
-                ],
-                [
-                  92.801105,
-                  55.980269
-                ],
-                [
-                  92.801143,
-                  55.980158
-                ],
-                [
-                  92.801798,
-                  55.980223
-                ]
-              ]
-            }
-          ],
-          "totalMinutes": 107,
-          "bufferMinutes": 10
-        },
-        {
           "route": 2,
           "hubIndex": 5,
           "hubName": "ул. Шахтеров",
@@ -21367,56 +21317,6 @@
         }
       ],
       "night": [
-        {
-          "route": 3,
-          "hubIndex": 0,
-          "hubName": "Микрорайон Тихие Зори",
-          "hubId": "m3-start",
-          "boarding": 1098,
-          "departure": 1086,
-          "connectionMinutes": 12,
-          "walkingMinutes": 2,
-          "waitingMinutes": 0,
-          "transfers": 0,
-          "scheduleConfirmed": true,
-          "segments": [
-            {
-              "type": "walk",
-              "fromName": "Микрорайон Тихие Зори",
-              "toName": "Микрорайон Тихие Зори",
-              "minutes": 1.4069999999999998,
-              "metres": 93.8,
-              "from": [
-                92.801739,
-                55.980303
-              ],
-              "to": [
-                92.8017993,
-                55.9802206
-              ],
-              "geometry": [
-                [
-                  92.801733,
-                  55.980325
-                ],
-                [
-                  92.801105,
-                  55.980269
-                ],
-                [
-                  92.801143,
-                  55.980158
-                ],
-                [
-                  92.801798,
-                  55.980223
-                ]
-              ]
-            }
-          ],
-          "totalMinutes": 99,
-          "bufferMinutes": 10
-        },
         {
           "route": 3,
           "hubIndex": 1,
@@ -51159,22 +51059,16 @@
     },
     {
       "id": 3,
-      "title": "Тихие Зори · Красраб",
+      "title": "Талнах · Красраб",
       "color": "#de4c2f",
-      "corridor": "Тихие Зори → Лесников → съезд на Свердловскую → Свердловская → Матросова → Красноярский Рабочий → Мичурина → Октябрьский мост → Авиаторов → Северное шоссе → Енисейский тракт",
-      "distanceKm": 37.65409999999999,
-      "driveMin": 48.51333333333333,
+      "corridor": "Талнах → Свердловская → Матросова → Красноярский Рабочий → Мичурина → Октябрьский мост → Авиаторов → Северное шоссе → Енисейский тракт",
+      "distanceKm": 37.421541579195186,
+      "driveMin": 47.309999999999995,
       "start": {
-        "name": "Микрорайон Тихие Зори",
-        "lon": 92.8017993,
-        "lat": 55.9802206,
-        "source": "https://www.openstreetmap.org/node/12005150870"
-      },
-      "extension": {
-        "distanceKm": 2.7325999999999997,
-        "driveMin": 4.39,
-        "routing": "https://router.project-osrm.org",
-        "checkedAt": "2026-10-20"
+        "name": "Талнах",
+        "lon": 92.7965993,
+        "lat": 55.9741878,
+        "source": "https://www.openstreetmap.org/node/4048848518"
       },
       "northRevision": {
         "date": "2026-10-20",
@@ -51199,6 +51093,27 @@
           "dayGateSlackMinutes": 21.848333333333336,
           "nightGateSlackMinutes": 17.848333333333336
         }
+      },
+      "southRevision": {
+        "date": "2026-10-22",
+        "description": "По розовой линии с рисунка: начало на Талнахе и прямой проезд по Свердловской. Заезд в Тихие Зори к Платинум Арене и съезд Николаевского моста исключены.",
+        "distanceDeltaKm": -0.2325584208048042,
+        "estimatedDrivingDeltaMinutes": -1.2033333333333331,
+        "routing": "https://routing.openstreetmap.de/routed-car",
+        "boardingRelocation": {
+          "id": "m3-start",
+          "from": "Микрорайон Тихие Зори",
+          "to": "Талнах",
+          "retainedMorning": 370,
+          "retainedEvening": 1098
+        },
+        "splice": {
+          "oldEndIndex": 64,
+          "newPointCount": 33
+        },
+        "streets": [
+          "Свердловская улица"
+        ]
       }
     },
     {
@@ -51279,5 +51194,6 @@
       }
     }
   ],
-  "capacity": "Вместимость автобусов и распределение сотрудников по сменам не заданы; это общий список, а не загрузка одного рейса."
+  "capacity": "Вместимость автобусов и распределение сотрудников по сменам не заданы; это общий список, а не загрузка одного рейса.",
+  "routeUpdatedAt": "2026-10-22"
 }
