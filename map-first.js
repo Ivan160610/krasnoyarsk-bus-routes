@@ -33,6 +33,7 @@
  const boardingFor=p=>p?.kind==='walk'?data.points.find(q=>q.kind==='boarding'&&q.route===p.route&&(p.targetId?q.id===p.targetId:q.name===p.target)):p;
  function updateJourney(){
   const point=currentPoint,routeId=point?.route||selected,route=data.routes.find(r=>r.id===routeId),first=data.points.filter(p=>p.kind==='boarding'&&p.route===routeId).sort((a,b)=>(a.order||0)-(b.order||0))[0],boarding=boardingFor(point);
+  journey.dataset.pointKind=point?.kind||'overview';
   selector.value=String(selected);
   for(const button of routeChoices.children){const id=Number(button.dataset.pickRoute),active=id===selected;button.setAttribute('aria-pressed',String(active));button.classList.toggle('active',active);button.style.setProperty('--pick-color',id?colors[id-1]:'var(--brand)')}
   routeCaption.textContent=selected?data.routes.find(r=>r.id===selected)?.title||'':'Все маршруты · выберите номер для просмотра';
@@ -40,6 +41,7 @@
   journey.style.setProperty('--journey-color',routeId?colors[routeId-1]:'var(--brand)');
   $('#journeyDirection').textContent=route?`Маршрут №${route.id} · ${route.title}`:'Маршруты Красноярска';
   $('#journeyStop').textContent=point?.name||(route?first?.name||route.title:'Выберите свою остановку');
+  $('#journeyStop').title=$('#journeyStop').textContent;
   $('#journeyHint').textContent=point?.kind==='walk'?`Пешком ${point.walkMin} мин до «${point.target}»`:point?.kind==='pass'?'Городская остановка по пути · примерное время проезда':point?.kind==='gate'?'Въезд на территорию базы':point?.kind==='finish'?'Высадка у строения 3':point?.id==='m2-3'?'Посадка на проспекте Мира':point?'Место посадки на служебный автобус':route?'Начало маршрута → база':'Нажмите на точку карты или откройте список остановок';
   $('#journeyTimeLabel').textContent=point?.kind==='pass'?'Время автобуса':point?.kind==='gate'?'Въезд':point?.kind==='finish'?'Высадка':point?'Посадка':route?'Отправление':'Посадка';
   $('#journeyTime').textContent=point?(point.kind==='pass'?(tripTime(point)||'—'):boarding?tripTime(boarding)||'—':'—'):first?tripTime(first):'—';
