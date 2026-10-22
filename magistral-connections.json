@@ -50965,8 +50965,8 @@
       "title": "Молодёжная · Калинина",
       "color": "#263b44",
       "corridor": "Молодёжная → Норильская → Калинина → 2-я Брянская → Караульная → 9 Мая → Енисейский тракт",
-      "distanceKm": 32.574536161331395,
-      "driveMin": 43.51166666666667,
+      "distanceKm": 32.54387149827012,
+      "driveMin": 42.32833333333334,
       "start": {
         "name": "Молодёжная",
         "lon": 92.698345,
@@ -51001,6 +51001,19 @@
             "sourceUrl": "https://www.openstreetmap.org/node/4123497312"
           }
         ]
+      },
+      "planetaRevision": {
+        "date": "2026-10-22",
+        "description": "Прямо по основному ходу улицы 9 Мая у Планеты; параллельный проезд вдоль парковки и оба боковых съезда исключены. Место и время посадки Планета сохранены.",
+        "distanceDeltaKm": -0.03066466306127677,
+        "estimatedDrivingDeltaMinutes": -1.1833333333333333,
+        "routing": "https://routing.openstreetmap.de/routed-car",
+        "preservedBoardingId": "m1-7",
+        "splice": {
+          "oldStartIndex": 353,
+          "oldEndIndex": 363,
+          "newPointCount": 7
+        }
       }
     },
     {

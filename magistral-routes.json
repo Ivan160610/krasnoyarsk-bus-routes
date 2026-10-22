@@ -1424,31 +1424,15 @@
         ],
         [
           762.3183928888757,
-          623.616252250853
+          623.6162522507948
         ],
         [
-          763.940772977774,
-          623.5745273396606
+          770.8264220444253,
+          615.996096831339
         ],
         [
-          770.8875889778137,
-          617.4304397179512
-        ],
-        [
-          771.569163377746,
-          616.7888985273894
-        ],
-        [
-          773.4740764443995,
-          615.0885436860844
-        ],
-        [
-          774.688676977763,
-          614.00364719762
-        ],
-        [
-          774.9537336889189,
-          613.7689332452719
+          771.7555768889142,
+          615.1615653550252
         ],
         [
           774.2575957332738,
@@ -10672,7 +10656,7 @@
       "nightCount": 11,
       "morning": 415,
       "evening": 1138,
-      "routePosition": 678.154781,
+      "routePosition": 677.766962,
       "searchAliases": [
         "ТРЦ Планета (улица 9 Мая)"
       ]
@@ -13513,7 +13497,7 @@
       "y": 596.2073801707011,
       "route": 1,
       "kind": "pass",
-      "routePosition": 706.85678,
+      "routePosition": 705.418458,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/1056781475",
       "cityStopIds": [
@@ -13525,7 +13509,7 @@
       ],
       "morning": null,
       "evening": null,
-      "estimatedMorning": 417,
+      "estimatedMorning": 416,
       "estimatedEvening": 1139,
       "timeEstimate": {
         "method": "route-distance-between-timetable-points",
@@ -13542,7 +13526,7 @@
       "y": 581.877627789625,
       "route": 1,
       "kind": "pass",
-      "routePosition": 728.608203,
+      "routePosition": 727.169881,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/1015339937",
       "cityStopIds": [
@@ -13555,7 +13539,7 @@
       "morning": null,
       "evening": null,
       "estimatedMorning": 418,
-      "estimatedEvening": 1141,
+      "estimatedEvening": 1140,
       "timeEstimate": {
         "method": "route-distance-between-timetable-points",
         "from": "m1-7",
@@ -13571,7 +13555,7 @@
       "y": 570.4965627503698,
       "route": 1,
       "kind": "pass",
-      "routePosition": 745.100711,
+      "routePosition": 743.662389,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/2135230141",
       "cityStopIds": [
@@ -13599,7 +13583,7 @@
       "y": 552.2717451221542,
       "route": 1,
       "kind": "pass",
-      "routePosition": 772.423063,
+      "routePosition": 770.984741,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/858214752",
       "cityStopIds": [
@@ -13627,7 +13611,7 @@
       "y": 536.8838133873069,
       "route": 1,
       "kind": "pass",
-      "routePosition": 795.366015,
+      "routePosition": 793.927693,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/1096164458",
       "cityStopIds": [
@@ -13655,7 +13639,7 @@
       "y": 527.795134989894,
       "route": 1,
       "kind": "pass",
-      "routePosition": 808.912514,
+      "routePosition": 807.474192,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/2027449483",
       "cityStopIds": [
@@ -13683,7 +13667,7 @@
       "y": 472.58894916943973,
       "route": 1,
       "kind": "pass",
-      "routePosition": 874.060351,
+      "routePosition": 872.622029,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/9901552931",
       "cityStopIds": [
@@ -13711,7 +13695,7 @@
       "y": 440.9414874605718,
       "route": 1,
       "kind": "pass",
-      "routePosition": 908.095685,
+      "routePosition": 906.657363,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/9901552932",
       "cityStopIds": [
@@ -13740,7 +13724,7 @@
       "y": 400.75485438032774,
       "route": 1,
       "kind": "pass",
-      "routePosition": 950.781235,
+      "routePosition": 949.342913,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/12290135179",
       "cityStopIds": [
@@ -13753,7 +13737,7 @@
       "morning": null,
       "evening": null,
       "estimatedMorning": 429,
-      "estimatedEvening": 1152,
+      "estimatedEvening": 1151,
       "timeEstimate": {
         "method": "route-distance-between-timetable-points",
         "from": "m1-7",
@@ -13769,7 +13753,7 @@
       "y": 363.9599676525104,
       "route": 1,
       "kind": "pass",
-      "routePosition": 992.774451,
+      "routePosition": 991.336129,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/6007819986",
       "cityStopIds": [
@@ -13797,7 +13781,7 @@
       "y": 292.58491452713497,
       "route": 1,
       "kind": "pass",
-      "routePosition": 1090.27954,
+      "routePosition": 1088.841218,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/2320787605",
       "cityStopIds": [
@@ -13826,7 +13810,7 @@
       "y": 12.690328470198438,
       "route": 1,
       "kind": "pass",
-      "routePosition": 1385.3574,
+      "routePosition": 1383.919078,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/5341417889",
       "cityStopIds": [
@@ -13854,7 +13838,7 @@
       "y": 13.375128894811496,
       "route": 1,
       "kind": "pass",
-      "routePosition": 1486.24056,
+      "routePosition": 1484.802238,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/5341417888",
       "cityStopIds": [
@@ -15086,8 +15070,8 @@
     }
   ],
   "walks": [],
-  "revision": "magistral-20261022-sverdlovskaya",
-  "updatedAt": "2026-10-22T11:30:30.245309Z",
+  "revision": "magistral-20261022-planeta-straight",
+  "updatedAt": "2026-10-22T15:20:54.446886Z",
   "cityStops": {
     "source": "OpenStreetMap",
     "catalogueUpdatedAt": "2026-10-14T01:37:26Z",
