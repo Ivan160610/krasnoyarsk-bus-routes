@@ -1,5 +1,5 @@
 {
-  "revision": "staff-all-stops-20261023",
+  "revision": "staff-single-route-20261023",
   "routeRevision": "magistral-20261023-lesnikov-start",
   "sourceHashes": {
     "magistral-routes.json": "04f3f511fae5bac0175656de4f98d9d60eb88e2f25fb89744d8dad1ee44461d6",
@@ -10,1666 +10,836 @@
     "walkingSpeedKmh": 4,
     "origin": "original-public-stop",
     "network": "offline-OSM-walking-graph",
-    "allocation": "each-route-independently: nearest-walkable-stop-else-retain-first-feeder-on-its-route",
-    "ties": "same-distance-rounded-to-metre: stop-id",
-    "overlapBetweenRoutes": true,
+    "allocation": "one-route-and-stop-per-origin: nearest-walkable-stop-else-common-feeder-for-both-arrivals",
+    "ties": "same-distance-rounded-to-metre: shortest-remaining-bus-time-then-route-and-stop-id",
+    "feederSelection": "common-hub-in-day-and-night-options; minimize-worst-total-commute-then-sum",
+    "overlapBetweenRoutes": false,
+    "sameAllocationForBothArrivals": true,
     "actualShiftRosterKnown": false
   },
   "totalStaff": 199,
-  "variants": {
-    "day": {
-      "stops": {
-        "m1-start": {
-          "count": 2,
-          "walkCount": 2,
-          "feederCount": 0
-        },
-        "m1-1": {
-          "count": 54,
-          "walkCount": 54,
-          "feederCount": 0
-        },
-        "m1-2": {
-          "count": 2,
-          "walkCount": 2,
-          "feederCount": 0
-        },
-        "m1-3": {
-          "count": 1,
-          "walkCount": 1,
-          "feederCount": 0
-        },
-        "m1-4": {
-          "count": 4,
-          "walkCount": 0,
-          "feederCount": 4
-        },
-        "m1-5": {
-          "count": 1,
-          "walkCount": 1,
-          "feederCount": 0
-        },
-        "m1-6": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "m1-7": {
-          "count": 2,
-          "walkCount": 0,
-          "feederCount": 2
-        },
-        "m2-start": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "m2-1": {
-          "count": 7,
-          "walkCount": 7,
-          "feederCount": 0
-        },
-        "m2-2": {
-          "count": 13,
-          "walkCount": 5,
-          "feederCount": 8
-        },
-        "m2-3": {
-          "count": 1,
-          "walkCount": 1,
-          "feederCount": 0
-        },
-        "m2-4": {
-          "count": 1,
-          "walkCount": 1,
-          "feederCount": 0
-        },
-        "m2-5": {
-          "count": 5,
-          "walkCount": 0,
-          "feederCount": 5
-        },
-        "m3-start": {
-          "count": 3,
-          "walkCount": 3,
-          "feederCount": 0
-        },
-        "m3-1": {
-          "count": 1,
-          "walkCount": 1,
-          "feederCount": 0
-        },
-        "m3-2": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "m3-3": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "m3-4": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "m3-5": {
-          "count": 7,
-          "walkCount": 0,
-          "feederCount": 7
-        },
-        "m3-6": {
-          "count": 3,
-          "walkCount": 0,
-          "feederCount": 3
-        },
-        "m3-7": {
-          "count": 10,
-          "walkCount": 0,
-          "feederCount": 10
-        },
-        "m4-start": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "m4-1": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "m4-2": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "m4-3": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "m4-4": {
-          "count": 1,
-          "walkCount": 1,
-          "feederCount": 0
-        },
-        "city-3-node-4048848562": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-3-node-9091159067": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-3-node-3011936217": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-3-node-12112143993": {
-          "count": 4,
-          "walkCount": 4,
-          "feederCount": 0
-        },
-        "city-3-node-12112143997": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-3-node-12112143992": {
-          "count": 1,
-          "walkCount": 1,
-          "feederCount": 0
-        },
-        "city-3-node-3158893384": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-3-node-1012017921": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-3-node-3158893379": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-3-node-4754339459": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-3-node-1116665900": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-3-node-3166404584": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-3-node-2965764011": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-3-node-2964257051": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-3-node-2968586471": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-3-node-5996193834": {
-          "count": 1,
-          "walkCount": 1,
-          "feederCount": 0
-        },
-        "city-3-node-2167415594": {
-          "count": 1,
-          "walkCount": 1,
-          "feederCount": 0
-        },
-        "city-3-node-2135230148": {
-          "count": 2,
-          "walkCount": 2,
-          "feederCount": 0
-        },
-        "city-3-node-2135230150": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-3-node-12362903092": {
-          "count": 1,
-          "walkCount": 1,
-          "feederCount": 0
-        },
-        "city-3-node-9901552931": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-3-node-9901552932": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-3-node-12290135179": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-3-node-6007819986": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-3-node-2320787605": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-3-node-5341417889": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-3-node-5341417888": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-2-node-3716297767": {
-          "count": 13,
-          "walkCount": 13,
-          "feederCount": 0
-        },
-        "city-2-node-1305379285": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-2-node-9959783084": {
-          "count": 1,
-          "walkCount": 1,
-          "feederCount": 0
-        },
-        "city-2-node-3989397819": {
-          "count": 17,
-          "walkCount": 17,
-          "feederCount": 0
-        },
-        "city-2-node-766215887": {
-          "count": 8,
-          "walkCount": 8,
-          "feederCount": 0
-        },
-        "city-2-node-766215886": {
-          "count": 1,
-          "walkCount": 1,
-          "feederCount": 0
-        },
-        "city-2-node-3704002500": {
-          "count": 2,
-          "walkCount": 2,
-          "feederCount": 0
-        },
-        "city-2-node-2524023277": {
-          "count": 1,
-          "walkCount": 1,
-          "feederCount": 0
-        },
-        "city-2-node-2524023276": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-2-node-2524023275": {
-          "count": 1,
-          "walkCount": 1,
-          "feederCount": 0
-        },
-        "city-2-node-1380512348": {
-          "count": 1,
-          "walkCount": 1,
-          "feederCount": 0
-        },
-        "city-2-node-3707440175": {
-          "count": 1,
-          "walkCount": 1,
-          "feederCount": 0
-        },
-        "city-2-node-3707440178": {
-          "count": 1,
-          "walkCount": 1,
-          "feederCount": 0
-        },
-        "city-2-node-3711315569": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-2-node-3711315570": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-2-node-3276133094": {
-          "count": 1,
-          "walkCount": 1,
-          "feederCount": 0
-        },
-        "city-2-node-4040571200": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-2-node-4123497329": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-2-node-4123497327": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-2-node-4123497320": {
-          "count": 2,
-          "walkCount": 2,
-          "feederCount": 0
-        },
-        "city-2-node-4123497318": {
-          "count": 1,
-          "walkCount": 1,
-          "feederCount": 0
-        },
-        "city-2-node-4123497317": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-2-node-4123497315": {
-          "count": 1,
-          "walkCount": 1,
-          "feederCount": 0
-        },
-        "city-2-node-4123497312": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-2-node-4123497310": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-2-node-1056781475": {
-          "count": 1,
-          "walkCount": 1,
-          "feederCount": 0
-        },
-        "city-2-node-1015339937": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-2-node-2135230141": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-2-node-858214752": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-2-node-1096164458": {
-          "count": 2,
-          "walkCount": 2,
-          "feederCount": 0
-        },
-        "city-2-node-2027449483": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-2-node-9901552931": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-2-node-9901552932": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-2-node-12290135179": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-2-node-6007819986": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-2-node-2320787605": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-2-node-5341417889": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-2-node-5341417888": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-1-node-10065338918": {
-          "count": 2,
-          "walkCount": 2,
-          "feederCount": 0
-        },
-        "city-1-node-10065338919": {
-          "count": 3,
-          "walkCount": 3,
-          "feederCount": 0
-        },
-        "city-1-node-10065338920": {
-          "count": 11,
-          "walkCount": 11,
-          "feederCount": 0
-        },
-        "city-1-node-10065338921": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-1-node-10065338923": {
-          "count": 3,
-          "walkCount": 3,
-          "feederCount": 0
-        },
-        "city-1-node-10065338924": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-1-node-3993074561": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-1-node-10065338925": {
-          "count": 2,
-          "walkCount": 2,
-          "feederCount": 0
-        },
-        "city-1-node-9842546485": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-1-node-9842546486": {
-          "count": 1,
-          "walkCount": 1,
-          "feederCount": 0
-        },
-        "city-1-node-9842546487": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-1-node-12110627947": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-1-node-12110627949": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-1-node-12110627951": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-1-node-12110627952": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-1-node-12110627953": {
-          "count": 2,
-          "walkCount": 2,
-          "feederCount": 0
-        },
-        "city-1-node-9048376017": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-1-node-12363024070": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-1-node-12363024067": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-1-node-1056781475": {
-          "count": 1,
-          "walkCount": 1,
-          "feederCount": 0
-        },
-        "city-1-node-1015339937": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-1-node-2135230141": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-1-node-858214752": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-1-node-1096164458": {
-          "count": 2,
-          "walkCount": 2,
-          "feederCount": 0
-        },
-        "city-1-node-2027449483": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-1-node-9901552931": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-1-node-9901552932": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-1-node-12290135179": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-1-node-6007819986": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-1-node-2320787605": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-1-node-5341417889": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-1-node-5341417888": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-10030350299": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-3118375808": {
-          "count": 2,
-          "walkCount": 2,
-          "feederCount": 0
-        },
-        "city-4-node-3118375806": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-10030350300": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-10030350301": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-3141769486": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-3136643310": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-9084345027": {
-          "count": 1,
-          "walkCount": 1,
-          "feederCount": 0
-        },
-        "city-4-node-9084345020": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-9084341700": {
-          "count": 1,
-          "walkCount": 1,
-          "feederCount": 0
-        },
-        "city-4-node-9084341702": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-9084341708": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-8886600206": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-14101018118": {
-          "count": 2,
-          "walkCount": 2,
-          "feederCount": 0
-        },
-        "city-4-node-12329570974": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-8761049805": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-8886600650": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-8886600652": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-8886600654": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-5969022008": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-2456646840": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-8883435596": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-8883435595": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-8883435594": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-12958914490": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-8883435580": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-8883435579": {
-          "count": 1,
-          "walkCount": 1,
-          "feederCount": 0
-        },
-        "city-4-node-12346454945": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-1641814803": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-2607875295": {
-          "count": 1,
-          "walkCount": 1,
-          "feederCount": 0
-        },
-        "city-4-node-2607875600": {
-          "count": 1,
-          "walkCount": 1,
-          "feederCount": 0
-        },
-        "city-4-node-2510434927": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-2527964902": {
-          "count": 1,
-          "walkCount": 1,
-          "feederCount": 0
-        },
-        "city-4-node-9901552931": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-9901552932": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-12290135179": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-6007819986": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-2320787605": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-5341417889": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-5341417888": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        }
-      },
-      "walkCount": 181,
-      "feederCount": 39,
-      "uniqueCoveredStaff": 199
+  "stops": {
+    "m1-start": {
+      "count": 2,
+      "walkCount": 2,
+      "feederCount": 0
     },
-    "night": {
-      "stops": {
-        "m1-start": {
-          "count": 2,
-          "walkCount": 2,
-          "feederCount": 0
-        },
-        "m1-1": {
-          "count": 54,
-          "walkCount": 54,
-          "feederCount": 0
-        },
-        "m1-2": {
-          "count": 5,
-          "walkCount": 2,
-          "feederCount": 3
-        },
-        "m1-3": {
-          "count": 15,
-          "walkCount": 1,
-          "feederCount": 14
-        },
-        "m1-4": {
-          "count": 4,
-          "walkCount": 0,
-          "feederCount": 4
-        },
-        "m1-5": {
-          "count": 1,
-          "walkCount": 1,
-          "feederCount": 0
-        },
-        "m1-6": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "m1-7": {
-          "count": 8,
-          "walkCount": 0,
-          "feederCount": 8
-        },
-        "m2-start": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "m2-1": {
-          "count": 7,
-          "walkCount": 7,
-          "feederCount": 0
-        },
-        "m2-2": {
-          "count": 13,
-          "walkCount": 5,
-          "feederCount": 8
-        },
-        "m2-3": {
-          "count": 1,
-          "walkCount": 1,
-          "feederCount": 0
-        },
-        "m2-4": {
-          "count": 1,
-          "walkCount": 1,
-          "feederCount": 0
-        },
-        "m2-5": {
-          "count": 2,
-          "walkCount": 0,
-          "feederCount": 2
-        },
-        "m3-start": {
-          "count": 3,
-          "walkCount": 3,
-          "feederCount": 0
-        },
-        "m3-1": {
-          "count": 1,
-          "walkCount": 1,
-          "feederCount": 0
-        },
-        "m3-2": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "m3-3": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "m3-4": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "m3-5": {
-          "count": 5,
-          "walkCount": 0,
-          "feederCount": 5
-        },
-        "m3-6": {
-          "count": 1,
-          "walkCount": 0,
-          "feederCount": 1
-        },
-        "m3-7": {
-          "count": 5,
-          "walkCount": 0,
-          "feederCount": 5
-        },
-        "m4-start": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "m4-1": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "m4-2": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "m4-3": {
-          "count": 1,
-          "walkCount": 0,
-          "feederCount": 1
-        },
-        "m4-4": {
-          "count": 1,
-          "walkCount": 1,
-          "feederCount": 0
-        },
-        "city-3-node-4048848562": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-3-node-9091159067": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-3-node-3011936217": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-3-node-12112143993": {
-          "count": 4,
-          "walkCount": 4,
-          "feederCount": 0
-        },
-        "city-3-node-12112143997": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-3-node-12112143992": {
-          "count": 1,
-          "walkCount": 1,
-          "feederCount": 0
-        },
-        "city-3-node-3158893384": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-3-node-1012017921": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-3-node-3158893379": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-3-node-4754339459": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-3-node-1116665900": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-3-node-3166404584": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-3-node-2965764011": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-3-node-2964257051": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-3-node-2968586471": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-3-node-5996193834": {
-          "count": 1,
-          "walkCount": 1,
-          "feederCount": 0
-        },
-        "city-3-node-2167415594": {
-          "count": 1,
-          "walkCount": 1,
-          "feederCount": 0
-        },
-        "city-3-node-2135230148": {
-          "count": 2,
-          "walkCount": 2,
-          "feederCount": 0
-        },
-        "city-3-node-2135230150": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-3-node-12362903092": {
-          "count": 1,
-          "walkCount": 1,
-          "feederCount": 0
-        },
-        "city-3-node-9901552931": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-3-node-9901552932": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-3-node-12290135179": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-3-node-6007819986": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-3-node-2320787605": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-3-node-5341417889": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-3-node-5341417888": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-2-node-3716297767": {
-          "count": 13,
-          "walkCount": 13,
-          "feederCount": 0
-        },
-        "city-2-node-1305379285": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-2-node-9959783084": {
-          "count": 1,
-          "walkCount": 1,
-          "feederCount": 0
-        },
-        "city-2-node-3989397819": {
-          "count": 17,
-          "walkCount": 17,
-          "feederCount": 0
-        },
-        "city-2-node-766215887": {
-          "count": 8,
-          "walkCount": 8,
-          "feederCount": 0
-        },
-        "city-2-node-766215886": {
-          "count": 1,
-          "walkCount": 1,
-          "feederCount": 0
-        },
-        "city-2-node-3704002500": {
-          "count": 2,
-          "walkCount": 2,
-          "feederCount": 0
-        },
-        "city-2-node-2524023277": {
-          "count": 1,
-          "walkCount": 1,
-          "feederCount": 0
-        },
-        "city-2-node-2524023276": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-2-node-2524023275": {
-          "count": 1,
-          "walkCount": 1,
-          "feederCount": 0
-        },
-        "city-2-node-1380512348": {
-          "count": 1,
-          "walkCount": 1,
-          "feederCount": 0
-        },
-        "city-2-node-3707440175": {
-          "count": 1,
-          "walkCount": 1,
-          "feederCount": 0
-        },
-        "city-2-node-3707440178": {
-          "count": 1,
-          "walkCount": 1,
-          "feederCount": 0
-        },
-        "city-2-node-3711315569": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-2-node-3711315570": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-2-node-3276133094": {
-          "count": 1,
-          "walkCount": 1,
-          "feederCount": 0
-        },
-        "city-2-node-4040571200": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-2-node-4123497329": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-2-node-4123497327": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-2-node-4123497320": {
-          "count": 2,
-          "walkCount": 2,
-          "feederCount": 0
-        },
-        "city-2-node-4123497318": {
-          "count": 1,
-          "walkCount": 1,
-          "feederCount": 0
-        },
-        "city-2-node-4123497317": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-2-node-4123497315": {
-          "count": 1,
-          "walkCount": 1,
-          "feederCount": 0
-        },
-        "city-2-node-4123497312": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-2-node-4123497310": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-2-node-1056781475": {
-          "count": 1,
-          "walkCount": 1,
-          "feederCount": 0
-        },
-        "city-2-node-1015339937": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-2-node-2135230141": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-2-node-858214752": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-2-node-1096164458": {
-          "count": 2,
-          "walkCount": 2,
-          "feederCount": 0
-        },
-        "city-2-node-2027449483": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-2-node-9901552931": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-2-node-9901552932": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-2-node-12290135179": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-2-node-6007819986": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-2-node-2320787605": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-2-node-5341417889": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-2-node-5341417888": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-1-node-10065338918": {
-          "count": 2,
-          "walkCount": 2,
-          "feederCount": 0
-        },
-        "city-1-node-10065338919": {
-          "count": 3,
-          "walkCount": 3,
-          "feederCount": 0
-        },
-        "city-1-node-10065338920": {
-          "count": 11,
-          "walkCount": 11,
-          "feederCount": 0
-        },
-        "city-1-node-10065338921": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-1-node-10065338923": {
-          "count": 3,
-          "walkCount": 3,
-          "feederCount": 0
-        },
-        "city-1-node-10065338924": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-1-node-3993074561": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-1-node-10065338925": {
-          "count": 2,
-          "walkCount": 2,
-          "feederCount": 0
-        },
-        "city-1-node-9842546485": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-1-node-9842546486": {
-          "count": 1,
-          "walkCount": 1,
-          "feederCount": 0
-        },
-        "city-1-node-9842546487": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-1-node-12110627947": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-1-node-12110627949": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-1-node-12110627951": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-1-node-12110627952": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-1-node-12110627953": {
-          "count": 2,
-          "walkCount": 2,
-          "feederCount": 0
-        },
-        "city-1-node-9048376017": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-1-node-12363024070": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-1-node-12363024067": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-1-node-1056781475": {
-          "count": 1,
-          "walkCount": 1,
-          "feederCount": 0
-        },
-        "city-1-node-1015339937": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-1-node-2135230141": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-1-node-858214752": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-1-node-1096164458": {
-          "count": 2,
-          "walkCount": 2,
-          "feederCount": 0
-        },
-        "city-1-node-2027449483": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-1-node-9901552931": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-1-node-9901552932": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-1-node-12290135179": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-1-node-6007819986": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-1-node-2320787605": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-1-node-5341417889": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-1-node-5341417888": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-10030350299": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-3118375808": {
-          "count": 2,
-          "walkCount": 2,
-          "feederCount": 0
-        },
-        "city-4-node-3118375806": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-10030350300": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-10030350301": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-3141769486": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-3136643310": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-9084345027": {
-          "count": 1,
-          "walkCount": 1,
-          "feederCount": 0
-        },
-        "city-4-node-9084345020": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-9084341700": {
-          "count": 1,
-          "walkCount": 1,
-          "feederCount": 0
-        },
-        "city-4-node-9084341702": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-9084341708": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-8886600206": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-14101018118": {
-          "count": 2,
-          "walkCount": 2,
-          "feederCount": 0
-        },
-        "city-4-node-12329570974": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-8761049805": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-8886600650": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-8886600652": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-8886600654": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-5969022008": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-2456646840": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-8883435596": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-8883435595": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-8883435594": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-12958914490": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-8883435580": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-8883435579": {
-          "count": 1,
-          "walkCount": 1,
-          "feederCount": 0
-        },
-        "city-4-node-12346454945": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-1641814803": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-2607875295": {
-          "count": 1,
-          "walkCount": 1,
-          "feederCount": 0
-        },
-        "city-4-node-2607875600": {
-          "count": 1,
-          "walkCount": 1,
-          "feederCount": 0
-        },
-        "city-4-node-2510434927": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-2527964902": {
-          "count": 1,
-          "walkCount": 1,
-          "feederCount": 0
-        },
-        "city-4-node-9901552931": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-9901552932": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-12290135179": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-6007819986": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-2320787605": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-5341417889": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        },
-        "city-4-node-5341417888": {
-          "count": 0,
-          "walkCount": 0,
-          "feederCount": 0
-        }
-      },
-      "walkCount": 181,
-      "feederCount": 51,
-      "uniqueCoveredStaff": 199
+    "m1-1": {
+      "count": 54,
+      "walkCount": 54,
+      "feederCount": 0
+    },
+    "m1-2": {
+      "count": 2,
+      "walkCount": 2,
+      "feederCount": 0
+    },
+    "m1-3": {
+      "count": 1,
+      "walkCount": 1,
+      "feederCount": 0
+    },
+    "m1-4": {
+      "count": 4,
+      "walkCount": 0,
+      "feederCount": 4
+    },
+    "m1-5": {
+      "count": 1,
+      "walkCount": 1,
+      "feederCount": 0
+    },
+    "m1-6": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "m1-7": {
+      "count": 8,
+      "walkCount": 0,
+      "feederCount": 8
+    },
+    "m2-start": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "m2-1": {
+      "count": 7,
+      "walkCount": 7,
+      "feederCount": 0
+    },
+    "m2-2": {
+      "count": 13,
+      "walkCount": 5,
+      "feederCount": 8
+    },
+    "m2-3": {
+      "count": 1,
+      "walkCount": 1,
+      "feederCount": 0
+    },
+    "m2-4": {
+      "count": 1,
+      "walkCount": 1,
+      "feederCount": 0
+    },
+    "m2-5": {
+      "count": 2,
+      "walkCount": 0,
+      "feederCount": 2
+    },
+    "m3-start": {
+      "count": 3,
+      "walkCount": 3,
+      "feederCount": 0
+    },
+    "m3-1": {
+      "count": 1,
+      "walkCount": 1,
+      "feederCount": 0
+    },
+    "m3-2": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "m3-3": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "m3-4": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "m3-5": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "m3-6": {
+      "count": 1,
+      "walkCount": 0,
+      "feederCount": 1
+    },
+    "m3-7": {
+      "count": 1,
+      "walkCount": 0,
+      "feederCount": 1
+    },
+    "m4-start": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "m4-1": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "m4-2": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "m4-3": {
+      "count": 1,
+      "walkCount": 0,
+      "feederCount": 1
+    },
+    "m4-4": {
+      "count": 1,
+      "walkCount": 1,
+      "feederCount": 0
+    },
+    "city-3-node-4048848562": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-3-node-9091159067": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-3-node-3011936217": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-3-node-12112143993": {
+      "count": 4,
+      "walkCount": 4,
+      "feederCount": 0
+    },
+    "city-3-node-12112143997": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-3-node-12112143992": {
+      "count": 1,
+      "walkCount": 1,
+      "feederCount": 0
+    },
+    "city-3-node-3158893384": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-3-node-1012017921": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-3-node-3158893379": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-3-node-4754339459": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-3-node-1116665900": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-3-node-3166404584": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-3-node-2965764011": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-3-node-2964257051": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-3-node-2968586471": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-3-node-5996193834": {
+      "count": 1,
+      "walkCount": 1,
+      "feederCount": 0
+    },
+    "city-3-node-2167415594": {
+      "count": 1,
+      "walkCount": 1,
+      "feederCount": 0
+    },
+    "city-3-node-2135230148": {
+      "count": 2,
+      "walkCount": 2,
+      "feederCount": 0
+    },
+    "city-3-node-2135230150": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-3-node-12362903092": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-3-node-9901552931": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-3-node-9901552932": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-3-node-12290135179": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-3-node-6007819986": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-3-node-2320787605": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-3-node-5341417889": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-3-node-5341417888": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-2-node-3716297767": {
+      "count": 13,
+      "walkCount": 13,
+      "feederCount": 0
+    },
+    "city-2-node-1305379285": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-2-node-9959783084": {
+      "count": 1,
+      "walkCount": 1,
+      "feederCount": 0
+    },
+    "city-2-node-3989397819": {
+      "count": 15,
+      "walkCount": 15,
+      "feederCount": 0
+    },
+    "city-2-node-766215887": {
+      "count": 8,
+      "walkCount": 8,
+      "feederCount": 0
+    },
+    "city-2-node-766215886": {
+      "count": 1,
+      "walkCount": 1,
+      "feederCount": 0
+    },
+    "city-2-node-3704002500": {
+      "count": 2,
+      "walkCount": 2,
+      "feederCount": 0
+    },
+    "city-2-node-2524023277": {
+      "count": 1,
+      "walkCount": 1,
+      "feederCount": 0
+    },
+    "city-2-node-2524023276": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-2-node-2524023275": {
+      "count": 1,
+      "walkCount": 1,
+      "feederCount": 0
+    },
+    "city-2-node-1380512348": {
+      "count": 1,
+      "walkCount": 1,
+      "feederCount": 0
+    },
+    "city-2-node-3707440175": {
+      "count": 1,
+      "walkCount": 1,
+      "feederCount": 0
+    },
+    "city-2-node-3707440178": {
+      "count": 1,
+      "walkCount": 1,
+      "feederCount": 0
+    },
+    "city-2-node-3711315569": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-2-node-3711315570": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-2-node-3276133094": {
+      "count": 1,
+      "walkCount": 1,
+      "feederCount": 0
+    },
+    "city-2-node-4040571200": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-2-node-4123497329": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-2-node-4123497327": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-2-node-4123497320": {
+      "count": 2,
+      "walkCount": 2,
+      "feederCount": 0
+    },
+    "city-2-node-4123497318": {
+      "count": 1,
+      "walkCount": 1,
+      "feederCount": 0
+    },
+    "city-2-node-4123497317": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-2-node-4123497315": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-2-node-4123497312": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-2-node-4123497310": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-2-node-1056781475": {
+      "count": 1,
+      "walkCount": 1,
+      "feederCount": 0
+    },
+    "city-2-node-1015339937": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-2-node-2135230141": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-2-node-858214752": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-2-node-1096164458": {
+      "count": 2,
+      "walkCount": 2,
+      "feederCount": 0
+    },
+    "city-2-node-2027449483": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-2-node-9901552931": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-2-node-9901552932": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-2-node-12290135179": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-2-node-6007819986": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-2-node-2320787605": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-2-node-5341417889": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-2-node-5341417888": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-1-node-10065338918": {
+      "count": 2,
+      "walkCount": 2,
+      "feederCount": 0
+    },
+    "city-1-node-10065338919": {
+      "count": 3,
+      "walkCount": 3,
+      "feederCount": 0
+    },
+    "city-1-node-10065338920": {
+      "count": 11,
+      "walkCount": 11,
+      "feederCount": 0
+    },
+    "city-1-node-10065338921": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-1-node-10065338923": {
+      "count": 3,
+      "walkCount": 3,
+      "feederCount": 0
+    },
+    "city-1-node-10065338924": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-1-node-3993074561": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-1-node-10065338925": {
+      "count": 2,
+      "walkCount": 2,
+      "feederCount": 0
+    },
+    "city-1-node-9842546485": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-1-node-9842546486": {
+      "count": 1,
+      "walkCount": 1,
+      "feederCount": 0
+    },
+    "city-1-node-9842546487": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-1-node-12110627947": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-1-node-12110627949": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-1-node-12110627951": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-1-node-12110627952": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-1-node-12110627953": {
+      "count": 2,
+      "walkCount": 2,
+      "feederCount": 0
+    },
+    "city-1-node-9048376017": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-1-node-12363024070": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-1-node-12363024067": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-1-node-1056781475": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-1-node-1015339937": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-1-node-2135230141": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-1-node-858214752": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-1-node-1096164458": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-1-node-2027449483": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-1-node-9901552931": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-1-node-9901552932": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-1-node-12290135179": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-1-node-6007819986": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-1-node-2320787605": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-1-node-5341417889": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-1-node-5341417888": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-4-node-10030350299": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-4-node-3118375808": {
+      "count": 2,
+      "walkCount": 2,
+      "feederCount": 0
+    },
+    "city-4-node-3118375806": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-4-node-10030350300": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-4-node-10030350301": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-4-node-3141769486": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-4-node-3136643310": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-4-node-9084345027": {
+      "count": 1,
+      "walkCount": 1,
+      "feederCount": 0
+    },
+    "city-4-node-9084345020": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-4-node-9084341700": {
+      "count": 1,
+      "walkCount": 1,
+      "feederCount": 0
+    },
+    "city-4-node-9084341702": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-4-node-9084341708": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-4-node-8886600206": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-4-node-14101018118": {
+      "count": 2,
+      "walkCount": 2,
+      "feederCount": 0
+    },
+    "city-4-node-12329570974": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-4-node-8761049805": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-4-node-8886600650": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-4-node-8886600652": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-4-node-8886600654": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-4-node-5969022008": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-4-node-2456646840": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-4-node-8883435596": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-4-node-8883435595": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-4-node-8883435594": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-4-node-12958914490": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-4-node-8883435580": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-4-node-8883435579": {
+      "count": 1,
+      "walkCount": 1,
+      "feederCount": 0
+    },
+    "city-4-node-12346454945": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-4-node-1641814803": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-4-node-2607875295": {
+      "count": 1,
+      "walkCount": 1,
+      "feederCount": 0
+    },
+    "city-4-node-2607875600": {
+      "count": 1,
+      "walkCount": 1,
+      "feederCount": 0
+    },
+    "city-4-node-2510434927": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-4-node-2527964902": {
+      "count": 1,
+      "walkCount": 1,
+      "feederCount": 0
+    },
+    "city-4-node-9901552931": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-4-node-9901552932": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-4-node-12290135179": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-4-node-6007819986": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-4-node-2320787605": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-4-node-5341417889": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-4-node-5341417888": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
     }
-  }
+  },
+  "walkCount": 174,
+  "feederCount": 25
 }
