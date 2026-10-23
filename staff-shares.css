@@ -42,3 +42,8 @@
  .map-first .staff-share-row{padding:8px 0}
  .map-first .staff-share-footer{padding:9px 16px 12px}
 }
+
+.map-first .staff-share-pending{padding:8px 10px;margin-bottom:8px;border-radius:8px;background:var(--soft);font-size:12px;color:var(--muted)}
+.map-first .staff-share-pending summary{cursor:pointer;color:var(--ink);font-weight:600}
+.map-first .staff-share-pending ul{margin:8px 0 0;padding-left:18px;line-height:1.45}
+.map-first .staff-share-pending li+li{margin-top:8px}

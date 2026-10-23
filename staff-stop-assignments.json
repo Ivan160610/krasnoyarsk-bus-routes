@@ -1,5 +1,5 @@
 {
-  "revision": "staff-single-route-20261023",
+  "revision": "staff-roster-additions-20261023",
   "routeRevision": "magistral-20261023-lesnikov-start",
   "sourceHashes": {
     "magistral-routes.json": "04f3f511fae5bac0175656de4f98d9d60eb88e2f25fb89744d8dad1ee44461d6",
@@ -17,11 +17,38 @@
     "sameAllocationForBothArrivals": true,
     "actualShiftRosterKnown": false
   },
-  "totalStaff": 199,
+  "totalStaff": 220,
+  "assignedStaff": 204,
+  "selfTransportStaff": 12,
+  "rosterSummarySource": "user-confirmed220; add source rows with stops; exclude SolontsyDNT; unresolved origins kept pending",
+  "sourceWorkbookStaff": 215,
+  "pendingStaff": 4,
+  "pending": [
+    {
+      "origin": "Детский центр",
+      "count": 1,
+      "reason": "Нужно выбрать одноимённую остановку: Норильская — маршрут №1 пешком; улица Весны — подъезд к маршруту3."
+    },
+    {
+      "origin": "Торговый",
+      "count": 1,
+      "reason": "Торговый квартал — маршрут №2; Торговый центр — маршрут №3; Енисейский торговый дом — подъезд к маршруту3. Нужно уточнить, какая остановка."
+    },
+    {
+      "origin": "мкр. Живём",
+      "count": 1,
+      "reason": "ЖК в Солонцах: от проверенной точки около 4,6 км пешком до маршрута1. Найден вечерний подъезд; утренний по сохранённой модели не найден. Нужен адрес ближайшей остановки или отдельный подвоз."
+    },
+    {
+      "origin": "пос. Геологов",
+      "count": 1,
+      "reason": "Найден вечерний подъезд автобусами №35/39. Утренний подъезд к текущим служебным посадкам по сохранённой модели не найден; требуется ранний подвоз или проверка другого рейса."
+    }
+  ],
   "stops": {
     "m1-start": {
-      "count": 2,
-      "walkCount": 2,
+      "count": 4,
+      "walkCount": 4,
       "feederCount": 0
     },
     "m1-1": {
@@ -60,8 +87,8 @@
       "feederCount": 8
     },
     "m2-start": {
-      "count": 0,
-      "walkCount": 0,
+      "count": 2,
+      "walkCount": 2,
       "feederCount": 0
     },
     "m2-1": {
@@ -75,9 +102,9 @@
       "feederCount": 8
     },
     "m2-3": {
-      "count": 1,
+      "count": 2,
       "walkCount": 1,
-      "feederCount": 0
+      "feederCount": 1
     },
     "m2-4": {
       "count": 1,
@@ -840,6 +867,6 @@
       "feederCount": 0
     }
   },
-  "walkCount": 174,
-  "feederCount": 25
+  "walkCount": 178,
+  "feederCount": 26
 }
