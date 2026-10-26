@@ -1,9 +1,9 @@
 {
-  "revision": "staff-204-bus-16-independent-20261023",
-  "routeRevision": "magistral-20261023-lesnikov-start",
+  "revision": "staff-204-bus-16-independent-20261026-route2",
+  "routeRevision": "magistral-20261026-route2-molokova-vodopyanova",
   "sourceHashes": {
-    "magistral-routes.json": "04f3f511fae5bac0175656de4f98d9d60eb88e2f25fb89744d8dad1ee44461d6",
-    "magistral-connections.json": "a983f86e24bdedba92fbf5e61c536af9f670a312ef5866e95747b01ec589aa2d"
+    "magistral-routes.json": "03c8a518f33cf93b6cb282acde72602bcc949804e0807f02a8f81475c3c99ec8",
+    "magistral-connections.json": "ea20bc520b8298e9c3db3175dca2faa3bda06364b59d1c0028466e983e0a2a9f"
   },
   "method": {
     "maxWalkingMinutes": 20,
@@ -395,39 +395,9 @@
       "walkCount": 2,
       "feederCount": 0
     },
-    "city-2-node-4123497318": {
-      "count": 1,
-      "walkCount": 1,
-      "feederCount": 0
-    },
-    "city-2-node-4123497317": {
-      "count": 0,
-      "walkCount": 0,
-      "feederCount": 0
-    },
-    "city-2-node-4123497315": {
-      "count": 0,
-      "walkCount": 0,
-      "feederCount": 0
-    },
-    "city-2-node-4123497312": {
-      "count": 0,
-      "walkCount": 0,
-      "feederCount": 0
-    },
-    "city-2-node-4123497310": {
-      "count": 0,
-      "walkCount": 0,
-      "feederCount": 0
-    },
-    "city-2-node-1056781475": {
-      "count": 1,
-      "walkCount": 1,
-      "feederCount": 0
-    },
     "city-2-node-1015339937": {
-      "count": 0,
-      "walkCount": 0,
+      "count": 1,
+      "walkCount": 1,
       "feederCount": 0
     },
     "city-2-node-2135230141": {
@@ -844,8 +814,119 @@
       "count": 0,
       "walkCount": 0,
       "feederCount": 0
+    },
+    "city-2-node-12262775159": {
+      "count": 1,
+      "walkCount": 1,
+      "feederCount": 0
+    },
+    "city-2-node-5201394122": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-2-node-1012961245": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-2-node-9490816839": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-2-node-1012961193": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-2-node-2135230139": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-2-node-2334326578": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-2-node-2334326579": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-2-node-2334326574": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
+    },
+    "city-2-node-2334326572": {
+      "count": 0,
+      "walkCount": 0,
+      "feederCount": 0
     }
   },
   "walkCount": 178,
-  "feederCount": 26
+  "feederCount": 26,
+  "routeStopRelocations": {
+    "date": "2026-10-26",
+    "route": 2,
+    "method": "Preserve assigned route and headcount; replace removed stops by the nearest remaining route-2 stop along the OSM pedestrian network, measured from the former stop. Original home addresses are unavailable.",
+    "items": [
+      {
+        "from": "city-2-node-4123497318",
+        "fromName": "Енисейский рынок",
+        "to": "city-2-node-12262775159",
+        "toName": "Улица Молокова, 39",
+        "count": 1,
+        "walkingMetres": 426,
+        "walkingMinutes": 6.4,
+        "source": "walking-network-from-previous-stop",
+        "candidates": [
+          {
+            "id": "city-2-node-12262775159",
+            "name": "Улица Молокова, 39",
+            "metres": 426
+          },
+          {
+            "id": "city-2-node-5201394122",
+            "name": "Подстанция",
+            "metres": 683
+          },
+          {
+            "id": "city-2-node-1012961245",
+            "name": "Школа искусств",
+            "metres": 974
+          }
+        ]
+      },
+      {
+        "from": "city-2-node-1056781475",
+        "fromName": "Дом Куприяна",
+        "to": "city-2-node-1015339937",
+        "toName": "1-й микрорайон",
+        "count": 1,
+        "walkingMetres": 543,
+        "walkingMinutes": 8.1,
+        "source": "walking-network-from-previous-stop",
+        "candidates": [
+          {
+            "id": "city-2-node-1015339937",
+            "name": "1-й микрорайон",
+            "metres": 543
+          },
+          {
+            "id": "city-2-node-2334326572",
+            "name": "Медицинский центр (улица Водопьянова)",
+            "metres": 666
+          },
+          {
+            "id": "city-2-node-2135230141",
+            "name": "Детская поликлиника",
+            "metres": 876
+          }
+        ]
+      }
+    ]
+  }
 }

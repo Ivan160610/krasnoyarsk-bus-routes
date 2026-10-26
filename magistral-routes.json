@@ -3754,240 +3754,416 @@
           707.1947408412816
         ],
         [
-          743.7644231111044,
-          703.7225550248986
+          744.2799729778199,
+          705.7193298644852
         ],
         [
-          743.8547171556856,
-          703.1751328745158
+          746.6392689778004,
+          703.6391384125454
         ],
         [
-          743.8576298666885,
-          702.4713022069773
+          747.8596949334024,
+          702.3618172152201
         ],
         [
-          743.9654001777526,
-          701.0062838108861
+          748.7276828445029,
+          701.6527701119194
         ],
         [
-          744.3498780444497,
-          696.4443254664075
+          749.851989333285,
+          700.7038943441585
         ],
         [
-          744.448910222156,
-          695.0105457680766
+          751.9782684445381,
+          700.1512503515696
         ],
         [
-          744.4751246222295,
-          694.5986580747995
+          753.0414080000482,
+          699.5099728725618
         ],
         [
-          744.725617777789,
-          692.3515091024456
+          761.1911736888578,
+          691.8770498462254
         ],
         [
-          745.0168888887856,
-          687.99791242223
+          762.0620743110776,
+          690.9489834510023
         ],
         [
-          745.3635015110485,
-          683.7067902208073
+          762.4174250665819,
+          690.3598154844949
         ],
         [
-          745.4217557334341,
-          682.9194662480149
+          763.3611434666673,
+          688.5870873046806
         ],
         [
-          745.4974862220697,
-          681.9757162340684
+          765.69713777781,
+          686.376369103149
         ],
         [
-          745.925654755556,
-          677.3455415357603
+          765.9301546666538,
+          686.1678095284733
         ],
         [
-          746.155758933397,
-          675.2337710737484
+          766.3583232000237,
+          685.7767597431666
         ],
         [
-          746.2955690666568,
-          673.8311260971241
+          766.6495943111368,
+          685.4899894176051
         ],
         [
-          746.4441173332743,
-          671.3647415142623
+          767.7272974222433,
+          684.5306093576364
         ],
         [
-          746.4179029334337,
-          670.1237162735779
+          769.4283207112458,
+          683.0028914505965
         ],
         [
-          746.2169258667855,
-          668.9035411370569
+          772.4196750222472,
+          680.3071970911697
         ],
         [
-          745.7363285332685,
-          666.9116153988289
+          774.444009244442,
+          678.4509532857919
         ],
         [
-          745.2295167999109,
-          665.1438951519085
+          775.2071395555977,
+          677.7835355971474
         ],
         [
-          744.1780280887615,
-          661.7127006082446
+          775.8362851554994,
+          677.2256144240964
         ],
         [
-          743.1644046221627,
-          658.7246978158364
+          777.8023651555413,
+          675.4371277121827
         ],
         [
-          742.5585607110988,
-          656.8682548830402
+          778.8538538665744,
+          674.4620568319224
         ],
         [
-          741.8274702222552,
-          654.5685363737284
+          782.5966876443708,
+          671.0727362639736
         ],
         [
-          741.3643491555704,
-          653.2909036211204
+          786.709435733268,
+          667.2974873697967
         ],
         [
-          742.2119480888359,
-          650.7512585064396
+          789.6629247999517,
+          664.5755098259542
         ],
         [
-          742.983816533233,
-          647.9716923050582
+          792.703795199981,
+          661.8430662119063
         ],
         [
-          743.4323740444379,
-          646.3967615789734
+          793.4319729778217,
+          661.1860227092402
         ],
         [
-          744.413957688841,
-          642.9913228595979
+          794.0815075556748,
+          660.5967675842112
         ],
         [
-          745.2091278221924,
-          640.3524593430338
+          794.8679395556683,
+          659.9136466509663
         ],
         [
-          745.5994311111281,
-          639.298990327632
+          795.6980622222181,
+          659.1992352548405
         ],
         [
-          746.5140224000206,
-          637.8178661446436
+          797.2301482667681,
+          657.82255212561
         ],
         [
-          748.5063167999033,
-          636.1437654723995
+          798.8234012444736,
+          656.435430051526
         ],
         [
-          751.3054321777308,
-          633.598688542319
+          805.781868088874,
+          650.130683265801
         ],
         [
-          753.1899562666658,
-          631.8671833753469
+          807.5993998222984,
+          648.5244796368061
         ],
         [
-          758.5493447111221,
-          627.0428810401354
+          809.1693511111662,
+          647.100788427284
         ],
         [
-          760.7600924443686,
-          625.04532523331
+          812.0267207111465,
+          644.6288610770134
         ],
         [
-          762.3183928888757,
-          623.616252250853
+          812.7024696889566,
+          644.0395574575523
         ],
         [
-          770.8264220444253,
-          615.996096831339
+          816.0054840889061,
+          641.0877983075334
         ],
         [
-          771.7555768889142,
-          615.1615653550252
+          816.9229880889179,
+          640.21686463058
         ],
         [
-          774.2575957332738,
-          612.9083130769432
+          818.2861368887825,
+          639.0121537492378
         ],
         [
-          776.7596145777497,
-          610.6080920113018
+          820.3774634666042,
+          637.1607441771193
         ],
         [
-          779.1829902221216,
-          608.3860847832402
+          822.3843214221997,
+          635.3771165888757
         ],
         [
-          780.0072874666657,
-          607.655842307955
+          825.59995448892,
+          632.367861099774
         ],
         [
-          783.2170951111475,
-          604.8183035278344
+          825.7135502222227,
+          632.2635533432476
         ],
         [
-          784.1608135111164,
-          603.9732934365165
+          829.5117255111691,
+          628.8265825177077
         ],
         [
-          786.7327374223387,
-          601.6260245590238
+          829.948632177664,
+          628.2528790893848
         ],
         [
-          790.9532558223,
-          597.7660117425257
+          830.3010702222819,
+          627.7052515634568
         ],
         [
-          791.8591089778347,
-          596.941837248567
+          830.8865251556272,
+          626.6934405940119
         ],
         [
-          793.21934506658,
-          595.6951365022687
+          831.3350826667156,
+          625.577313312795
         ],
         [
-          798.642813155544,
-          590.7447715161834
+          831.5535359999631,
+          624.9201513631269
         ],
         [
-          799.2719587554457,
-          590.1657429963234
+          831.5914012445137,
+          624.4090239181533
         ],
         [
-          805.2255402667215,
-          584.8292124986183
+          831.6234410667093,
+          622.8912806888111
         ],
         [
-          806.5449984000297,
-          583.6763363861828
+          831.6321791999508,
+          621.6864660553401
         ],
         [
-          807.1857948444085,
-          583.1181541749975
+          831.6496554666664,
+          618.8960667949868
         ],
         [
-          807.9285361777293,
-          582.4608535106527
+          831.6496554666664,
+          618.7761048375396
         ],
         [
-          808.426609777729,
-          581.9965684138006
+          831.6234410667093,
+          615.7300902990391
         ],
         [
-          809.1984782222426,
-          581.2975304039428
+          831.6263537778286,
+          614.9685794582474
         ],
         [
-          810.8150328889024,
-          579.8420628727763
+          831.6030520889908,
+          613.4038221082883
+        ],
+        [
+          831.5418851556024,
+          611.8025411535054
+        ],
+        [
+          831.1486691555474,
+          610.383806010359
+        ],
+        [
+          830.4903964444529,
+          609.2415083117085
+        ],
+        [
+          829.4767729777377,
+          608.0522599806427
+        ],
+        [
+          829.2495815111324,
+          607.7914589680731
+        ],
+        [
+          828.7689841777319,
+          607.2229115888476
+        ],
+        [
+          828.1048860443989,
+          606.4457203699858
+        ],
+        [
+          827.7903132445645,
+          606.0910280776443
+        ],
+        [
+          827.7145827554632,
+          606.0075709768571
+        ],
+        [
+          825.0581902222475,
+          603.0552537589101
+        ],
+        [
+          824.3707903999602,
+          602.1998039248865
+        ],
+        [
+          824.2397183999419,
+          601.8138070771238
+        ],
+        [
+          823.7008668443887,
+          601.1982970579411
+        ],
+        [
+          823.2377457778202,
+          601.0052977657178
+        ],
+        [
+          822.4192739556311,
+          600.0976769902045
+        ],
+        [
+          821.4551665778272,
+          599.0179159063846
+        ],
+        [
+          820.9891328000231,
+          598.4858575887047
+        ],
+        [
+          820.6163057778031,
+          598.0737722383346
+        ],
+        [
+          818.1434140444035,
+          595.3039108259254
+        ],
+        [
+          817.8201031112112,
+          594.9335498180008
+        ],
+        [
+          816.2297628443921,
+          593.1964954286814
+        ],
+        [
+          816.1132544000866,
+          593.0660853346926
+        ],
+        [
+          815.8074197333772,
+          592.7270186947426
+        ],
+        [
+          814.9161301333224,
+          591.6993824640522
+        ],
+        [
+          814.8141852444969,
+          591.5846207317663
+        ],
+        [
+          813.2908373333048,
+          589.9153517688392
+        ],
+        [
+          813.18597973336,
+          589.8110219987575
+        ],
+        [
+          812.833541688975,
+          589.4041353783687
+        ],
+        [
+          810.3693880889332,
+          586.6237214459106
+        ],
+        [
+          809.9237432888476,
+          586.1229298616527
+        ],
+        [
+          809.6790755555267,
+          585.8516672329279
+        ],
+        [
+          809.0149774221936,
+          584.5057818578789
+        ],
+        [
+          808.8431274666218,
+          584.1719174252357
+        ],
+        [
+          808.7877859555883,
+          583.8693523044349
+        ],
+        [
+          808.866429155576,
+          583.5459201203776
+        ],
+        [
+          808.9800248889951,
+          583.3268206034554
+        ],
+        [
+          809.1839146667626,
+          583.0659875341225
+        ],
+        [
+          809.2363434665604,
+          583.0190375456586
+        ],
+        [
+          812.5247943111463,
+          580.0246489829151
+        ],
+        [
+          815.7753799110651,
+          577.1241186080733
+        ],
+        [
+          815.926840888802,
+          576.9832644495182
+        ],
+        [
+          816.4220017777989,
+          576.5241835444467
+        ],
+        [
+          817.7589361777063,
+          574.9799946295097
+        ],
+        [
+          817.4531015111133,
+          574.6617650354165
         ],
         [
           817.036583822337,
@@ -12539,178 +12715,6 @@
       }
     },
     {
-      "id": "city-2-node-4123497318",
-      "name": "Енисейский рынок",
-      "lat": 56.0374491,
-      "lon": 92.8925741,
-      "x": 745.2327207821654,
-      "y": 692.4083398614312,
-      "route": 2,
-      "kind": "pass",
-      "routePosition": 611.474651,
-      "source": "city-catalogue",
-      "sourceUrl": "https://www.openstreetmap.org/node/4123497318",
-      "cityStopIds": [
-        "node-4123497318",
-        "node-4123497319"
-      ],
-      "searchAliases": [
-        "Енисейский рынок"
-      ],
-      "morning": null,
-      "evening": null,
-      "estimatedMorning": 412,
-      "estimatedEvening": 1135,
-      "timeEstimate": {
-        "method": "route-distance-between-timetable-points",
-        "from": "m2-5",
-        "to": "gate-new"
-      }
-    },
-    {
-      "id": "city-2-node-4123497317",
-      "name": "Южный рынок",
-      "lat": 56.0407207,
-      "lon": 92.8930881,
-      "x": 746.729854293284,
-      "y": 675.3500493819593,
-      "route": 2,
-      "kind": "pass",
-      "routePosition": 628.600432,
-      "source": "city-catalogue",
-      "sourceUrl": "https://www.openstreetmap.org/node/4123497317",
-      "cityStopIds": [
-        "node-4123497317",
-        "node-4123497316"
-      ],
-      "searchAliases": [
-        "Южный рынок"
-      ],
-      "morning": null,
-      "evening": null,
-      "estimatedMorning": 413,
-      "estimatedEvening": 1136,
-      "timeEstimate": {
-        "method": "route-distance-between-timetable-points",
-        "from": "m2-5",
-        "to": "gate-new"
-      }
-    },
-    {
-      "id": "city-2-node-4123497315",
-      "name": "Рынок «Луч»",
-      "lat": 56.0442905,
-      "lon": 92.8918334,
-      "x": 743.0752756622387,
-      "y": 656.7352786785341,
-      "route": 2,
-      "kind": "pass",
-      "routePosition": 647.563078,
-      "source": "city-catalogue",
-      "sourceUrl": "https://www.openstreetmap.org/node/4123497315",
-      "cityStopIds": [
-        "node-4123497315",
-        "node-4123497314"
-      ],
-      "searchAliases": [
-        "Рынок «Луч»"
-      ],
-      "morning": null,
-      "evening": null,
-      "estimatedMorning": 414,
-      "estimatedEvening": 1137,
-      "timeEstimate": {
-        "method": "route-distance-between-timetable-points",
-        "from": "m2-5",
-        "to": "gate-new"
-      }
-    },
-    {
-      "id": "city-2-node-4123497312",
-      "name": "Ледовый дворец",
-      "lat": 56.0489537,
-      "lon": 92.8954552,
-      "x": 753.6245327645447,
-      "y": 632.4163641880732,
-      "route": 2,
-      "kind": "pass",
-      "routePosition": 676.6262,
-      "source": "city-catalogue",
-      "sourceUrl": "https://www.openstreetmap.org/node/4123497312",
-      "cityStopIds": [
-        "node-4123497312"
-      ],
-      "searchAliases": [
-        "Ледовый дворец"
-      ],
-      "morning": null,
-      "evening": null,
-      "estimatedMorning": 415,
-      "estimatedEvening": 1139,
-      "timeEstimate": {
-        "method": "route-distance-between-timetable-points",
-        "from": "m2-5",
-        "to": "gate-new"
-      }
-    },
-    {
-      "id": "city-2-node-4123497310",
-      "name": "ТРЦ Планета (улица 9 Мая)",
-      "lat": 56.052184,
-      "lon": 92.9018047,
-      "x": 772.1187919644872,
-      "y": 615.5683998821769,
-      "route": 2,
-      "kind": "pass",
-      "routePosition": 701.651445,
-      "source": "city-catalogue",
-      "sourceUrl": "https://www.openstreetmap.org/node/4123497310",
-      "cityStopIds": [
-        "node-4123497310"
-      ],
-      "searchAliases": [
-        "ТРЦ Планета (улица 9 Мая)"
-      ],
-      "morning": null,
-      "evening": null,
-      "estimatedMorning": 416,
-      "estimatedEvening": 1140,
-      "timeEstimate": {
-        "method": "route-distance-between-timetable-points",
-        "from": "m2-5",
-        "to": "gate-new"
-      }
-    },
-    {
-      "id": "city-2-node-1056781475",
-      "name": "Дом Куприяна",
-      "lat": 56.0558958,
-      "lon": 92.9092108,
-      "x": 793.6906217243522,
-      "y": 596.2073801707011,
-      "route": 2,
-      "kind": "pass",
-      "routePosition": 730.632966,
-      "source": "city-catalogue",
-      "sourceUrl": "https://www.openstreetmap.org/node/1056781475",
-      "cityStopIds": [
-        "node-1056781475",
-        "node-1056781505"
-      ],
-      "searchAliases": [
-        "Дом Куприяна"
-      ],
-      "morning": null,
-      "evening": null,
-      "estimatedMorning": 418,
-      "estimatedEvening": 1141,
-      "timeEstimate": {
-        "method": "route-distance-between-timetable-points",
-        "from": "m2-5",
-        "to": "gate-new"
-      }
-    },
-    {
       "id": "city-2-node-1015339937",
       "name": "1-й микрорайон",
       "lat": 56.0586428,
@@ -12719,7 +12723,7 @@
       "y": 581.877627789625,
       "route": 2,
       "kind": "pass",
-      "routePosition": 752.384389,
+      "routePosition": 769.994601,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/1015339937",
       "cityStopIds": [
@@ -12731,8 +12735,8 @@
       ],
       "morning": null,
       "evening": null,
-      "estimatedMorning": 419,
-      "estimatedEvening": 1142,
+      "estimatedMorning": 420,
+      "estimatedEvening": 1143,
       "timeEstimate": {
         "method": "route-distance-between-timetable-points",
         "from": "m2-5",
@@ -12748,7 +12752,7 @@
       "y": 570.4965627503698,
       "route": 2,
       "kind": "pass",
-      "routePosition": 768.876897,
+      "routePosition": 787.577462,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/2135230141",
       "cityStopIds": [
@@ -12759,8 +12763,8 @@
       ],
       "morning": null,
       "evening": null,
-      "estimatedMorning": 420,
-      "estimatedEvening": 1143,
+      "estimatedMorning": 421,
+      "estimatedEvening": 1144,
       "timeEstimate": {
         "method": "route-distance-between-timetable-points",
         "from": "m2-5",
@@ -12776,7 +12780,7 @@
       "y": 552.2717451221542,
       "route": 2,
       "kind": "pass",
-      "routePosition": 796.199248,
+      "routePosition": 814.899813,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/858214752",
       "cityStopIds": [
@@ -12787,8 +12791,8 @@
       ],
       "morning": null,
       "evening": null,
-      "estimatedMorning": 421,
-      "estimatedEvening": 1144,
+      "estimatedMorning": 422,
+      "estimatedEvening": 1145,
       "timeEstimate": {
         "method": "route-distance-between-timetable-points",
         "from": "m2-5",
@@ -12804,7 +12808,7 @@
       "y": 536.8838133873069,
       "route": 2,
       "kind": "pass",
-      "routePosition": 819.142201,
+      "routePosition": 837.842766,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/1096164458",
       "cityStopIds": [
@@ -12815,8 +12819,8 @@
       ],
       "morning": null,
       "evening": null,
-      "estimatedMorning": 422,
-      "estimatedEvening": 1145,
+      "estimatedMorning": 423,
+      "estimatedEvening": 1146,
       "timeEstimate": {
         "method": "route-distance-between-timetable-points",
         "from": "m2-5",
@@ -12832,7 +12836,7 @@
       "y": 527.795134989894,
       "route": 2,
       "kind": "pass",
-      "routePosition": 832.6887,
+      "routePosition": 851.389265,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/2027449483",
       "cityStopIds": [
@@ -12843,8 +12847,8 @@
       ],
       "morning": null,
       "evening": null,
-      "estimatedMorning": 423,
-      "estimatedEvening": 1146,
+      "estimatedMorning": 424,
+      "estimatedEvening": 1147,
       "timeEstimate": {
         "method": "route-distance-between-timetable-points",
         "from": "m2-5",
@@ -12860,7 +12864,7 @@
       "y": 472.58894916943973,
       "route": 2,
       "kind": "pass",
-      "routePosition": 897.836537,
+      "routePosition": 916.537102,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/9901552931",
       "cityStopIds": [
@@ -12871,8 +12875,8 @@
       ],
       "morning": null,
       "evening": null,
-      "estimatedMorning": 426,
-      "estimatedEvening": 1149,
+      "estimatedMorning": 427,
+      "estimatedEvening": 1150,
       "timeEstimate": {
         "method": "route-distance-between-timetable-points",
         "from": "m2-5",
@@ -12888,7 +12892,7 @@
       "y": 440.9414874605718,
       "route": 2,
       "kind": "pass",
-      "routePosition": 931.871871,
+      "routePosition": 950.572436,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/9901552932",
       "cityStopIds": [
@@ -12900,7 +12904,7 @@
       ],
       "morning": null,
       "evening": null,
-      "estimatedMorning": 428,
+      "estimatedMorning": 429,
       "estimatedEvening": 1151,
       "timeEstimate": {
         "method": "route-distance-between-timetable-points",
@@ -12917,7 +12921,7 @@
       "y": 400.75485438032774,
       "route": 2,
       "kind": "pass",
-      "routePosition": 974.557421,
+      "routePosition": 993.257986,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/12290135179",
       "cityStopIds": [
@@ -12929,7 +12933,7 @@
       ],
       "morning": null,
       "evening": null,
-      "estimatedMorning": 430,
+      "estimatedMorning": 431,
       "estimatedEvening": 1153,
       "timeEstimate": {
         "method": "route-distance-between-timetable-points",
@@ -12946,7 +12950,7 @@
       "y": 363.9599676525104,
       "route": 2,
       "kind": "pass",
-      "routePosition": 1016.550637,
+      "routePosition": 1035.251202,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/6007819986",
       "cityStopIds": [
@@ -12974,7 +12978,7 @@
       "y": 292.58491452713497,
       "route": 2,
       "kind": "pass",
-      "routePosition": 1114.055726,
+      "routePosition": 1132.756291,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/2320787605",
       "cityStopIds": [
@@ -12987,7 +12991,7 @@
       "morning": null,
       "evening": null,
       "estimatedMorning": 438,
-      "estimatedEvening": 1159,
+      "estimatedEvening": 1160,
       "timeEstimate": {
         "method": "route-distance-between-timetable-points",
         "from": "m2-5",
@@ -13003,7 +13007,7 @@
       "y": 12.690328470198438,
       "route": 2,
       "kind": "pass",
-      "routePosition": 1409.133586,
+      "routePosition": 1427.834151,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/5341417889",
       "cityStopIds": [
@@ -13031,7 +13035,7 @@
       "y": 13.375128894811496,
       "route": 2,
       "kind": "pass",
-      "routePosition": 1510.016746,
+      "routePosition": 1528.717311,
       "source": "city-catalogue",
       "sourceUrl": "https://www.openstreetmap.org/node/5341417888",
       "cityStopIds": [
@@ -15122,11 +15126,296 @@
         "from": "m4-4",
         "to": "gate-new"
       }
+    },
+    {
+      "id": "city-2-node-12262775159",
+      "name": "Улица Молокова, 39",
+      "lat": 56.0355999,
+      "lon": 92.8938789,
+      "x": 749.0332262399606,
+      "y": 702.0495239828015,
+      "route": 2,
+      "kind": "pass",
+      "routePosition": 604.506082,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/12262775159",
+      "cityStopIds": [
+        "node-12262775159"
+      ],
+      "searchAliases": [
+        "Улица Молокова, 39"
+      ],
+      "morning": null,
+      "evening": null,
+      "estimatedMorning": 411,
+      "estimatedEvening": 1135,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m2-5",
+        "to": "gate-new"
+      }
+    },
+    {
+      "id": "city-2-node-5201394122",
+      "name": "Подстанция",
+      "lat": 56.0388486,
+      "lon": 92.9004192,
+      "x": 768.083230720018,
+      "y": 685.1114519620314,
+      "route": 2,
+      "kind": "pass",
+      "routePosition": 630.405273,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/5201394122",
+      "cityStopIds": [
+        "node-5201394122",
+        "node-5201399722"
+      ],
+      "searchAliases": [
+        "Подстанция"
+      ],
+      "morning": null,
+      "evening": null,
+      "estimatedMorning": 413,
+      "estimatedEvening": 1136,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m2-5",
+        "to": "gate-new"
+      }
+    },
+    {
+      "id": "city-2-node-1012961245",
+      "name": "Школа искусств",
+      "lat": 56.0406241,
+      "lon": 92.9039105,
+      "x": 778.2523790221894,
+      "y": 675.853747465706,
+      "route": 2,
+      "kind": "pass",
+      "routePosition": 644.144558,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/1012961245",
+      "cityStopIds": [
+        "node-1012961245",
+        "node-9490816840"
+      ],
+      "searchAliases": [
+        "Школа искусств"
+      ],
+      "morning": null,
+      "evening": null,
+      "estimatedMorning": 413,
+      "estimatedEvening": 1137,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m2-5",
+        "to": "gate-new"
+      }
+    },
+    {
+      "id": "city-2-node-9490816839",
+      "name": "Аптека (улица Молокова)",
+      "lat": 56.0421976,
+      "lon": 92.9069639,
+      "x": 787.1460511288606,
+      "y": 667.6489430887159,
+      "route": 2,
+      "kind": "pass",
+      "routePosition": 656.246907,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/9490816839",
+      "cityStopIds": [
+        "node-9490816839"
+      ],
+      "searchAliases": [
+        "Аптека (улица Молокова)"
+      ],
+      "morning": null,
+      "evening": null,
+      "estimatedMorning": 414,
+      "estimatedEvening": 1137,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m2-5",
+        "to": "gate-new"
+      }
+    },
+    {
+      "id": "city-2-node-1012961193",
+      "name": "Кода «Медистал»",
+      "lat": 56.0437448,
+      "lon": 92.910006,
+      "x": 796.0068096000468,
+      "y": 659.5809502726188,
+      "route": 2,
+      "kind": "pass",
+      "routePosition": 668.248409,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/1012961193",
+      "cityStopIds": [
+        "node-1012961193"
+      ],
+      "searchAliases": [
+        "Кода «Медистал»"
+      ],
+      "morning": null,
+      "evening": null,
+      "estimatedMorning": 414,
+      "estimatedEvening": 1138,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m2-5",
+        "to": "gate-new"
+      }
+    },
+    {
+      "id": "city-2-node-2135230139",
+      "name": "Городок",
+      "lat": 56.0457771,
+      "lon": 92.9140515,
+      "x": 807.7901824000292,
+      "y": 648.9828747722786,
+      "route": 2,
+      "kind": "pass",
+      "routePosition": 684.090464,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/2135230139",
+      "cityStopIds": [
+        "node-2135230139",
+        "node-9931387571"
+      ],
+      "searchAliases": [
+        "Городок"
+      ],
+      "morning": null,
+      "evening": null,
+      "estimatedMorning": 415,
+      "estimatedEvening": 1139,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m2-5",
+        "to": "gate-new"
+      }
+    },
+    {
+      "id": "city-2-node-2334326578",
+      "name": "Улица Молокова",
+      "lat": 56.0476041,
+      "lon": 92.9177882,
+      "x": 818.6741100089857,
+      "y": 639.4549249504926,
+      "route": 2,
+      "kind": "pass",
+      "routePosition": 698.556755,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/2334326578",
+      "cityStopIds": [
+        "node-2334326578"
+      ],
+      "searchAliases": [
+        "Улица Молокова"
+      ],
+      "morning": null,
+      "evening": null,
+      "estimatedMorning": 416,
+      "estimatedEvening": 1139,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m2-5",
+        "to": "gate-new"
+      }
+    },
+    {
+      "id": "city-2-node-2334326579",
+      "name": "мкрн. Иннокентьевский",
+      "lat": 56.0515495,
+      "lon": 92.92235,
+      "x": 831.961315555498,
+      "y": 618.8778117191396,
+      "route": 2,
+      "kind": "pass",
+      "routePosition": 724.19888,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/2334326579",
+      "cityStopIds": [
+        "node-2334326579"
+      ],
+      "searchAliases": [
+        "мкрн. Иннокентьевский"
+      ],
+      "morning": null,
+      "evening": null,
+      "estimatedMorning": 417,
+      "estimatedEvening": 1141,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m2-5",
+        "to": "gate-new"
+      }
+    },
+    {
+      "id": "city-2-node-2334326574",
+      "name": "ТСЖ Весна",
+      "lat": 56.0540365,
+      "lon": 92.9209967,
+      "x": 828.0195436088834,
+      "y": 605.9058575883973,
+      "route": 2,
+      "kind": "pass",
+      "routePosition": 738.201977,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/2334326574",
+      "cityStopIds": [
+        "node-2334326573",
+        "node-2334326574"
+      ],
+      "searchAliases": [
+        "ТСЖ Весна"
+      ],
+      "morning": null,
+      "evening": null,
+      "estimatedMorning": 418,
+      "estimatedEvening": 1141,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m2-5",
+        "to": "gate-new"
+      }
+    },
+    {
+      "id": "city-2-node-2334326572",
+      "name": "Медицинский центр (улица Водопьянова)",
+      "lat": 56.0568718,
+      "lon": 92.9166637,
+      "x": 815.3987663644366,
+      "y": 591.1161835271632,
+      "route": 2,
+      "kind": "pass",
+      "routePosition": 757.724408,
+      "source": "city-catalogue",
+      "sourceUrl": "https://www.openstreetmap.org/node/2334326572",
+      "cityStopIds": [
+        "node-2334326572",
+        "node-2334326591"
+      ],
+      "searchAliases": [
+        "Медицинский центр (улица Водопьянова)"
+      ],
+      "morning": null,
+      "evening": null,
+      "estimatedMorning": 419,
+      "estimatedEvening": 1142,
+      "timeEstimate": {
+        "method": "route-distance-between-timetable-points",
+        "from": "m2-5",
+        "to": "gate-new"
+      }
     }
   ],
   "walks": [],
-  "revision": "magistral-20261023-lesnikov-start",
-  "updatedAt": "2026-10-23T02:53:01.915387Z",
+  "revision": "magistral-20261026-route2-molokova-vodopyanova",
+  "updatedAt": "2026-10-26T05:49:07.088Z",
   "cityStops": {
     "source": "OpenStreetMap",
     "catalogueUpdatedAt": "2026-10-14T01:37:26Z",
@@ -15136,8 +15425,8 @@
   },
   "timeEstimates": {
     "method": "route-distance-between-timetable-points",
-    "updatedAt": "2026-10-23",
-    "count": 137,
+    "updatedAt": "2026-10-26",
+    "count": 141,
     "note": "Примерное время проезда между назначенными точками расписания; без текущих пробок. Исходные времена посадки сохранены."
   }
 }
