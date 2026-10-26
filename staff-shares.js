@@ -1,13 +1,19 @@
 /* One fixed allocation: every employee belongs to one route and one stop. */
 (function(root,factory){const api=factory();if(typeof module==='object'&&module.exports)module.exports=api;else root.StaffShareStats=api})(typeof globalThis!=='undefined'?globalThis:this,function(){
+ function remainingMinutes(point,arrival,variant){
+  const key=variant==='night'?'evening':'morning',estimate=variant==='night'?'estimatedEvening':'estimatedMorning';
+  const departure=Number.isFinite(point[key])?point[key]:point[estimate];
+  if(!Number.isFinite(arrival)||!Number.isFinite(departure)||departure>arrival)return null;
+  return Math.round(arrival-departure);
+ }
  function distribution(points,allocations,routeId,variant){
-  const counts=allocations.stops;
-  const rows=points.filter(p=>['boarding','pass'].includes(p.kind)&&p.route===Number(routeId)).sort((a,b)=>(a.routePosition??a.order??0)-(b.routePosition??b.order??0)).map(p=>({point:p,count:counts[p.id]?.count||0,walkCount:counts[p.id]?.walkCount||0,feederCount:counts[p.id]?.feederCount||0,percent:0}));
+  const counts=allocations.stops,key=variant==='night'?'evening':'morning',estimate=variant==='night'?'estimatedEvening':'estimatedMorning',arrival=points.find(p=>p.kind==='finish')?.[key];
+  const rows=points.filter(p=>['boarding','pass'].includes(p.kind)&&p.route===Number(routeId)).sort((a,b)=>(a.routePosition??a.order??0)-(b.routePosition??b.order??0)).map(p=>({point:p,count:counts[p.id]?.count||0,walkCount:counts[p.id]?.walkCount||0,feederCount:counts[p.id]?.feederCount||0,percent:0,remainingMinutes:remainingMinutes(p,arrival,variant),timeEstimated:!Number.isFinite(p[key])&&Number.isFinite(p[estimate])}));
   const total=rows.reduce((sum,row)=>sum+row.count,0);
   for(const row of rows)row.percent=total?row.count/total*100:0;
   return {routeId:Number(routeId),variant,total,totalStaff:allocations.totalStaff,walkCount:rows.reduce((sum,row)=>sum+row.walkCount,0),feederCount:rows.reduce((sum,row)=>sum+row.feederCount,0),rows};
  }
- return {distribution};
+ return {distribution,remainingMinutes};
 });
 
 (()=>{
@@ -39,16 +45,18 @@
    pending.append(pendingList);chart.append(pending);
   }
   const headings=document.createElement('div');headings.className='staff-share-columns';headings.setAttribute('aria-hidden','true');
-  for(const title of ['Остановка','Чел.','Доля']){const span=document.createElement('span');span.textContent=title;headings.append(span)}chart.append(headings);
+  for(const title of ['Остановка','Чел.','Доля','До базы']){const span=document.createElement('span');span.textContent=title;headings.append(span)}chart.append(headings);
   for(const row of result.rows){
    const button=document.createElement('button');button.type='button';button.className='staff-share-row';button.dataset.stopId=row.point.id;
-   button.setAttribute('aria-label',row.point.name+': '+row.count+' чел., '+percentage(row.percent)+' сотрудников маршрута. Показать на карте');
+   button.setAttribute('aria-label',row.point.name+': '+row.count+' чел., '+percentage(row.percent)+' сотрудников маршрута. До базы: '+(row.remainingMinutes===null?'время неизвестно':(row.timeEstimated?'примерно ':'')+row.remainingMinutes+' мин')+'. Показать на карте');
    button.title='Пешком до 20 мин: '+row.walkCount+' чел.; с подъездом к выбранной посадке: '+row.feederCount+' чел.';
    const name=document.createElement('span');name.className='staff-share-stop';name.textContent=row.point.name;
    const count=document.createElement('strong');count.className='staff-share-count';count.textContent=row.count;
    const share=document.createElement('strong');share.className='staff-share-percent';share.textContent=percentage(row.percent);
+   const remaining=document.createElement('strong');remaining.className='staff-share-remaining';remaining.textContent=row.remainingMinutes===null?'—':(row.timeEstimated?'≈ ':'')+row.remainingMinutes+' мин';
+   remaining.title='Время от этой остановки до высадки на базе'+(row.timeEstimated?'; ≈ — расчётное время проезда':'');
    const track=document.createElement('span');track.className='staff-share-track';track.setAttribute('aria-hidden','true');
-   const bar=document.createElement('span');bar.style.width=row.percent+'%';track.append(bar);button.append(name,count,share,track);
+   const bar=document.createElement('span');bar.style.width=row.percent+'%';track.append(bar);button.append(name,count,share,remaining,track);
    button.onclick=()=>{dialog.close();openRoute(routeId);focus(row.point)};chart.append(button);
   }
  }
