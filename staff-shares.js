@@ -12,10 +12,14 @@
   if(!Number.isFinite(departure)||!Number.isFinite(at)||at<departure)return null;
   return Math.round(at-departure);
  }
+ function allocationForPoint(point,counts){
+  const ids=Array.isArray(point.staffAssignmentIds)&&point.staffAssignmentIds.length?[...new Set(point.staffAssignmentIds)]:[point.id];
+  return ids.reduce((sum,id)=>{for(const key of ['count','walkCount','feederCount'])sum[key]+=counts[id]?.[key]||0;return sum},{count:0,walkCount:0,feederCount:0});
+ }
  function distribution(points,allocations,routeId,variant,trip){
   const counts=allocations.stops,key=variant==='night'?'evening':'morning',estimate=variant==='night'?'estimatedEvening':'estimatedMorning',arrival=points.find(p=>p.kind==='finish')?.[key];
   const outbound=trip?.direction==='outbound',departure=variant==='night'?trip?.departureEvening:trip?.departureMorning;
-  const rows=points.filter(p=>['boarding','pass'].includes(p.kind)&&p.route===Number(routeId)).sort((a,b)=>(a.routePosition??a.order??0)-(b.routePosition??b.order??0)).map(p=>({point:p,count:counts[p.id]?.count||0,walkCount:counts[p.id]?.walkCount||0,feederCount:counts[p.id]?.feederCount||0,percent:0,remainingMinutes:remainingMinutes(p,arrival,variant),tripMinutes:outbound?elapsedMinutes(p,departure,variant):remainingMinutes(p,arrival,variant),timeEstimated:!Number.isFinite(p[key])&&Number.isFinite(p[estimate])}));
+  const rows=points.filter(p=>['boarding','pass'].includes(p.kind)&&p.route===Number(routeId)).sort((a,b)=>(a.routePosition??a.order??0)-(b.routePosition??b.order??0)).map(p=>({point:p,...allocationForPoint(p,counts),percent:0,remainingMinutes:remainingMinutes(p,arrival,variant),tripMinutes:outbound?elapsedMinutes(p,departure,variant):remainingMinutes(p,arrival,variant),timeEstimated:!Number.isFinite(p[key])&&Number.isFinite(p[estimate])}));
   const total=rows.reduce((sum,row)=>sum+row.count,0);
   for(const row of rows)row.percent=total?row.count/total*100:0;
   return {routeId:Number(routeId),variant,direction:outbound?'outbound':'inbound',total,totalStaff:allocations.totalStaff,walkCount:rows.reduce((sum,row)=>sum+row.walkCount,0),feederCount:rows.reduce((sum,row)=>sum+row.feederCount,0),rows};
