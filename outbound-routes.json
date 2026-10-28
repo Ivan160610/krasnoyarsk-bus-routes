@@ -832,51 +832,7 @@
         ],
         [
           774.2634211555123,
-          611.7608137920033
-        ],
-        [
-          770.2497052444378,
-          615.3754143756814
-        ],
-        [
-          768.837040355429,
-          616.6637195198564
-        ],
-        [
-          766.4923079111613,
-          618.7656733596232
-        ],
-        [
-          765.6709233777365,
-          617.8789957580157
-        ],
-        [
-          766.5971655111061,
-          617.2009455433581
-        ],
-        [
-          768.1729422222124,
-          615.7874642867828
-        ],
-        [
-          769.474924088805,
-          614.6191180390306
-        ],
-        [
-          769.7836714666337,
-          614.3374621248804
-        ],
-        [
-          771.4759566222783,
-          612.8092111242004
-        ],
-        [
-          772.6206520888954,
-          611.8181889117695
-        ],
-        [
-          774.2634211555123,
-          611.7608137920033
+          611.7608137921197
         ],
         [
           770.2497052444378,
@@ -899,16 +855,8 @@
           625.488648730563
         ],
         [
-          757.4337763555814,
-          625.5042954243836
-        ],
-        [
-          752.9744156443048,
-          629.520239932579
-        ],
-        [
-          749.8898545778356,
-          632.2948456758168
+          753.7084188445006,
+          630.3025574555504
         ],
         [
           750.6471594666364,
@@ -2484,10 +2432,10 @@
         ]
       ],
       "corridor": "Енисейский тракт → 9 Мая → Шахтёров → 2-я Брянская → Калинина → Молодёжная",
-      "arrivalMorning": 574,
-      "arrivalEvening": 1288,
-      "distanceKm": 30.4,
-      "drivingMinutes": 40.39,
+      "arrivalMorning": 571,
+      "arrivalEvening": 1285,
+      "distanceKm": 29.885,
+      "drivingMinutes": 38.653,
       "occupiedPlatforms": 14,
       "routingEvidence": {
         "requestUrl": "https://routing.openstreetmap.de/routed-car/route/v1/driving/92.9687831,56.1603757;92.9005528,56.0520781;92.8953126,56.0494589;92.8839733,56.0457633;92.8589705,56.0412531;92.8297122,56.0353962;92.8215830,56.0343034;92.7837501,56.0408752;92.7696007,56.0482978;92.7616192,56.0501804;92.7393647,56.0551223;92.7330330,56.0576604;92.7199479,56.0563817;92.7113522,56.0561281;92.7045614,56.0554944;92.6998655,56.0548856?overview=full&geometries=geojson&steps=true&continue_straight=true&approaches=unrestricted%3Bcurb%3Bunrestricted%3Bcurb%3Bcurb%3Bcurb%3Bcurb%3Bcurb%3Bcurb%3Bcurb%3Bcurb%3Bcurb%3Bcurb%3Bcurb%3Bcurb%3Bcurb&radiuses=80%3B80%3B80%3B80%3B80%3B80%3B80%3B80%3B80%3B80%3B80%3B80%3B80%3B80%3B80%3B80",
@@ -2497,7 +2445,25 @@
         "dropoffApproach": "curb",
         "waypointCount": 16,
         "internalMinutes": 5,
-        "uturns": []
+        "uturns": [],
+        "mainRoadRevision": {
+          "date": "2026-10-28",
+          "description": "Прямой проезд по основному ходу улицы 9 Мая у ТРЦ Планета и Ледового дворца; боковые заезды и возврат исключены.",
+          "requestUrl": "https://routing.openstreetmap.de/routed-car/route/v1/driving/92.904047,56.053675;92.893658,56.048386?overview=full&geometries=geojson&steps=true&annotations=true&continue_straight=true&bearings=225,20;225,20",
+          "replacedRequestUrl": "https://routing.openstreetmap.de/routed-car/route/v1/driving/92.904047,56.053675;92.9005528,56.0520781;92.8953126,56.0494589;92.893658,56.048386?overview=full&geometries=geojson&steps=true&annotations=true&continue_straight=true&approaches=unrestricted;curb;unrestricted;unrestricted&bearings=225,20;;;225,20",
+          "distanceDeltaMetres": -514.6,
+          "drivingDeltaSeconds": -104.2,
+          "splice": {
+            "previousStartIndex": 205,
+            "previousEndIndex": 228,
+            "newPointCount": 11
+          },
+          "stopsPreserved": [
+            "m1-7",
+            "m1-6"
+          ],
+          "timing": "Existing time model; changed-span duration from OSRM, downstream duration shifted by the OSRM delta. Departure and dwell minutes preserved."
+        }
       }
     },
     {
@@ -11241,23 +11207,23 @@
       "count": 0,
       "dayCount": 5,
       "nightCount": 11,
-      "routePosition": 718.588441,
+      "routePosition": 710.869653,
       "physicalStopId": "node-4123497311",
       "sourceUrl": "https://www.openstreetmap.org/node/4123497311",
       "dropoff": true,
       "dwellMinutes": 1,
-      "routingOffsetMetres": 9.6,
-      "drivingMinutes": 17.122,
+      "routingOffsetMetres": 13.8,
+      "drivingMinutes": 16.778,
       "searchAliases": [
         "Планета (ул.9 Мая)"
       ],
       "inboundPointId": "m1-7",
       "inboundName": "Планета (ул.9 Мая)",
       "routingAnchor": [
-        92.90045,
-        56.052142
+        92.9007025,
+        56.0519865
       ],
-      "morning": 526,
+      "morning": 525,
       "evening": 1243
     },
     {
@@ -11273,24 +11239,24 @@
       "count": 0,
       "dayCount": 0,
       "nightCount": 0,
-      "routePosition": 754.314164,
+      "routePosition": 731.355171,
       "physicalStopId": "node-4123497313",
       "sourceUrl": "https://www.openstreetmap.org/node/4123497313",
       "dropoff": false,
       "dwellMinutes": 0,
-      "routingOffsetMetres": 7.5,
-      "drivingMinutes": 18.677,
+      "routingOffsetMetres": 15.4,
+      "drivingMinutes": 17.342,
       "searchAliases": [
         "Ледовый дворец (улица 9 Мая)"
       ],
       "inboundPointId": "m1-6",
       "inboundName": "Ледовый дворец (улица 9 Мая)",
       "routingAnchor": [
-        92.895232,
-        56.049509
+        92.8954789,
+        56.0493564
       ],
-      "morning": 529,
-      "evening": 1246
+      "morning": 527,
+      "evening": 1244
     },
     {
       "id": "m1-5",
@@ -11305,13 +11271,13 @@
       "count": 0,
       "dayCount": 1,
       "nightCount": 1,
-      "routePosition": 795.759886,
+      "routePosition": 771.662851,
       "physicalStopId": "node-12363024066",
       "sourceUrl": "https://www.openstreetmap.org/node/12363024066",
       "dropoff": true,
       "dwellMinutes": 1,
       "routingOffsetMetres": 9.9,
-      "drivingMinutes": 20.23,
+      "drivingMinutes": 18.493,
       "searchAliases": [],
       "inboundPointId": "m1-5",
       "inboundName": "Улица Караульная",
@@ -11319,8 +11285,8 @@
         92.884023,
         56.045679
       ],
-      "morning": 531,
-      "evening": 1248
+      "morning": 529,
+      "evening": 1246
     },
     {
       "id": "city-1-node-12363024067",
@@ -11335,20 +11301,20 @@
       "count": 0,
       "dayCount": 0,
       "nightCount": 0,
-      "routePosition": 815.289087,
+      "routePosition": 791.20397,
       "physicalStopId": "node-12363024064",
       "sourceUrl": "https://www.openstreetmap.org/node/12363024064",
       "dropoff": false,
       "dwellMinutes": 0,
       "routingOffsetMetres": 10.5,
-      "drivingMinutes": 20.778,
+      "drivingMinutes": 19.041,
       "searchAliases": [],
       "inboundPointId": "city-1-node-12363024067",
       "inboundName": "ЖК «Квадро»",
       "morning": null,
       "evening": null,
-      "estimatedMorning": 533,
-      "estimatedEvening": 1250,
+      "estimatedMorning": 531,
+      "estimatedEvening": 1248,
       "timeEstimateSource": "OSRM road duration + previous dropoffs"
     },
     {
@@ -11364,20 +11330,20 @@
       "count": 0,
       "dayCount": 0,
       "nightCount": 0,
-      "routePosition": 837.457956,
+      "routePosition": 813.372838,
       "physicalStopId": "node-12262775146",
       "sourceUrl": "https://www.openstreetmap.org/node/12262775146",
       "dropoff": false,
       "dwellMinutes": 0,
       "routingOffsetMetres": 8.3,
-      "drivingMinutes": 21.401,
+      "drivingMinutes": 19.664,
       "searchAliases": [],
       "inboundPointId": "city-1-node-12363024070",
       "inboundName": "Автоцентр",
       "morning": null,
       "evening": null,
-      "estimatedMorning": 534,
-      "estimatedEvening": 1251,
+      "estimatedMorning": 531,
+      "estimatedEvening": 1249,
       "timeEstimateSource": "OSRM road duration + previous dropoffs"
     },
     {
@@ -11393,20 +11359,20 @@
       "count": 0,
       "dayCount": 0,
       "nightCount": 0,
-      "routePosition": 856.094938,
+      "routePosition": 832.00982,
       "physicalStopId": "node-9048357618",
       "sourceUrl": "https://www.openstreetmap.org/node/9048357618",
       "dropoff": false,
       "dwellMinutes": 0,
       "routingOffsetMetres": 7.8,
-      "drivingMinutes": 21.924,
+      "drivingMinutes": 20.187,
       "searchAliases": [],
       "inboundPointId": "city-1-node-9048376017",
       "inboundName": "мкрн. Яблони",
       "morning": null,
       "evening": null,
-      "estimatedMorning": 535,
-      "estimatedEvening": 1252,
+      "estimatedMorning": 532,
+      "estimatedEvening": 1249,
       "timeEstimateSource": "OSRM road duration + previous dropoffs"
     },
     {
@@ -11422,13 +11388,13 @@
       "count": 0,
       "dayCount": 4,
       "nightCount": 4,
-      "routePosition": 872.406881,
+      "routePosition": 848.309508,
       "physicalStopId": "node-12262775144",
       "sourceUrl": "https://www.openstreetmap.org/node/12262775144",
       "dropoff": true,
       "dwellMinutes": 1,
       "routingOffsetMetres": 7.9,
-      "drivingMinutes": 22.382,
+      "drivingMinutes": 20.645,
       "searchAliases": [],
       "inboundPointId": "m1-4",
       "inboundName": "ул. 2-я Брянская",
@@ -11436,8 +11402,8 @@
         92.858991,
         56.041183
       ],
-      "morning": 536,
-      "evening": 1252
+      "morning": 533,
+      "evening": 1250
     },
     {
       "id": "m1-3",
@@ -11452,13 +11418,13 @@
       "count": 0,
       "dayCount": 3,
       "nightCount": 18,
-      "routePosition": 968.506686,
+      "routePosition": 944.431449,
       "physicalStopId": "node-12110627956",
       "sourceUrl": "https://www.openstreetmap.org/node/12110627956",
       "dropoff": true,
       "dwellMinutes": 1,
       "routingOffsetMetres": 8.4,
-      "drivingMinutes": 25.26,
+      "drivingMinutes": 23.523,
       "searchAliases": [],
       "inboundPointId": "m1-3",
       "inboundName": "1-я Калинина",
@@ -11466,8 +11432,8 @@
         92.829787,
         56.035333
       ],
-      "morning": 541,
-      "evening": 1257
+      "morning": 538,
+      "evening": 1255
     },
     {
       "id": "city-1-node-12110627953",
@@ -11482,13 +11448,13 @@
       "count": 0,
       "dayCount": 0,
       "nightCount": 0,
-      "routePosition": 993.113195,
+      "routePosition": 969.028077,
       "physicalStopId": "node-12110627954",
       "sourceUrl": "https://www.openstreetmap.org/node/12110627954",
       "dropoff": true,
       "dwellMinutes": 1,
       "routingOffsetMetres": 11.1,
-      "drivingMinutes": 25.918,
+      "drivingMinutes": 24.181,
       "searchAliases": [],
       "inboundPointId": "city-1-node-12110627953",
       "inboundName": "2-я Калинина",
@@ -11496,8 +11462,8 @@
         92.821616,
         56.034205
       ],
-      "morning": 543,
-      "evening": 1259
+      "morning": 540,
+      "evening": 1257
     },
     {
       "id": "city-1-node-12110627952",
@@ -11512,20 +11478,20 @@
       "count": 0,
       "dayCount": 0,
       "nightCount": 0,
-      "routePosition": 1015.177824,
+      "routePosition": 991.092706,
       "physicalStopId": "node-9339884989",
       "sourceUrl": "https://www.openstreetmap.org/node/9339884989",
       "dropoff": false,
       "dwellMinutes": 0,
       "routingOffsetMetres": 16,
-      "drivingMinutes": 26.53,
+      "drivingMinutes": 24.793,
       "searchAliases": [],
       "inboundPointId": "city-1-node-12110627952",
       "inboundName": "Поликлиника (улица Калинина)",
       "morning": null,
       "evening": null,
-      "estimatedMorning": 545,
-      "estimatedEvening": 1261,
+      "estimatedMorning": 542,
+      "estimatedEvening": 1258,
       "timeEstimateSource": "OSRM road duration + previous dropoffs"
     },
     {
@@ -11541,20 +11507,20 @@
       "count": 0,
       "dayCount": 0,
       "nightCount": 0,
-      "routePosition": 1039.842743,
+      "routePosition": 1015.757625,
       "physicalStopId": "node-12110627950",
       "sourceUrl": "https://www.openstreetmap.org/node/12110627950",
       "dropoff": false,
       "dwellMinutes": 0,
       "routingOffsetMetres": 14.8,
-      "drivingMinutes": 27.215,
+      "drivingMinutes": 25.478,
       "searchAliases": [],
       "inboundPointId": "city-1-node-12110627951",
       "inboundName": "Таксопарк",
       "morning": null,
       "evening": null,
-      "estimatedMorning": 546,
-      "estimatedEvening": 1262,
+      "estimatedMorning": 543,
+      "estimatedEvening": 1259,
       "timeEstimateSource": "OSRM road duration + previous dropoffs"
     },
     {
@@ -11570,20 +11536,20 @@
       "count": 0,
       "dayCount": 0,
       "nightCount": 0,
-      "routePosition": 1057.359395,
+      "routePosition": 1033.274278,
       "physicalStopId": "node-12110627948",
       "sourceUrl": "https://www.openstreetmap.org/node/12110627948",
       "dropoff": false,
       "dwellMinutes": 0,
       "routingOffsetMetres": 9.1,
-      "drivingMinutes": 27.701,
+      "drivingMinutes": 25.964,
       "searchAliases": [],
       "inboundPointId": "city-1-node-12110627949",
       "inboundName": "Тарная база",
       "morning": null,
       "evening": null,
-      "estimatedMorning": 547,
-      "estimatedEvening": 1262,
+      "estimatedMorning": 544,
+      "estimatedEvening": 1260,
       "timeEstimateSource": "OSRM road duration + previous dropoffs"
     },
     {
@@ -11599,20 +11565,20 @@
       "count": 0,
       "dayCount": 0,
       "nightCount": 0,
-      "routePosition": 1086.397292,
+      "routePosition": 1062.312175,
       "physicalStopId": "node-12110627946",
       "sourceUrl": "https://www.openstreetmap.org/node/12110627946",
       "dropoff": false,
       "dwellMinutes": 0,
       "routingOffsetMetres": 14.6,
-      "drivingMinutes": 28.506,
+      "drivingMinutes": 26.769,
       "searchAliases": [],
       "inboundPointId": "city-1-node-12110627947",
       "inboundName": "Полюс",
       "morning": null,
       "evening": null,
-      "estimatedMorning": 548,
-      "estimatedEvening": 1263,
+      "estimatedMorning": 545,
+      "estimatedEvening": 1261,
       "timeEstimateSource": "OSRM road duration + previous dropoffs"
     },
     {
@@ -11628,20 +11594,20 @@
       "count": 0,
       "dayCount": 0,
       "nightCount": 0,
-      "routePosition": 1107.24779,
+      "routePosition": 1083.162672,
       "physicalStopId": "node-12110627945",
       "sourceUrl": "https://www.openstreetmap.org/node/12110627945",
       "dropoff": false,
       "dwellMinutes": 0,
       "routingOffsetMetres": 11.9,
-      "drivingMinutes": 29.084,
+      "drivingMinutes": 27.347,
       "searchAliases": [],
       "inboundPointId": "city-1-node-9842546487",
       "inboundName": "Автотранспортный техникум",
       "morning": null,
       "evening": null,
-      "estimatedMorning": 549,
-      "estimatedEvening": 1264,
+      "estimatedMorning": 546,
+      "estimatedEvening": 1262,
       "timeEstimateSource": "OSRM road duration + previous dropoffs"
     },
     {
@@ -11657,13 +11623,13 @@
       "count": 0,
       "dayCount": 0,
       "nightCount": 0,
-      "routePosition": 1122.230169,
+      "routePosition": 1098.188478,
       "physicalStopId": "node-12110627944",
       "sourceUrl": "https://www.openstreetmap.org/node/12110627944",
       "dropoff": true,
       "dwellMinutes": 1,
       "routingOffsetMetres": 11,
-      "drivingMinutes": 29.5,
+      "drivingMinutes": 27.763,
       "searchAliases": [],
       "inboundPointId": "city-1-node-9842546486",
       "inboundName": "Школьная",
@@ -11671,8 +11637,8 @@
         92.783621,
         56.040807
       ],
-      "morning": 549,
-      "evening": 1265
+      "morning": 547,
+      "evening": 1262
     },
     {
       "id": "city-1-node-9842546485",
@@ -11687,20 +11653,20 @@
       "count": 0,
       "dayCount": 0,
       "nightCount": 0,
-      "routePosition": 1136.476337,
+      "routePosition": 1112.391219,
       "physicalStopId": "node-12122479513",
       "sourceUrl": "https://www.openstreetmap.org/node/12122479513",
       "dropoff": false,
       "dwellMinutes": 0,
       "routingOffsetMetres": 8.8,
-      "drivingMinutes": 29.887,
+      "drivingMinutes": 28.15,
       "searchAliases": [],
       "inboundPointId": "city-1-node-9842546485",
       "inboundName": "КПАТП-5",
       "morning": null,
       "evening": null,
-      "estimatedMorning": 551,
-      "estimatedEvening": 1266,
+      "estimatedMorning": 548,
+      "estimatedEvening": 1264,
       "timeEstimateSource": "OSRM road duration + previous dropoffs"
     },
     {
@@ -11716,13 +11682,13 @@
       "count": 0,
       "dayCount": 5,
       "nightCount": 7,
-      "routePosition": 1178.75778,
+      "routePosition": 1154.681635,
       "physicalStopId": "node-10065324908",
       "sourceUrl": "https://www.openstreetmap.org/node/10065324908",
       "dropoff": true,
       "dwellMinutes": 1,
       "routingOffsetMetres": 10,
-      "drivingMinutes": 31.04,
+      "drivingMinutes": 29.303,
       "searchAliases": [
         "АЗС (ул. Калинина)"
       ],
@@ -11732,8 +11698,8 @@
         92.76951,
         56.048223
       ],
-      "morning": 553,
-      "evening": 1268
+      "morning": 550,
+      "evening": 1266
     },
     {
       "id": "city-1-node-10065338925",
@@ -11748,13 +11714,13 @@
       "count": 0,
       "dayCount": 0,
       "nightCount": 0,
-      "routePosition": 1203.922423,
+      "routePosition": 1179.840515,
       "physicalStopId": "node-10065324909",
       "sourceUrl": "https://www.openstreetmap.org/node/10065324909",
       "dropoff": true,
       "dwellMinutes": 1,
       "routingOffsetMetres": 12.5,
-      "drivingMinutes": 31.715,
+      "drivingMinutes": 29.978,
       "searchAliases": [],
       "inboundPointId": "city-1-node-10065338925",
       "inboundName": "Пожарная часть",
@@ -11762,8 +11728,8 @@
         92.761546,
         56.050076
       ],
-      "morning": 555,
-      "evening": 1270
+      "morning": 552,
+      "evening": 1267
     },
     {
       "id": "city-1-node-3993074561",
@@ -11778,20 +11744,20 @@
       "count": 0,
       "dayCount": 0,
       "nightCount": 0,
-      "routePosition": 1224.045941,
+      "routePosition": 1199.960823,
       "physicalStopId": "node-3993074560",
       "sourceUrl": "https://www.openstreetmap.org/node/3993074560",
       "dropoff": false,
       "dwellMinutes": 0,
       "routingOffsetMetres": 7.4,
-      "drivingMinutes": 32.253,
+      "drivingMinutes": 30.516,
       "searchAliases": [],
       "inboundPointId": "city-1-node-3993074561",
       "inboundName": "ДРСУ",
       "morning": null,
       "evening": null,
-      "estimatedMorning": 556,
-      "estimatedEvening": 1272,
+      "estimatedMorning": 554,
+      "estimatedEvening": 1269,
       "timeEstimateSource": "OSRM road duration + previous dropoffs"
     },
     {
@@ -11807,20 +11773,20 @@
       "count": 0,
       "dayCount": 0,
       "nightCount": 0,
-      "routePosition": 1251.760095,
+      "routePosition": 1227.674977,
       "physicalStopId": "node-10065324910",
       "sourceUrl": "https://www.openstreetmap.org/node/10065324910",
       "dropoff": false,
       "dwellMinutes": 0,
       "routingOffsetMetres": 11.5,
-      "drivingMinutes": 32.945,
+      "drivingMinutes": 31.208,
       "searchAliases": [],
       "inboundPointId": "city-1-node-10065338924",
       "inboundName": "Стела «Октябрьский район»",
       "morning": null,
       "evening": null,
-      "estimatedMorning": 557,
-      "estimatedEvening": 1272,
+      "estimatedMorning": 555,
+      "estimatedEvening": 1270,
       "timeEstimateSource": "OSRM road duration + previous dropoffs"
     },
     {
@@ -11836,13 +11802,13 @@
       "count": 0,
       "dayCount": 0,
       "nightCount": 0,
-      "routePosition": 1275.307023,
+      "routePosition": 1251.223197,
       "physicalStopId": "node-10065324911",
       "sourceUrl": "https://www.openstreetmap.org/node/10065324911",
       "dropoff": true,
       "dwellMinutes": 1,
       "routingOffsetMetres": 12.7,
-      "drivingMinutes": 33.497,
+      "drivingMinutes": 31.76,
       "searchAliases": [],
       "inboundPointId": "city-1-node-10065338923",
       "inboundName": "Школьный городок",
@@ -11850,8 +11816,8 @@
         92.739359,
         56.055008
       ],
-      "morning": 558,
-      "evening": 1273
+      "morning": 556,
+      "evening": 1271
     },
     {
       "id": "m1-1",
@@ -11866,13 +11832,13 @@
       "count": 0,
       "dayCount": 73,
       "nightCount": 73,
-      "routePosition": 1299.28021,
+      "routePosition": 1275.195092,
       "physicalStopId": "node-10065324912",
       "sourceUrl": "https://www.openstreetmap.org/node/10065324912",
       "dropoff": true,
       "dwellMinutes": 1,
       "routingOffsetMetres": 11.8,
-      "drivingMinutes": 34.057,
+      "drivingMinutes": 32.32,
       "searchAliases": [
         "Жилой комплекс «Глобус»"
       ],
@@ -11882,8 +11848,8 @@
         92.732938,
         56.057569
       ],
-      "morning": 560,
-      "evening": 1275
+      "morning": 557,
+      "evening": 1273
     },
     {
       "id": "city-1-node-10065338921",
@@ -11898,20 +11864,20 @@
       "count": 0,
       "dayCount": 0,
       "nightCount": 0,
-      "routePosition": 1319.075702,
+      "routePosition": 1294.990584,
       "physicalStopId": "node-10065324913",
       "sourceUrl": "https://www.openstreetmap.org/node/10065324913",
       "dropoff": false,
       "dwellMinutes": 0,
       "routingOffsetMetres": 11.1,
-      "drivingMinutes": 34.691,
+      "drivingMinutes": 32.954,
       "searchAliases": [],
       "inboundPointId": "city-1-node-10065338921",
       "inboundName": "Западный микрорайон",
       "morning": null,
       "evening": null,
-      "estimatedMorning": 562,
-      "estimatedEvening": 1277,
+      "estimatedMorning": 559,
+      "estimatedEvening": 1274,
       "timeEstimateSource": "OSRM road duration + previous dropoffs"
     },
     {
@@ -11927,13 +11893,13 @@
       "count": 0,
       "dayCount": 0,
       "nightCount": 0,
-      "routePosition": 1343.709778,
+      "routePosition": 1319.648253,
       "physicalStopId": "node-10065324914",
       "sourceUrl": "https://www.openstreetmap.org/node/10065324914",
       "dropoff": true,
       "dwellMinutes": 1,
       "routingOffsetMetres": 10.5,
-      "drivingMinutes": 35.953,
+      "drivingMinutes": 34.216,
       "searchAliases": [],
       "inboundPointId": "city-1-node-10065338920",
       "inboundName": "Детский центр",
@@ -11941,8 +11907,8 @@
         92.719956,
         56.056287
       ],
-      "morning": 564,
-      "evening": 1279
+      "morning": 561,
+      "evening": 1276
     },
     {
       "id": "city-1-node-10065338919",
@@ -11957,13 +11923,13 @@
       "count": 0,
       "dayCount": 0,
       "nightCount": 0,
-      "routePosition": 1368.915741,
+      "routePosition": 1344.828793,
       "physicalStopId": "node-10065324915",
       "sourceUrl": "https://www.openstreetmap.org/node/10065324915",
       "dropoff": true,
       "dwellMinutes": 1,
       "routingOffsetMetres": 9.7,
-      "drivingMinutes": 37.248,
+      "drivingMinutes": 35.511,
       "searchAliases": [],
       "inboundPointId": "city-1-node-10065338919",
       "inboundName": "Тихий квартал",
@@ -11971,8 +11937,8 @@
         92.711346,
         56.056041
       ],
-      "morning": 567,
-      "evening": 1281
+      "morning": 564,
+      "evening": 1279
     },
     {
       "id": "city-1-node-10065338918",
@@ -11987,13 +11953,13 @@
       "count": 0,
       "dayCount": 0,
       "nightCount": 0,
-      "routePosition": 1388.960479,
+      "routePosition": 1364.875362,
       "physicalStopId": "node-10065324916",
       "sourceUrl": "https://www.openstreetmap.org/node/10065324916",
       "dropoff": true,
       "dwellMinutes": 1,
       "routingOffsetMetres": 11.2,
-      "drivingMinutes": 38.278,
+      "drivingMinutes": 36.541,
       "searchAliases": [],
       "inboundPointId": "city-1-node-10065338918",
       "inboundName": "Улица Норильская",
@@ -12001,8 +11967,8 @@
         92.704602,
         56.055396
       ],
-      "morning": 569,
-      "evening": 1284
+      "morning": 567,
+      "evening": 1281
     },
     {
       "id": "out-city-1-node-11327682779",
@@ -12017,18 +11983,18 @@
       "count": 0,
       "dayCount": 0,
       "nightCount": 0,
-      "routePosition": 1406.990233,
+      "routePosition": 1382.905115,
       "physicalStopId": "node-11327682779",
       "sourceUrl": "https://www.openstreetmap.org/node/11327682779",
       "dropoff": false,
       "dwellMinutes": 0,
       "routingOffsetMetres": 12.2,
-      "drivingMinutes": 39.203,
+      "drivingMinutes": 37.466,
       "searchAliases": [],
       "morning": null,
       "evening": null,
-      "estimatedMorning": 572,
-      "estimatedEvening": 1286,
+      "estimatedMorning": 569,
+      "estimatedEvening": 1284,
       "timeEstimateSource": "OSRM road duration + previous dropoffs"
     },
     {
@@ -12044,13 +12010,13 @@
       "count": 0,
       "dayCount": 2,
       "nightCount": 2,
-      "routePosition": 1424.49601,
+      "routePosition": 1400.410573,
       "physicalStopId": "node-11327682780",
       "sourceUrl": "https://www.openstreetmap.org/node/11327682780",
       "dropoff": true,
       "dwellMinutes": 1,
       "routingOffsetMetres": 11.2,
-      "drivingMinutes": 40.387,
+      "drivingMinutes": 38.65,
       "searchAliases": [],
       "inboundPointId": "m1-start",
       "inboundName": "Молодёжная",
@@ -12058,8 +12024,8 @@
         92.69984,
         56.054985
       ],
-      "morning": 574,
-      "evening": 1288
+      "morning": 571,
+      "evening": 1285
     },
     {
       "id": "city-2-node-2320787605",
@@ -15829,8 +15795,8 @@
     }
   ],
   "walks": [],
-  "revision": "2026-10-28-outbound-v1",
-  "updatedAt": "2026-10-28T12:00:00+07:00",
+  "revision": "2026-10-28-outbound-9may-straight",
+  "updatedAt": "2026-10-28T14:21:57.799417Z",
   "trip": {
     "direction": "outbound",
     "departureMorning": 495,
