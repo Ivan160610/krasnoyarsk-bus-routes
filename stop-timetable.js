@@ -6,6 +6,7 @@
   return progress;
  }
  function prepare(data){
+  if(data.trip?.direction==='outbound')return data.points.filter(p=>p.kind==='pass'&&Number.isFinite(p.estimatedMorning)&&Number.isFinite(p.estimatedEvening)).length;
   let count=0;
   for(const route of data.routes){
    const anchors=data.points.filter(p=>(p.route===route.id&&p.kind==='boarding')||p.kind==='gate'||p.kind==='finish').filter(p=>Number.isFinite(p.morning)&&Number.isFinite(p.evening)).map(p=>({point:p,position:p.route===route.id&&Number.isFinite(p.routePosition)?p.routePosition:position(route.xy,p)})).sort((a,b)=>a.position-b.position);

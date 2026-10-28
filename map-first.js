@@ -32,7 +32,7 @@
  let labelsCustomized=false,returnFocus=null;
  const boardingFor=p=>p?.kind==='walk'?data.points.find(q=>q.kind==='boarding'&&q.route===p.route&&(p.targetId?q.id===p.targetId:q.name===p.target)):p;
  function updateJourney(){
-  const point=currentPoint,routeId=point?.route||selected,route=data.routes.find(r=>r.id===routeId),first=data.points.filter(p=>p.kind==='boarding'&&p.route===routeId).sort((a,b)=>(a.order||0)-(b.order||0))[0],boarding=boardingFor(point);
+  const outbound=window.TripDirections?.isOutbound(),point=currentPoint,routeId=point?.route||selected,route=data.routes.find(r=>r.id===routeId),first=data.points.filter(p=>p.kind==='boarding'&&p.route===routeId).sort((a,b)=>(a.order||0)-(b.order||0))[0],boarding=boardingFor(point),baseStart=outbound?data.points.find(p=>p.id===data.trip?.baseStartId||p.kind==='start'):null;
   journey.dataset.pointKind=point?.kind||'overview';
   selector.value=String(selected);
   for(const button of routeChoices.children){const id=Number(button.dataset.pickRoute),active=id===selected;button.setAttribute('aria-pressed',String(active));button.classList.toggle('active',active);button.style.setProperty('--pick-color',id?colors[id-1]:'var(--brand)')}
@@ -40,18 +40,22 @@
   $('#journeyRoute').textContent=routeId?String(routeId).padStart(2,'0'):'4';$('#journeyRoute').dataset.all=String(!routeId);
   journey.style.setProperty('--journey-color',routeId?colors[routeId-1]:'var(--brand)');
   $('#journeyDirection').textContent=route?`Маршрут №${route.id} · ${route.title}`:'Маршруты Красноярска';
-  $('#journeyStop').textContent=point?.name||(route?first?.name||route.title:'Выберите свою остановку');
+  $('#journeyStop').textContent=point?.name||(outbound?baseStart?.name||'Отправление с базы':route?first?.name||route.title:'Выберите свою остановку');
   $('#journeyStop').title=$('#journeyStop').textContent;
-  $('#journeyHint').textContent=point?.kind==='walk'?`Пешком ${point.walkMin} мин до «${point.target}»`:point?.kind==='pass'?'Городская остановка по пути · примерное время проезда':point?.kind==='gate'?'Въезд на территорию базы':point?.kind==='finish'?'Высадка у строения 3':point?.id==='m2-3'?'Посадка на проспекте Мира':point?'Место посадки на служебный автобус':route?'Начало маршрута → база':'Нажмите на точку карты или откройте список остановок';
-  $('#journeyTimeLabel').textContent=point?.kind==='pass'?'Время автобуса':point?.kind==='gate'?'Въезд':point?.kind==='finish'?'Высадка':point?'Посадка':route?'Отправление':'Посадка';
-  $('#journeyTime').textContent=point?(point.kind==='pass'?(tripTime(point)||'—'):boarding?tripTime(boarding)||'—':'—'):first?tripTime(first):'—';
-  $('#journeyArrival').textContent=arrival();$('#journeyClear').hidden=!point;
+  $('#journeyHint').textContent=outbound?(point?.kind==='start'?'Посадка у строения 3':point?.kind==='gate'?'Выезд с территории базы':point?.kind==='pass'&&!point.dropoff?'Городская остановка по пути · расчётное время проезда':point?'Остановка высадки по пути с базы':route?'База → '+route.title:'Выберите маршрут и остановку высадки'):point?.kind==='walk'?`Пешком ${point.walkMin} мин до «${point.target}»`:point?.kind==='pass'?'Городская остановка по пути · примерное время проезда':point?.kind==='gate'?'Въезд на территорию базы':point?.kind==='finish'?'Высадка у строения 3':point?.id==='m2-3'?'Посадка на проспекте Мира':point?'Место посадки на служебный автобус':route?'Начало маршрута → база':'Нажмите на точку карты или откройте список остановок';
+  $('#journeyTimeLabel').textContent=outbound?(point?.kind==='gate'?'Выезд':!point||point.kind==='start'?'Отправление':point.kind==='pass'&&!point.dropoff?'Проезд':'Высадка'):point?.kind==='pass'?'Время автобуса':point?.kind==='gate'?'Въезд':point?.kind==='finish'?'Высадка':point?'Посадка':route?'Отправление':'Посадка';
+  $('#journeyTime').textContent=outbound?(point?tripTime(point)||'—':TripDirections.departure(shift)):point?(point.kind==='pass'?(tripTime(point)||'—'):boarding?tripTime(boarding)||'—':'—'):first?tripTime(first):'—';
+  const routeOverview=outbound&&(!point||point.kind==='start');
+  $('.journey-arrival small').textContent=outbound?(routeOverview?'Конечная':'С базы'):'На базе';
+  $('#journeyArrival').textContent=outbound?(routeOverview?TripDirections.routeArrival(routeId,shift)||'—':TripDirections.departure(shift)):arrival();$('#journeyClear').hidden=!point;
  }
+ window.MapFirstUI={...(window.MapFirstUI||{}),refreshTripDirection:updateJourney};
  function safeMapArea(){
   const width=svg.clientWidth,height=svg.clientHeight,mobile=width<=750;
   const activeCard=document.body.dataset.addressWalk==='true'?$('#addressMapCard'):journey;
   const cardHeight=activeCard.hidden||document.body.dataset.view==='list'?0:activeCard.getBoundingClientRect().height;
-  const top=mobile?108:82,bottom=cardHeight+(mobile?55:65),left=document.body.dataset.view==='list'?Math.min(drawer.getBoundingClientRect().right+24,width*.6):32,right=mobile?46:74;
+  const shortMap=mobile&&height<340;
+  const top=mobile?(shortMap?90:108):82,bottom=cardHeight+(mobile?(shortMap?28:55):65),left=document.body.dataset.view==='list'?Math.min(drawer.getBoundingClientRect().right+24,width*.6):32,right=mobile?46:74;
   return {width,height,left,right,top,bottom,usableWidth:Math.max(70,width-left-right),usableHeight:Math.max(90,height-top-bottom)};
  }
  fitCoordinates=function(xy){
