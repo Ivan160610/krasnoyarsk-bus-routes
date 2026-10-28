@@ -1,0 +1,27 @@
+{
+  "mode": "snapshot",
+  "checkedAt": "2026-10-28T15:28:04.3220651+00:00",
+  "positions": [
+    {
+      "id": 19045,
+      "name": "В229АМ224 Higer",
+      "latitude": 56.05522,
+      "longitude": 92.7308633333,
+      "positionTimeUnix": 1793093391
+    },
+    {
+      "id": 19046,
+      "name": "В194АМ224 Higer",
+      "latitude": 56.1582633333,
+      "longitude": 92.9555083333,
+      "positionTimeUnix": 1793192951
+    },
+    {
+      "id": 19047,
+      "name": "В188АМ224 Higer",
+      "latitude": 56.05519,
+      "longitude": 92.730905,
+      "positionTimeUnix": 1793196287
+    }
+  ]
+}
